@@ -51,6 +51,7 @@
     .topbar[hidden] { display: none; }
 
     .tabs {
+      flex: none;
       display: flex;
       background: rgba(0, 0, 0, 0.06);
       border-radius: 10px;
@@ -59,9 +60,10 @@
     .tabs button {
       border: 0;
       background: none;
-      padding: 7px 14px;
+      padding: 7px 10px;
       border-radius: 8px;
       font-size: 0.95rem;
+      white-space: nowrap;
       cursor: pointer;
     }
     .tabs button[aria-selected="true"] {
@@ -71,7 +73,10 @@
     }
     .badge { color: var(--muted); font-weight: 400; margin-left: 4px; }
 
+    /* Allowed to shrink on narrow phones so the tabs keep their size. */
     #lang {
+      min-width: 0;
+      flex: 0 1 auto;
       font: inherit;
       font-size: 0.95rem;
       padding: 7px 10px;
@@ -350,7 +355,8 @@
 <body>
   <header class="topbar" hidden>
     <div class="tabs" role="tablist">
-      <button type="button" role="tab" data-tab="all">Alle</button>
+      <button type="button" role="tab" data-tab="notes">Notizen</button>
+      <button type="button" role="tab" data-tab="book">Buch</button>
       <button type="button" role="tab" data-tab="saved">Saved<span class="badge" id="saved-count"></span></button>
     </div>
     <select id="lang" aria-label="Language">
@@ -392,11 +398,11 @@
       phrase: "Phrase",
     };
     const LANGUAGES = {
-      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin." },
-      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it." },
-      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти." },
-      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", rtl: true },
-      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla." },
+      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi." },
+      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet." },
+      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника." },
+      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", rtl: true },
+      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora." },
     };
     const KEYS = {
       lang: "wortkarten:lang",
@@ -424,7 +430,7 @@
     let current = 0;
     // Where a button/key press is heading, so rapid taps add up before the smooth scroll lands.
     let target = null;
-    let tab = "all";
+    let tab = "notes";  // "notes" (handwritten lesson notes), "book" (underlined book words) or "saved"
     let lang = "tr";
     let date = "";      // "" = all days, otherwise a "YYYY-MM-DD" from cards.json
     let saved = new Set();
@@ -621,10 +627,22 @@
 
     const DATE_PATTERN = /^(\d{4})-(\d{2})-(\d{2})$/;
 
-    // Lists only the dates that appear in cards.json, newest first, with a word count each.
+    function sourceOf(card) {
+      return card.source === "book" ? "book" : "notes";
+    }
+
+    // Cards of the current tab before the date filter.
+    function tabCards() {
+      if (tab === "saved") return allCards.filter((c) => saved.has(c.id));
+      return allCards.filter((c) => sourceOf(c) === tab);
+    }
+
+    // Lists only the dates of the current tab's cards, newest first, with a word count each.
+    // A chosen date that this tab doesn't have falls back to all days.
     function buildDateOptions() {
+      const cards = tabCards();
       const counts = new Map();
-      for (const card of allCards) {
+      for (const card of cards) {
         if (typeof card.date === "string" && DATE_PATTERN.test(card.date)) {
           counts.set(card.date, (counts.get(card.date) || 0) + 1);
         }
@@ -632,21 +650,20 @@
       const dates = [...counts.keys()].sort().reverse();
 
       dateSelect.textContent = "";
-      dateSelect.appendChild(new Option("Alle Tage (" + allCards.length + ")", ""));
+      dateSelect.appendChild(new Option("Alle Tage (" + cards.length + ")", ""));
       for (const d of dates) {
         const [, y, m, day] = d.match(DATE_PATTERN);
         dateSelect.appendChild(new Option(day + "." + m + "." + y + " (" + counts.get(d) + ")", d));
       }
 
-      const stored = readStorage(KEYS.date);
-      date = stored && counts.has(stored) ? stored : "";
+      if (!counts.has(date)) date = "";
       dateSelect.value = date;
     }
 
     // Rebuilds the slides for the current tab and language, opening the card with startId if present.
     function render(startId) {
-      const deck = allCards.filter((c) =>
-        (tab !== "saved" || saved.has(c.id)) && (!date || c.date === date));
+      buildDateOptions();
+      const deck = tabCards().filter((c) => !date || c.date === date);
 
       track.textContent = "";
       target = null;
@@ -662,7 +679,7 @@
       track.hidden = empty;
       nav.hidden = empty;
       emptyBox.hidden = !empty;
-      emptyBox.textContent = empty ? LANGUAGES[lang].empty : "";
+      emptyBox.textContent = !empty ? "" : tab === "book" ? LANGUAGES[lang].emptyBook : LANGUAGES[lang].empty;
       emptyBox.dir = LANGUAGES[lang].rtl ? "rtl" : "";
       if (empty) return;
 
@@ -745,6 +762,7 @@
         if (button.dataset.tab === tab) return;
         tab = button.dataset.tab;
         render(readStorage(KEYS.position(tab)));
+        writeStorage(KEYS.position(tab), currentId() || "");
       });
     });
 
@@ -798,10 +816,11 @@
         writeStorage(KEYS.lang, lang);
       }
       langSelect.value = lang;
-      buildDateOptions();
+      date = readStorage(KEYS.date) || "";
       topbar.hidden = false;
       filterbar.hidden = false;
-      render(readStorage(KEYS.position(tab)));
+      // The notes tab used to be called "all"; pick up the position saved under the old name.
+      render(readStorage(KEYS.position(tab)) || readStorage(KEYS.position("all")));
     }
 
     load();

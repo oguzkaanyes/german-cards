@@ -2,6 +2,19 @@
 
 Bu dosya, `cards.json` dosyasına yeni kelime eklerken uyulacak kuralları anlatır. Kullanıcı bir fotoğraf (ders notu, tahta, kitap sayfası) ve bir tarih verdiğinde, fotoğraftaki Almanca kelimeler bu kurallara göre karta dönüştürülür.
 
+## 0. İki liste: Notizen ve Buch
+
+Kartlar iki listeye ayrılır. Hangi listeye ait olduğu `source` alanında yazar ve uygulamada ayrı sekmelerde görünür.
+
+| Kullanıcının isteği | Fotoğraftan alınan | `source` | Uygulamadaki sekme |
+|---|---|---|---|
+| "**elle yazılmış** kelimeleri ekle" | Sadece el yazısıyla yazılmış kelimeler (ders notları) | `"notes"` | Notizen |
+| "**altı çizili** kelimeleri oku" | Sadece kitapta altı çizili kelimeler | `"book"` | Buch |
+
+- Fotoğrafta iki tür de varsa **sadece istenen tür** alınır, diğeri yok sayılır.
+- Hangi türün istendiği belli değilse (ör. sadece "bu fotoğraftaki kelimeleri ekle") **sor**, tahmin etme.
+- Tekrar kontrolü iki listeye birden bakar: kelime Notizen veya Buch listesinin herhangi birinde varsa tekrar eklenmez (bkz. adım 4).
+
 Uygulama (`index.html`) bu dosyadaki alan adlarını okur. Alan adlarını değiştirmek veya yeni alan eklemek uygulamayı da değiştirmeyi gerektirir.
 
 ---
@@ -18,8 +31,8 @@ Uygulama (`index.html`) bu dosyadaki alan adlarını okur. Alan adlarını deği
    ```bash
    python3 check_cards.py Rahmen "sich verbrennen" gliedern Wortschatz
    ```
-   - Betik her kelime için `VAR` (mevcut kartın `id`, türü ve tarihiyle) veya `YENİ` yazar. Artikel, `sich`, büyük/küçük harf ve umlaut yazımı (`ä`/`ae`) fark etmez.
-   - `VAR` olanları ekleme, özette "zaten var (tarih)" olarak belirt. Tarihini veya içeriğini değiştirme.
+   - Betik her kelime için `VAR` (mevcut kartın `id`, listesi, türü ve tarihiyle) veya `YENİ` yazar. İki listeye birden bakar. Artikel, `sich`, büyük/küçük harf ve umlaut yazımı (`ä`/`ae`) fark etmez.
+   - `VAR` olanları ekleme, özette "zaten var (liste, tarih)" olarak belirt; ör. "zaten var (Notizen, 28.09.2026)". Tarihini veya içeriğini değiştirme.
    - Tek istisna: aynı yazılışta ama **farklı türde** bir kelime (ör. mevcut `Essen` isim, yeni gelen `essen` fiil). Bu yeni bir kelimedir, bölüm 4'teki `id` kuralıyla eklenir.
    - Mevcut kartları kullanıcı istemedikçe değiştirme.
 5. **Kartları yaz.** Yeni kartları `cards` dizisinin **sonuna**, fotoğraftaki sırayla ekle.
@@ -35,6 +48,7 @@ Alanlar her kartta bu sırayla yazılır (2 boşluk girinti, UTF-8, `\u` kaçı�
 ```json
 {
   "id": "gliedern",
+  "source": "notes",
   "date": "2026-09-28",
   "word": "gliedern",
   "type": "verb",
@@ -67,6 +81,7 @@ Alanlar her kartta bu sırayla yazılır (2 boşluk girinti, UTF-8, `\u` kaçı�
 | Alan | Tür | Kural |
 |---|---|---|
 | `id` | string | Benzersiz. Bkz. bölüm 4. |
+| `source` | string | `"notes"` (elle yazılmış ders notu) veya `"book"` (kitapta altı çizili). Bkz. bölüm 0. |
 | `date` | string | Dersin tarihi, `YYYY-MM-DD`. Uygulamadaki tarih filtresi buradan oluşur. |
 | `word` | string | Sözlük biçimi, artikelsiz. Bkz. bölüm 3. |
 | `type` | string | `noun`, `verb`, `adjective`, `adverb`, `phrase` değerlerinden biri. Bkz. bölüm 3.6. |
@@ -193,6 +208,6 @@ Kartları ekledikten sonra şunu çalıştır ve çıktının `Hata yok` olduğu
 python3 check_cards.py --validate
 ```
 
-Betik şunları kontrol eder: geçerli JSON, benzersiz ve kurala uygun `id`, `date` biçimi, `type` değeri, isimlerde `article`, 6 dilin hepsinde `meaning` ve `example`, fiillerde `forms` ve Rektion (`note`), `reflexive` ile `word` uyumu ve aynı kelimenin iki kez eklenmemesi.
+Betik şunları kontrol eder: geçerli JSON, benzersiz ve kurala uygun `id`, `source` değeri, `date` biçimi, `type` değeri, isimlerde `article`, 6 dilin hepsinde `meaning` ve `example`, fiillerde `forms` ve Rektion (`note`), `reflexive` ile `word` uyumu ve aynı kelimenin iki kez eklenmemesi.
 
 Ek olarak `git diff` ile yalnızca yeni kartların eklendiğini, mevcut kartların değişmediğini kontrol et.

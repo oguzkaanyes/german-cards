@@ -12,6 +12,7 @@ from pathlib import Path
 CARDS = Path(__file__).with_name("cards.json")
 LANGS = ["de", "tr", "en", "uk", "ar", "it"]
 TYPES = {"noun", "verb", "adjective", "adverb", "phrase"}
+SOURCES = {"notes", "book"}
 
 
 def normalize(text):
@@ -43,7 +44,7 @@ def check_words(words):
         hits = index.get(normalize(w), [])
         if hits:
             found = ", ".join(
-                f"{c['id']} ({c.get('type')}{', ' + c['article'] if c.get('article') else ''}, {c.get('date')})"
+                f"{c['id']} ({c.get('source')}, {c.get('type')}{', ' + c['article'] if c.get('article') else ''}, {c.get('date')})"
                 for c in hits
             )
             print(f"VAR   {w}  ->  {found}")
@@ -63,6 +64,8 @@ def validate():
         if i in ids:
             errors.append(f"{i}: id tekrar ediyor")
         ids.add(i)
+        if c.get("source") not in SOURCES:
+            errors.append(f"{i}: source geçersiz (notes/book olmalı)")
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", c.get("date") or ""):
             errors.append(f"{i}: date eksik/hatalı")
         if c.get("type") not in TYPES:
@@ -87,7 +90,7 @@ def validate():
         if c.get("reflexive") != c.get("word", "").startswith("sich "):
             errors.append(f"{i}: reflexive ile word uyuşmuyor")
 
-    # Same word written twice under different ids (e.g. "Rahmen" and "rahmen-2").
+    # Same word written twice under different ids (e.g. "Rahmen" and "rahmen-2"), in either list.
     seen = {}
     for c in cards:
         key = (normalize(c.get("word", "")), c.get("type"))

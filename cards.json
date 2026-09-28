@@ -7,6 +7,7 @@
   "cards": [
     {
       "id": "rahmen",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Rahmen",
       "type": "noun",
@@ -38,6 +39,7 @@
     },
     {
       "id": "vertiefung",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Vertiefung",
       "type": "noun",
@@ -71,6 +73,7 @@
     },
     {
       "id": "vertiefen",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "vertiefen",
       "type": "verb",
@@ -109,6 +112,7 @@
     },
     {
       "id": "festigung",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Festigung",
       "type": "noun",
@@ -142,6 +146,7 @@
     },
     {
       "id": "festigen",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "festigen",
       "type": "verb",
@@ -181,6 +186,7 @@
     },
     {
       "id": "gliedern",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "gliedern",
       "type": "verb",
@@ -220,6 +226,7 @@
     },
     {
       "id": "aufgreifen",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "aufgreifen",
       "type": "verb",
@@ -259,6 +266,7 @@
     },
     {
       "id": "lieferkette",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Lieferkette",
       "type": "noun",
@@ -289,6 +297,7 @@
     },
     {
       "id": "gurt",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Gurt",
       "type": "noun",
@@ -320,6 +329,7 @@
     },
     {
       "id": "belastung",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Belastung",
       "type": "noun",
@@ -354,6 +364,7 @@
     },
     {
       "id": "stethoskop",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Stethoskop",
       "type": "noun",
@@ -384,6 +395,7 @@
     },
     {
       "id": "dienstplan",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Dienstplan",
       "type": "noun",
@@ -415,6 +427,7 @@
     },
     {
       "id": "verantwortung",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Verantwortung",
       "type": "noun",
@@ -448,6 +461,7 @@
     },
     {
       "id": "aufmerksam",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "aufmerksam",
       "type": "adjective",
@@ -482,6 +496,7 @@
     },
     {
       "id": "schwerwiegend",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "schwerwiegend",
       "type": "adjective",
@@ -516,6 +531,7 @@
     },
     {
       "id": "betreuung",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Betreuung",
       "type": "noun",
@@ -549,6 +565,7 @@
     },
     {
       "id": "aktualisieren",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "aktualisieren",
       "type": "verb",
@@ -585,6 +602,7 @@
     },
     {
       "id": "taschenrechner",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Taschenrechner",
       "type": "noun",
@@ -615,6 +633,7 @@
     },
     {
       "id": "anstrengend",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "anstrengend",
       "type": "adjective",
@@ -651,6 +670,7 @@
     },
     {
       "id": "hygiene",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Hygiene",
       "type": "noun",
@@ -684,6 +704,7 @@
     },
     {
       "id": "sich-verbrennen",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "sich verbrennen",
       "type": "verb",
@@ -719,6 +740,7 @@
     },
     {
       "id": "dampf",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Dampf",
       "type": "noun",
@@ -750,6 +772,7 @@
     },
     {
       "id": "hitzschlag",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Hitzschlag",
       "type": "noun",
@@ -782,6 +805,7 @@
     },
     {
       "id": "nest",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Nest",
       "type": "noun",
@@ -812,6 +836,7 @@
     },
     {
       "id": "entfernen",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "entfernen",
       "type": "verb",
@@ -852,6 +877,7 @@
     },
     {
       "id": "aussterben",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "aussterben",
       "type": "verb",
@@ -891,6 +917,7 @@
     },
     {
       "id": "schraeg",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "schräg",
       "type": "adjective",
@@ -926,6 +953,7 @@
     },
     {
       "id": "oberflaechlich",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "oberflächlich",
       "type": "adjective",
@@ -960,6 +988,7 @@
     },
     {
       "id": "effizient",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "effizient",
       "type": "adjective",
@@ -993,6 +1022,7 @@
     },
     {
       "id": "vermeiden",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "vermeiden",
       "type": "verb",
@@ -1032,6 +1062,7 @@
     },
     {
       "id": "anfrage",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Anfrage",
       "type": "noun",
@@ -1065,6 +1096,7 @@
     },
     {
       "id": "anfragen",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "anfragen",
       "type": "verb",
@@ -1103,6 +1135,7 @@
     },
     {
       "id": "bitten-um",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "bitten um",
       "type": "verb",
@@ -1141,6 +1174,7 @@
     },
     {
       "id": "baustein",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Baustein",
       "type": "noun",
@@ -1173,6 +1207,7 @@
     },
     {
       "id": "verwenden",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "verwenden",
       "type": "verb",
@@ -1210,6 +1245,7 @@
     },
     {
       "id": "eigenwillig",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "eigenwillig",
       "type": "adjective",
@@ -1245,6 +1281,7 @@
     },
     {
       "id": "kaempfernatur",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Kämpfernatur",
       "type": "noun",
@@ -1275,6 +1312,7 @@
     },
     {
       "id": "stahl",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Stahl",
       "type": "noun",
@@ -1303,6 +1341,7 @@
     },
     {
       "id": "eisen",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Eisen",
       "type": "noun",
@@ -1331,6 +1370,7 @@
     },
     {
       "id": "rebellieren",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "rebellieren",
       "type": "verb",
@@ -1370,6 +1410,7 @@
     },
     {
       "id": "mangeln",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "mangeln",
       "type": "verb",
@@ -1408,6 +1449,7 @@
     },
     {
       "id": "mangelnd",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "mangelnd",
       "type": "adjective",
@@ -1442,6 +1484,7 @@
     },
     {
       "id": "fliehen",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "fliehen",
       "type": "verb",
@@ -1481,6 +1524,7 @@
     },
     {
       "id": "sich-weiterentwickeln",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "sich weiterentwickeln",
       "type": "verb",
@@ -1520,6 +1564,7 @@
     },
     {
       "id": "bislang",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "bislang",
       "type": "adverb",
@@ -1554,6 +1599,7 @@
     },
     {
       "id": "schulpflichtig",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "schulpflichtig",
       "type": "adjective",
@@ -1584,6 +1630,7 @@
     },
     {
       "id": "veranlagt-sein",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "veranlagt sein",
       "type": "phrase",
@@ -1617,6 +1664,7 @@
     },
     {
       "id": "baumarkt",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Baumarkt",
       "type": "noun",
@@ -1645,6 +1693,7 @@
     },
     {
       "id": "prompt",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Prompt",
       "type": "noun",
@@ -1676,6 +1725,7 @@
     },
     {
       "id": "erzeugung",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Erzeugung",
       "type": "noun",
@@ -1709,6 +1759,7 @@
     },
     {
       "id": "erzeugen",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "erzeugen",
       "type": "verb",
@@ -1748,6 +1799,7 @@
     },
     {
       "id": "praezise",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "präzise",
       "type": "adjective",
@@ -1782,6 +1834,7 @@
     },
     {
       "id": "aussergewoehnlich",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "außergewöhnlich",
       "type": "adjective",
@@ -1817,6 +1870,7 @@
     },
     {
       "id": "leitfaden",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Leitfaden",
       "type": "noun",
@@ -1849,6 +1903,7 @@
     },
     {
       "id": "verpflichtend",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "verpflichtend",
       "type": "adjective",
@@ -1883,6 +1938,7 @@
     },
     {
       "id": "einschraenkung",
+      "source": "notes",
       "date": "2026-09-28",
       "word": "Einschränkung",
       "type": "noun",
