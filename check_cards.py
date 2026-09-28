@@ -39,12 +39,17 @@ def check_words(words):
         for key in keys:
             index.setdefault(key, []).append(c)
 
+    def where(c):
+        if c.get("source") == "book":
+            return f"Kapitel {c.get('chapter')}"
+        return c.get("date")
+
     new = 0
     for w in words:
         hits = index.get(normalize(w), [])
         if hits:
             found = ", ".join(
-                f"{c['id']} ({c.get('source')}, {c.get('type')}{', ' + c['article'] if c.get('article') else ''}, {c.get('date')})"
+                f"{c['id']} ({c.get('source')}, {c.get('type')}{', ' + c['article'] if c.get('article') else ''}, {where(c)})"
                 for c in hits
             )
             print(f"VAR   {w}  ->  {found}")
@@ -66,8 +71,18 @@ def validate():
         ids.add(i)
         if c.get("source") not in SOURCES:
             errors.append(f"{i}: source geçersiz (notes/book olmalı)")
-        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", c.get("date") or ""):
-            errors.append(f"{i}: date eksik/hatalı")
+        if c.get("source") == "book":
+            # Book words are grouped by chapter, not by lesson date.
+            ch = c.get("chapter")
+            if not (isinstance(ch, int) and not isinstance(ch, bool) and ch > 0):
+                errors.append(f"{i}: Buch kartında chapter eksik/hatalı (pozitif tam sayı olmalı)")
+            if "date" in c:
+                errors.append(f"{i}: Buch kartında date olmamalı")
+        else:
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", c.get("date") or ""):
+                errors.append(f"{i}: date eksik/hatalı")
+            if "chapter" in c:
+                errors.append(f"{i}: Notizen kartında chapter olmamalı")
         if c.get("type") not in TYPES:
             errors.append(f"{i}: type geçersiz")
         if c.get("type") == "noun" and c.get("article") not in ("der", "die", "das"):

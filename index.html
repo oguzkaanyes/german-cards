@@ -368,7 +368,7 @@
     </select>
   </header>
   <div class="filterbar" hidden>
-    <select id="date" aria-label="Datum"></select>
+    <select id="date" aria-label="Datum / Kapitel"></select>
   </div>
 
   <div id="lang-modal" hidden role="dialog" aria-modal="true" aria-labelledby="lang-modal-title">
@@ -406,7 +406,8 @@
     };
     const KEYS = {
       lang: "wortkarten:lang",
-      date: "wortkarten:date",
+      date: "wortkarten:date",   // pre-chapter versions stored the notes date filter here
+      filter: (tab) => "wortkarten:filter:" + tab,
       saved: "wortkarten:saved",
       position: (tab) => "wortkarten:lastCardId:" + tab,
     };
@@ -432,7 +433,7 @@
     let target = null;
     let tab = "notes";  // "notes" (handwritten lesson notes), "book" (underlined book words) or "saved"
     let lang = "tr";
-    let date = "";      // "" = all days, otherwise a "YYYY-MM-DD" from cards.json
+    let filter = "";    // current tab's filter: "" (all), "date:YYYY-MM-DD" or "chapter:N"
     let saved = new Set();
 
     // Storage is wrapped: private mode or blocked storage must not break the app.
@@ -631,39 +632,80 @@
       return card.source === "book" ? "book" : "notes";
     }
 
-    // Cards of the current tab before the date filter.
+    // Cards of the current tab before the date/chapter filter.
     function tabCards() {
       if (tab === "saved") return allCards.filter((c) => saved.has(c.id));
       return allCards.filter((c) => sourceOf(c) === tab);
     }
 
-    // Lists only the dates of the current tab's cards, newest first, with a word count each.
-    // A chosen date that this tab doesn't have falls back to all days.
-    function buildDateOptions() {
-      const cards = tabCards();
+    // Filter keys: the lesson date of a notes card ("date:2026-09-28") or the chapter of a book card ("chapter:3").
+    function dateKey(card) {
+      return sourceOf(card) === "notes" && typeof card.date === "string" && DATE_PATTERN.test(card.date)
+        ? "date:" + card.date : null;
+    }
+    function chapterKey(card) {
+      return sourceOf(card) === "book" && Number.isInteger(card.chapter) && card.chapter > 0
+        ? "chapter:" + card.chapter : null;
+    }
+    function matchesFilter(card) {
+      return !filter || dateKey(card) === filter || chapterKey(card) === filter;
+    }
+
+    // Each tab remembers its own filter; the notes tab also picks up the date saved by older versions.
+    function loadFilter() {
+      const stored = readStorage(KEYS.filter(tab));
+      if (stored !== null) return stored;
+      const oldDate = tab === "notes" ? readStorage(KEYS.date) : null;
+      return oldDate ? "date:" + oldDate : "";
+    }
+
+    function countBy(cards, keyOf) {
       const counts = new Map();
       for (const card of cards) {
-        if (typeof card.date === "string" && DATE_PATTERN.test(card.date)) {
-          counts.set(card.date, (counts.get(card.date) || 0) + 1);
-        }
+        const key = keyOf(card);
+        if (key) counts.set(key, (counts.get(key) || 0) + 1);
       }
-      const dates = [...counts.keys()].sort().reverse();
+      return counts;
+    }
+
+    // Lists only what the current tab's cards have: dates newest first for notes,
+    // chapters in book order for the book, both (grouped) for saved. Each with a word count.
+    // A chosen filter that this tab doesn't have falls back to "all".
+    function buildFilterOptions() {
+      const cards = tabCards();
+      const dates = tab === "book" ? new Map() : countBy(cards, dateKey);
+      const chapters = tab === "notes" ? new Map() : countBy(cards, chapterKey);
+      const allLabel = tab === "notes" ? "Alle Tage" : tab === "book" ? "Alle Kapitel" : "Alle";
 
       dateSelect.textContent = "";
-      dateSelect.appendChild(new Option("Alle Tage (" + cards.length + ")", ""));
-      for (const d of dates) {
-        const [, y, m, day] = d.match(DATE_PATTERN);
-        dateSelect.appendChild(new Option(day + "." + m + "." + y + " (" + counts.get(d) + ")", d));
+      dateSelect.appendChild(new Option(allLabel + " (" + cards.length + ")", ""));
+
+      const dateOptions = [...dates.keys()].sort().reverse().map((key) => {
+        const [, y, m, day] = key.slice(5).match(DATE_PATTERN);
+        return new Option(day + "." + m + "." + y + " (" + dates.get(key) + ")", key);
+      });
+      const chapterOptions = [...chapters.keys()]
+        .sort((a, b) => Number(a.slice(8)) - Number(b.slice(8)))
+        .map((key) => new Option("Kapitel " + key.slice(8) + " (" + chapters.get(key) + ")", key));
+
+      const groups = [["Notizen", dateOptions], ["Buch", chapterOptions]].filter(([, options]) => options.length);
+      for (const [label, options] of groups) {
+        const parent = tab === "saved" ? document.createElement("optgroup") : dateSelect;
+        if (tab === "saved") {
+          parent.label = label;
+          dateSelect.appendChild(parent);
+        }
+        options.forEach((option) => parent.appendChild(option));
       }
 
-      if (!counts.has(date)) date = "";
-      dateSelect.value = date;
+      if (!dates.has(filter) && !chapters.has(filter)) filter = "";
+      dateSelect.value = filter;
     }
 
     // Rebuilds the slides for the current tab and language, opening the card with startId if present.
     function render(startId) {
-      buildDateOptions();
-      const deck = tabCards().filter((c) => !date || c.date === date);
+      buildFilterOptions();
+      const deck = tabCards().filter(matchesFilter);
 
       track.textContent = "";
       target = null;
@@ -761,14 +803,15 @@
       button.addEventListener("click", () => {
         if (button.dataset.tab === tab) return;
         tab = button.dataset.tab;
+        filter = loadFilter();
         render(readStorage(KEYS.position(tab)));
         writeStorage(KEYS.position(tab), currentId() || "");
       });
     });
 
     dateSelect.addEventListener("change", () => {
-      date = dateSelect.value;
-      writeStorage(KEYS.date, date);
+      filter = dateSelect.value;
+      writeStorage(KEYS.filter(tab), filter);
       render(currentId());
     });
 
@@ -816,7 +859,7 @@
         writeStorage(KEYS.lang, lang);
       }
       langSelect.value = lang;
-      date = readStorage(KEYS.date) || "";
+      filter = loadFilter();
       topbar.hidden = false;
       filterbar.hidden = false;
       // The notes tab used to be called "all"; pick up the position saved under the old name.

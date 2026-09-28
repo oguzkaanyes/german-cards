@@ -6,13 +6,14 @@ Bu dosya, `cards.json` dosyasına yeni kelime eklerken uyulacak kuralları anlat
 
 Kartlar iki listeye ayrılır. Hangi listeye ait olduğu `source` alanında yazar ve uygulamada ayrı sekmelerde görünür.
 
-| Kullanıcının isteği | Fotoğraftan alınan | `source` | Uygulamadaki sekme |
-|---|---|---|---|
-| "**elle yazılmış** kelimeleri ekle" | Sadece el yazısıyla yazılmış kelimeler (ders notları) | `"notes"` | Notizen |
-| "**altı çizili** kelimeleri oku" | Sadece kitapta altı çizili kelimeler | `"book"` | Buch |
+| Kullanıcının isteği | Fotoğraftan alınan | `source` | Gruplama alanı | Uygulamadaki sekme |
+|---|---|---|---|---|
+| "**elle yazılmış** kelimeleri ekle" | Sadece el yazısıyla yazılmış kelimeler (ders notları) | `"notes"` | `date` (dersin tarihi) | Notizen |
+| "**altı çizili** kelimeleri oku" | Sadece kitapta altı çizili kelimeler | `"book"` | `chapter` (Kapitel numarası) | Buch |
 
 - Fotoğrafta iki tür de varsa **sadece istenen tür** alınır, diğeri yok sayılır.
 - Hangi türün istendiği belli değilse (ör. sadece "bu fotoğraftaki kelimeleri ekle") **sor**, tahmin etme.
+- **Notizen** kartlarında `date` olur, `chapter` olmaz. **Buch** kartlarında `chapter` olur, `date` olmaz.
 - Tekrar kontrolü iki listeye birden bakar: kelime Notizen veya Buch listesinin herhangi birinde varsa tekrar eklenmez (bkz. adım 4).
 
 Uygulama (`index.html`) bu dosyadaki alan adlarını okur. Alan adlarını değiştirmek veya yeni alan eklemek uygulamayı da değiştirmeyi gerektirir.
@@ -21,7 +22,10 @@ Uygulama (`index.html`) bu dosyadaki alan adlarını okur. Alan adlarını deği
 
 ## 1. Süreç
 
-1. **Tarihi netleştir.** Kullanıcının verdiği tarih `YYYY-MM-DD` biçiminde yazılır ("bugün" denirse bugünün tarihi). Tarih verilmemişse sor, tahmin etme.
+1. **Tarihi veya Kapitel'i netleştir.**
+   - Notizen için: kullanıcının verdiği tarih `YYYY-MM-DD` biçiminde yazılır ("bugün" denirse bugünün tarihi).
+   - Buch için: kullanıcının verdiği Kapitel numarası (ör. "Kapitel 3" → `3`). Fotoğraftaki sayfada bölüm başlığı görünse bile kullanıcının verdiği numara esas alınır; ikisi çelişirse sor.
+   - Verilmemişse sor, tahmin etme.
 2. **Fotoğrafı oku.** Almanca kelimeleri ve varsa yanlarındaki notları çıkar.
    - El yazısı okunmuyorsa veya bir kelimeden emin değilsen **tahmin etme**. Kartları yazmadan önce belirsiz kelimeleri kullanıcıya liste hâlinde sor.
    - Belirgin yazım hatalarını düzelt (ör. `Lieferkete` → `Lieferkette`) ve bunu özette belirt.
@@ -32,7 +36,7 @@ Uygulama (`index.html`) bu dosyadaki alan adlarını okur. Alan adlarını deği
    python3 check_cards.py Rahmen "sich verbrennen" gliedern Wortschatz
    ```
    - Betik her kelime için `VAR` (mevcut kartın `id`, listesi, türü ve tarihiyle) veya `YENİ` yazar. İki listeye birden bakar. Artikel, `sich`, büyük/küçük harf ve umlaut yazımı (`ä`/`ae`) fark etmez.
-   - `VAR` olanları ekleme, özette "zaten var (liste, tarih)" olarak belirt; ör. "zaten var (Notizen, 28.09.2026)". Tarihini veya içeriğini değiştirme.
+   - `VAR` olanları ekleme, özette "zaten var (liste, tarih/Kapitel)" olarak belirt; ör. "zaten var (Notizen, 28.09.2026)" veya "zaten var (Buch, Kapitel 2)". Tarihini veya içeriğini değiştirme.
    - Tek istisna: aynı yazılışta ama **farklı türde** bir kelime (ör. mevcut `Essen` isim, yeni gelen `essen` fiil). Bu yeni bir kelimedir, bölüm 4'teki `id` kuralıyla eklenir.
    - Mevcut kartları kullanıcı istemedikçe değiştirme.
 5. **Kartları yaz.** Yeni kartları `cards` dizisinin **sonuna**, fotoğraftaki sırayla ekle.
@@ -82,7 +86,8 @@ Alanlar her kartta bu sırayla yazılır (2 boşluk girinti, UTF-8, `\u` kaçı�
 |---|---|---|
 | `id` | string | Benzersiz. Bkz. bölüm 4. |
 | `source` | string | `"notes"` (elle yazılmış ders notu) veya `"book"` (kitapta altı çizili). Bkz. bölüm 0. |
-| `date` | string | Dersin tarihi, `YYYY-MM-DD`. Uygulamadaki tarih filtresi buradan oluşur. |
+| `date` | string | **Sadece Notizen kartlarında.** Dersin tarihi, `YYYY-MM-DD`. Uygulamadaki tarih filtresi buradan oluşur. |
+| `chapter` | number | **Sadece Buch kartlarında**, `date` yerine. Kapitel numarası, pozitif tam sayı (`"Kapitel 3"` değil `3`). Uygulamadaki Kapitel filtresi buradan oluşur. |
 | `word` | string | Sözlük biçimi, artikelsiz. Bkz. bölüm 3. |
 | `type` | string | `noun`, `verb`, `adjective`, `adverb`, `phrase` değerlerinden biri. Bkz. bölüm 3.6. |
 | `article` | string \| null | Sadece isimlerde: `der`, `die`, `das`. Diğer türlerde `null`. Kartın rengi buna göre belirlenir. |
@@ -93,6 +98,18 @@ Alanlar her kartta bu sırayla yazılır (2 boşluk girinti, UTF-8, `\u` kaçı�
 | `synonyms` / `antonyms` | string[] | 0–3 öğe. Yoksa `[]`. İsimler artikelle (`"die Einfassung"`), fiiller mastar hâliyle yazılır. |
 | `example` | object | 6 dilin hepsi zorunlu. Bkz. bölüm 3.8. |
 | `note` | string \| null | Rektion ve dilbilgisi notları. Fiillerde zorunlu. Bkz. bölüm 5.4. |
+
+Bir **Buch** kartı aynı yapıdadır; tek fark `date` yerine `chapter` alanıdır ve `source` alanından hemen sonra gelir:
+
+```json
+{
+  "id": "wortschatz",
+  "source": "book",
+  "chapter": 3,
+  "word": "Wortschatz",
+  ...
+}
+```
 
 Dosyanın üst kısmındaki `version` ve `language` alanlarına dokunma.
 
@@ -208,6 +225,6 @@ Kartları ekledikten sonra şunu çalıştır ve çıktının `Hata yok` olduğu
 python3 check_cards.py --validate
 ```
 
-Betik şunları kontrol eder: geçerli JSON, benzersiz ve kurala uygun `id`, `source` değeri, `date` biçimi, `type` değeri, isimlerde `article`, 6 dilin hepsinde `meaning` ve `example`, fiillerde `forms` ve Rektion (`note`), `reflexive` ile `word` uyumu ve aynı kelimenin iki kez eklenmemesi.
+Betik şunları kontrol eder: geçerli JSON, benzersiz ve kurala uygun `id`, `source` değeri, Notizen kartlarında `date` biçimi, Buch kartlarında `chapter` (ve karşı alanın olmaması), `type` değeri, isimlerde `article`, 6 dilin hepsinde `meaning` ve `example`, fiillerde `forms` ve Rektion (`note`), `reflexive` ile `word` uyumu ve aynı kelimenin iki kez eklenmemesi.
 
 Ek olarak `git diff` ile yalnızca yeni kartların eklendiğini, mevcut kartların değişmediğini kontrol et.
