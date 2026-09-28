@@ -120,6 +120,12 @@ Dosyanın üst kısmındaki `version` ve `language` alanlarına dokunma.
 ### 3.1 Fiiller
 - Çekimli hâl → **mastar**: `gliedert`, `gliederte`, `hat gegliedert` → `gliedern`.
 - Ayrılabilen fiiller birleşik mastar olarak yazılır: `greift … auf` → `aufgreifen`.
+- **`zu` ile kullanılan fiiller** (Infinitiv mit zu) `zu` atılarak yalın mastara çevrilir. Bu kural hem Notizen hem Buch (altı çizili) kelimeleri için geçerlidir:
+  - Ayrılabilen fiillerde `zu` ön ek ile kök arasına girer, çıkarılır: `anzuwenden` → `anwenden`, `auszudrucken` → `ausdrucken`, `aufzugreifen` → `aufgreifen`.
+  - Ayrılamayan fiillerde `zu` ayrı yazılır, atılır: `zu vermeiden` → `vermeiden`, `um … zu verwenden` → `verwenden`.
+  - Dönüşlü fiillerde `sich` korunur: `sich weiterzuentwickeln` → `sich weiterentwickeln`.
+  - Dikkat: `zu` ile başlayan gerçek fiilleri bozma. `zu` kelimenin kendi parçasıysa (`zumachen`, `zuhören`, `zunehmen`) olduğu gibi kalır; bunların `zu`'lu hâli `zuzumachen`, `zuzuhören` şeklindedir.
+  - Emin değilsen fiilin çekimlerine bak: `wendet an` → `anwenden`, `macht zu` → `zumachen`.
 - Dönüşlü fiiller `sich` ile yazılır ve `reflexive: true` olur: `ich habe mich verbrannt` → `sich verbrennen`.
 - Sabit bir edatla kullanılan fiilde `word` sadece fiildir, edat `note` alanına yazılır. İstisna: edat olmadan anlamı değişiyorsa edatla yazılabilir (mevcut örnek: `bitten um`).
 - Kişisiz fiiller (`es mangelt`) mastar olarak yazılır (`mangeln`), kişisiz kullanım `note` alanında belirtilir.
