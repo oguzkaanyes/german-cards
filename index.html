@@ -188,16 +188,16 @@
       width: 100%;
       max-width: 560px;
       height: 100%;
-      perspective: 1200px;
     }
 
+    /* No persistent 3D here: iOS WebKit won't touch-scroll inside preserve-3d / backface-hidden
+       layers, so the flip is a short animation (see flipCard) and only one face is shown at rest. */
     .flipper {
       position: absolute;
       inset: 0;
-      transition: transform 0.5s ease;
-      transform-style: preserve-3d;
     }
-    .card.flipped .flipper { transform: rotateY(180deg); }
+    .card:not(.flipped) .back,
+    .card.flipped .front { display: none; }
 
     .face {
       position: absolute;
@@ -209,8 +209,6 @@
       background: var(--card-bg, var(--none));
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
       border: 1px solid rgba(0, 0, 0, 0.06);
-      backface-visibility: hidden;
-      -webkit-backface-visibility: hidden;
     }
     /* Front: German entry scrolls on its own, the flip button stays pinned below it. */
     .front {
@@ -237,7 +235,6 @@
     }
 
     .back {
-      transform: rotateY(180deg);
       display: flex;
       flex-direction: column;
       cursor: pointer;
@@ -551,7 +548,7 @@
       const footer = el("div", "footer");
       const flipBtn = el("button", "flip", texts.flip);
       flipBtn.type = "button";
-      flipBtn.addEventListener("click", () => root.classList.add("flipped"));
+      flipBtn.addEventListener("click", () => flipCard(root, true));
       footer.appendChild(flipBtn);
       front.append(content, footer);
 
@@ -565,13 +562,37 @@
       if (example[lang]) translation.appendChild(el("div", "t-example", example[lang]));
       back.appendChild(translation);
       back.appendChild(el("div", "hint", texts.back));
-      back.addEventListener("click", () => root.classList.remove("flipped"));
+      back.addEventListener("click", () => flipCard(root, false));
 
       flipper.append(front, back);
       root.append(flipper, saveBtn);
       slide.appendChild(root);
       slide.dataset.id = card.id || "";
       return slide;
+    }
+
+    // Turn the card edge-on, swap the visible face, then turn it back flat.
+    // The transforms exist only while animating, so the card is a plain scroller at rest.
+    function flipCard(root, toBack) {
+      if (root.dataset.turning) return;
+      const flipper = root.querySelector(".flipper");
+      const half = { duration: 180, easing: "ease-in" };
+      if (!flipper.animate) {
+        root.classList.toggle("flipped", toBack);
+        return;
+      }
+      root.dataset.turning = "1";
+      const out = toBack ? "rotateY(90deg)" : "rotateY(-90deg)";
+      const back = toBack ? "rotateY(-90deg)" : "rotateY(90deg)";
+      flipper.animate([{ transform: "perspective(1200px) rotateY(0)" }, { transform: "perspective(1200px) " + out }], half)
+        .finished.then(() => {
+          root.classList.toggle("flipped", toBack);
+          return flipper.animate(
+            [{ transform: "perspective(1200px) " + back }, { transform: "perspective(1200px) rotateY(0)" }],
+            { duration: 180, easing: "ease-out" }
+          ).finished;
+        })
+        .finally(() => { delete root.dataset.turning; });
     }
 
     function resetSlide(slide) {
