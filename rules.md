@@ -132,13 +132,26 @@ Dosyanın üst kısmındaki `version` ve `language` alanlarına dokunma.
 
 ### 3.2 İsimler
 - Tekil, yalın hâl (Nominativ), büyük harfle: `den Gurten` → `Gurt`, `article: "der"`.
+- **Artikel her isimde zorunludur.** Fotoğrafta isim artikelsiz yazılmışsa (ör. sadece `Rahmen` ya da çekimli `dem Rahmen`) doğru yalın hâl artikelini (`der`/`die`/`das`) sen bul ve `article` alanına yaz.
+  - Fotoğraftaki artikel çekimliyse (`den`, `dem`, `des`, `einer` …) ondan tahmin etme, ismin gerçek cinsiyetine göre yaz.
+  - Fotoğraftaki artikel yanlışsa düzelt ve özette belirt: "`das Rahmen` → `der Rahmen` olarak düzeltildi".
+  - Anlama göre artikeli değişen isimlerde (`der See` göl / `die See` deniz, `der Band` / `das Band`) fotoğraftaki bağlama veya kullanıcının notuna göre seç; bağlam yoksa sor.
+  - Artikelini eklediğin isimleri özet tablosunda işaretle, böylece kullanıcı kontrol edebilir.
 - Çoğul `plural` alanına artikelsiz yazılır (`Gurte`). Sayılamayan veya çoğulu kullanılmayan isimlerde `null` (`Hygiene`, `Eisen`).
 - Sadece çoğul kullanılan isimlerde (`die Leute`) `word` çoğul hâli, `article: "die"`, `plural: null` olur ve `note` alanına "nur Plural" yazılır.
 - n-Deklination (zayıf) isimlerde `note` alanına belirt: `"n-Deklination: den/dem/des Kunden"`.
 - Birden fazla artikeli olan isimlerde (`der/das Joghurt`) en yaygın olanı `article` alanına yaz, diğerini `note` alanına ekle.
 
 ### 3.3 Sıfatlar
-- Çekimsiz temel hâl: `schwerwiegender Fehler` → `schwerwiegend`.
+- **Çekim eki silinir, yalın hâl yazılır.** Artikele, hale veya sayıya göre gelen ekler (`-e`, `-en`, `-er`, `-es`, `-em`) atılır:
+  - `außergewöhnliche Leistung` → `außergewöhnlich`
+  - `schwerwiegender Fehler` → `schwerwiegend`
+  - `mit mangelnder Erfahrung` → `mangelnd`
+  - `ein effizientes Programm` → `effizient`
+- Sıfatın yanındaki isim karta **eklenmez**. Sadece sıfat alınır. İsim de ayrıca altı çizili veya elle yazılmışsa, o ayrı bir kart olur.
+- Yalın hâli zaten `-e` ile biten sıfatların sonunu kesme: `präzise`, `leise`, `müde`, `böse` olduğu gibi kalır (`präzise Angaben` → `präzise`, `präzisen` → `präzise`).
+- `-el` / `-er` ile biten sıfatlar çekimde `e` düşürür, yalın hâlde geri gelir: `dunkle Farbe` → `dunkel`, `teure Wohnung` → `teuer`.
+- Emin değilsen sıfatı yüklem olarak düşün: "Die Leistung ist … " cümlesine giren biçim yalın hâldir (`außergewöhnlich`).
 - Karşılaştırma biçimleri temel hâle indirilir: `effizienter` → `effizient`.
 - Düzensiz karşılaştırma varsa `note` alanına yaz: `"gut – besser – am besten"`.
 - Edatla kullanılan sıfatların edatını ve halini `note` alanına yaz: `"stolz auf + Akk."`.
