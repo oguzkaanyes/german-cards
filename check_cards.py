@@ -44,19 +44,28 @@ def check_words(words):
             return f"Kapitel {c.get('chapter')}"
         return c.get("date")
 
-    new = 0
+    new = repeated = 0
+    first_seen = {}  # normalized word -> how it was first written in this batch
     for w in words:
-        hits = index.get(normalize(w), [])
+        key = normalize(w)
+        if key in first_seen:
+            # Same word twice in this batch (e.g. underlined on two photos): only the first one counts.
+            repeated += 1
+            print(f"TEKRAR {w}  ->  bu listede zaten var: {first_seen[key]}")
+            continue
+        first_seen[key] = w
+        hits = index.get(key, [])
         if hits:
             found = ", ".join(
                 f"{c['id']} ({c.get('source')}, {c.get('type')}{', ' + c['article'] if c.get('article') else ''}, {where(c)})"
                 for c in hits
             )
-            print(f"VAR   {w}  ->  {found}")
+            print(f"VAR    {w}  ->  {found}")
         else:
             new += 1
-            print(f"YENİ  {w}")
-    print(f"\n{len(words)} kelime: {new} yeni, {len(words) - new} zaten var")
+            print(f"YENİ   {w}")
+    existing = len(words) - new - repeated
+    print(f"\n{len(words)} kelime: {new} yeni, {existing} zaten var, {repeated} listede tekrar")
 
 
 def validate():

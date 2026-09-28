@@ -31,11 +31,16 @@ Uygulama (`index.html`) bu dosyadaki alan adlarını okur. Alan adlarını deği
    - Belirgin yazım hatalarını düzelt (ör. `Lieferkete` → `Lieferkette`) ve bunu özette belirt.
    - Almanca olmayan satırları (Türkçe notlar, sayfa numaraları vb.) kelime olarak alma. Yanında yazan Türkçe anlam varsa `meaning.tr` için ipucu olarak kullan.
 3. **Sözlük biçimine indir** (bkz. bölüm 3). Fotoğrafta çekimli, çoğul veya çekimlenmiş hâlde geçen her kelimenin sözlük biçimini kullan.
-4. **Tekrarları kontrol et.** Listede zaten olan bir kelime için yeni kart **eklenmez**. Sözlük biçimine indirilmiş bütün kelimeleri tek komutla kontrol et:
+4. **Tekrarları kontrol et.** İki tür tekrar vardır ve ikisi de tek kart olarak kalır:
+   - **Yeni kelimeler arasındaki tekrar:** Birden fazla fotoğraf verildiğinde aynı kelime birkaç kez geçebilir (ör. aynı kelimenin altı iki sayfada da çizili). Kelimeleri sözlük biçimine indirdikten **sonra** tekrarları bire indir. Farklı yazılmış ama aynı kelimeye inen biçimler de tekrardır: `anzuwenden`, `wendet an` ve `anwenden` → tek kart `anwenden`. İlk geçtiği yer esas alınır: ilk fotoğraftaki sıra ve, Buch için, ilk geçtiği Kapitel. Tekrar eden kelime farklı Kapitel'lerde geçiyorsa özette belirt.
+   - **Listede zaten olan kelime:** Notizen veya Buch listesinde zaten olan bir kelime için yeni kart **eklenmez**.
+
+   Sözlük biçimine indirilmiş bütün kelimeleri (bütün fotoğraflardakileri birlikte, tekrarlarıyla) tek komutla kontrol et:
    ```bash
    python3 check_cards.py Rahmen "sich verbrennen" gliedern Wortschatz
    ```
-   - Betik her kelime için `VAR` (mevcut kartın `id`, listesi, türü ve tarihiyle) veya `YENİ` yazar. İki listeye birden bakar. Artikel, `sich`, büyük/küçük harf ve umlaut yazımı (`ä`/`ae`) fark etmez.
+   - Betik her kelime için `YENİ`, `VAR` (mevcut kartın `id`, listesi, türü ve tarihiyle) veya `TEKRAR` (aynı komutta daha önce geçti) yazar. İki listeye birden bakar. Artikel, `sich`, büyük/küçük harf ve umlaut yazımı (`ä`/`ae`) fark etmez.
+   - Sadece `YENİ` olanlar için kart yaz. `TEKRAR` olanları atla ve özette "N fotoğrafta tekrar etti, bire indirildi" diye belirt.
    - `VAR` olanları ekleme, özette "zaten var (liste, tarih/Kapitel)" olarak belirt; ör. "zaten var (Notizen, 28.09.2026)" veya "zaten var (Buch, Kapitel 2)". Tarihini veya içeriğini değiştirme.
    - Tek istisna: aynı yazılışta ama **farklı türde** bir kelime (ör. mevcut `Essen` isim, yeni gelen `essen` fiil). Bu yeni bir kelimedir, bölüm 4'teki `id` kuralıyla eklenir.
    - Mevcut kartları kullanıcı istemedikçe değiştirme.
