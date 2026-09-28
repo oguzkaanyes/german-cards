@@ -14,7 +14,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Eine Einfassung oder Struktur, die etwas umgibt oder begrenzt; auch: Kontext, Bedingungen",
-        "tr": "çerçeve"
+        "tr": "çerçeve",
+        "en": "frame, framework",
+        "uk": "рамка, межі",
+        "ar": "إطار",
+        "it": "cornice, quadro"
       },
       "synonyms": [
         "die Einfassung",
@@ -23,7 +27,11 @@
       "antonyms": [],
       "example": {
         "de": "Das Projekt findet im Rahmen des Deutschkurses statt.",
-        "tr": "Proje, Almanca kursu çerçevesinde gerçekleşiyor."
+        "tr": "Proje, Almanca kursu çerçevesinde gerçekleşiyor.",
+        "en": "The project takes place as part of the German course.",
+        "uk": "Проєкт відбувається в рамках курсу німецької мови.",
+        "ar": "يُقام المشروع في إطار دورة اللغة الألمانية.",
+        "it": "Il progetto si svolge nell'ambito del corso di tedesco."
       },
       "note": null
     },
@@ -36,7 +44,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Das intensivere, gründlichere Beschäftigen mit einem Thema",
-        "tr": "derinlemesine çalışma, pekiştirme"
+        "tr": "derinlemesine çalışma, pekiştirme",
+        "en": "deepening, consolidation",
+        "uk": "поглиблення, закріплення",
+        "ar": "تعميق، ترسيخ",
+        "it": "approfondimento"
       },
       "synonyms": [
         "die Intensivierung",
@@ -47,7 +59,11 @@
       ],
       "example": {
         "de": "Diese Übung dient der Vertiefung der Grammatik.",
-        "tr": "Bu alıştırma dilbilgisinin pekiştirilmesine yöneliktir."
+        "tr": "Bu alıştırma dilbilgisinin pekiştirilmesine yöneliktir.",
+        "en": "This exercise serves to consolidate the grammar.",
+        "uk": "Ця вправа слугує для закріплення граматики.",
+        "ar": "يهدف هذا التمرين إلى ترسيخ القواعد.",
+        "it": "Questo esercizio serve ad approfondire la grammatica."
       },
       "note": null
     },
@@ -60,7 +76,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Etwas gründlicher und intensiver behandeln oder lernen",
-        "tr": "derinleştirmek, pekiştirmek"
+        "tr": "derinleştirmek, pekiştirmek",
+        "en": "to deepen, to consolidate",
+        "uk": "поглиблювати, закріплювати",
+        "ar": "يعمّق، يرسّخ",
+        "it": "approfondire, consolidare"
       },
       "synonyms": [
         "intensivieren",
@@ -71,7 +91,11 @@
       ],
       "example": {
         "de": "Ich möchte meine Deutschkenntnisse vertiefen.",
-        "tr": "Almanca bilgimi derinleştirmek istiyorum."
+        "tr": "Almanca bilgimi derinleştirmek istiyorum.",
+        "en": "I would like to deepen my knowledge of German.",
+        "uk": "Я хочу поглибити свої знання німецької мови.",
+        "ar": "أريد أن أعمّق معرفتي باللغة الألمانية.",
+        "it": "Vorrei approfondire la mia conoscenza del tedesco."
       },
       "note": null
     },
@@ -84,7 +108,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Das Stärken und Stabilisieren von etwas, z. B. von Wissen",
-        "tr": "pekiştirme, konsolidasyon"
+        "tr": "pekiştirme, konsolidasyon",
+        "en": "consolidation, strengthening",
+        "uk": "закріплення, зміцнення",
+        "ar": "ترسيخ، تعزيز",
+        "it": "consolidamento, rafforzamento"
       },
       "synonyms": [
         "die Stärkung",
@@ -95,7 +123,11 @@
       ],
       "example": {
         "de": "Wiederholung ist wichtig für die Festigung des Wortschatzes.",
-        "tr": "Tekrar, kelime bilgisinin pekişmesi için önemlidir."
+        "tr": "Tekrar, kelime bilgisinin pekişmesi için önemlidir.",
+        "en": "Repetition is important for consolidating vocabulary.",
+        "uk": "Повторення важливе для закріплення словникового запасу.",
+        "ar": "التكرار مهم لترسيخ المفردات.",
+        "it": "La ripetizione è importante per consolidare il lessico."
       },
       "note": null
     },
@@ -108,7 +140,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Etwas stabiler, sicherer oder stärker machen",
-        "tr": "pekiştirmek, sağlamlaştırmak"
+        "tr": "pekiştirmek, sağlamlaştırmak",
+        "en": "to consolidate, to strengthen",
+        "uk": "закріплювати, зміцнювати",
+        "ar": "يرسّخ، يقوّي",
+        "it": "consolidare, rafforzare"
       },
       "synonyms": [
         "stärken",
@@ -120,7 +156,11 @@
       ],
       "example": {
         "de": "Regelmäßiges Üben festigt das Gelernte.",
-        "tr": "Düzenli pratik öğrenilenleri pekiştirir."
+        "tr": "Düzenli pratik öğrenilenleri pekiştirir.",
+        "en": "Regular practice consolidates what has been learned.",
+        "uk": "Регулярна практика закріплює вивчене.",
+        "ar": "الممارسة المنتظمة ترسّخ ما تم تعلّمه.",
+        "it": "L'esercizio regolare consolida ciò che si è imparato."
       },
       "note": null
     },
@@ -133,7 +173,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Etwas in Teile oder Abschnitte ordnen und strukturieren",
-        "tr": "bölümlere ayırmak, yapılandırmak"
+        "tr": "bölümlere ayırmak, yapılandırmak",
+        "en": "to structure, to divide into sections",
+        "uk": "поділяти на частини, структурувати",
+        "ar": "يقسّم إلى أجزاء، ينظّم",
+        "it": "suddividere, strutturare"
       },
       "synonyms": [
         "strukturieren",
@@ -145,7 +189,11 @@
       ],
       "example": {
         "de": "Bitte gliedern Sie Ihren Text in Einleitung, Hauptteil und Schluss.",
-        "tr": "Lütfen metninizi giriş, gelişme ve sonuç olarak bölümlere ayırın."
+        "tr": "Lütfen metninizi giriş, gelişme ve sonuç olarak bölümlere ayırın.",
+        "en": "Please structure your text into introduction, main part and conclusion.",
+        "uk": "Будь ласка, поділіть свій текст на вступ, основну частину та висновок.",
+        "ar": "من فضلك قسّم نصك إلى مقدمة وعرض وخاتمة.",
+        "it": "Per favore, suddivida il testo in introduzione, parte centrale e conclusione."
       },
       "note": null
     },
@@ -158,7 +206,11 @@
       "reflexive": false,
       "meaning": {
         "de": "etwas (Akk.) aufgreifen: ein Thema oder eine Idee übernehmen und sich damit beschäftigen",
-        "tr": "ele almak, (bir fikri) benimseyip kullanmak"
+        "tr": "ele almak, (bir fikri) benimseyip kullanmak",
+        "en": "to take up, to pick up (an idea)",
+        "uk": "підхоплювати, брати до уваги (ідею)",
+        "ar": "يتبنّى، يتناول (فكرة)",
+        "it": "riprendere, raccogliere (un'idea)"
       },
       "synonyms": [
         "übernehmen",
@@ -170,7 +222,11 @@
       ],
       "example": {
         "de": "Der Lehrer hat meine Idee aufgegriffen.",
-        "tr": "Öğretmen benim fikrimi ele aldı."
+        "tr": "Öğretmen benim fikrimi ele aldı.",
+        "en": "The teacher took up my idea.",
+        "uk": "Учитель підхопив мою ідею.",
+        "ar": "تبنّى المعلم فكرتي.",
+        "it": "L'insegnante ha ripreso la mia idea."
       },
       "note": "etwas (Akk.) aufgreifen"
     },
@@ -183,7 +239,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Alle Stationen, die ein Produkt vom Rohstoff bis zum Kunden durchläuft",
-        "tr": "tedarik zinciri"
+        "tr": "tedarik zinciri",
+        "en": "supply chain",
+        "uk": "ланцюг постачання",
+        "ar": "سلسلة التوريد",
+        "it": "catena di approvvigionamento"
       },
       "synonyms": [
         "die Supply Chain"
@@ -191,7 +251,11 @@
       "antonyms": [],
       "example": {
         "de": "Wegen der Pandemie gab es Probleme in der Lieferkette.",
-        "tr": "Pandemi nedeniyle tedarik zincirinde sorunlar yaşandı."
+        "tr": "Pandemi nedeniyle tedarik zincirinde sorunlar yaşandı.",
+        "en": "Because of the pandemic there were problems in the supply chain.",
+        "uk": "Через пандемію виникли проблеми в ланцюгу постачання.",
+        "ar": "بسبب الجائحة حدثت مشاكل في سلسلة التوريد.",
+        "it": "A causa della pandemia ci sono stati problemi nella catena di approvvigionamento."
       },
       "note": null
     },
@@ -204,7 +268,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Ein festes Band zum Sichern oder Halten, z. B. Sicherheitsgurt",
-        "tr": "kemer, kayış"
+        "tr": "kemer, kayış",
+        "en": "belt, strap",
+        "uk": "ремінь, пасок",
+        "ar": "حزام",
+        "it": "cintura, cinghia"
       },
       "synonyms": [
         "das Band",
@@ -213,7 +281,11 @@
       "antonyms": [],
       "example": {
         "de": "Bitte legen Sie den Gurt an, bevor wir losfahren.",
-        "tr": "Yola çıkmadan önce lütfen kemerinizi takın."
+        "tr": "Yola çıkmadan önce lütfen kemerinizi takın.",
+        "en": "Please fasten your seat belt before we set off.",
+        "uk": "Будь ласка, пристебніть ремінь, перш ніж ми рушимо.",
+        "ar": "من فضلك اربط الحزام قبل أن ننطلق.",
+        "it": "Per favore, allacci la cintura prima di partire."
       },
       "note": null
     },
@@ -226,7 +298,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Druck, Last oder Stress, der auf jemanden oder etwas wirkt",
-        "tr": "yük, baskı, zorlanma"
+        "tr": "yük, baskı, zorlanma",
+        "en": "burden, strain, stress",
+        "uk": "навантаження, тягар, стрес",
+        "ar": "عبء، ضغط، إجهاد",
+        "it": "carico, peso, stress"
       },
       "synonyms": [
         "die Last",
@@ -238,7 +314,11 @@
       ],
       "example": {
         "de": "Die Nachtschichten sind eine große Belastung für mich.",
-        "tr": "Gece vardiyaları benim için büyük bir yük."
+        "tr": "Gece vardiyaları benim için büyük bir yük.",
+        "en": "The night shifts are a big burden for me.",
+        "uk": "Нічні зміни — це велике навантаження для мене.",
+        "ar": "المناوبات الليلية عبء كبير عليّ.",
+        "it": "I turni di notte sono un grande peso per me."
       },
       "note": null
     },
@@ -251,7 +331,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Medizinisches Instrument zum Abhören von Herz und Lunge",
-        "tr": "stetoskop"
+        "tr": "stetoskop",
+        "en": "stethoscope",
+        "uk": "стетоскоп",
+        "ar": "سماعة الطبيب",
+        "it": "stetoscopio"
       },
       "synonyms": [
         "das Hörrohr"
@@ -259,7 +343,11 @@
       "antonyms": [],
       "example": {
         "de": "Die Ärztin hört mit dem Stethoskop die Lunge ab.",
-        "tr": "Doktor stetoskopla akciğerleri dinliyor."
+        "tr": "Doktor stetoskopla akciğerleri dinliyor.",
+        "en": "The doctor listens to the lungs with the stethoscope.",
+        "uk": "Лікарка слухає легені стетоскопом.",
+        "ar": "تستمع الطبيبة إلى الرئتين بسماعة الطبيب.",
+        "it": "La dottoressa ausculta i polmoni con lo stetoscopio."
       },
       "note": null
     },
@@ -272,7 +360,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Plan, der festlegt, wer wann arbeitet",
-        "tr": "nöbet/vardiya çizelgesi"
+        "tr": "nöbet/vardiya çizelgesi",
+        "en": "duty roster, shift schedule",
+        "uk": "графік чергувань, графік змін",
+        "ar": "جدول المناوبات",
+        "it": "turnazione, piano dei turni"
       },
       "synonyms": [
         "der Schichtplan",
@@ -281,7 +373,11 @@
       "antonyms": [],
       "example": {
         "de": "Der neue Dienstplan hängt im Pausenraum.",
-        "tr": "Yeni vardiya çizelgesi dinlenme odasında asılı."
+        "tr": "Yeni vardiya çizelgesi dinlenme odasında asılı.",
+        "en": "The new shift schedule is hanging in the break room.",
+        "uk": "Новий графік змін висить у кімнаті відпочинку.",
+        "ar": "جدول المناوبات الجديد معلّق في غرفة الاستراحة.",
+        "it": "Il nuovo piano dei turni è appeso nella sala pausa."
       },
       "note": null
     },
@@ -294,7 +390,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Die Pflicht, für etwas oder jemanden zu sorgen und dafür einzustehen",
-        "tr": "sorumluluk"
+        "tr": "sorumluluk",
+        "en": "responsibility",
+        "uk": "відповідальність",
+        "ar": "مسؤولية",
+        "it": "responsabilità"
       },
       "synonyms": [
         "die Pflicht",
@@ -305,7 +405,11 @@
       ],
       "example": {
         "de": "Als Teamleiter trägt er die Verantwortung für das Projekt.",
-        "tr": "Takım lideri olarak projenin sorumluluğunu o taşıyor."
+        "tr": "Takım lideri olarak projenin sorumluluğunu o taşıyor.",
+        "en": "As team leader, he bears responsibility for the project.",
+        "uk": "Як керівник команди, він несе відповідальність за проєкт.",
+        "ar": "بصفته قائد الفريق، يتحمّل مسؤولية المشروع.",
+        "it": "Come capo del team, ha la responsabilità del progetto."
       },
       "note": null
     },
@@ -318,7 +422,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Konzentriert, mit wacher Beachtung; auch: höflich und hilfsbereit",
-        "tr": "dikkatli, özenli"
+        "tr": "dikkatli, özenli",
+        "en": "attentive, considerate",
+        "uk": "уважний, дбайливий",
+        "ar": "منتبه، يقظ",
+        "it": "attento, premuroso"
       },
       "synonyms": [
         "konzentriert",
@@ -330,7 +438,11 @@
       ],
       "example": {
         "de": "Die Schüler hören dem Lehrer aufmerksam zu.",
-        "tr": "Öğrenciler öğretmeni dikkatle dinliyor."
+        "tr": "Öğrenciler öğretmeni dikkatle dinliyor.",
+        "en": "The pupils listen attentively to the teacher.",
+        "uk": "Учні уважно слухають учителя.",
+        "ar": "يستمع التلاميذ إلى المعلم باهتمام.",
+        "it": "Gli alunni ascoltano attentamente l'insegnante."
       },
       "note": null
     },
@@ -343,7 +455,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Sehr ernst, mit großen Folgen",
-        "tr": "ciddi, ağır"
+        "tr": "ciddi, ağır",
+        "en": "serious, grave",
+        "uk": "серйозний, тяжкий",
+        "ar": "خطير، جسيم",
+        "it": "grave, serio"
       },
       "synonyms": [
         "gravierend",
@@ -355,7 +471,11 @@
       ],
       "example": {
         "de": "Das war ein schwerwiegender Fehler.",
-        "tr": "Bu ciddi bir hataydı."
+        "tr": "Bu ciddi bir hataydı.",
+        "en": "That was a serious mistake.",
+        "uk": "Це була серйозна помилка.",
+        "ar": "كان ذلك خطأً جسيمًا.",
+        "it": "È stato un errore grave."
       },
       "note": null
     },
@@ -368,7 +488,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Das Sich-Kümmern um Personen, z. B. Kinder, Kranke oder Kunden",
-        "tr": "bakım, ilgilenme, gözetim"
+        "tr": "bakım, ilgilenme, gözetim",
+        "en": "care, supervision",
+        "uk": "догляд, опіка",
+        "ar": "رعاية، إشراف",
+        "it": "assistenza, cura"
       },
       "synonyms": [
         "die Pflege",
@@ -379,7 +503,11 @@
       ],
       "example": {
         "de": "Die Betreuung der Kinder übernimmt die Oma.",
-        "tr": "Çocukların bakımını büyükanne üstleniyor."
+        "tr": "Çocukların bakımını büyükanne üstleniyor.",
+        "en": "Grandma takes care of the children.",
+        "uk": "Догляд за дітьми бере на себе бабуся.",
+        "ar": "تتولّى الجدة رعاية الأطفال.",
+        "it": "La nonna si occupa dei bambini."
       },
       "note": null
     },
@@ -392,7 +520,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Auf den neuesten Stand bringen",
-        "tr": "güncellemek"
+        "tr": "güncellemek",
+        "en": "to update",
+        "uk": "оновлювати",
+        "ar": "يحدّث",
+        "it": "aggiornare"
       },
       "synonyms": [
         "updaten",
@@ -401,7 +533,11 @@
       "antonyms": [],
       "example": {
         "de": "Du musst die App regelmäßig aktualisieren.",
-        "tr": "Uygulamayı düzenli olarak güncellemelisin."
+        "tr": "Uygulamayı düzenli olarak güncellemelisin.",
+        "en": "You have to update the app regularly.",
+        "uk": "Тобі треба регулярно оновлювати застосунок.",
+        "ar": "يجب أن تحدّث التطبيق بانتظام.",
+        "it": "Devi aggiornare l'app regolarmente."
       },
       "note": null
     },
@@ -414,7 +550,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Kleines elektronisches Gerät zum Rechnen",
-        "tr": "hesap makinesi"
+        "tr": "hesap makinesi",
+        "en": "calculator",
+        "uk": "калькулятор",
+        "ar": "آلة حاسبة",
+        "it": "calcolatrice"
       },
       "synonyms": [
         "der Rechner"
@@ -422,7 +562,11 @@
       "antonyms": [],
       "example": {
         "de": "Im Test darf man keinen Taschenrechner benutzen.",
-        "tr": "Sınavda hesap makinesi kullanmak yasak."
+        "tr": "Sınavda hesap makinesi kullanmak yasak.",
+        "en": "You are not allowed to use a calculator in the test.",
+        "uk": "На тесті не можна користуватися калькулятором.",
+        "ar": "لا يُسمح باستخدام الآلة الحاسبة في الاختبار.",
+        "it": "Durante il test non si può usare la calcolatrice."
       },
       "note": null
     },
@@ -435,7 +579,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Viel Kraft oder Energie erfordernd, ermüdend",
-        "tr": "yorucu, stresli"
+        "tr": "yorucu, stresli",
+        "en": "exhausting, strenuous",
+        "uk": "виснажливий, важкий",
+        "ar": "مرهق، متعب",
+        "it": "faticoso, stancante"
       },
       "synonyms": [
         "mühsam",
@@ -449,7 +597,11 @@
       ],
       "example": {
         "de": "Die Arbeit auf der Baustelle ist sehr anstrengend.",
-        "tr": "Şantiyedeki iş çok yorucu."
+        "tr": "Şantiyedeki iş çok yorucu.",
+        "en": "The work on the construction site is very exhausting.",
+        "uk": "Робота на будівництві дуже виснажлива.",
+        "ar": "العمل في موقع البناء مرهق جدًا.",
+        "it": "Il lavoro in cantiere è molto faticoso."
       },
       "note": null
     },
@@ -462,7 +614,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Maßnahmen zur Sauberkeit und Gesundheitsvorsorge",
-        "tr": "hijyen, temizlik"
+        "tr": "hijyen, temizlik",
+        "en": "hygiene, cleanliness",
+        "uk": "гігієна, чистота",
+        "ar": "النظافة الصحية",
+        "it": "igiene, pulizia"
       },
       "synonyms": [
         "die Sauberkeit",
@@ -473,7 +629,11 @@
       ],
       "example": {
         "de": "Im Krankenhaus ist Hygiene besonders wichtig.",
-        "tr": "Hastanede hijyen özellikle önemlidir."
+        "tr": "Hastanede hijyen özellikle önemlidir.",
+        "en": "Hygiene is especially important in the hospital.",
+        "uk": "У лікарні гігієна особливо важлива.",
+        "ar": "النظافة الصحية مهمة بشكل خاص في المستشفى.",
+        "it": "In ospedale l'igiene è particolarmente importante."
       },
       "note": null
     },
@@ -486,7 +646,11 @@
       "reflexive": true,
       "meaning": {
         "de": "Sich durch Hitze oder Feuer verletzen",
-        "tr": "(bir yerini) yakmak, yanmak"
+        "tr": "(bir yerini) yakmak, yanmak",
+        "en": "to burn oneself",
+        "uk": "обпектися",
+        "ar": "يحترق، يحرق نفسه",
+        "it": "bruciarsi, scottarsi"
       },
       "synonyms": [
         "sich verbrühen"
@@ -494,7 +658,11 @@
       "antonyms": [],
       "example": {
         "de": "Ich habe mich am heißen Topf verbrannt.",
-        "tr": "Sıcak tencerede elimi yaktım."
+        "tr": "Sıcak tencerede elimi yaktım.",
+        "en": "I burned myself on the hot pot.",
+        "uk": "Я обпікся об гарячу каструлю.",
+        "ar": "احترقت يدي بالقدر الساخن.",
+        "it": "Mi sono scottato con la pentola calda."
       },
       "note": null
     },
@@ -507,7 +675,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Gasförmiges Wasser, das beim Kochen entsteht",
-        "tr": "buhar"
+        "tr": "buhar",
+        "en": "steam, vapour",
+        "uk": "пара",
+        "ar": "بخار",
+        "it": "vapore"
       },
       "synonyms": [
         "der Wasserdampf",
@@ -516,7 +688,11 @@
       "antonyms": [],
       "example": {
         "de": "Aus dem Kochtopf steigt Dampf auf.",
-        "tr": "Tencereden buhar yükseliyor."
+        "tr": "Tencereden buhar yükseliyor.",
+        "en": "Steam rises from the cooking pot.",
+        "uk": "З каструлі піднімається пара.",
+        "ar": "يتصاعد البخار من القدر.",
+        "it": "Dalla pentola sale il vapore."
       },
       "note": null
     },
@@ -529,7 +705,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Gefährliche Überhitzung des Körpers durch große Hitze",
-        "tr": "sıcak çarpması"
+        "tr": "sıcak çarpması",
+        "en": "heatstroke",
+        "uk": "тепловий удар",
+        "ar": "ضربة شمس، ضربة حرارية",
+        "it": "colpo di calore"
       },
       "synonyms": [
         "der Sonnenstich"
@@ -539,7 +719,11 @@
       ],
       "example": {
         "de": "Bei 38 Grad sollte man viel trinken, um einen Hitzschlag zu vermeiden.",
-        "tr": "38 derecede sıcak çarpmasını önlemek için çok su içmek gerekir."
+        "tr": "38 derecede sıcak çarpmasını önlemek için çok su içmek gerekir.",
+        "en": "At 38 degrees you should drink a lot to avoid heatstroke.",
+        "uk": "При 38 градусах треба багато пити, щоб уникнути теплового удару.",
+        "ar": "في درجة حرارة 38 يجب شرب الكثير من الماء لتجنّب ضربة الشمس.",
+        "it": "Con 38 gradi bisogna bere molto per evitare un colpo di calore."
       },
       "note": null
     },
@@ -552,7 +736,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Bau, in dem Vögel oder andere Tiere wohnen und ihre Jungen aufziehen",
-        "tr": "yuva"
+        "tr": "yuva",
+        "en": "nest",
+        "uk": "гніздо",
+        "ar": "عش",
+        "it": "nido"
       },
       "synonyms": [
         "der Horst"
@@ -560,7 +748,11 @@
       "antonyms": [],
       "example": {
         "de": "Ein Vogel hat ein Nest auf unserem Balkon gebaut.",
-        "tr": "Bir kuş balkonumuza yuva yaptı."
+        "tr": "Bir kuş balkonumuza yuva yaptı.",
+        "en": "A bird has built a nest on our balcony.",
+        "uk": "Пташка звила гніздо на нашому балконі.",
+        "ar": "بنى طائر عشًّا على شرفتنا.",
+        "it": "Un uccello ha fatto il nido sul nostro balcone."
       },
       "note": null
     },
@@ -573,7 +765,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Etwas wegmachen, beseitigen",
-        "tr": "kaldırmak, çıkarmak, uzaklaştırmak"
+        "tr": "kaldırmak, çıkarmak, uzaklaştırmak",
+        "en": "to remove, to take away",
+        "uk": "видаляти, прибирати",
+        "ar": "يزيل، ينزع",
+        "it": "rimuovere, togliere"
       },
       "synonyms": [
         "beseitigen",
@@ -586,7 +782,11 @@
       ],
       "example": {
         "de": "Bitte entfernen Sie die alten Kabel.",
-        "tr": "Lütfen eski kabloları sökün."
+        "tr": "Lütfen eski kabloları sökün.",
+        "en": "Please remove the old cables.",
+        "uk": "Будь ласка, приберіть старі кабелі.",
+        "ar": "من فضلك أزِل الكابلات القديمة.",
+        "it": "Per favore, rimuova i vecchi cavi."
       },
       "note": null
     },
@@ -599,7 +799,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Vollständig verschwinden, nicht mehr existieren (z. B. eine Tierart)",
-        "tr": "nesli tükenmek"
+        "tr": "nesli tükenmek",
+        "en": "to die out, to become extinct",
+        "uk": "вимирати",
+        "ar": "ينقرض",
+        "it": "estinguersi"
       },
       "synonyms": [
         "verschwinden",
@@ -611,7 +815,11 @@
       ],
       "example": {
         "de": "Viele Tierarten sind vom Aussterben bedroht.",
-        "tr": "Birçok hayvan türünün nesli tükenme tehlikesiyle karşı karşıya."
+        "tr": "Birçok hayvan türünün nesli tükenme tehlikesiyle karşı karşıya.",
+        "en": "Many animal species are threatened with extinction.",
+        "uk": "Багатьом видам тварин загрожує вимирання.",
+        "ar": "العديد من أنواع الحيوانات مهددة بالانقراض.",
+        "it": "Molte specie animali sono a rischio di estinzione."
       },
       "note": null
     },
@@ -624,7 +832,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Nicht gerade, geneigt",
-        "tr": "eğik, çapraz"
+        "tr": "eğik, çapraz",
+        "en": "slanted, crooked, diagonal",
+        "uk": "косий, похилий",
+        "ar": "مائل، منحرف",
+        "it": "storto, obliquo"
       },
       "synonyms": [
         "schief",
@@ -637,7 +849,11 @@
       ],
       "example": {
         "de": "Das Bild hängt schräg an der Wand.",
-        "tr": "Resim duvarda eğri duruyor."
+        "tr": "Resim duvarda eğri duruyor.",
+        "en": "The picture is hanging crooked on the wall.",
+        "uk": "Картина висить на стіні криво.",
+        "ar": "الصورة معلّقة بشكل مائل على الحائط.",
+        "it": "Il quadro è appeso storto alla parete."
       },
       "note": null
     },
@@ -650,7 +866,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Nicht gründlich, nur an der Oberfläche",
-        "tr": "yüzeysel"
+        "tr": "yüzeysel",
+        "en": "superficial",
+        "uk": "поверховий",
+        "ar": "سطحي",
+        "it": "superficiale"
       },
       "synonyms": [
         "flüchtig",
@@ -662,7 +882,11 @@
       ],
       "example": {
         "de": "Er hat den Text nur oberflächlich gelesen.",
-        "tr": "Metni sadece yüzeysel okudu."
+        "tr": "Metni sadece yüzeysel okudu.",
+        "en": "He only read the text superficially.",
+        "uk": "Він прочитав текст лише поверхово.",
+        "ar": "قرأ النص بشكل سطحي فقط.",
+        "it": "Ha letto il testo solo superficialmente."
       },
       "note": null
     },
@@ -675,7 +899,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Mit wenig Aufwand ein gutes Ergebnis erzielend",
-        "tr": "verimli, etkin"
+        "tr": "verimli, etkin",
+        "en": "efficient",
+        "uk": "ефективний",
+        "ar": "فعّال، كفء",
+        "it": "efficiente"
       },
       "synonyms": [
         "wirksam",
@@ -686,7 +914,11 @@
       ],
       "example": {
         "de": "Mit dem neuen Programm können wir effizienter arbeiten.",
-        "tr": "Yeni programla daha verimli çalışabiliyoruz."
+        "tr": "Yeni programla daha verimli çalışabiliyoruz.",
+        "en": "With the new program we can work more efficiently.",
+        "uk": "З новою програмою ми можемо працювати ефективніше.",
+        "ar": "بالبرنامج الجديد يمكننا العمل بكفاءة أكبر.",
+        "it": "Con il nuovo programma possiamo lavorare in modo più efficiente."
       },
       "note": null
     },
@@ -699,7 +931,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Dafür sorgen, dass etwas nicht passiert",
-        "tr": "kaçınmak, önlemek"
+        "tr": "kaçınmak, önlemek",
+        "en": "to avoid, to prevent",
+        "uk": "уникати, запобігати",
+        "ar": "يتجنّب، يتفادى",
+        "it": "evitare"
       },
       "synonyms": [
         "verhindern",
@@ -711,7 +947,11 @@
       ],
       "example": {
         "de": "Ich versuche, Fehler zu vermeiden.",
-        "tr": "Hata yapmaktan kaçınmaya çalışıyorum."
+        "tr": "Hata yapmaktan kaçınmaya çalışıyorum.",
+        "en": "I try to avoid mistakes.",
+        "uk": "Я намагаюся уникати помилок.",
+        "ar": "أحاول أن أتجنّب الأخطاء.",
+        "it": "Cerco di evitare gli errori."
       },
       "note": null
     },
@@ -724,7 +964,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Eine Bitte um Information oder ein Angebot",
-        "tr": "talep, soru, sorgu"
+        "tr": "talep, soru, sorgu",
+        "en": "inquiry, request",
+        "uk": "запит",
+        "ar": "استفسار، طلب",
+        "it": "richiesta"
       },
       "synonyms": [
         "die Bitte",
@@ -735,7 +979,11 @@
       ],
       "example": {
         "de": "Vielen Dank für Ihre Anfrage, wir melden uns bald.",
-        "tr": "Talebiniz için teşekkürler, yakında size dönüş yapacağız."
+        "tr": "Talebiniz için teşekkürler, yakında size dönüş yapacağız.",
+        "en": "Thank you very much for your inquiry, we will get back to you soon.",
+        "uk": "Дякуємо за ваш запит, ми скоро з вами зв'яжемося.",
+        "ar": "شكرًا جزيلًا على استفسارك، سنتواصل معك قريبًا.",
+        "it": "Grazie per la sua richiesta, la ricontatteremo presto."
       },
       "note": null
     },
@@ -748,7 +996,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Offiziell nach etwas fragen oder um etwas bitten",
-        "tr": "talep etmek, sormak"
+        "tr": "talep etmek, sormak",
+        "en": "to inquire, to request",
+        "uk": "запитувати, робити запит",
+        "ar": "يستفسر، يطلب",
+        "it": "richiedere, chiedere"
       },
       "synonyms": [
         "fragen",
@@ -759,7 +1011,11 @@
       ],
       "example": {
         "de": "Ich habe bei der Firma ein Angebot angefragt.",
-        "tr": "Firmadan bir teklif talep ettim."
+        "tr": "Firmadan bir teklif talep ettim.",
+        "en": "I requested a quote from the company.",
+        "uk": "Я запитав у фірми комерційну пропозицію.",
+        "ar": "طلبت عرض سعر من الشركة.",
+        "it": "Ho richiesto un preventivo all'azienda."
       },
       "note": null
     },
@@ -772,7 +1028,11 @@
       "reflexive": false,
       "meaning": {
         "de": "jemanden um etwas (Akk.) bitten: höflich etwas verlangen",
-        "tr": "rica etmek, istemek"
+        "tr": "rica etmek, istemek",
+        "en": "to ask for, to request",
+        "uk": "просити (про щось)",
+        "ar": "يطلب، يرجو",
+        "it": "chiedere, pregare"
       },
       "synonyms": [
         "ersuchen",
@@ -783,7 +1043,11 @@
       ],
       "example": {
         "de": "Darf ich Sie um einen Gefallen bitten?",
-        "tr": "Sizden bir ricada bulunabilir miyim?"
+        "tr": "Sizden bir ricada bulunabilir miyim?",
+        "en": "May I ask you a favour?",
+        "uk": "Можна попросити вас про послугу?",
+        "ar": "هل يمكنني أن أطلب منك معروفًا؟",
+        "it": "Posso chiederle un favore?"
       },
       "note": "jemanden um etwas (Akk.) bitten"
     },
@@ -796,7 +1060,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Ein einzelner Teil, aus dem etwas Größeres zusammengesetzt wird",
-        "tr": "yapı taşı"
+        "tr": "yapı taşı",
+        "en": "building block",
+        "uk": "будівельний блок, складова",
+        "ar": "حجر أساس، لبنة",
+        "it": "mattone, elemento base"
       },
       "synonyms": [
         "das Element",
@@ -806,7 +1074,11 @@
       "antonyms": [],
       "example": {
         "de": "Vertrauen ist ein wichtiger Baustein jeder Beziehung.",
-        "tr": "Güven her ilişkinin önemli bir yapı taşıdır."
+        "tr": "Güven her ilişkinin önemli bir yapı taşıdır.",
+        "en": "Trust is an important building block of every relationship.",
+        "uk": "Довіра — важлива складова будь-яких стосунків.",
+        "ar": "الثقة لبنة مهمة في كل علاقة.",
+        "it": "La fiducia è un elemento fondamentale di ogni relazione."
       },
       "note": null
     },
@@ -819,7 +1091,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Etwas für einen Zweck gebrauchen",
-        "tr": "kullanmak"
+        "tr": "kullanmak",
+        "en": "to use",
+        "uk": "використовувати",
+        "ar": "يستخدم",
+        "it": "usare, utilizzare"
       },
       "synonyms": [
         "benutzen",
@@ -829,7 +1105,11 @@
       "antonyms": [],
       "example": {
         "de": "Für diesen Kuchen verwende ich braunen Zucker.",
-        "tr": "Bu kek için esmer şeker kullanıyorum."
+        "tr": "Bu kek için esmer şeker kullanıyorum.",
+        "en": "I use brown sugar for this cake.",
+        "uk": "Для цього пирога я використовую коричневий цукор.",
+        "ar": "أستخدم السكر البني لهذه الكعكة.",
+        "it": "Per questa torta uso lo zucchero di canna."
       },
       "note": null
     },
@@ -842,7 +1122,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Nach eigenen Vorstellungen handelnd, ungewöhnlich, eigensinnig",
-        "tr": "kendine özgü, inatçı, bildiğini okuyan"
+        "tr": "kendine özgü, inatçı, bildiğini okuyan",
+        "en": "self-willed, headstrong, idiosyncratic",
+        "uk": "норовливий, своєрідний",
+        "ar": "عنيد، متفرّد",
+        "it": "testardo, originale"
       },
       "synonyms": [
         "eigensinnig",
@@ -855,7 +1139,11 @@
       ],
       "example": {
         "de": "Meine Katze ist sehr eigenwillig.",
-        "tr": "Kedim çok inatçı ve bildiğini okuyor."
+        "tr": "Kedim çok inatçı ve bildiğini okuyor.",
+        "en": "My cat is very headstrong.",
+        "uk": "Моя кішка дуже норовлива.",
+        "ar": "قطتي عنيدة جدًا.",
+        "it": "Il mio gatto è molto testardo."
       },
       "note": null
     },
@@ -868,7 +1156,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Ein Mensch, der nicht aufgibt und für seine Ziele kämpft",
-        "tr": "savaşçı ruhlu kişi, mücadeleci"
+        "tr": "savaşçı ruhlu kişi, mücadeleci",
+        "en": "fighter, fighting spirit",
+        "uk": "борець за вдачею",
+        "ar": "شخص مكافح",
+        "it": "combattente nato"
       },
       "synonyms": [
         "der Kämpfer"
@@ -876,7 +1168,11 @@
       "antonyms": [],
       "example": {
         "de": "Sie gibt nie auf, sie ist eine echte Kämpfernatur.",
-        "tr": "Asla pes etmez, gerçek bir mücadeleci."
+        "tr": "Asla pes etmez, gerçek bir mücadeleci.",
+        "en": "She never gives up, she is a real fighter.",
+        "uk": "Вона ніколи не здається, вона справжній борець.",
+        "ar": "إنها لا تستسلم أبدًا، إنها مكافحة حقيقية.",
+        "it": "Non si arrende mai, è una vera combattente."
       },
       "note": null
     },
@@ -889,13 +1185,21 @@
       "reflexive": false,
       "meaning": {
         "de": "Sehr harter, fester Werkstoff aus Eisen",
-        "tr": "çelik"
+        "tr": "çelik",
+        "en": "steel",
+        "uk": "сталь",
+        "ar": "فولاذ",
+        "it": "acciaio"
       },
       "synonyms": [],
       "antonyms": [],
       "example": {
         "de": "Die Brücke ist aus Stahl gebaut.",
-        "tr": "Köprü çelikten yapılmış."
+        "tr": "Köprü çelikten yapılmış.",
+        "en": "The bridge is built of steel.",
+        "uk": "Міст побудований зі сталі.",
+        "ar": "الجسر مبني من الفولاذ.",
+        "it": "Il ponte è costruito in acciaio."
       },
       "note": null
     },
@@ -908,13 +1212,21 @@
       "reflexive": false,
       "meaning": {
         "de": "Ein chemisches Element, ein Metall",
-        "tr": "demir"
+        "tr": "demir",
+        "en": "iron",
+        "uk": "залізо",
+        "ar": "حديد",
+        "it": "ferro"
       },
       "synonyms": [],
       "antonyms": [],
       "example": {
         "de": "Spinat enthält viel Eisen.",
-        "tr": "Ispanak bol demir içerir."
+        "tr": "Ispanak bol demir içerir.",
+        "en": "Spinach contains a lot of iron.",
+        "uk": "Шпинат містить багато заліза.",
+        "ar": "السبانخ يحتوي على الكثير من الحديد.",
+        "it": "Gli spinaci contengono molto ferro."
       },
       "note": null
     },
@@ -927,7 +1239,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Sich gegen etwas oder jemanden auflehnen",
-        "tr": "isyan etmek"
+        "tr": "isyan etmek",
+        "en": "to rebel",
+        "uk": "бунтувати, повставати",
+        "ar": "يتمرّد",
+        "it": "ribellarsi"
       },
       "synonyms": [
         "sich auflehnen",
@@ -939,7 +1255,11 @@
       ],
       "example": {
         "de": "Viele Jugendliche rebellieren gegen ihre Eltern.",
-        "tr": "Birçok genç ailesine isyan eder."
+        "tr": "Birçok genç ailesine isyan eder.",
+        "en": "Many young people rebel against their parents.",
+        "uk": "Багато підлітків бунтують проти батьків.",
+        "ar": "يتمرّد كثير من الشباب على آبائهم.",
+        "it": "Molti giovani si ribellano ai genitori."
       },
       "note": null
     },
@@ -952,7 +1272,11 @@
       "reflexive": false,
       "meaning": {
         "de": "es mangelt an etwas (Dat.): etwas fehlt, ist nicht genug vorhanden",
-        "tr": "eksik olmak"
+        "tr": "eksik olmak",
+        "en": "to be lacking",
+        "uk": "бракувати, не вистачати",
+        "ar": "ينقص، يفتقر إلى",
+        "it": "mancare, scarseggiare"
       },
       "synonyms": [
         "fehlen"
@@ -963,7 +1287,11 @@
       ],
       "example": {
         "de": "Es mangelt uns an Zeit.",
-        "tr": "Zamanımız eksik. / Zamanımız yetmiyor."
+        "tr": "Zamanımız eksik. / Zamanımız yetmiyor.",
+        "en": "We are short of time.",
+        "uk": "Нам бракує часу.",
+        "ar": "ينقصنا الوقت.",
+        "it": "Ci manca il tempo."
       },
       "note": "es mangelt an + Dativ"
     },
@@ -976,7 +1304,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Nicht ausreichend, fehlend",
-        "tr": "eksik, yetersiz"
+        "tr": "eksik, yetersiz",
+        "en": "lacking, insufficient",
+        "uk": "недостатній",
+        "ar": "ناقص، غير كافٍ",
+        "it": "carente, insufficiente"
       },
       "synonyms": [
         "fehlend",
@@ -988,7 +1320,11 @@
       ],
       "example": {
         "de": "Wegen mangelnder Erfahrung bekam er die Stelle nicht.",
-        "tr": "Deneyim eksikliği nedeniyle işi alamadı."
+        "tr": "Deneyim eksikliği nedeniyle işi alamadı.",
+        "en": "Due to a lack of experience he didn't get the job.",
+        "uk": "Через брак досвіду він не отримав цю посаду.",
+        "ar": "لم يحصل على الوظيفة بسبب قلة الخبرة.",
+        "it": "Per mancanza di esperienza non ha ottenuto il posto."
       },
       "note": "Partizip I von „mangeln“"
     },
@@ -1001,7 +1337,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Schnell weglaufen, um sich vor einer Gefahr zu retten (floh, ist geflohen)",
-        "tr": "kaçmak"
+        "tr": "kaçmak",
+        "en": "to flee, to escape",
+        "uk": "тікати",
+        "ar": "يهرب، يفرّ",
+        "it": "fuggire, scappare"
       },
       "synonyms": [
         "flüchten",
@@ -1013,7 +1353,11 @@
       ],
       "example": {
         "de": "Die Familie ist vor dem Krieg geflohen.",
-        "tr": "Aile savaştan kaçtı."
+        "tr": "Aile savaştan kaçtı.",
+        "en": "The family fled from the war.",
+        "uk": "Сім'я втекла від війни.",
+        "ar": "فرّت العائلة من الحرب.",
+        "it": "La famiglia è fuggita dalla guerra."
       },
       "note": "unregelmäßig: fliehen – floh – ist geflohen"
     },
@@ -1026,7 +1370,11 @@
       "reflexive": true,
       "meaning": {
         "de": "Sich verbessern, Fortschritte machen",
-        "tr": "gelişmek, kendini geliştirmek"
+        "tr": "gelişmek, kendini geliştirmek",
+        "en": "to develop further, to grow",
+        "uk": "розвиватися далі",
+        "ar": "يتطوّر",
+        "it": "crescere, svilupparsi"
       },
       "synonyms": [
         "sich verbessern",
@@ -1038,7 +1386,11 @@
       ],
       "example": {
         "de": "In diesem Job kann ich mich beruflich weiterentwickeln.",
-        "tr": "Bu işte kendimi mesleki olarak geliştirebilirim."
+        "tr": "Bu işte kendimi mesleki olarak geliştirebilirim.",
+        "en": "In this job I can develop professionally.",
+        "uk": "На цій роботі я можу професійно розвиватися.",
+        "ar": "في هذه الوظيفة يمكنني أن أتطوّر مهنيًا.",
+        "it": "In questo lavoro posso crescere professionalmente."
       },
       "note": null
     },
@@ -1051,7 +1403,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Bis zum jetzigen Zeitpunkt",
-        "tr": "şimdiye kadar"
+        "tr": "şimdiye kadar",
+        "en": "so far, until now",
+        "uk": "досі, дотепер",
+        "ar": "حتى الآن",
+        "it": "finora, fino ad ora"
       },
       "synonyms": [
         "bis jetzt",
@@ -1063,7 +1419,11 @@
       ],
       "example": {
         "de": "Bislang hat niemand auf meine E-Mail geantwortet.",
-        "tr": "Şimdiye kadar kimse e-postama cevap vermedi."
+        "tr": "Şimdiye kadar kimse e-postama cevap vermedi.",
+        "en": "So far nobody has replied to my email.",
+        "uk": "Досі ніхто не відповів на мій імейл.",
+        "ar": "حتى الآن لم يردّ أحد على بريدي الإلكتروني.",
+        "it": "Finora nessuno ha risposto alla mia e-mail."
       },
       "note": null
     },
@@ -1076,7 +1436,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Verpflichtet, die Schule zu besuchen",
-        "tr": "okul çağında, okula gitmekle yükümlü"
+        "tr": "okul çağında, okula gitmekle yükümlü",
+        "en": "of compulsory school age",
+        "uk": "зобов'язаний відвідувати школу",
+        "ar": "في سن التعليم الإلزامي",
+        "it": "in età dell'obbligo scolastico"
       },
       "synonyms": [
         "im Schulalter"
@@ -1084,7 +1448,11 @@
       "antonyms": [],
       "example": {
         "de": "In Deutschland sind Kinder ab sechs Jahren schulpflichtig.",
-        "tr": "Almanya'da çocuklar altı yaşından itibaren okula gitmekle yükümlüdür."
+        "tr": "Almanya'da çocuklar altı yaşından itibaren okula gitmekle yükümlüdür.",
+        "en": "In Germany children are required to attend school from the age of six.",
+        "uk": "У Німеччині діти з шести років зобов'язані відвідувати школу.",
+        "ar": "في ألمانيا يكون التعليم إلزاميًا للأطفال بدءًا من سن السادسة.",
+        "it": "In Germania i bambini sono soggetti all'obbligo scolastico dai sei anni."
       },
       "note": null
     },
@@ -1097,7 +1465,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Eine natürliche Begabung oder Neigung für etwas haben",
-        "tr": "yetenekli olmak, yatkın olmak"
+        "tr": "yetenekli olmak, yatkın olmak",
+        "en": "to have a talent / disposition for",
+        "uk": "мати хист, бути схильним",
+        "ar": "لديه موهبة أو ميل إلى",
+        "it": "essere portato, essere predisposto"
       },
       "synonyms": [
         "begabt sein",
@@ -1108,7 +1480,11 @@
       ],
       "example": {
         "de": "Sie ist musikalisch sehr veranlagt.",
-        "tr": "Müziğe çok yatkın / yetenekli."
+        "tr": "Müziğe çok yatkın / yetenekli.",
+        "en": "She is very musically gifted.",
+        "uk": "Вона дуже музично обдарована.",
+        "ar": "إنها موهوبة جدًا في الموسيقى.",
+        "it": "È molto portata per la musica."
       },
       "note": "für etwas veranlagt sein"
     },
@@ -1121,13 +1497,21 @@
       "reflexive": false,
       "meaning": {
         "de": "Großes Geschäft für Werkzeug, Baumaterial und Heimwerkerbedarf",
-        "tr": "yapı market"
+        "tr": "yapı market",
+        "en": "DIY store, hardware store",
+        "uk": "будівельний гіпермаркет",
+        "ar": "متجر مواد البناء",
+        "it": "negozio di bricolage, ferramenta"
       },
       "synonyms": [],
       "antonyms": [],
       "example": {
         "de": "Die Schrauben habe ich im Baumarkt gekauft.",
-        "tr": "Vidaları yapı marketten aldım."
+        "tr": "Vidaları yapı marketten aldım.",
+        "en": "I bought the screws at the DIY store.",
+        "uk": "Шурупи я купив у будівельному гіпермаркеті.",
+        "ar": "اشتريت البراغي من متجر مواد البناء.",
+        "it": "Ho comprato le viti al negozio di bricolage."
       },
       "note": null
     },
@@ -1140,7 +1524,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Eingabe oder Anweisung an ein Computerprogramm oder eine KI",
-        "tr": "komut, istem (prompt)"
+        "tr": "komut, istem (prompt)",
+        "en": "prompt",
+        "uk": "промпт, запит",
+        "ar": "موجّه، أمر (للذكاء الاصطناعي)",
+        "it": "prompt, istruzione"
       },
       "synonyms": [
         "die Eingabe",
@@ -1149,7 +1537,11 @@
       "antonyms": [],
       "example": {
         "de": "Mit einem guten Prompt bekommt man bessere Antworten von der KI.",
-        "tr": "İyi bir komutla yapay zekâdan daha iyi cevaplar alınır."
+        "tr": "İyi bir komutla yapay zekâdan daha iyi cevaplar alınır.",
+        "en": "With a good prompt you get better answers from the AI.",
+        "uk": "З хорошим промптом отримуєш кращі відповіді від ШІ.",
+        "ar": "باستخدام موجّه جيد تحصل على إجابات أفضل من الذكاء الاصطناعي.",
+        "it": "Con un buon prompt si ottengono risposte migliori dall'IA."
       },
       "note": null
     },
@@ -1162,7 +1554,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Das Herstellen oder Hervorbringen von etwas",
-        "tr": "üretim"
+        "tr": "üretim",
+        "en": "production, generation",
+        "uk": "виробництво, генерація",
+        "ar": "إنتاج، توليد",
+        "it": "produzione, generazione"
       },
       "synonyms": [
         "die Herstellung",
@@ -1173,7 +1569,11 @@
       ],
       "example": {
         "de": "Die Erzeugung von Strom aus Sonnenenergie wird immer billiger.",
-        "tr": "Güneş enerjisinden elektrik üretimi giderek ucuzluyor."
+        "tr": "Güneş enerjisinden elektrik üretimi giderek ucuzluyor.",
+        "en": "Generating electricity from solar energy is getting cheaper and cheaper.",
+        "uk": "Виробництво електроенергії з сонячної енергії стає дедалі дешевшим.",
+        "ar": "توليد الكهرباء من الطاقة الشمسية يصبح أرخص فأرخص.",
+        "it": "La produzione di elettricità dall'energia solare diventa sempre più economica."
       },
       "note": null
     },
@@ -1186,7 +1586,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Etwas herstellen oder entstehen lassen",
-        "tr": "üretmek"
+        "tr": "üretmek",
+        "en": "to produce, to generate",
+        "uk": "виробляти, генерувати",
+        "ar": "ينتج، يولّد",
+        "it": "produrre, generare"
       },
       "synonyms": [
         "herstellen",
@@ -1198,7 +1602,11 @@
       ],
       "example": {
         "de": "Windräder erzeugen Strom.",
-        "tr": "Rüzgâr türbinleri elektrik üretir."
+        "tr": "Rüzgâr türbinleri elektrik üretir.",
+        "en": "Wind turbines generate electricity.",
+        "uk": "Вітряки виробляють електроенергію.",
+        "ar": "توربينات الرياح تولّد الكهرباء.",
+        "it": "Le turbine eoliche producono elettricità."
       },
       "note": null
     },
@@ -1211,7 +1619,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Sehr genau und exakt",
-        "tr": "kesin, net, tam"
+        "tr": "kesin, net, tam",
+        "en": "precise, exact",
+        "uk": "точний, чіткий",
+        "ar": "دقيق",
+        "it": "preciso, esatto"
       },
       "synonyms": [
         "genau",
@@ -1223,7 +1635,11 @@
       ],
       "example": {
         "de": "Bitte beschreiben Sie das Problem möglichst präzise.",
-        "tr": "Lütfen sorunu mümkün olduğunca net tarif edin."
+        "tr": "Lütfen sorunu mümkün olduğunca net tarif edin.",
+        "en": "Please describe the problem as precisely as possible.",
+        "uk": "Будь ласка, опишіть проблему якомога точніше.",
+        "ar": "من فضلك صف المشكلة بأكبر قدر ممكن من الدقة.",
+        "it": "Per favore, descriva il problema nel modo più preciso possibile."
       },
       "note": null
     },
@@ -1236,7 +1652,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Nicht normal, besonders, herausragend",
-        "tr": "olağanüstü"
+        "tr": "olağanüstü",
+        "en": "extraordinary, exceptional",
+        "uk": "надзвичайний, винятковий",
+        "ar": "استثنائي",
+        "it": "straordinario, eccezionale"
       },
       "synonyms": [
         "besonders",
@@ -1249,7 +1669,11 @@
       ],
       "example": {
         "de": "Das war eine außergewöhnliche Leistung.",
-        "tr": "Bu olağanüstü bir başarıydı."
+        "tr": "Bu olağanüstü bir başarıydı.",
+        "en": "That was an extraordinary achievement.",
+        "uk": "Це було надзвичайне досягнення.",
+        "ar": "كان ذلك إنجازًا استثنائيًا.",
+        "it": "È stata una prestazione straordinaria."
       },
       "note": null
     },
@@ -1262,7 +1686,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Eine Anleitung oder Richtlinie, die Orientierung gibt",
-        "tr": "rehber, kılavuz"
+        "tr": "rehber, kılavuz",
+        "en": "guide, guideline",
+        "uk": "посібник, настанова",
+        "ar": "دليل إرشادي",
+        "it": "guida, linee guida"
       },
       "synonyms": [
         "die Anleitung",
@@ -1272,7 +1700,11 @@
       "antonyms": [],
       "example": {
         "de": "Der Leitfaden erklärt Schritt für Schritt, wie man das Gerät installiert.",
-        "tr": "Kılavuz, cihazın nasıl kurulacağını adım adım anlatıyor."
+        "tr": "Kılavuz, cihazın nasıl kurulacağını adım adım anlatıyor.",
+        "en": "The guide explains step by step how to install the device.",
+        "uk": "Посібник крок за кроком пояснює, як установити пристрій.",
+        "ar": "يشرح الدليل خطوة بخطوة كيفية تثبيت الجهاز.",
+        "it": "La guida spiega passo dopo passo come installare il dispositivo."
       },
       "note": null
     },
@@ -1285,7 +1717,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Muss unbedingt gemacht werden",
-        "tr": "zorunlu"
+        "tr": "zorunlu",
+        "en": "mandatory, compulsory",
+        "uk": "обов'язковий",
+        "ar": "إلزامي",
+        "it": "obbligatorio"
       },
       "synonyms": [
         "obligatorisch",
@@ -1297,7 +1733,11 @@
       ],
       "example": {
         "de": "Die Teilnahme an der Schulung ist verpflichtend.",
-        "tr": "Eğitime katılım zorunludur."
+        "tr": "Eğitime katılım zorunludur.",
+        "en": "Attendance at the training is mandatory.",
+        "uk": "Участь у навчанні обов'язкова.",
+        "ar": "حضور التدريب إلزامي.",
+        "it": "La partecipazione al corso di formazione è obbligatoria."
       },
       "note": null
     },
@@ -1310,7 +1750,11 @@
       "reflexive": false,
       "meaning": {
         "de": "Eine Begrenzung oder Beschränkung",
-        "tr": "kısıtlama, sınırlama"
+        "tr": "kısıtlama, sınırlama",
+        "en": "restriction, limitation",
+        "uk": "обмеження",
+        "ar": "تقييد، قيد",
+        "it": "limitazione, restrizione"
       },
       "synonyms": [
         "die Restriktion",
@@ -1323,7 +1767,11 @@
       ],
       "example": {
         "de": "Wegen der Bauarbeiten gibt es Einschränkungen im Verkehr.",
-        "tr": "İnşaat çalışmaları nedeniyle trafikte kısıtlamalar var."
+        "tr": "İnşaat çalışmaları nedeniyle trafikte kısıtlamalar var.",
+        "en": "Because of the construction work there are traffic restrictions.",
+        "uk": "Через будівельні роботи діють обмеження руху.",
+        "ar": "بسبب أعمال البناء توجد قيود على حركة المرور.",
+        "it": "A causa dei lavori ci sono limitazioni al traffico."
       },
       "note": null
     }
