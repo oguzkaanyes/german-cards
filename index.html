@@ -278,7 +278,7 @@
     }
     .word .article { font-weight: 400; }
 
-    .plural { color: var(--muted); font-size: 1rem; }
+    .plural, .forms { color: var(--muted); font-size: 1rem; }
 
     .section { margin-top: 22px; }
     .section h2 {
@@ -536,6 +536,9 @@
       if (card.type) content.appendChild(el("div", "tag", TYPE_LABELS[card.type] || card.type));
       content.appendChild(wordHeading(card, article));
       if (card.plural) content.appendChild(el("div", "plural", "Pl. die " + card.plural));
+      const forms = card.forms || {};
+      const formList = [forms.praesens, forms.praeteritum, forms.perfekt].filter(Boolean);
+      if (formList.length) content.appendChild(el("div", "forms", formList.join(" · ")));
       if (meaning.de) content.appendChild(section("Bedeutung", el("p", null, meaning.de)));
       if (example.de) content.appendChild(section("Beispiel", el("p", "example", "„" + example.de + "“")));
       const synonyms = nonEmpty(card.synonyms);

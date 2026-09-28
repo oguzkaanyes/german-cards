@@ -77,6 +77,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "vertieft",
+        "praeteritum": "vertiefte",
+        "perfekt": "hat vertieft"
+      },
       "meaning": {
         "de": "Etwas gründlicher und intensiver behandeln oder lernen",
         "tr": "derinleştirmek, pekiştirmek",
@@ -143,6 +148,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "festigt",
+        "praeteritum": "festigte",
+        "perfekt": "hat gefestigt"
+      },
       "meaning": {
         "de": "Etwas stabiler, sicherer oder stärker machen",
         "tr": "pekiştirmek, sağlamlaştırmak",
@@ -177,6 +187,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "gliedert",
+        "praeteritum": "gliederte",
+        "perfekt": "hat gegliedert"
+      },
       "meaning": {
         "de": "Etwas in Teile oder Abschnitte ordnen und strukturieren",
         "tr": "bölümlere ayırmak, yapılandırmak",
@@ -211,6 +226,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "greift auf",
+        "praeteritum": "griff auf",
+        "perfekt": "hat aufgegriffen"
+      },
       "meaning": {
         "de": "etwas (Akk.) aufgreifen: ein Thema oder eine Idee übernehmen und sich damit beschäftigen",
         "tr": "ele almak, (bir fikri) benimseyip kullanmak",
@@ -535,6 +555,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "aktualisiert",
+        "praeteritum": "aktualisierte",
+        "perfekt": "hat aktualisiert"
+      },
       "meaning": {
         "de": "Auf den neuesten Stand bringen",
         "tr": "güncellemek",
@@ -665,6 +690,11 @@
       "article": null,
       "plural": null,
       "reflexive": true,
+      "forms": {
+        "praesens": "verbrennt sich",
+        "praeteritum": "verbrannte sich",
+        "perfekt": "hat sich verbrannt"
+      },
       "meaning": {
         "de": "Sich durch Hitze oder Feuer verletzen",
         "tr": "(bir yerini) yakmak, yanmak",
@@ -788,6 +818,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "entfernt",
+        "praeteritum": "entfernte",
+        "perfekt": "hat entfernt"
+      },
       "meaning": {
         "de": "Etwas wegmachen, beseitigen",
         "tr": "kaldırmak, çıkarmak, uzaklaştırmak",
@@ -823,6 +858,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "stirbt aus",
+        "praeteritum": "starb aus",
+        "perfekt": "ist ausgestorben"
+      },
       "meaning": {
         "de": "Vollständig verschwinden, nicht mehr existieren (z. B. eine Tierart)",
         "tr": "nesli tükenmek",
@@ -959,6 +999,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "vermeidet",
+        "praeteritum": "vermied",
+        "perfekt": "hat vermieden"
+      },
       "meaning": {
         "de": "Dafür sorgen, dass etwas nicht passiert",
         "tr": "kaçınmak, önlemek",
@@ -1026,6 +1071,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "fragt an",
+        "praeteritum": "fragte an",
+        "perfekt": "hat angefragt"
+      },
       "meaning": {
         "de": "Offiziell nach etwas fragen oder um etwas bitten",
         "tr": "talep etmek, sormak",
@@ -1059,6 +1109,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "bittet um",
+        "praeteritum": "bat um",
+        "perfekt": "hat um … gebeten"
+      },
       "meaning": {
         "de": "jemanden um etwas (Akk.) bitten: höflich etwas verlangen",
         "tr": "rica etmek, istemek",
@@ -1124,6 +1179,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "verwendet",
+        "praeteritum": "verwendete",
+        "perfekt": "hat verwendet"
+      },
       "meaning": {
         "de": "Etwas für einen Zweck gebrauchen",
         "tr": "kullanmak",
@@ -1277,6 +1337,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "rebelliert",
+        "praeteritum": "rebellierte",
+        "perfekt": "hat rebelliert"
+      },
       "meaning": {
         "de": "Sich gegen etwas oder jemanden auflehnen",
         "tr": "isyan etmek",
@@ -1311,6 +1376,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "es mangelt",
+        "praeteritum": "es mangelte",
+        "perfekt": "es hat gemangelt"
+      },
       "meaning": {
         "de": "es mangelt an etwas (Dat.): etwas fehlt, ist nicht genug vorhanden",
         "tr": "eksik olmak",
@@ -1378,6 +1448,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "flieht",
+        "praeteritum": "floh",
+        "perfekt": "ist geflohen"
+      },
       "meaning": {
         "de": "Schnell weglaufen, um sich vor einer Gefahr zu retten (floh, ist geflohen)",
         "tr": "kaçmak",
@@ -1412,6 +1487,11 @@
       "article": null,
       "plural": null,
       "reflexive": true,
+      "forms": {
+        "praesens": "entwickelt sich weiter",
+        "praeteritum": "entwickelte sich weiter",
+        "perfekt": "hat sich weiterentwickelt"
+      },
       "meaning": {
         "de": "Sich verbessern, Fortschritte machen",
         "tr": "gelişmek, kendini geliştirmek",
@@ -1635,6 +1715,11 @@
       "article": null,
       "plural": null,
       "reflexive": false,
+      "forms": {
+        "praesens": "erzeugt",
+        "praeteritum": "erzeugte",
+        "perfekt": "hat erzeugt"
+      },
       "meaning": {
         "de": "Etwas herstellen oder entstehen lassen",
         "tr": "üretmek",
