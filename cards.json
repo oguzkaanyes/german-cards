@@ -105,7 +105,7 @@
         "ar": "أريد أن أعمّق معرفتي باللغة الألمانية.",
         "it": "Vorrei approfondire la mia conoscenza del tedesco."
       },
-      "note": null
+      "note": "etwas (Akk.) vertiefen"
     },
     {
       "id": "festigung",
@@ -177,7 +177,7 @@
         "ar": "الممارسة المنتظمة ترسّخ ما تم تعلّمه.",
         "it": "L'esercizio regolare consolida ciò che si è imparato."
       },
-      "note": null
+      "note": "etwas (Akk.) festigen"
     },
     {
       "id": "gliedern",
@@ -216,7 +216,7 @@
         "ar": "من فضلك قسّم نصك إلى مقدمة وعرض وخاتمة.",
         "it": "Per favore, suddivida il testo in introduzione, parte centrale e conclusione."
       },
-      "note": null
+      "note": "etwas (Akk.) in etwas (Akk.) gliedern"
     },
     {
       "id": "aufgreifen",
@@ -581,7 +581,7 @@
         "ar": "يجب أن تحدّث التطبيق بانتظام.",
         "it": "Devi aggiornare l'app regolarmente."
       },
-      "note": null
+      "note": "etwas (Akk.) aktualisieren"
     },
     {
       "id": "taschenrechner",
@@ -715,7 +715,7 @@
         "ar": "احترقت يدي بالقدر الساخن.",
         "it": "Mi sono scottato con la pentola calda."
       },
-      "note": null
+      "note": "sich (Akk.) an etwas (Dat.) verbrennen; auch: sich (Dat.) etwas (Akk.) verbrennen (z. B. die Hand)"
     },
     {
       "id": "dampf",
@@ -848,7 +848,7 @@
         "ar": "من فضلك أزِل الكابلات القديمة.",
         "it": "Per favore, rimuova i vecchi cavi."
       },
-      "note": null
+      "note": "etwas (Akk.) aus/von etwas (Dat.) entfernen"
     },
     {
       "id": "aussterben",
@@ -887,7 +887,7 @@
         "ar": "العديد من أنواع الحيوانات مهددة بالانقراض.",
         "it": "Molte specie animali sono a rischio di estinzione."
       },
-      "note": null
+      "note": "intransitiv (ohne Objekt)"
     },
     {
       "id": "schraeg",
@@ -1028,7 +1028,7 @@
         "ar": "أحاول أن أتجنّب الأخطاء.",
         "it": "Cerco di evitare gli errori."
       },
-      "note": null
+      "note": "etwas (Akk.) vermeiden"
     },
     {
       "id": "anfrage",
@@ -1099,7 +1099,7 @@
         "ar": "طلبت عرض سعر من الشركة.",
         "it": "Ho richiesto un preventivo all'azienda."
       },
-      "note": null
+      "note": "bei jemandem (Dat.) etwas (Akk.) anfragen"
     },
     {
       "id": "bitten-um",
@@ -1137,7 +1137,7 @@
         "ar": "هل يمكنني أن أطلب منك معروفًا؟",
         "it": "Posso chiederle un favore?"
       },
-      "note": "jemanden um etwas (Akk.) bitten"
+      "note": "jemanden (Akk.) um etwas (Akk.) bitten"
     },
     {
       "id": "baustein",
@@ -1206,7 +1206,7 @@
         "ar": "أستخدم السكر البني لهذه الكعكة.",
         "it": "Per questa torta uso lo zucchero di canna."
       },
-      "note": null
+      "note": "etwas (Akk.) für etwas (Akk.) verwenden; Präteritum auch: verwandte, Perfekt auch: hat verwandt"
     },
     {
       "id": "eigenwillig",
@@ -1366,7 +1366,7 @@
         "ar": "يتمرّد كثير من الشباب على آبائهم.",
         "it": "Molti giovani si ribellano ai genitori."
       },
-      "note": null
+      "note": "gegen jemanden/etwas (Akk.) rebellieren"
     },
     {
       "id": "mangeln",
@@ -1404,7 +1404,7 @@
         "ar": "ينقصنا الوقت.",
         "it": "Ci manca il tempo."
       },
-      "note": "es mangelt an + Dativ"
+      "note": "es mangelt jemandem (Dat.) an etwas (Dat.)"
     },
     {
       "id": "mangelnd",
@@ -1477,7 +1477,7 @@
         "ar": "فرّت العائلة من الحرب.",
         "it": "La famiglia è fuggita dalla guerra."
       },
-      "note": "unregelmäßig: fliehen – floh – ist geflohen"
+      "note": "vor jemandem/etwas (Dat.) fliehen; unregelmäßig: fliehen – floh – ist geflohen"
     },
     {
       "id": "sich-weiterentwickeln",
@@ -1516,7 +1516,7 @@
         "ar": "في هذه الوظيفة يمكنني أن أتطوّر مهنيًا.",
         "it": "In questo lavoro posso crescere professionalmente."
       },
-      "note": null
+      "note": "sich (Akk.) weiterentwickeln"
     },
     {
       "id": "bislang",
@@ -1744,7 +1744,7 @@
         "ar": "توربينات الرياح تولّد الكهرباء.",
         "it": "Le turbine eoliche producono elettricità."
       },
-      "note": null
+      "note": "etwas (Akk.) erzeugen"
     },
     {
       "id": "praezise",
