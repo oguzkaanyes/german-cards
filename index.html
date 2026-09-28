@@ -212,6 +212,30 @@
       backface-visibility: hidden;
       -webkit-backface-visibility: hidden;
     }
+    /* Front: German entry scrolls on its own, the flip button stays pinned below it. */
+    .front {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      padding: 0;
+    }
+    .front .content {
+      flex: 0 1 auto;
+      min-height: 0;
+      overflow-y: auto;
+      overscroll-behavior-y: contain;
+      padding: 22px 20px 8px;
+    }
+    /* Fade the bottom edge while there is more text to scroll to. */
+    .front .content.has-more {
+      -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
+      mask-image: linear-gradient(to bottom, #000 calc(100% - 40px), transparent);
+    }
+    .front .footer {
+      flex: none;
+      padding: 14px 20px 20px;
+    }
+
     .back {
       transform: rotateY(180deg);
       display: flex;
@@ -280,7 +304,6 @@
     }
 
     .flip {
-      margin-top: 26px;
       width: 100%;
       min-height: 64px;
       border: 2px dashed rgba(0, 0, 0, 0.25);
@@ -512,21 +535,25 @@
 
       // Front: German dictionary entry.
       const front = el("div", "face front");
-      if (card.type) front.appendChild(el("div", "tag", TYPE_LABELS[card.type] || card.type));
-      front.appendChild(wordHeading(card, article));
-      if (card.plural) front.appendChild(el("div", "plural", "Pl. die " + card.plural));
-      if (meaning.de) front.appendChild(section("Bedeutung", el("p", null, meaning.de)));
-      if (example.de) front.appendChild(section("Beispiel", el("p", "example", "„" + example.de + "“")));
+      const content = el("div", "content");
+      if (card.type) content.appendChild(el("div", "tag", TYPE_LABELS[card.type] || card.type));
+      content.appendChild(wordHeading(card, article));
+      if (card.plural) content.appendChild(el("div", "plural", "Pl. die " + card.plural));
+      if (meaning.de) content.appendChild(section("Bedeutung", el("p", null, meaning.de)));
+      if (example.de) content.appendChild(section("Beispiel", el("p", "example", "„" + example.de + "“")));
       const synonyms = nonEmpty(card.synonyms);
-      if (synonyms.length) front.appendChild(section("Synonyme", chipList(synonyms)));
+      if (synonyms.length) content.appendChild(section("Synonyme", chipList(synonyms)));
       const antonyms = nonEmpty(card.antonyms);
-      if (antonyms.length) front.appendChild(section("Antonyme", chipList(antonyms)));
-      if (card.note) front.appendChild(section("Hinweis", el("p", null, card.note)));
+      if (antonyms.length) content.appendChild(section("Antonyme", chipList(antonyms)));
+      if (card.note) content.appendChild(section("Hinweis", el("p", null, card.note)));
+      content.addEventListener("scroll", () => updateFade(content), { passive: true });
 
+      const footer = el("div", "footer");
       const flipBtn = el("button", "flip", texts.flip);
       flipBtn.type = "button";
       flipBtn.addEventListener("click", () => root.classList.add("flipped"));
-      front.appendChild(flipBtn);
+      footer.appendChild(flipBtn);
+      front.append(content, footer);
 
       // Back: meaning and example in the chosen language; tap anywhere to return.
       const back = el("div", "face back");
@@ -550,7 +577,18 @@
     function resetSlide(slide) {
       if (!slide) return;
       slide.querySelector(".card").classList.remove("flipped");
-      slide.querySelector(".front").scrollTop = 0;
+      const content = slide.querySelector(".front .content");
+      content.scrollTop = 0;
+      updateFade(content);
+    }
+
+    function updateFade(content) {
+      const more = content.scrollTop + content.clientHeight < content.scrollHeight - 4;
+      content.classList.toggle("has-more", more);
+    }
+
+    function updateAllFades() {
+      slides.forEach((slide) => updateFade(slide.querySelector(".front .content")));
     }
 
     function updateSavedCount() {
@@ -608,6 +646,7 @@
       current = found >= 0 ? found : 0;
       updateNav();
       track.scrollLeft = current * track.clientWidth;
+      updateAllFades();
     }
 
     function currentId() {
@@ -664,7 +703,10 @@
     }, { passive: true });
 
     // Keep the current card in place when the phone rotates or the window resizes.
-    window.addEventListener("resize", () => goTo(current, false));
+    window.addEventListener("resize", () => {
+      goTo(current, false);
+      updateAllFades();
+    });
 
     prevBtn.addEventListener("click", () => step(-1));
     nextBtn.addEventListener("click", () => step(1));
