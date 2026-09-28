@@ -97,6 +97,39 @@
       color: var(--text);
     }
 
+    /* ---------- First-run language picker ---------- */
+    #lang-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: rgba(0, 0, 0, 0.35);
+    }
+    #lang-modal[hidden] { display: none; }
+    #lang-modal .dialog {
+      width: 100%;
+      max-width: 360px;
+      background: #fff;
+      border-radius: 20px;
+      padding: 24px 20px 20px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    }
+    #lang-modal h2 { margin: 0 0 6px; font-size: 1.3rem; }
+    #lang-modal p { margin: 0 0 18px; color: var(--muted); line-height: 1.4; }
+    #lang-modal .choices { display: grid; gap: 8px; }
+    #lang-modal .choices button {
+      padding: 14px 16px;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      border-radius: 12px;
+      background: var(--bg);
+      font-size: 1.05rem;
+      text-align: left;
+      cursor: pointer;
+    }
+
     #status {
       margin: 16px;
       padding: 16px;
@@ -312,6 +345,14 @@
     <select id="date" aria-label="Datum"></select>
   </div>
 
+  <div id="lang-modal" hidden role="dialog" aria-modal="true" aria-labelledby="lang-modal-title">
+    <div class="dialog">
+      <h2 id="lang-modal-title">Willkommen! 👋</h2>
+      <p>In welcher Sprache möchtest du die Übersetzungen sehen?</p>
+      <div class="choices"></div>
+    </div>
+  </div>
+
   <div id="status" hidden></div>
   <div id="empty" hidden></div>
   <main id="track"></main>
@@ -376,13 +417,34 @@
       try { localStorage.setItem(key, value); } catch (e) {}
     }
 
+    // Returns whether a language was already chosen on this device.
     function loadPrefs() {
       const storedLang = readStorage(KEYS.lang);
-      if (storedLang && LANGUAGES[storedLang]) lang = storedLang;
+      const hasLang = Boolean(storedLang && LANGUAGES[storedLang]);
+      if (hasLang) lang = storedLang;
       try {
         const ids = JSON.parse(readStorage(KEYS.saved) || "[]");
         if (Array.isArray(ids)) saved = new Set(ids);
       } catch (e) {}
+      return hasLang;
+    }
+
+    // First visit: ask (in German) which translation language to use, reusing the picker's options.
+    function askLanguage() {
+      const modal = document.getElementById("lang-modal");
+      const choices = modal.querySelector(".choices");
+      return new Promise((resolve) => {
+        for (const option of langSelect.options) {
+          const button = el("button", null, option.textContent);
+          button.type = "button";
+          button.addEventListener("click", () => {
+            modal.hidden = true;
+            resolve(option.value);
+          });
+          choices.appendChild(button);
+        }
+        modal.hidden = false;
+      });
     }
 
     function el(tag, className, text) {
@@ -665,7 +727,10 @@
         return;
       }
 
-      loadPrefs();
+      if (!loadPrefs()) {
+        lang = await askLanguage();
+        writeStorage(KEYS.lang, lang);
+      }
       langSelect.value = lang;
       buildDateOptions();
       topbar.hidden = false;
