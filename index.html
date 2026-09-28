@@ -81,6 +81,22 @@
       color: var(--text);
     }
 
+    .filterbar {
+      padding: 8px max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left));
+    }
+    .filterbar[hidden] { display: none; }
+
+    #date {
+      width: 100%;
+      font: inherit;
+      font-size: 0.95rem;
+      padding: 7px 10px;
+      border-radius: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      background: #fff;
+      color: var(--text);
+    }
+
     #status {
       margin: 16px;
       padding: 16px;
@@ -292,6 +308,9 @@
       <option value="it">Italiano</option>
     </select>
   </header>
+  <div class="filterbar" hidden>
+    <select id="date" aria-label="Datum"></select>
+  </div>
 
   <div id="status" hidden></div>
   <div id="empty" hidden></div>
@@ -320,6 +339,7 @@
     };
     const KEYS = {
       lang: "wortkarten:lang",
+      date: "wortkarten:date",
       saved: "wortkarten:saved",
       position: (tab) => "wortkarten:lastCardId:" + tab,
     };
@@ -331,6 +351,8 @@
     const tabButtons = document.querySelectorAll(".tabs button");
     const savedCount = document.getElementById("saved-count");
     const langSelect = document.getElementById("lang");
+    const filterbar = document.querySelector(".filterbar");
+    const dateSelect = document.getElementById("date");
     const nav = document.querySelector("nav");
     const prevBtn = document.getElementById("prev");
     const nextBtn = document.getElementById("next");
@@ -343,6 +365,7 @@
     let target = null;
     let tab = "all";
     let lang = "tr";
+    let date = "";      // "" = all days, otherwise a "YYYY-MM-DD" from cards.json
     let saved = new Set();
 
     // Storage is wrapped: private mode or blocked storage must not break the app.
@@ -472,9 +495,34 @@
       savedCount.textContent = saved.size ? " " + saved.size : "";
     }
 
+    const DATE_PATTERN = /^(\d{4})-(\d{2})-(\d{2})$/;
+
+    // Lists only the dates that appear in cards.json, newest first, with a word count each.
+    function buildDateOptions() {
+      const counts = new Map();
+      for (const card of allCards) {
+        if (typeof card.date === "string" && DATE_PATTERN.test(card.date)) {
+          counts.set(card.date, (counts.get(card.date) || 0) + 1);
+        }
+      }
+      const dates = [...counts.keys()].sort().reverse();
+
+      dateSelect.textContent = "";
+      dateSelect.appendChild(new Option("Alle Tage (" + allCards.length + ")", ""));
+      for (const d of dates) {
+        const [, y, m, day] = d.match(DATE_PATTERN);
+        dateSelect.appendChild(new Option(day + "." + m + "." + y + " (" + counts.get(d) + ")", d));
+      }
+
+      const stored = readStorage(KEYS.date);
+      date = stored && counts.has(stored) ? stored : "";
+      dateSelect.value = date;
+    }
+
     // Rebuilds the slides for the current tab and language, opening the card with startId if present.
     function render(startId) {
-      const deck = tab === "saved" ? allCards.filter((c) => saved.has(c.id)) : allCards;
+      const deck = allCards.filter((c) =>
+        (tab !== "saved" || saved.has(c.id)) && (!date || c.date === date));
 
       track.textContent = "";
       target = null;
@@ -559,7 +607,7 @@
     prevBtn.addEventListener("click", () => step(-1));
     nextBtn.addEventListener("click", () => step(1));
     document.addEventListener("keydown", (e) => {
-      if (e.target === langSelect) return;
+      if (e.target === langSelect || e.target === dateSelect) return;
       if (e.key === "ArrowLeft") step(-1);
       if (e.key === "ArrowRight") step(1);
     });
@@ -570,6 +618,12 @@
         tab = button.dataset.tab;
         render(readStorage(KEYS.position(tab)));
       });
+    });
+
+    dateSelect.addEventListener("change", () => {
+      date = dateSelect.value;
+      writeStorage(KEYS.date, date);
+      render(currentId());
     });
 
     langSelect.addEventListener("change", () => {
@@ -613,7 +667,9 @@
 
       loadPrefs();
       langSelect.value = lang;
+      buildDateOptions();
       topbar.hidden = false;
+      filterbar.hidden = false;
       render(readStorage(KEYS.position(tab)));
     }
 

@@ -7,6 +7,7 @@
   "cards": [
     {
       "id": "rahmen",
+      "date": "2026-09-28",
       "word": "Rahmen",
       "type": "noun",
       "article": "der",
@@ -37,6 +38,7 @@
     },
     {
       "id": "vertiefung",
+      "date": "2026-09-28",
       "word": "Vertiefung",
       "type": "noun",
       "article": "die",
@@ -69,6 +71,7 @@
     },
     {
       "id": "vertiefen",
+      "date": "2026-09-28",
       "word": "vertiefen",
       "type": "verb",
       "article": null,
@@ -101,6 +104,7 @@
     },
     {
       "id": "festigung",
+      "date": "2026-09-28",
       "word": "Festigung",
       "type": "noun",
       "article": "die",
@@ -133,6 +137,7 @@
     },
     {
       "id": "festigen",
+      "date": "2026-09-28",
       "word": "festigen",
       "type": "verb",
       "article": null,
@@ -166,6 +171,7 @@
     },
     {
       "id": "gliedern",
+      "date": "2026-09-28",
       "word": "gliedern",
       "type": "verb",
       "article": null,
@@ -199,6 +205,7 @@
     },
     {
       "id": "aufgreifen",
+      "date": "2026-09-28",
       "word": "aufgreifen",
       "type": "verb",
       "article": null,
@@ -232,6 +239,7 @@
     },
     {
       "id": "lieferkette",
+      "date": "2026-09-28",
       "word": "Lieferkette",
       "type": "noun",
       "article": "die",
@@ -261,6 +269,7 @@
     },
     {
       "id": "gurt",
+      "date": "2026-09-28",
       "word": "Gurt",
       "type": "noun",
       "article": "der",
@@ -291,6 +300,7 @@
     },
     {
       "id": "belastung",
+      "date": "2026-09-28",
       "word": "Belastung",
       "type": "noun",
       "article": "die",
@@ -324,6 +334,7 @@
     },
     {
       "id": "stethoskop",
+      "date": "2026-09-28",
       "word": "Stethoskop",
       "type": "noun",
       "article": "das",
@@ -353,6 +364,7 @@
     },
     {
       "id": "dienstplan",
+      "date": "2026-09-28",
       "word": "Dienstplan",
       "type": "noun",
       "article": "der",
@@ -383,6 +395,7 @@
     },
     {
       "id": "verantwortung",
+      "date": "2026-09-28",
       "word": "Verantwortung",
       "type": "noun",
       "article": "die",
@@ -415,6 +428,7 @@
     },
     {
       "id": "aufmerksam",
+      "date": "2026-09-28",
       "word": "aufmerksam",
       "type": "adjective",
       "article": null,
@@ -448,6 +462,7 @@
     },
     {
       "id": "schwerwiegend",
+      "date": "2026-09-28",
       "word": "schwerwiegend",
       "type": "adjective",
       "article": null,
@@ -481,6 +496,7 @@
     },
     {
       "id": "betreuung",
+      "date": "2026-09-28",
       "word": "Betreuung",
       "type": "noun",
       "article": "die",
@@ -513,6 +529,7 @@
     },
     {
       "id": "aktualisieren",
+      "date": "2026-09-28",
       "word": "aktualisieren",
       "type": "verb",
       "article": null,
@@ -543,6 +560,7 @@
     },
     {
       "id": "taschenrechner",
+      "date": "2026-09-28",
       "word": "Taschenrechner",
       "type": "noun",
       "article": "der",
@@ -572,6 +590,7 @@
     },
     {
       "id": "anstrengend",
+      "date": "2026-09-28",
       "word": "anstrengend",
       "type": "adjective",
       "article": null,
@@ -607,6 +626,7 @@
     },
     {
       "id": "hygiene",
+      "date": "2026-09-28",
       "word": "Hygiene",
       "type": "noun",
       "article": "die",
@@ -639,6 +659,7 @@
     },
     {
       "id": "sich-verbrennen",
+      "date": "2026-09-28",
       "word": "sich verbrennen",
       "type": "verb",
       "article": null,
@@ -668,6 +689,7 @@
     },
     {
       "id": "dampf",
+      "date": "2026-09-28",
       "word": "Dampf",
       "type": "noun",
       "article": "der",
@@ -698,6 +720,7 @@
     },
     {
       "id": "hitzschlag",
+      "date": "2026-09-28",
       "word": "Hitzschlag",
       "type": "noun",
       "article": "der",
@@ -729,6 +752,7 @@
     },
     {
       "id": "nest",
+      "date": "2026-09-28",
       "word": "Nest",
       "type": "noun",
       "article": "das",
@@ -758,6 +782,7 @@
     },
     {
       "id": "entfernen",
+      "date": "2026-09-28",
       "word": "entfernen",
       "type": "verb",
       "article": null,
@@ -792,6 +817,7 @@
     },
     {
       "id": "aussterben",
+      "date": "2026-09-28",
       "word": "aussterben",
       "type": "verb",
       "article": null,
@@ -825,6 +851,7 @@
     },
     {
       "id": "schraeg",
+      "date": "2026-09-28",
       "word": "schräg",
       "type": "adjective",
       "article": null,
@@ -859,6 +886,7 @@
     },
     {
       "id": "oberflaechlich",
+      "date": "2026-09-28",
       "word": "oberflächlich",
       "type": "adjective",
       "article": null,
@@ -892,6 +920,7 @@
     },
     {
       "id": "effizient",
+      "date": "2026-09-28",
       "word": "effizient",
       "type": "adjective",
       "article": null,
@@ -924,6 +953,7 @@
     },
     {
       "id": "vermeiden",
+      "date": "2026-09-28",
       "word": "vermeiden",
       "type": "verb",
       "article": null,
@@ -957,6 +987,7 @@
     },
     {
       "id": "anfrage",
+      "date": "2026-09-28",
       "word": "Anfrage",
       "type": "noun",
       "article": "die",
@@ -989,6 +1020,7 @@
     },
     {
       "id": "anfragen",
+      "date": "2026-09-28",
       "word": "anfragen",
       "type": "verb",
       "article": null,
@@ -1021,6 +1053,7 @@
     },
     {
       "id": "bitten-um",
+      "date": "2026-09-28",
       "word": "bitten um",
       "type": "verb",
       "article": null,
@@ -1053,6 +1086,7 @@
     },
     {
       "id": "baustein",
+      "date": "2026-09-28",
       "word": "Baustein",
       "type": "noun",
       "article": "der",
@@ -1084,6 +1118,7 @@
     },
     {
       "id": "verwenden",
+      "date": "2026-09-28",
       "word": "verwenden",
       "type": "verb",
       "article": null,
@@ -1115,6 +1150,7 @@
     },
     {
       "id": "eigenwillig",
+      "date": "2026-09-28",
       "word": "eigenwillig",
       "type": "adjective",
       "article": null,
@@ -1149,6 +1185,7 @@
     },
     {
       "id": "kaempfernatur",
+      "date": "2026-09-28",
       "word": "Kämpfernatur",
       "type": "noun",
       "article": "die",
@@ -1178,6 +1215,7 @@
     },
     {
       "id": "stahl",
+      "date": "2026-09-28",
       "word": "Stahl",
       "type": "noun",
       "article": "der",
@@ -1205,6 +1243,7 @@
     },
     {
       "id": "eisen",
+      "date": "2026-09-28",
       "word": "Eisen",
       "type": "noun",
       "article": "das",
@@ -1232,6 +1271,7 @@
     },
     {
       "id": "rebellieren",
+      "date": "2026-09-28",
       "word": "rebellieren",
       "type": "verb",
       "article": null,
@@ -1265,6 +1305,7 @@
     },
     {
       "id": "mangeln",
+      "date": "2026-09-28",
       "word": "mangeln",
       "type": "verb",
       "article": null,
@@ -1297,6 +1338,7 @@
     },
     {
       "id": "mangelnd",
+      "date": "2026-09-28",
       "word": "mangelnd",
       "type": "adjective",
       "article": null,
@@ -1330,6 +1372,7 @@
     },
     {
       "id": "fliehen",
+      "date": "2026-09-28",
       "word": "fliehen",
       "type": "verb",
       "article": null,
@@ -1363,6 +1406,7 @@
     },
     {
       "id": "sich-weiterentwickeln",
+      "date": "2026-09-28",
       "word": "sich weiterentwickeln",
       "type": "verb",
       "article": null,
@@ -1396,6 +1440,7 @@
     },
     {
       "id": "bislang",
+      "date": "2026-09-28",
       "word": "bislang",
       "type": "adverb",
       "article": null,
@@ -1429,6 +1474,7 @@
     },
     {
       "id": "schulpflichtig",
+      "date": "2026-09-28",
       "word": "schulpflichtig",
       "type": "adjective",
       "article": null,
@@ -1458,6 +1504,7 @@
     },
     {
       "id": "veranlagt-sein",
+      "date": "2026-09-28",
       "word": "veranlagt sein",
       "type": "phrase",
       "article": null,
@@ -1490,6 +1537,7 @@
     },
     {
       "id": "baumarkt",
+      "date": "2026-09-28",
       "word": "Baumarkt",
       "type": "noun",
       "article": "der",
@@ -1517,6 +1565,7 @@
     },
     {
       "id": "prompt",
+      "date": "2026-09-28",
       "word": "Prompt",
       "type": "noun",
       "article": "der",
@@ -1547,6 +1596,7 @@
     },
     {
       "id": "erzeugung",
+      "date": "2026-09-28",
       "word": "Erzeugung",
       "type": "noun",
       "article": "die",
@@ -1579,6 +1629,7 @@
     },
     {
       "id": "erzeugen",
+      "date": "2026-09-28",
       "word": "erzeugen",
       "type": "verb",
       "article": null,
@@ -1612,6 +1663,7 @@
     },
     {
       "id": "praezise",
+      "date": "2026-09-28",
       "word": "präzise",
       "type": "adjective",
       "article": null,
@@ -1645,6 +1697,7 @@
     },
     {
       "id": "aussergewoehnlich",
+      "date": "2026-09-28",
       "word": "außergewöhnlich",
       "type": "adjective",
       "article": null,
@@ -1679,6 +1732,7 @@
     },
     {
       "id": "leitfaden",
+      "date": "2026-09-28",
       "word": "Leitfaden",
       "type": "noun",
       "article": "der",
@@ -1710,6 +1764,7 @@
     },
     {
       "id": "verpflichtend",
+      "date": "2026-09-28",
       "word": "verpflichtend",
       "type": "adjective",
       "article": null,
@@ -1743,6 +1798,7 @@
     },
     {
       "id": "einschraenkung",
+      "date": "2026-09-28",
       "word": "Einschränkung",
       "type": "noun",
       "article": "die",
