@@ -1,0 +1,1331 @@
+{
+  "version": 1,
+  "language": {
+    "source": "de",
+    "target": "tr"
+  },
+  "cards": [
+    {
+      "id": "rahmen",
+      "word": "Rahmen",
+      "type": "noun",
+      "article": "der",
+      "plural": "Rahmen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Einfassung oder Struktur, die etwas umgibt oder begrenzt; auch: Kontext, Bedingungen",
+        "tr": "çerçeve"
+      },
+      "synonyms": [
+        "die Einfassung",
+        "der Kontext"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Das Projekt findet im Rahmen des Deutschkurses statt.",
+        "tr": "Proje, Almanca kursu çerçevesinde gerçekleşiyor."
+      },
+      "note": null
+    },
+    {
+      "id": "vertiefung",
+      "word": "Vertiefung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Vertiefungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das intensivere, gründlichere Beschäftigen mit einem Thema",
+        "tr": "derinlemesine çalışma, pekiştirme"
+      },
+      "synonyms": [
+        "die Intensivierung",
+        "die Festigung"
+      ],
+      "antonyms": [
+        "die Oberflächlichkeit"
+      ],
+      "example": {
+        "de": "Diese Übung dient der Vertiefung der Grammatik.",
+        "tr": "Bu alıştırma dilbilgisinin pekiştirilmesine yöneliktir."
+      },
+      "note": null
+    },
+    {
+      "id": "vertiefen",
+      "word": "vertiefen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas gründlicher und intensiver behandeln oder lernen",
+        "tr": "derinleştirmek, pekiştirmek"
+      },
+      "synonyms": [
+        "intensivieren",
+        "festigen"
+      ],
+      "antonyms": [
+        "oberflächlich behandeln"
+      ],
+      "example": {
+        "de": "Ich möchte meine Deutschkenntnisse vertiefen.",
+        "tr": "Almanca bilgimi derinleştirmek istiyorum."
+      },
+      "note": null
+    },
+    {
+      "id": "festigung",
+      "word": "Festigung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Festigungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Stärken und Stabilisieren von etwas, z. B. von Wissen",
+        "tr": "pekiştirme, konsolidasyon"
+      },
+      "synonyms": [
+        "die Stärkung",
+        "die Konsolidierung"
+      ],
+      "antonyms": [
+        "die Schwächung"
+      ],
+      "example": {
+        "de": "Wiederholung ist wichtig für die Festigung des Wortschatzes.",
+        "tr": "Tekrar, kelime bilgisinin pekişmesi için önemlidir."
+      },
+      "note": null
+    },
+    {
+      "id": "festigen",
+      "word": "festigen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas stabiler, sicherer oder stärker machen",
+        "tr": "pekiştirmek, sağlamlaştırmak"
+      },
+      "synonyms": [
+        "stärken",
+        "stabilisieren"
+      ],
+      "antonyms": [
+        "schwächen",
+        "lockern"
+      ],
+      "example": {
+        "de": "Regelmäßiges Üben festigt das Gelernte.",
+        "tr": "Düzenli pratik öğrenilenleri pekiştirir."
+      },
+      "note": null
+    },
+    {
+      "id": "gliedern",
+      "word": "gliedern",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas in Teile oder Abschnitte ordnen und strukturieren",
+        "tr": "bölümlere ayırmak, yapılandırmak"
+      },
+      "synonyms": [
+        "strukturieren",
+        "einteilen",
+        "ordnen"
+      ],
+      "antonyms": [
+        "vermischen"
+      ],
+      "example": {
+        "de": "Bitte gliedern Sie Ihren Text in Einleitung, Hauptteil und Schluss.",
+        "tr": "Lütfen metninizi giriş, gelişme ve sonuç olarak bölümlere ayırın."
+      },
+      "note": null
+    },
+    {
+      "id": "aufgreifen",
+      "word": "aufgreifen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "etwas (Akk.) aufgreifen: ein Thema oder eine Idee übernehmen und sich damit beschäftigen",
+        "tr": "ele almak, (bir fikri) benimseyip kullanmak"
+      },
+      "synonyms": [
+        "übernehmen",
+        "benutzen"
+      ],
+      "antonyms": [
+        "ignorieren",
+        "fallen lassen"
+      ],
+      "example": {
+        "de": "Der Lehrer hat meine Idee aufgegriffen.",
+        "tr": "Öğretmen benim fikrimi ele aldı."
+      },
+      "note": "etwas (Akk.) aufgreifen"
+    },
+    {
+      "id": "lieferkette",
+      "word": "Lieferkette",
+      "type": "noun",
+      "article": "die",
+      "plural": "Lieferketten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Alle Stationen, die ein Produkt vom Rohstoff bis zum Kunden durchläuft",
+        "tr": "tedarik zinciri"
+      },
+      "synonyms": [
+        "die Supply Chain"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Wegen der Pandemie gab es Probleme in der Lieferkette.",
+        "tr": "Pandemi nedeniyle tedarik zincirinde sorunlar yaşandı."
+      },
+      "note": null
+    },
+    {
+      "id": "gurt",
+      "word": "Gurt",
+      "type": "noun",
+      "article": "der",
+      "plural": "Gurte",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein festes Band zum Sichern oder Halten, z. B. Sicherheitsgurt",
+        "tr": "kemer, kayış"
+      },
+      "synonyms": [
+        "das Band",
+        "der Riemen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Bitte legen Sie den Gurt an, bevor wir losfahren.",
+        "tr": "Yola çıkmadan önce lütfen kemerinizi takın."
+      },
+      "note": null
+    },
+    {
+      "id": "belastung",
+      "word": "Belastung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Belastungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Druck, Last oder Stress, der auf jemanden oder etwas wirkt",
+        "tr": "yük, baskı, zorlanma"
+      },
+      "synonyms": [
+        "die Last",
+        "der Druck",
+        "die Beanspruchung"
+      ],
+      "antonyms": [
+        "die Entlastung"
+      ],
+      "example": {
+        "de": "Die Nachtschichten sind eine große Belastung für mich.",
+        "tr": "Gece vardiyaları benim için büyük bir yük."
+      },
+      "note": null
+    },
+    {
+      "id": "stethoskop",
+      "word": "Stethoskop",
+      "type": "noun",
+      "article": "das",
+      "plural": "Stethoskope",
+      "reflexive": false,
+      "meaning": {
+        "de": "Medizinisches Instrument zum Abhören von Herz und Lunge",
+        "tr": "stetoskop"
+      },
+      "synonyms": [
+        "das Hörrohr"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Ärztin hört mit dem Stethoskop die Lunge ab.",
+        "tr": "Doktor stetoskopla akciğerleri dinliyor."
+      },
+      "note": null
+    },
+    {
+      "id": "dienstplan",
+      "word": "Dienstplan",
+      "type": "noun",
+      "article": "der",
+      "plural": "Dienstpläne",
+      "reflexive": false,
+      "meaning": {
+        "de": "Plan, der festlegt, wer wann arbeitet",
+        "tr": "nöbet/vardiya çizelgesi"
+      },
+      "synonyms": [
+        "der Schichtplan",
+        "der Arbeitsplan"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der neue Dienstplan hängt im Pausenraum.",
+        "tr": "Yeni vardiya çizelgesi dinlenme odasında asılı."
+      },
+      "note": null
+    },
+    {
+      "id": "verantwortung",
+      "word": "Verantwortung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Verantwortungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Pflicht, für etwas oder jemanden zu sorgen und dafür einzustehen",
+        "tr": "sorumluluk"
+      },
+      "synonyms": [
+        "die Pflicht",
+        "die Zuständigkeit"
+      ],
+      "antonyms": [
+        "die Verantwortungslosigkeit"
+      ],
+      "example": {
+        "de": "Als Teamleiter trägt er die Verantwortung für das Projekt.",
+        "tr": "Takım lideri olarak projenin sorumluluğunu o taşıyor."
+      },
+      "note": null
+    },
+    {
+      "id": "aufmerksam",
+      "word": "aufmerksam",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Konzentriert, mit wacher Beachtung; auch: höflich und hilfsbereit",
+        "tr": "dikkatli, özenli"
+      },
+      "synonyms": [
+        "konzentriert",
+        "achtsam"
+      ],
+      "antonyms": [
+        "unaufmerksam",
+        "abgelenkt"
+      ],
+      "example": {
+        "de": "Die Schüler hören dem Lehrer aufmerksam zu.",
+        "tr": "Öğrenciler öğretmeni dikkatle dinliyor."
+      },
+      "note": null
+    },
+    {
+      "id": "schwerwiegend",
+      "word": "schwerwiegend",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sehr ernst, mit großen Folgen",
+        "tr": "ciddi, ağır"
+      },
+      "synonyms": [
+        "gravierend",
+        "ernst"
+      ],
+      "antonyms": [
+        "geringfügig",
+        "harmlos"
+      ],
+      "example": {
+        "de": "Das war ein schwerwiegender Fehler.",
+        "tr": "Bu ciddi bir hataydı."
+      },
+      "note": null
+    },
+    {
+      "id": "betreuung",
+      "word": "Betreuung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Betreuungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Sich-Kümmern um Personen, z. B. Kinder, Kranke oder Kunden",
+        "tr": "bakım, ilgilenme, gözetim"
+      },
+      "synonyms": [
+        "die Pflege",
+        "die Fürsorge"
+      ],
+      "antonyms": [
+        "die Vernachlässigung"
+      ],
+      "example": {
+        "de": "Die Betreuung der Kinder übernimmt die Oma.",
+        "tr": "Çocukların bakımını büyükanne üstleniyor."
+      },
+      "note": null
+    },
+    {
+      "id": "aktualisieren",
+      "word": "aktualisieren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Auf den neuesten Stand bringen",
+        "tr": "güncellemek"
+      },
+      "synonyms": [
+        "updaten",
+        "erneuern"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Du musst die App regelmäßig aktualisieren.",
+        "tr": "Uygulamayı düzenli olarak güncellemelisin."
+      },
+      "note": null
+    },
+    {
+      "id": "taschenrechner",
+      "word": "Taschenrechner",
+      "type": "noun",
+      "article": "der",
+      "plural": "Taschenrechner",
+      "reflexive": false,
+      "meaning": {
+        "de": "Kleines elektronisches Gerät zum Rechnen",
+        "tr": "hesap makinesi"
+      },
+      "synonyms": [
+        "der Rechner"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Im Test darf man keinen Taschenrechner benutzen.",
+        "tr": "Sınavda hesap makinesi kullanmak yasak."
+      },
+      "note": null
+    },
+    {
+      "id": "anstrengend",
+      "word": "anstrengend",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Viel Kraft oder Energie erfordernd, ermüdend",
+        "tr": "yorucu, stresli"
+      },
+      "synonyms": [
+        "mühsam",
+        "ermüdend",
+        "stressig"
+      ],
+      "antonyms": [
+        "entspannend",
+        "leicht",
+        "mühelos"
+      ],
+      "example": {
+        "de": "Die Arbeit auf der Baustelle ist sehr anstrengend.",
+        "tr": "Şantiyedeki iş çok yorucu."
+      },
+      "note": null
+    },
+    {
+      "id": "hygiene",
+      "word": "Hygiene",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Maßnahmen zur Sauberkeit und Gesundheitsvorsorge",
+        "tr": "hijyen, temizlik"
+      },
+      "synonyms": [
+        "die Sauberkeit",
+        "die Reinlichkeit"
+      ],
+      "antonyms": [
+        "die Unsauberkeit"
+      ],
+      "example": {
+        "de": "Im Krankenhaus ist Hygiene besonders wichtig.",
+        "tr": "Hastanede hijyen özellikle önemlidir."
+      },
+      "note": null
+    },
+    {
+      "id": "sich-verbrennen",
+      "word": "sich verbrennen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "meaning": {
+        "de": "Sich durch Hitze oder Feuer verletzen",
+        "tr": "(bir yerini) yakmak, yanmak"
+      },
+      "synonyms": [
+        "sich verbrühen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ich habe mich am heißen Topf verbrannt.",
+        "tr": "Sıcak tencerede elimi yaktım."
+      },
+      "note": null
+    },
+    {
+      "id": "dampf",
+      "word": "Dampf",
+      "type": "noun",
+      "article": "der",
+      "plural": "Dämpfe",
+      "reflexive": false,
+      "meaning": {
+        "de": "Gasförmiges Wasser, das beim Kochen entsteht",
+        "tr": "buhar"
+      },
+      "synonyms": [
+        "der Wasserdampf",
+        "der Dunst"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Aus dem Kochtopf steigt Dampf auf.",
+        "tr": "Tencereden buhar yükseliyor."
+      },
+      "note": null
+    },
+    {
+      "id": "hitzschlag",
+      "word": "Hitzschlag",
+      "type": "noun",
+      "article": "der",
+      "plural": "Hitzschläge",
+      "reflexive": false,
+      "meaning": {
+        "de": "Gefährliche Überhitzung des Körpers durch große Hitze",
+        "tr": "sıcak çarpması"
+      },
+      "synonyms": [
+        "der Sonnenstich"
+      ],
+      "antonyms": [
+        "die Unterkühlung"
+      ],
+      "example": {
+        "de": "Bei 38 Grad sollte man viel trinken, um einen Hitzschlag zu vermeiden.",
+        "tr": "38 derecede sıcak çarpmasını önlemek için çok su içmek gerekir."
+      },
+      "note": null
+    },
+    {
+      "id": "nest",
+      "word": "Nest",
+      "type": "noun",
+      "article": "das",
+      "plural": "Nester",
+      "reflexive": false,
+      "meaning": {
+        "de": "Bau, in dem Vögel oder andere Tiere wohnen und ihre Jungen aufziehen",
+        "tr": "yuva"
+      },
+      "synonyms": [
+        "der Horst"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ein Vogel hat ein Nest auf unserem Balkon gebaut.",
+        "tr": "Bir kuş balkonumuza yuva yaptı."
+      },
+      "note": null
+    },
+    {
+      "id": "entfernen",
+      "word": "entfernen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas wegmachen, beseitigen",
+        "tr": "kaldırmak, çıkarmak, uzaklaştırmak"
+      },
+      "synonyms": [
+        "beseitigen",
+        "wegnehmen",
+        "löschen"
+      ],
+      "antonyms": [
+        "hinzufügen",
+        "anbringen"
+      ],
+      "example": {
+        "de": "Bitte entfernen Sie die alten Kabel.",
+        "tr": "Lütfen eski kabloları sökün."
+      },
+      "note": null
+    },
+    {
+      "id": "aussterben",
+      "word": "aussterben",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Vollständig verschwinden, nicht mehr existieren (z. B. eine Tierart)",
+        "tr": "nesli tükenmek"
+      },
+      "synonyms": [
+        "verschwinden",
+        "untergehen"
+      ],
+      "antonyms": [
+        "überleben",
+        "sich vermehren"
+      ],
+      "example": {
+        "de": "Viele Tierarten sind vom Aussterben bedroht.",
+        "tr": "Birçok hayvan türünün nesli tükenme tehlikesiyle karşı karşıya."
+      },
+      "note": null
+    },
+    {
+      "id": "schraeg",
+      "word": "schräg",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nicht gerade, geneigt",
+        "tr": "eğik, çapraz"
+      },
+      "synonyms": [
+        "schief",
+        "geneigt"
+      ],
+      "antonyms": [
+        "gerade",
+        "senkrecht",
+        "waagerecht"
+      ],
+      "example": {
+        "de": "Das Bild hängt schräg an der Wand.",
+        "tr": "Resim duvarda eğri duruyor."
+      },
+      "note": null
+    },
+    {
+      "id": "oberflaechlich",
+      "word": "oberflächlich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nicht gründlich, nur an der Oberfläche",
+        "tr": "yüzeysel"
+      },
+      "synonyms": [
+        "flüchtig",
+        "seicht"
+      ],
+      "antonyms": [
+        "gründlich",
+        "tiefgehend"
+      ],
+      "example": {
+        "de": "Er hat den Text nur oberflächlich gelesen.",
+        "tr": "Metni sadece yüzeysel okudu."
+      },
+      "note": null
+    },
+    {
+      "id": "effizient",
+      "word": "effizient",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Mit wenig Aufwand ein gutes Ergebnis erzielend",
+        "tr": "verimli, etkin"
+      },
+      "synonyms": [
+        "wirksam",
+        "leistungsfähig"
+      ],
+      "antonyms": [
+        "ineffizient"
+      ],
+      "example": {
+        "de": "Mit dem neuen Programm können wir effizienter arbeiten.",
+        "tr": "Yeni programla daha verimli çalışabiliyoruz."
+      },
+      "note": null
+    },
+    {
+      "id": "vermeiden",
+      "word": "vermeiden",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Dafür sorgen, dass etwas nicht passiert",
+        "tr": "kaçınmak, önlemek"
+      },
+      "synonyms": [
+        "verhindern",
+        "umgehen"
+      ],
+      "antonyms": [
+        "verursachen",
+        "herbeiführen"
+      ],
+      "example": {
+        "de": "Ich versuche, Fehler zu vermeiden.",
+        "tr": "Hata yapmaktan kaçınmaya çalışıyorum."
+      },
+      "note": null
+    },
+    {
+      "id": "anfrage",
+      "word": "Anfrage",
+      "type": "noun",
+      "article": "die",
+      "plural": "Anfragen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Bitte um Information oder ein Angebot",
+        "tr": "talep, soru, sorgu"
+      },
+      "synonyms": [
+        "die Bitte",
+        "die Nachfrage"
+      ],
+      "antonyms": [
+        "die Antwort"
+      ],
+      "example": {
+        "de": "Vielen Dank für Ihre Anfrage, wir melden uns bald.",
+        "tr": "Talebiniz için teşekkürler, yakında size dönüş yapacağız."
+      },
+      "note": null
+    },
+    {
+      "id": "anfragen",
+      "word": "anfragen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Offiziell nach etwas fragen oder um etwas bitten",
+        "tr": "talep etmek, sormak"
+      },
+      "synonyms": [
+        "fragen",
+        "sich erkundigen"
+      ],
+      "antonyms": [
+        "antworten"
+      ],
+      "example": {
+        "de": "Ich habe bei der Firma ein Angebot angefragt.",
+        "tr": "Firmadan bir teklif talep ettim."
+      },
+      "note": null
+    },
+    {
+      "id": "bitten-um",
+      "word": "bitten um",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "jemanden um etwas (Akk.) bitten: höflich etwas verlangen",
+        "tr": "rica etmek, istemek"
+      },
+      "synonyms": [
+        "ersuchen",
+        "anfragen"
+      ],
+      "antonyms": [
+        "ablehnen"
+      ],
+      "example": {
+        "de": "Darf ich Sie um einen Gefallen bitten?",
+        "tr": "Sizden bir ricada bulunabilir miyim?"
+      },
+      "note": "jemanden um etwas (Akk.) bitten"
+    },
+    {
+      "id": "baustein",
+      "word": "Baustein",
+      "type": "noun",
+      "article": "der",
+      "plural": "Bausteine",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein einzelner Teil, aus dem etwas Größeres zusammengesetzt wird",
+        "tr": "yapı taşı"
+      },
+      "synonyms": [
+        "das Element",
+        "der Bestandteil",
+        "das Modul"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Vertrauen ist ein wichtiger Baustein jeder Beziehung.",
+        "tr": "Güven her ilişkinin önemli bir yapı taşıdır."
+      },
+      "note": null
+    },
+    {
+      "id": "verwenden",
+      "word": "verwenden",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas für einen Zweck gebrauchen",
+        "tr": "kullanmak"
+      },
+      "synonyms": [
+        "benutzen",
+        "gebrauchen",
+        "einsetzen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für diesen Kuchen verwende ich braunen Zucker.",
+        "tr": "Bu kek için esmer şeker kullanıyorum."
+      },
+      "note": null
+    },
+    {
+      "id": "eigenwillig",
+      "word": "eigenwillig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nach eigenen Vorstellungen handelnd, ungewöhnlich, eigensinnig",
+        "tr": "kendine özgü, inatçı, bildiğini okuyan"
+      },
+      "synonyms": [
+        "eigensinnig",
+        "individuell",
+        "unkonventionell"
+      ],
+      "antonyms": [
+        "angepasst",
+        "gewöhnlich"
+      ],
+      "example": {
+        "de": "Meine Katze ist sehr eigenwillig.",
+        "tr": "Kedim çok inatçı ve bildiğini okuyor."
+      },
+      "note": null
+    },
+    {
+      "id": "kaempfernatur",
+      "word": "Kämpfernatur",
+      "type": "noun",
+      "article": "die",
+      "plural": "Kämpfernaturen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Mensch, der nicht aufgibt und für seine Ziele kämpft",
+        "tr": "savaşçı ruhlu kişi, mücadeleci"
+      },
+      "synonyms": [
+        "der Kämpfer"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Sie gibt nie auf, sie ist eine echte Kämpfernatur.",
+        "tr": "Asla pes etmez, gerçek bir mücadeleci."
+      },
+      "note": null
+    },
+    {
+      "id": "stahl",
+      "word": "Stahl",
+      "type": "noun",
+      "article": "der",
+      "plural": "Stähle",
+      "reflexive": false,
+      "meaning": {
+        "de": "Sehr harter, fester Werkstoff aus Eisen",
+        "tr": "çelik"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Die Brücke ist aus Stahl gebaut.",
+        "tr": "Köprü çelikten yapılmış."
+      },
+      "note": null
+    },
+    {
+      "id": "eisen",
+      "word": "Eisen",
+      "type": "noun",
+      "article": "das",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein chemisches Element, ein Metall",
+        "tr": "demir"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Spinat enthält viel Eisen.",
+        "tr": "Ispanak bol demir içerir."
+      },
+      "note": null
+    },
+    {
+      "id": "rebellieren",
+      "word": "rebellieren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sich gegen etwas oder jemanden auflehnen",
+        "tr": "isyan etmek"
+      },
+      "synonyms": [
+        "sich auflehnen",
+        "revoltieren"
+      ],
+      "antonyms": [
+        "gehorchen",
+        "sich fügen"
+      ],
+      "example": {
+        "de": "Viele Jugendliche rebellieren gegen ihre Eltern.",
+        "tr": "Birçok genç ailesine isyan eder."
+      },
+      "note": null
+    },
+    {
+      "id": "mangeln",
+      "word": "mangeln",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "es mangelt an etwas (Dat.): etwas fehlt, ist nicht genug vorhanden",
+        "tr": "eksik olmak"
+      },
+      "synonyms": [
+        "fehlen"
+      ],
+      "antonyms": [
+        "reichen",
+        "genügen"
+      ],
+      "example": {
+        "de": "Es mangelt uns an Zeit.",
+        "tr": "Zamanımız eksik. / Zamanımız yetmiyor."
+      },
+      "note": "es mangelt an + Dativ"
+    },
+    {
+      "id": "mangelnd",
+      "word": "mangelnd",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nicht ausreichend, fehlend",
+        "tr": "eksik, yetersiz"
+      },
+      "synonyms": [
+        "fehlend",
+        "unzureichend"
+      ],
+      "antonyms": [
+        "ausreichend",
+        "genügend"
+      ],
+      "example": {
+        "de": "Wegen mangelnder Erfahrung bekam er die Stelle nicht.",
+        "tr": "Deneyim eksikliği nedeniyle işi alamadı."
+      },
+      "note": "Partizip I von „mangeln“"
+    },
+    {
+      "id": "fliehen",
+      "word": "fliehen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Schnell weglaufen, um sich vor einer Gefahr zu retten (floh, ist geflohen)",
+        "tr": "kaçmak"
+      },
+      "synonyms": [
+        "flüchten",
+        "entkommen"
+      ],
+      "antonyms": [
+        "bleiben",
+        "sich stellen"
+      ],
+      "example": {
+        "de": "Die Familie ist vor dem Krieg geflohen.",
+        "tr": "Aile savaştan kaçtı."
+      },
+      "note": "unregelmäßig: fliehen – floh – ist geflohen"
+    },
+    {
+      "id": "sich-weiterentwickeln",
+      "word": "sich weiterentwickeln",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "meaning": {
+        "de": "Sich verbessern, Fortschritte machen",
+        "tr": "gelişmek, kendini geliştirmek"
+      },
+      "synonyms": [
+        "sich verbessern",
+        "vorankommen"
+      ],
+      "antonyms": [
+        "stagnieren",
+        "zurückfallen"
+      ],
+      "example": {
+        "de": "In diesem Job kann ich mich beruflich weiterentwickeln.",
+        "tr": "Bu işte kendimi mesleki olarak geliştirebilirim."
+      },
+      "note": null
+    },
+    {
+      "id": "bislang",
+      "word": "bislang",
+      "type": "adverb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Bis zum jetzigen Zeitpunkt",
+        "tr": "şimdiye kadar"
+      },
+      "synonyms": [
+        "bis jetzt",
+        "bisher"
+      ],
+      "antonyms": [
+        "künftig",
+        "ab jetzt"
+      ],
+      "example": {
+        "de": "Bislang hat niemand auf meine E-Mail geantwortet.",
+        "tr": "Şimdiye kadar kimse e-postama cevap vermedi."
+      },
+      "note": null
+    },
+    {
+      "id": "schulpflichtig",
+      "word": "schulpflichtig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Verpflichtet, die Schule zu besuchen",
+        "tr": "okul çağında, okula gitmekle yükümlü"
+      },
+      "synonyms": [
+        "im Schulalter"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In Deutschland sind Kinder ab sechs Jahren schulpflichtig.",
+        "tr": "Almanya'da çocuklar altı yaşından itibaren okula gitmekle yükümlüdür."
+      },
+      "note": null
+    },
+    {
+      "id": "veranlagt-sein",
+      "word": "veranlagt sein",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine natürliche Begabung oder Neigung für etwas haben",
+        "tr": "yetenekli olmak, yatkın olmak"
+      },
+      "synonyms": [
+        "begabt sein",
+        "talentiert sein"
+      ],
+      "antonyms": [
+        "unbegabt sein"
+      ],
+      "example": {
+        "de": "Sie ist musikalisch sehr veranlagt.",
+        "tr": "Müziğe çok yatkın / yetenekli."
+      },
+      "note": "für etwas veranlagt sein"
+    },
+    {
+      "id": "baumarkt",
+      "word": "Baumarkt",
+      "type": "noun",
+      "article": "der",
+      "plural": "Baumärkte",
+      "reflexive": false,
+      "meaning": {
+        "de": "Großes Geschäft für Werkzeug, Baumaterial und Heimwerkerbedarf",
+        "tr": "yapı market"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Die Schrauben habe ich im Baumarkt gekauft.",
+        "tr": "Vidaları yapı marketten aldım."
+      },
+      "note": null
+    },
+    {
+      "id": "prompt",
+      "word": "Prompt",
+      "type": "noun",
+      "article": "der",
+      "plural": "Prompts",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eingabe oder Anweisung an ein Computerprogramm oder eine KI",
+        "tr": "komut, istem (prompt)"
+      },
+      "synonyms": [
+        "die Eingabe",
+        "die Anweisung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Mit einem guten Prompt bekommt man bessere Antworten von der KI.",
+        "tr": "İyi bir komutla yapay zekâdan daha iyi cevaplar alınır."
+      },
+      "note": null
+    },
+    {
+      "id": "erzeugung",
+      "word": "Erzeugung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Erzeugungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Herstellen oder Hervorbringen von etwas",
+        "tr": "üretim"
+      },
+      "synonyms": [
+        "die Herstellung",
+        "die Produktion"
+      ],
+      "antonyms": [
+        "der Verbrauch"
+      ],
+      "example": {
+        "de": "Die Erzeugung von Strom aus Sonnenenergie wird immer billiger.",
+        "tr": "Güneş enerjisinden elektrik üretimi giderek ucuzluyor."
+      },
+      "note": null
+    },
+    {
+      "id": "erzeugen",
+      "word": "erzeugen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas herstellen oder entstehen lassen",
+        "tr": "üretmek"
+      },
+      "synonyms": [
+        "herstellen",
+        "produzieren"
+      ],
+      "antonyms": [
+        "verbrauchen",
+        "vernichten"
+      ],
+      "example": {
+        "de": "Windräder erzeugen Strom.",
+        "tr": "Rüzgâr türbinleri elektrik üretir."
+      },
+      "note": null
+    },
+    {
+      "id": "praezise",
+      "word": "präzise",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sehr genau und exakt",
+        "tr": "kesin, net, tam"
+      },
+      "synonyms": [
+        "genau",
+        "exakt"
+      ],
+      "antonyms": [
+        "ungenau",
+        "vage"
+      ],
+      "example": {
+        "de": "Bitte beschreiben Sie das Problem möglichst präzise.",
+        "tr": "Lütfen sorunu mümkün olduğunca net tarif edin."
+      },
+      "note": null
+    },
+    {
+      "id": "aussergewoehnlich",
+      "word": "außergewöhnlich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nicht normal, besonders, herausragend",
+        "tr": "olağanüstü"
+      },
+      "synonyms": [
+        "besonders",
+        "ungewöhnlich",
+        "herausragend"
+      ],
+      "antonyms": [
+        "gewöhnlich",
+        "normal"
+      ],
+      "example": {
+        "de": "Das war eine außergewöhnliche Leistung.",
+        "tr": "Bu olağanüstü bir başarıydı."
+      },
+      "note": null
+    },
+    {
+      "id": "leitfaden",
+      "word": "Leitfaden",
+      "type": "noun",
+      "article": "der",
+      "plural": "Leitfäden",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Anleitung oder Richtlinie, die Orientierung gibt",
+        "tr": "rehber, kılavuz"
+      },
+      "synonyms": [
+        "die Anleitung",
+        "die Richtlinie",
+        "der Ratgeber"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Leitfaden erklärt Schritt für Schritt, wie man das Gerät installiert.",
+        "tr": "Kılavuz, cihazın nasıl kurulacağını adım adım anlatıyor."
+      },
+      "note": null
+    },
+    {
+      "id": "verpflichtend",
+      "word": "verpflichtend",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Muss unbedingt gemacht werden",
+        "tr": "zorunlu"
+      },
+      "synonyms": [
+        "obligatorisch",
+        "vorgeschrieben"
+      ],
+      "antonyms": [
+        "freiwillig",
+        "optional"
+      ],
+      "example": {
+        "de": "Die Teilnahme an der Schulung ist verpflichtend.",
+        "tr": "Eğitime katılım zorunludur."
+      },
+      "note": null
+    },
+    {
+      "id": "einschraenkung",
+      "word": "Einschränkung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Einschränkungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Begrenzung oder Beschränkung",
+        "tr": "kısıtlama, sınırlama"
+      },
+      "synonyms": [
+        "die Restriktion",
+        "die Beschränkung",
+        "die Begrenzung"
+      ],
+      "antonyms": [
+        "die Freiheit",
+        "die Erweiterung"
+      ],
+      "example": {
+        "de": "Wegen der Bauarbeiten gibt es Einschränkungen im Verkehr.",
+        "tr": "İnşaat çalışmaları nedeniyle trafikte kısıtlamalar var."
+      },
+      "note": null
+    }
+  ]
+}

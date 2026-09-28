@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Wortkarten">
+  <meta name="theme-color" content="#ffffff">
+  <title>Wortkarten</title>
+  <style>
+    :root {
+      --der: rgba(0, 0, 255, 0.5);
+      --die: rgba(255, 0, 0, 0.5);
+      --das: rgba(0, 0, 0, 0.1);
+      --none: #ffffff;
+      --border: #d9d9d9;
+      --text: #1a1a1a;
+      --muted: #555;
+      --bg: #f4f4f6;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { -webkit-text-size-adjust: 100%; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+               max(24px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+    }
+
+    header {
+      max-width: 1100px;
+      margin: 0 auto 16px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    h1 { font-size: 1.4rem; margin: 0; }
+
+    #count { color: var(--muted); font-size: 0.9rem; }
+
+    #status {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 16px;
+      border-radius: 12px;
+      background: #fff3cd;
+      border: 1px solid #e6d28a;
+      line-height: 1.5;
+    }
+    #status[hidden] { display: none; }
+    #status code {
+      background: rgba(0, 0, 0, 0.07);
+      padding: 1px 5px;
+      border-radius: 4px;
+      word-break: break-all;
+    }
+
+    #grid {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media (min-width: 560px) { #grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 860px) { #grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (min-width: 1100px) { #grid { grid-template-columns: repeat(4, 1fr); } }
+
+    .card {
+      position: relative;
+      height: 150px;
+      perspective: 900px;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
+      -webkit-user-select: none;
+      border: 0;
+      padding: 0;
+      background: none;
+      font: inherit;
+      color: inherit;
+      text-align: center;
+      width: 100%;
+    }
+
+    .inner {
+      position: absolute;
+      inset: 0;
+      transition: transform 0.5s ease;
+      transform-style: preserve-3d;
+    }
+    .card.flipped .inner { transform: rotateY(180deg); }
+
+    .face {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      /* Semi-transparent color layered over white so the opacity looks the same on any page background. */
+      background: linear-gradient(var(--card-bg, var(--none)), var(--card-bg, var(--none))), #fff;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+    .back { transform: rotateY(180deg); }
+
+    .card[data-article="der"] { --card-bg: var(--der); }
+    .card[data-article="die"] { --card-bg: var(--die); }
+    .card[data-article="das"] { --card-bg: var(--das); }
+
+    .word { font-size: 1.5rem; font-weight: 600; overflow-wrap: anywhere; }
+    .word .article { font-weight: 400; }
+    .meaning { font-size: 1.3rem; overflow-wrap: anywhere; }
+
+    .tag {
+      position: absolute;
+      top: 10px;
+      left: 12px;
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wortkarten</h1>
+    <span id="count"></span>
+  </header>
+
+  <div id="status" hidden></div>
+  <main id="grid"></main>
+
+  <script>
+    const ARTICLES = ["der", "die", "das"];
+    const TYPE_LABELS = {
+      verb: "Verb",
+      adjective: "Adj.",
+      adverb: "Adv.",
+      phrase: "Phrase",
+      noun: "Nomen",
+    };
+
+    const grid = document.getElementById("grid");
+    const statusBox = document.getElementById("status");
+    const countEl = document.getElementById("count");
+
+    function showStatus(html) {
+      statusBox.innerHTML = html;
+      statusBox.hidden = false;
+    }
+
+    function el(tag, className, text) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      if (text != null) node.textContent = text;
+      return node;
+    }
+
+    function buildCard(card) {
+      const article = ARTICLES.includes(card.article) ? card.article : null;
+
+      const button = el("button", "card");
+      button.type = "button";
+      if (article) button.dataset.article = article;
+
+      const inner = el("div", "inner");
+      const front = el("div", "face front");
+      const back = el("div", "face back");
+
+      if (!article && card.type) {
+        front.appendChild(el("span", "tag", TYPE_LABELS[card.type] || card.type));
+      }
+
+      const word = el("div", "word");
+      if (article) {
+        word.appendChild(el("span", "article", article + " "));
+      }
+      word.appendChild(document.createTextNode(card.word || "?"));
+      front.appendChild(word);
+
+      back.appendChild(el("div", "meaning", (card.meaning && card.meaning.tr) || "—"));
+
+      inner.append(front, back);
+      button.appendChild(inner);
+      button.setAttribute("aria-label", (article ? article + " " : "") + (card.word || ""));
+      button.addEventListener("click", () => button.classList.toggle("flipped"));
+      return button;
+    }
+
+    async function load() {
+      if (location.protocol === "file:") {
+        showStatus(
+          "Bu sayfa dosya olarak açıldı, bu yüzden <code>cards.json</code> okunamıyor.<br>" +
+          "Klasörde bir terminal açıp <code>python3 -m http.server</code> çalıştırın ve " +
+          "<code>http://localhost:8000</code> adresini açın. Ya da GitHub Pages adresini kullanın."
+        );
+        return;
+      }
+
+      let data;
+      try {
+        const res = await fetch("cards.json", { cache: "no-store" });
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        const text = await res.text();
+        try {
+          data = JSON.parse(text);
+        } catch (e) {
+          showStatus("<code>cards.json</code> geçerli bir JSON değil (eksik virgül veya tırnak olabilir).<br><code></code>");
+          statusBox.querySelector("code:last-child").textContent = e.message;
+          return;
+        }
+      } catch (e) {
+        showStatus("<code>cards.json</code> yüklenemedi: <code></code>");
+        statusBox.querySelector("code:last-child").textContent = e.message;
+        return;
+      }
+
+      const cards = Array.isArray(data && data.cards) ? data.cards : [];
+      if (cards.length === 0) {
+        showStatus("<code>cards.json</code> içinde hiç kart yok.");
+        return;
+      }
+
+      const fragment = document.createDocumentFragment();
+      for (const card of cards) {
+        if (card && typeof card === "object") fragment.appendChild(buildCard(card));
+      }
+      grid.appendChild(fragment);
+      countEl.textContent = cards.length + " Karten";
+    }
+
+    load();
+  </script>
+</body>
+</html>
