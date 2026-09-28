@@ -1971,6 +1971,2042 @@
         "it": "A causa dei lavori ci sono limitazioni al traffico."
       },
       "note": null
+    },
+    {
+      "id": "zu-zweit",
+      "source": "book",
+      "chapter": 1,
+      "word": "zu zweit",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Als Paar, zu zwei Personen",
+        "tr": "ikişerli, iki kişi olarak",
+        "en": "in pairs, in twos",
+        "uk": "удвох, у парах",
+        "ar": "في أزواج، اثنين اثنين",
+        "it": "in coppia, a due a due"
+      },
+      "synonyms": [
+        "paarweise",
+        "zu zweien"
+      ],
+      "antonyms": [
+        "allein"
+      ],
+      "example": {
+        "de": "Diskutieren Sie zu zweit über das Bild.",
+        "tr": "Resim hakkında ikişerli tartışın.",
+        "en": "Discuss the picture in pairs.",
+        "uk": "Обговоріть зображення в парах.",
+        "ar": "ناقشوا الصورة في أزواج.",
+        "it": "Discutete l'immagine in coppia."
+      },
+      "note": "zu zweit arbeiten / diskutieren"
+    },
+    {
+      "id": "entspannt",
+      "source": "book",
+      "chapter": 1,
+      "word": "entspannt",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Ruhig und ohne Stress, locker",
+        "tr": "rahat, gevşemiş",
+        "en": "relaxed",
+        "uk": "розслаблений, спокійний",
+        "ar": "مسترخٍ، هادئ",
+        "it": "rilassato"
+      },
+      "synonyms": [
+        "locker",
+        "gelassen",
+        "ruhig"
+      ],
+      "antonyms": [
+        "angespannt",
+        "gestresst"
+      ],
+      "example": {
+        "de": "Ein Eisbrecher hilft Menschen, entspannter miteinander zu sprechen.",
+        "tr": "Buz kırıcı, insanların birbirleriyle daha rahat konuşmasına yardımcı olur.",
+        "en": "An icebreaker helps people talk to each other in a more relaxed way.",
+        "uk": "Криголам допомагає людям спілкуватися між собою невимушеніше.",
+        "ar": "تساعد أنشطة كسر الجليد الناس على التحدث مع بعضهم بارتياح أكبر.",
+        "it": "Un rompighiaccio aiuta le persone a parlare tra loro in modo più rilassato."
+      },
+      "note": null
+    },
+    {
+      "id": "sich-wohlfuehlen",
+      "source": "book",
+      "chapter": 1,
+      "word": "sich wohlfühlen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "fühlt sich wohl",
+        "praeteritum": "fühlte sich wohl",
+        "perfekt": "hat sich wohlgefühlt"
+      },
+      "meaning": {
+        "de": "Sich angenehm, zufrieden und entspannt fühlen",
+        "tr": "kendini iyi / rahat hissetmek",
+        "en": "to feel comfortable, to feel at ease",
+        "uk": "почуватися добре, почуватися комфортно",
+        "ar": "يشعر بالراحة",
+        "it": "sentirsi a proprio agio, stare bene"
+      },
+      "synonyms": [
+        "sich behaglich fühlen"
+      ],
+      "antonyms": [
+        "sich unwohl fühlen"
+      ],
+      "example": {
+        "de": "Die Gruppe soll sich am Anfang des Kurses wohlfühlen.",
+        "tr": "Grup kursun başında kendini rahat hissetmeli.",
+        "en": "The group should feel comfortable at the beginning of the course.",
+        "uk": "Група має почуватися комфортно на початку курсу.",
+        "ar": "يجب أن تشعر المجموعة بالراحة في بداية الدورة.",
+        "it": "Il gruppo deve sentirsi a proprio agio all'inizio del corso."
+      },
+      "note": "sich (Akk.) irgendwo / bei jemandem (Dat.) wohlfühlen"
+    },
+    {
+      "id": "raten",
+      "source": "book",
+      "chapter": 1,
+      "word": "raten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "rät",
+        "praeteritum": "riet",
+        "perfekt": "hat geraten"
+      },
+      "meaning": {
+        "de": "Etwas vermuten, ohne es genau zu wissen; auch: jemandem einen Tipp geben",
+        "tr": "tahmin etmek; tavsiye etmek",
+        "en": "to guess; to advise",
+        "uk": "вгадувати; радити",
+        "ar": "يخمّن؛ ينصح",
+        "it": "indovinare; consigliare"
+      },
+      "synonyms": [
+        "vermuten",
+        "schätzen"
+      ],
+      "antonyms": [
+        "wissen"
+      ],
+      "example": {
+        "de": "Dann muss sie raten, welche Aussage erfunden ist.",
+        "tr": "Sonra hangi ifadenin uydurma olduğunu tahmin etmesi gerekiyor.",
+        "en": "Then she has to guess which statement is made up.",
+        "uk": "Потім вона має вгадати, яке твердження вигадане.",
+        "ar": "ثم عليها أن تخمّن أي عبارة مختلَقة.",
+        "it": "Poi deve indovinare quale affermazione è inventata."
+      },
+      "note": "etwas (Akk.) raten; jemandem (Dat.) etwas (Akk.) raten (= einen Tipp geben); unregelmäßig: rät – riet – hat geraten"
+    },
+    {
+      "id": "aussage",
+      "source": "book",
+      "chapter": 1,
+      "word": "Aussage",
+      "type": "noun",
+      "article": "die",
+      "plural": "Aussagen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Satz oder eine Mitteilung, mit der man etwas behauptet oder erklärt",
+        "tr": "ifade, beyan",
+        "en": "statement",
+        "uk": "твердження, висловлювання",
+        "ar": "عبارة، تصريح",
+        "it": "affermazione, dichiarazione"
+      },
+      "synonyms": [
+        "die Behauptung",
+        "die Äußerung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Eine der drei Aussagen ist falsch.",
+        "tr": "Üç ifadeden biri yanlış.",
+        "en": "One of the three statements is false.",
+        "uk": "Одне з трьох тверджень неправильне.",
+        "ar": "إحدى العبارات الثلاث خاطئة.",
+        "it": "Una delle tre affermazioni è falsa."
+      },
+      "note": null
+    },
+    {
+      "id": "ungehindert",
+      "source": "book",
+      "chapter": 1,
+      "word": "ungehindert",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Ohne Hindernis, frei und ohne Probleme",
+        "tr": "engelsiz, rahatça, serbestçe",
+        "en": "unhindered, freely",
+        "uk": "безперешкодний, вільно",
+        "ar": "دون عوائق، بحرية",
+        "it": "senza ostacoli, liberamente"
+      },
+      "synonyms": [
+        "frei",
+        "ungestört"
+      ],
+      "antonyms": [
+        "eingeschränkt",
+        "behindert"
+      ],
+      "example": {
+        "de": "Ich möchte mich ungehindert an einer Teamsitzung ausdrücken können.",
+        "tr": "Bir ekip toplantısında kendimi rahatça ifade edebilmek istiyorum.",
+        "en": "I would like to be able to express myself freely in a team meeting.",
+        "uk": "Я хочу вільно висловлюватися на нараді команди.",
+        "ar": "أريد أن أتمكن من التعبير عن نفسي بحرية في اجتماع الفريق.",
+        "it": "Vorrei potermi esprimere liberamente durante una riunione di team."
+      },
+      "note": null
+    },
+    {
+      "id": "ausdruecken",
+      "source": "book",
+      "chapter": 1,
+      "word": "ausdrücken",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "drückt aus",
+        "praeteritum": "drückte aus",
+        "perfekt": "hat ausgedrückt"
+      },
+      "meaning": {
+        "de": "Gedanken oder Gefühle mit Worten zeigen; sich ausdrücken: formulieren, was man meint",
+        "tr": "ifade etmek; (sich) kendini ifade etmek",
+        "en": "to express; to express oneself",
+        "uk": "висловлювати; висловлюватися",
+        "ar": "يعبّر عن؛ يعبّر عن نفسه",
+        "it": "esprimere; esprimersi"
+      },
+      "synonyms": [
+        "äußern",
+        "formulieren"
+      ],
+      "antonyms": [
+        "verschweigen"
+      ],
+      "example": {
+        "de": "Die Redemittelbox hilft, Meinungen auszudrücken.",
+        "tr": "İfade kalıpları kutusu, fikirleri ifade etmeye yardımcı olur.",
+        "en": "The phrase box helps to express opinions.",
+        "uk": "Блок мовних засобів допомагає висловлювати думки.",
+        "ar": "يساعد مربع العبارات على التعبير عن الآراء.",
+        "it": "Il riquadro con le espressioni aiuta a esprimere opinioni."
+      },
+      "note": "etwas (Akk.) ausdrücken; sich (Akk.) ausdrücken; nicht verwechseln mit: ausdrucken (= drucken)"
+    },
+    {
+      "id": "anpassen",
+      "source": "book",
+      "chapter": 1,
+      "word": "anpassen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "passt an",
+        "praeteritum": "passte an",
+        "perfekt": "hat angepasst"
+      },
+      "meaning": {
+        "de": "Etwas so verändern, dass es zu einer Situation passt",
+        "tr": "uyarlamak, ayarlamak; (sich) uyum sağlamak",
+        "en": "to adjust, to adapt",
+        "uk": "пристосовувати, коригувати",
+        "ar": "يعدّل، يكيّف",
+        "it": "adattare, adeguare"
+      },
+      "synonyms": [
+        "angleichen",
+        "abstimmen"
+      ],
+      "antonyms": [
+        "beibehalten"
+      ],
+      "example": {
+        "de": "Nehmen Sie sich regelmäßig Zeit, Ihre Lernziele zu überprüfen und anzupassen.",
+        "tr": "Öğrenme hedeflerinizi gözden geçirmek ve uyarlamak için düzenli olarak zaman ayırın.",
+        "en": "Take time regularly to review and adjust your learning goals.",
+        "uk": "Регулярно знаходьте час, щоб перевіряти й коригувати свої навчальні цілі.",
+        "ar": "خصّص وقتًا بانتظام لمراجعة أهداف تعلّمك وتعديلها.",
+        "it": "Prendetevi regolarmente del tempo per verificare e adattare i vostri obiettivi di apprendimento."
+      },
+      "note": "etwas (Akk.) an etwas (Akk.) anpassen; sich (Akk.) an etwas (Akk.) anpassen"
+    },
+    {
+      "id": "lehrwerk",
+      "source": "book",
+      "chapter": 1,
+      "word": "Lehrwerk",
+      "type": "noun",
+      "article": "das",
+      "plural": "Lehrwerke",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Buch oder eine Reihe von Materialien für den Unterricht",
+        "tr": "ders kitabı (seti)",
+        "en": "textbook, course book",
+        "uk": "навчальний комплекс, підручник",
+        "ar": "كتاب تعليمي، منهج",
+        "it": "manuale didattico, libro di testo"
+      },
+      "synonyms": [
+        "das Lehrbuch",
+        "das Kursbuch"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Dieses Lehrwerk bereitet auf den Deutsch-Test für den Beruf vor.",
+        "tr": "Bu ders kitabı meslek için Almanca sınavına hazırlar.",
+        "en": "This textbook prepares you for the German test for professional purposes.",
+        "uk": "Цей підручник готує до тесту з німецької мови для професійних цілей.",
+        "ar": "يُعِدّ هذا الكتاب التعليمي لاختبار اللغة الألمانية المهني.",
+        "it": "Questo manuale prepara al test di tedesco per la professione."
+      },
+      "note": null
+    },
+    {
+      "id": "aufbau",
+      "source": "book",
+      "chapter": 1,
+      "word": "Aufbau",
+      "type": "noun",
+      "article": "der",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Struktur, wie etwas gegliedert ist; auch: das Aufbauen",
+        "tr": "yapı, düzen; kurulum",
+        "en": "structure, layout; construction",
+        "uk": "будова, структура",
+        "ar": "بنية، هيكل",
+        "it": "struttura, composizione"
+      },
+      "synonyms": [
+        "die Struktur",
+        "die Gliederung"
+      ],
+      "antonyms": [
+        "der Abbau"
+      ],
+      "example": {
+        "de": "Im ersten Kapitel lernen wir den Aufbau des Buches kennen.",
+        "tr": "İlk bölümde kitabın yapısını tanıyoruz.",
+        "en": "In the first chapter we get to know the structure of the book.",
+        "uk": "У першому розділі ми знайомимося з будовою книжки.",
+        "ar": "في الفصل الأول نتعرّف على بنية الكتاب.",
+        "it": "Nel primo capitolo conosciamo la struttura del libro."
+      },
+      "note": null
+    },
+    {
+      "id": "entsprechen",
+      "source": "book",
+      "chapter": 1,
+      "word": "entsprechen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "entspricht",
+        "praeteritum": "entsprach",
+        "perfekt": "hat entsprochen"
+      },
+      "meaning": {
+        "de": "Gleich sein oder zu etwas passen",
+        "tr": "karşılık gelmek, uymak",
+        "en": "to correspond to, to match",
+        "uk": "відповідати",
+        "ar": "يتوافق مع، يطابق",
+        "it": "corrispondere a"
+      },
+      "synonyms": [
+        "übereinstimmen",
+        "passen"
+      ],
+      "antonyms": [
+        "abweichen"
+      ],
+      "example": {
+        "de": "Dieses Lehrwerk entspricht dem B2-Niveau.",
+        "tr": "Bu ders kitabı B2 seviyesine karşılık gelir.",
+        "en": "This textbook corresponds to level B2.",
+        "uk": "Цей підручник відповідає рівню B2.",
+        "ar": "يتوافق هذا الكتاب مع مستوى B2.",
+        "it": "Questo manuale corrisponde al livello B2."
+      },
+      "note": "jemandem / etwas (Dat.) entsprechen; unregelmäßig: entspricht – entsprach – hat entsprochen"
+    },
+    {
+      "id": "bestehen",
+      "source": "book",
+      "chapter": 1,
+      "word": "bestehen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "besteht",
+        "praeteritum": "bestand",
+        "perfekt": "hat bestanden"
+      },
+      "meaning": {
+        "de": "bestehen aus: sich aus Teilen zusammensetzen; auch: eine Prüfung schaffen",
+        "tr": "-den oluşmak; (sınavı) geçmek",
+        "en": "to consist of; to pass (an exam)",
+        "uk": "складатися з; складати (іспит)",
+        "ar": "يتكوّن من؛ ينجح في (امتحان)",
+        "it": "essere composto da; superare (un esame)"
+      },
+      "synonyms": [
+        "sich zusammensetzen",
+        "umfassen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Das Buch besteht aus insgesamt zwölf Kapiteln.",
+        "tr": "Kitap toplam on iki bölümden oluşuyor.",
+        "en": "The book consists of twelve chapters in total.",
+        "uk": "Книжка складається загалом із дванадцяти розділів.",
+        "ar": "يتكوّن الكتاب من اثني عشر فصلًا في المجموع.",
+        "it": "Il libro è composto in totale da dodici capitoli."
+      },
+      "note": "aus etwas (Dat.) bestehen; eine Prüfung (Akk.) bestehen; unregelmäßig: besteht – bestand – hat bestanden"
+    },
+    {
+      "id": "jeweilig",
+      "source": "book",
+      "chapter": 1,
+      "word": "jeweilig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Zu der gerade genannten Sache oder Person gehörend",
+        "tr": "ilgili, söz konusu, her birinin",
+        "en": "respective",
+        "uk": "відповідний",
+        "ar": "المعنيّ، الخاص بكلٍّ منها",
+        "it": "rispettivo"
+      },
+      "synonyms": [
+        "entsprechend",
+        "betreffend"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Teile greifen Aspekte des jeweiligen Kapitelthemas auf.",
+        "tr": "Bölümler, ilgili ünite konusunun farklı yönlerini ele alır.",
+        "en": "The parts take up aspects of the respective chapter topic.",
+        "uk": "Частини розглядають аспекти відповідної теми розділу.",
+        "ar": "تتناول الأجزاء جوانب من موضوع الفصل المعني.",
+        "it": "Le parti riprendono aspetti del rispettivo tema del capitolo."
+      },
+      "note": "nur vor dem Nomen: der / die / das jeweilige …"
+    },
+    {
+      "id": "zuwanderer",
+      "source": "book",
+      "chapter": 1,
+      "word": "Zuwanderer",
+      "type": "noun",
+      "article": "der",
+      "plural": "Zuwanderer",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Person, die in ein anderes Land zieht, um dort zu leben",
+        "tr": "göçmen",
+        "en": "immigrant",
+        "uk": "іммігрант",
+        "ar": "مهاجر (وافد)",
+        "it": "immigrato"
+      },
+      "synonyms": [
+        "der Einwanderer",
+        "der Migrant"
+      ],
+      "antonyms": [
+        "der Auswanderer"
+      ],
+      "example": {
+        "de": "Der Test richtet sich an Zuwanderer, die in Deutschland arbeiten möchten.",
+        "tr": "Sınav, Almanya'da çalışmak isteyen göçmenlere yöneliktir.",
+        "en": "The test is aimed at immigrants who want to work in Germany.",
+        "uk": "Тест призначений для іммігрантів, які хочуть працювати в Німеччині.",
+        "ar": "يستهدف الاختبار المهاجرين الذين يريدون العمل في ألمانيا.",
+        "it": "Il test è rivolto agli immigrati che vogliono lavorare in Germania."
+      },
+      "note": "weiblich: die Zuwanderin"
+    },
+    {
+      "id": "dienen",
+      "source": "book",
+      "chapter": 1,
+      "word": "dienen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "dient",
+        "praeteritum": "diente",
+        "perfekt": "hat gedient"
+      },
+      "meaning": {
+        "de": "Einen bestimmten Zweck erfüllen; für etwas nützlich sein",
+        "tr": "yaramak, hizmet etmek",
+        "en": "to serve (a purpose)",
+        "uk": "служити, слугувати",
+        "ar": "يخدم، يُستخدم لـ",
+        "it": "servire a"
+      },
+      "synonyms": [
+        "nützen",
+        "helfen"
+      ],
+      "antonyms": [
+        "schaden"
+      ],
+      "example": {
+        "de": "Das Übungsbuch dient der Festigung und Vertiefung.",
+        "tr": "Alıştırma kitabı pekiştirme ve derinleştirmeye yarar.",
+        "en": "The workbook serves to consolidate and deepen what you have learned.",
+        "uk": "Робочий зошит слугує для закріплення й поглиблення.",
+        "ar": "يُستخدم كتاب التمارين للترسيخ والتعميق.",
+        "it": "L'eserciziario serve al consolidamento e all'approfondimento."
+      },
+      "note": "etwas (Dat.) dienen; zu etwas (Dat.) dienen"
+    },
+    {
+      "id": "bewerbungsunterlagen",
+      "source": "book",
+      "chapter": 1,
+      "word": "Bewerbungsunterlagen",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Alle Dokumente, die man für eine Bewerbung braucht, z. B. Lebenslauf und Anschreiben",
+        "tr": "başvuru belgeleri",
+        "en": "application documents",
+        "uk": "документи для подання на вакансію",
+        "ar": "وثائق طلب التوظيف",
+        "it": "documenti di candidatura"
+      },
+      "synonyms": [
+        "die Bewerbungsmappe"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In Kapitel 4 lernt man, wie man Bewerbungsunterlagen zusammenstellt.",
+        "tr": "4. bölümde başvuru belgelerinin nasıl hazırlanacağı öğrenilir.",
+        "en": "In chapter 4 you learn how to put together application documents.",
+        "uk": "У розділі 4 вчаться складати документи для подання на вакансію.",
+        "ar": "في الفصل 4 نتعلّم كيفية تجهيز وثائق طلب التوظيف.",
+        "it": "Nel capitolo 4 si impara a preparare i documenti di candidatura."
+      },
+      "note": "nur Plural"
+    },
+    {
+      "id": "arbeitsablauf",
+      "source": "book",
+      "chapter": 1,
+      "word": "Arbeitsablauf",
+      "type": "noun",
+      "article": "der",
+      "plural": "Arbeitsabläufe",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Reihenfolge der Schritte, in denen eine Arbeit gemacht wird",
+        "tr": "iş akışı, iş süreci",
+        "en": "workflow, work process",
+        "uk": "робочий процес",
+        "ar": "سير العمل",
+        "it": "flusso di lavoro, processo lavorativo"
+      },
+      "synonyms": [
+        "der Prozess",
+        "der Arbeitsprozess"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In Kapitel 8 lernt man Arbeitsabläufe besser kennen.",
+        "tr": "8. bölümde iş süreçleri daha iyi tanınır.",
+        "en": "In chapter 8 you get to know workflows better.",
+        "uk": "У розділі 8 краще знайомляться з робочими процесами.",
+        "ar": "في الفصل 8 نتعرّف بشكل أفضل على سير العمل.",
+        "it": "Nel capitolo 8 si conoscono meglio i flussi di lavoro."
+      },
+      "note": null
+    },
+    {
+      "id": "enthalten",
+      "source": "book",
+      "chapter": 1,
+      "word": "enthalten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "enthält",
+        "praeteritum": "enthielt",
+        "perfekt": "hat enthalten"
+      },
+      "meaning": {
+        "de": "In sich haben, als Teil haben",
+        "tr": "içermek, kapsamak",
+        "en": "to contain, to include",
+        "uk": "містити",
+        "ar": "يحتوي على",
+        "it": "contenere"
+      },
+      "synonyms": [
+        "beinhalten",
+        "umfassen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Jedes Kapitel enthält eine Grammatikübersicht.",
+        "tr": "Her bölüm bir dilbilgisi özeti içerir.",
+        "en": "Every chapter contains a grammar overview.",
+        "uk": "Кожен розділ містить огляд граматики.",
+        "ar": "يحتوي كل فصل على ملخص للقواعد.",
+        "it": "Ogni capitolo contiene una panoramica grammaticale."
+      },
+      "note": "etwas (Akk.) enthalten; unregelmäßig: enthält – enthielt – hat enthalten"
+    },
+    {
+      "id": "einarbeitung",
+      "source": "book",
+      "chapter": 1,
+      "word": "Einarbeitung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Einarbeitungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Zeit, in der man eine neue Arbeit oder Aufgabe kennenlernt und lernt",
+        "tr": "işe alışma, oryantasyon",
+        "en": "induction, onboarding",
+        "uk": "введення в посаду, адаптація",
+        "ar": "فترة التأهيل للعمل",
+        "it": "inserimento, formazione iniziale"
+      },
+      "synonyms": [
+        "die Einführung",
+        "das Onboarding"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Kapitel 7 erklärt, was bei der Einarbeitung in eine neue Stelle wichtig ist.",
+        "tr": "7. bölüm, yeni bir işe alışma sürecinde neyin önemli olduğunu açıklar.",
+        "en": "Chapter 7 explains what is important when settling into a new job.",
+        "uk": "Розділ 7 пояснює, що важливо під час адаптації на новій посаді.",
+        "ar": "يشرح الفصل 7 ما هو مهم خلال فترة التأهيل لوظيفة جديدة.",
+        "it": "Il capitolo 7 spiega che cosa è importante nell'inserimento in un nuovo posto di lavoro."
+      },
+      "note": "die Einarbeitung in etwas (Akk.)"
+    },
+    {
+      "id": "protagonist",
+      "source": "book",
+      "chapter": 1,
+      "word": "Protagonist",
+      "type": "noun",
+      "article": "der",
+      "plural": "Protagonisten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Hauptperson in einer Geschichte, einem Film oder Buch",
+        "tr": "ana karakter, başkahraman",
+        "en": "protagonist, main character",
+        "uk": "головний герой, протагоніст",
+        "ar": "الشخصية الرئيسية، البطل",
+        "it": "protagonista"
+      },
+      "synonyms": [
+        "die Hauptfigur",
+        "der Held"
+      ],
+      "antonyms": [
+        "der Antagonist"
+      ],
+      "example": {
+        "de": "In Kapitel 3 ist einer der Protagonisten im Jobcenter.",
+        "tr": "3. bölümde ana karakterlerden biri iş ajansında.",
+        "en": "In chapter 3, one of the protagonists is at the job centre.",
+        "uk": "У розділі 3 один із головних героїв перебуває в центрі зайнятості.",
+        "ar": "في الفصل 3 تكون إحدى الشخصيات الرئيسية في مكتب العمل.",
+        "it": "Nel capitolo 3 uno dei protagonisti è al centro per l'impiego."
+      },
+      "note": "n-Deklination: den / dem / des Protagonisten; weiblich: die Protagonistin"
+    },
+    {
+      "id": "jobmesse",
+      "source": "book",
+      "chapter": 1,
+      "word": "Jobmesse",
+      "type": "noun",
+      "article": "die",
+      "plural": "Jobmessen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Veranstaltung, auf der sich Firmen und Bewerber treffen",
+        "tr": "kariyer fuarı, iş fuarı",
+        "en": "job fair, career fair",
+        "uk": "ярмарок вакансій",
+        "ar": "معرض التوظيف",
+        "it": "fiera del lavoro"
+      },
+      "synonyms": [
+        "die Karrieremesse"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In Kapitel 10 wird eine Jobmesse besucht.",
+        "tr": "10. bölümde bir kariyer fuarı ziyaret ediliyor.",
+        "en": "In chapter 10 a job fair is visited.",
+        "uk": "У розділі 10 відвідують ярмарок вакансій.",
+        "ar": "في الفصل 10 تتم زيارة معرض توظيف.",
+        "it": "Nel capitolo 10 si visita una fiera del lavoro."
+      },
+      "note": null
+    },
+    {
+      "id": "vermuten",
+      "source": "book",
+      "chapter": 1,
+      "word": "vermuten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "vermutet",
+        "praeteritum": "vermutete",
+        "perfekt": "hat vermutet"
+      },
+      "meaning": {
+        "de": "Etwas für wahrscheinlich halten, ohne es sicher zu wissen",
+        "tr": "tahmin etmek, sanmak",
+        "en": "to suppose, to assume",
+        "uk": "припускати",
+        "ar": "يفترض، يظنّ",
+        "it": "supporre, presumere"
+      },
+      "synonyms": [
+        "annehmen",
+        "raten"
+      ],
+      "antonyms": [
+        "wissen"
+      ],
+      "example": {
+        "de": "Was vermuten Sie, was die Person gerne macht?",
+        "tr": "Sizce bu kişi ne yapmayı seviyor?",
+        "en": "What do you suppose the person likes to do?",
+        "uk": "Як ви гадаєте, що ця людина любить робити?",
+        "ar": "ماذا تظن أن هذا الشخص يحب أن يفعل؟",
+        "it": "Che cosa supponete che questa persona faccia volentieri?"
+      },
+      "note": "etwas (Akk.) vermuten"
+    },
+    {
+      "id": "begriff",
+      "source": "book",
+      "chapter": 1,
+      "word": "Begriff",
+      "type": "noun",
+      "article": "der",
+      "plural": "Begriffe",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Wort oder Ausdruck für eine bestimmte Sache oder Idee",
+        "tr": "kavram, terim",
+        "en": "term, concept",
+        "uk": "поняття, термін",
+        "ar": "مفهوم، مصطلح",
+        "it": "termine, concetto"
+      },
+      "synonyms": [
+        "der Ausdruck",
+        "der Terminus"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ordnen Sie die Begriffe zu.",
+        "tr": "Kavramları eşleştirin.",
+        "en": "Match the terms.",
+        "uk": "Доберіть відповідні терміни.",
+        "ar": "طابِق المصطلحات.",
+        "it": "Abbinate i termini."
+      },
+      "note": "im Begriff sein, etwas zu tun (= gleich etwas tun)"
+    },
+    {
+      "id": "muster",
+      "source": "book",
+      "chapter": 1,
+      "word": "Muster",
+      "type": "noun",
+      "article": "das",
+      "plural": "Muster",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Form oder Regel, die sich wiederholt; auch: ein Vorbild",
+        "tr": "kalıp, örüntü, model; desen",
+        "en": "pattern, model",
+        "uk": "зразок, модель; візерунок",
+        "ar": "نمط، نموذج",
+        "it": "modello, schema; motivo"
+      },
+      "synonyms": [
+        "das Schema",
+        "die Vorlage"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Grammatikbox hilft Ihnen, sprachliche Muster zu verstehen.",
+        "tr": "Dilbilgisi kutusu dil kalıplarını anlamanıza yardımcı olur.",
+        "en": "The grammar box helps you understand linguistic patterns.",
+        "uk": "Граматичний блок допомагає зрозуміти мовні моделі.",
+        "ar": "يساعدك مربع القواعد على فهم الأنماط اللغوية.",
+        "it": "Il riquadro di grammatica vi aiuta a capire gli schemi linguistici."
+      },
+      "note": null
+    },
+    {
+      "id": "anwenden",
+      "source": "book",
+      "chapter": 1,
+      "word": "anwenden",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "wendet an",
+        "praeteritum": "wendete an",
+        "perfekt": "hat angewendet"
+      },
+      "meaning": {
+        "de": "Etwas benutzen oder in der Praxis gebrauchen",
+        "tr": "uygulamak, kullanmak",
+        "en": "to apply, to use",
+        "uk": "застосовувати",
+        "ar": "يطبّق، يستخدم",
+        "it": "applicare, usare"
+      },
+      "synonyms": [
+        "verwenden",
+        "benutzen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Grammatikbox hilft, Regeln korrekt anzuwenden.",
+        "tr": "Dilbilgisi kutusu kuralları doğru uygulamaya yardımcı olur.",
+        "en": "The grammar box helps to apply rules correctly.",
+        "uk": "Граматичний блок допомагає правильно застосовувати правила.",
+        "ar": "يساعد مربع القواعد على تطبيق القواعد بشكل صحيح.",
+        "it": "Il riquadro di grammatica aiuta ad applicare correttamente le regole."
+      },
+      "note": "etwas (Akk.) auf etwas (Akk.) anwenden; Präteritum auch: wandte an, Perfekt auch: hat angewandt"
+    },
+    {
+      "id": "leistung",
+      "source": "book",
+      "chapter": 1,
+      "word": "Leistung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Leistungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Ergebnis einer Arbeit oder Anstrengung; auch: die Kraft eines Geräts",
+        "tr": "başarı, performans; güç",
+        "en": "performance, achievement",
+        "uk": "досягнення, продуктивність; потужність",
+        "ar": "أداء، إنجاز",
+        "it": "prestazione, risultato"
+      },
+      "synonyms": [
+        "die Performance",
+        "das Ergebnis"
+      ],
+      "antonyms": [
+        "das Versagen"
+      ],
+      "example": {
+        "de": "Das Produkt bietet außergewöhnliche Leistung bei hoher Energieeffizienz.",
+        "tr": "Ürün, yüksek enerji verimliliğiyle olağanüstü performans sunuyor.",
+        "en": "The product offers exceptional performance with high energy efficiency.",
+        "uk": "Продукт забезпечує надзвичайну продуктивність за високої енергоефективності.",
+        "ar": "يقدّم المنتج أداءً استثنائيًا مع كفاءة عالية في استهلاك الطاقة.",
+        "it": "Il prodotto offre prestazioni straordinarie con un'elevata efficienza energetica."
+      },
+      "note": null
+    },
+    {
+      "id": "staerke",
+      "source": "book",
+      "chapter": 1,
+      "word": "Stärke",
+      "type": "noun",
+      "article": "die",
+      "plural": "Stärken",
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas, was jemand besonders gut kann; auch: Kraft",
+        "tr": "güçlü yön; güç",
+        "en": "strength",
+        "uk": "сильна сторона; сила",
+        "ar": "نقطة قوة؛ قوة",
+        "it": "punto di forza; forza"
+      },
+      "synonyms": [
+        "der Vorteil",
+        "die Kraft"
+      ],
+      "antonyms": [
+        "die Schwäche"
+      ],
+      "example": {
+        "de": "Führe die Stärken und Schwächen präzise auf.",
+        "tr": "Güçlü ve zayıf yönleri net bir şekilde sırala.",
+        "en": "List the strengths and weaknesses precisely.",
+        "uk": "Чітко перелічи сильні та слабкі сторони.",
+        "ar": "اذكر نقاط القوة والضعف بدقة.",
+        "it": "Elenca con precisione i punti di forza e di debolezza."
+      },
+      "note": null
+    },
+    {
+      "id": "schwaeche",
+      "source": "book",
+      "chapter": 1,
+      "word": "Schwäche",
+      "type": "noun",
+      "article": "die",
+      "plural": "Schwächen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas, was jemand nicht so gut kann; ein Nachteil",
+        "tr": "zayıf yön, zaaf",
+        "en": "weakness",
+        "uk": "слабка сторона, слабкість",
+        "ar": "نقطة ضعف",
+        "it": "punto debole, debolezza"
+      },
+      "synonyms": [
+        "der Nachteil",
+        "das Defizit"
+      ],
+      "antonyms": [
+        "die Stärke"
+      ],
+      "example": {
+        "de": "Jeder Mensch hat Stärken und Schwächen.",
+        "tr": "Her insanın güçlü ve zayıf yönleri vardır.",
+        "en": "Every person has strengths and weaknesses.",
+        "uk": "Кожна людина має сильні та слабкі сторони.",
+        "ar": "لكل إنسان نقاط قوة ونقاط ضعف.",
+        "it": "Ogni persona ha punti di forza e punti deboli."
+      },
+      "note": "eine Schwäche für etwas (Akk.) haben (= etwas sehr mögen)"
+    },
+    {
+      "id": "entstehen",
+      "source": "book",
+      "chapter": 1,
+      "word": "entstehen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "entsteht",
+        "praeteritum": "entstand",
+        "perfekt": "ist entstanden"
+      },
+      "meaning": {
+        "de": "Neu da sein, sich bilden",
+        "tr": "ortaya çıkmak, oluşmak",
+        "en": "to arise, to emerge, to come into being",
+        "uk": "виникати, з'являтися",
+        "ar": "ينشأ، يتكوّن",
+        "it": "nascere, formarsi"
+      },
+      "synonyms": [
+        "sich bilden",
+        "sich entwickeln"
+      ],
+      "antonyms": [
+        "verschwinden",
+        "vergehen"
+      ],
+      "example": {
+        "de": "Am Ende sollen fünf Ideen für einen strategischen Leitfaden entstehen.",
+        "tr": "Sonunda stratejik bir kılavuz için beş fikir ortaya çıkmalı.",
+        "en": "In the end, five ideas for a strategic guideline should emerge.",
+        "uk": "Наприкінці мають з'явитися п'ять ідей для стратегічного посібника.",
+        "ar": "في النهاية يجب أن تنشأ خمس أفكار لدليل استراتيجي.",
+        "it": "Alla fine devono nascere cinque idee per una linea guida strategica."
+      },
+      "note": "intransitiv (ohne Objekt); aus etwas (Dat.) entstehen; unregelmäßig: entsteht – entstand – ist entstanden"
+    },
+    {
+      "id": "sich-beziehen",
+      "source": "book",
+      "chapter": 1,
+      "word": "sich beziehen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "bezieht sich",
+        "praeteritum": "bezog sich",
+        "perfekt": "hat sich bezogen"
+      },
+      "meaning": {
+        "de": "sich auf etwas beziehen: etwas als Grundlage nehmen oder mit etwas zu tun haben",
+        "tr": "(bir şeye) dayanmak, atıfta bulunmak, ilgili olmak",
+        "en": "to refer to, to relate to",
+        "uk": "посилатися на, стосуватися",
+        "ar": "يستند إلى، يشير إلى",
+        "it": "riferirsi a"
+      },
+      "synonyms": [
+        "sich stützen auf",
+        "betreffen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Beziehe dich ausschließlich auf aktuelle Forschung.",
+        "tr": "Yalnızca güncel araştırmalara dayan.",
+        "en": "Refer exclusively to current research.",
+        "uk": "Посилайся виключно на сучасні дослідження.",
+        "ar": "استند حصريًا إلى الأبحاث الحديثة.",
+        "it": "Riferisciti esclusivamente alla ricerca attuale."
+      },
+      "note": "sich (Akk.) auf jemanden / etwas (Akk.) beziehen; ohne „sich“: etwas (Akk.) beziehen (= bekommen, z. B. Gehalt)"
+    },
+    {
+      "id": "ausschliesslich",
+      "source": "book",
+      "chapter": 1,
+      "word": "ausschließlich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nur, allein, ohne Ausnahme",
+        "tr": "yalnızca, sadece, münhasıran",
+        "en": "exclusively, solely",
+        "uk": "виключно, лише",
+        "ar": "حصريًا، فقط",
+        "it": "esclusivamente, solo"
+      },
+      "synonyms": [
+        "nur",
+        "allein"
+      ],
+      "antonyms": [
+        "teilweise"
+      ],
+      "example": {
+        "de": "Der Text soll ausschließlich aktuelle Studien verwenden.",
+        "tr": "Metin yalnızca güncel çalışmalardan yararlanmalı.",
+        "en": "The text should use only current studies.",
+        "uk": "Текст має спиратися виключно на сучасні дослідження.",
+        "ar": "يجب أن يستخدم النص الدراسات الحديثة فقط.",
+        "it": "Il testo deve usare esclusivamente studi recenti."
+      },
+      "note": "oft als Adverb gebraucht; auch Präposition mit Genitiv: ausschließlich der Kosten"
+    },
+    {
+      "id": "forschung",
+      "source": "book",
+      "chapter": 1,
+      "word": "Forschung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Forschungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die wissenschaftliche Arbeit, um Neues herauszufinden",
+        "tr": "araştırma",
+        "en": "research",
+        "uk": "дослідження, наука",
+        "ar": "البحث العلمي",
+        "it": "ricerca"
+      },
+      "synonyms": [
+        "die Wissenschaft",
+        "die Untersuchung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Forschung zu künstlicher Intelligenz entwickelt sich schnell.",
+        "tr": "Yapay zekâ araştırmaları hızla gelişiyor.",
+        "en": "Research on artificial intelligence is developing quickly.",
+        "uk": "Дослідження штучного інтелекту швидко розвиваються.",
+        "ar": "يتطوّر البحث في مجال الذكاء الاصطناعي بسرعة.",
+        "it": "La ricerca sull'intelligenza artificiale si sviluppa rapidamente."
+      },
+      "note": "die Forschung zu / über etwas (Akk.)"
+    },
+    {
+      "id": "beurteilen",
+      "source": "book",
+      "chapter": 1,
+      "word": "beurteilen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "beurteilt",
+        "praeteritum": "beurteilte",
+        "perfekt": "hat beurteilt"
+      },
+      "meaning": {
+        "de": "Eine Meinung darüber bilden, ob etwas gut oder schlecht ist",
+        "tr": "değerlendirmek, yargılamak",
+        "en": "to assess, to judge",
+        "uk": "оцінювати",
+        "ar": "يقيّم، يحكم على",
+        "it": "valutare, giudicare"
+      },
+      "synonyms": [
+        "bewerten",
+        "einschätzen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Beurteile meine Antwort und gib mir Feedback.",
+        "tr": "Cevabımı değerlendir ve bana geri bildirim ver.",
+        "en": "Assess my answer and give me feedback.",
+        "uk": "Оціни мою відповідь і дай мені зворотний зв'язок.",
+        "ar": "قيّم إجابتي وأعطني ملاحظاتك.",
+        "it": "Valuta la mia risposta e dammi un feedback."
+      },
+      "note": "jemanden / etwas (Akk.) beurteilen; nach etwas (Dat.) beurteilen"
+    },
+    {
+      "id": "aufgabenbewaeltigung",
+      "source": "book",
+      "chapter": 1,
+      "word": "Aufgabenbewältigung",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Das erfolgreiche Lösen oder Erledigen einer Aufgabe",
+        "tr": "görevin yerine getirilmesi, görevi başarma",
+        "en": "task completion, task achievement",
+        "uk": "виконання завдання",
+        "ar": "إنجاز المهمة",
+        "it": "svolgimento del compito"
+      },
+      "synonyms": [
+        "die Aufgabenerfüllung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Antwort wird nach Aufgabenbewältigung, Verständlichkeit, Wortschatz und Grammatik beurteilt.",
+        "tr": "Cevap; görevin yerine getirilmesi, anlaşılırlık, kelime bilgisi ve dilbilgisine göre değerlendirilir.",
+        "en": "The answer is assessed on task completion, comprehensibility, vocabulary and grammar.",
+        "uk": "Відповідь оцінюють за виконанням завдання, зрозумілістю, лексикою та граматикою.",
+        "ar": "تُقيَّم الإجابة وفق إنجاز المهمة والوضوح والمفردات والقواعد.",
+        "it": "La risposta viene valutata in base a svolgimento del compito, comprensibilità, lessico e grammatica."
+      },
+      "note": null
+    },
+    {
+      "id": "konstruktiv",
+      "source": "book",
+      "chapter": 1,
+      "word": "konstruktiv",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Hilfreich und mit dem Ziel, etwas zu verbessern",
+        "tr": "yapıcı",
+        "en": "constructive",
+        "uk": "конструктивний",
+        "ar": "بنّاء",
+        "it": "costruttivo"
+      },
+      "synonyms": [
+        "hilfreich",
+        "förderlich"
+      ],
+      "antonyms": [
+        "destruktiv"
+      ],
+      "example": {
+        "de": "Gib mir kurzes, konstruktives Feedback.",
+        "tr": "Bana kısa ve yapıcı geri bildirim ver.",
+        "en": "Give me short, constructive feedback.",
+        "uk": "Дай мені короткий конструктивний відгук.",
+        "ar": "أعطني ملاحظات قصيرة وبنّاءة.",
+        "it": "Dammi un feedback breve e costruttivo."
+      },
+      "note": null
+    },
+    {
+      "id": "konkret",
+      "source": "book",
+      "chapter": 1,
+      "word": "konkret",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Genau und deutlich, nicht allgemein",
+        "tr": "somut, belirli",
+        "en": "concrete, specific",
+        "uk": "конкретний",
+        "ar": "ملموس، محدّد",
+        "it": "concreto"
+      },
+      "synonyms": [
+        "genau",
+        "bestimmt"
+      ],
+      "antonyms": [
+        "abstrakt",
+        "vage"
+      ],
+      "example": {
+        "de": "Gib mir einen konkreten Verbesserungsvorschlag.",
+        "tr": "Bana somut bir iyileştirme önerisi ver.",
+        "en": "Give me a concrete suggestion for improvement.",
+        "uk": "Дай мені конкретну пропозицію щодо покращення.",
+        "ar": "أعطني اقتراحًا ملموسًا للتحسين.",
+        "it": "Dammi una proposta di miglioramento concreta."
+      },
+      "note": null
+    },
+    {
+      "id": "wortwahl",
+      "source": "book",
+      "chapter": 1,
+      "word": "Wortwahl",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Auswahl der Wörter, die man benutzt",
+        "tr": "kelime seçimi",
+        "en": "choice of words, wording",
+        "uk": "вибір слів",
+        "ar": "اختيار الكلمات",
+        "it": "scelta delle parole"
+      },
+      "synonyms": [
+        "die Formulierung",
+        "die Ausdrucksweise"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Achten Sie in der Prüfung auf eine passende Wortwahl.",
+        "tr": "Sınavda uygun kelime seçimine dikkat edin.",
+        "en": "Pay attention to appropriate word choice in the exam.",
+        "uk": "На іспиті звертайте увагу на доречний вибір слів.",
+        "ar": "انتبه في الامتحان إلى اختيار كلمات مناسبة.",
+        "it": "All'esame fate attenzione a una scelta delle parole adeguata."
+      },
+      "note": null
+    },
+    {
+      "id": "veraltet",
+      "source": "book",
+      "chapter": 1,
+      "word": "veraltet",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nicht mehr aktuell, nicht mehr modern",
+        "tr": "eskimiş, güncelliğini yitirmiş",
+        "en": "outdated, obsolete",
+        "uk": "застарілий",
+        "ar": "قديم، متقادم",
+        "it": "obsoleto, superato"
+      },
+      "synonyms": [
+        "überholt",
+        "altmodisch"
+      ],
+      "antonyms": [
+        "aktuell",
+        "modern"
+      ],
+      "example": {
+        "de": "Inhalte von KI können veraltet sein.",
+        "tr": "Yapay zekâ içerikleri güncelliğini yitirmiş olabilir.",
+        "en": "AI content can be outdated.",
+        "uk": "Вміст від ШІ може бути застарілим.",
+        "ar": "قد يكون محتوى الذكاء الاصطناعي قديمًا.",
+        "it": "I contenuti dell'IA possono essere obsoleti."
+      },
+      "note": "Partizip II von „veralten“"
+    },
+    {
+      "id": "vergleichen",
+      "source": "book",
+      "chapter": 1,
+      "word": "vergleichen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "vergleicht",
+        "praeteritum": "verglich",
+        "perfekt": "hat verglichen"
+      },
+      "meaning": {
+        "de": "Prüfen, was gleich und was unterschiedlich ist",
+        "tr": "karşılaştırmak",
+        "en": "to compare",
+        "uk": "порівнювати",
+        "ar": "يقارن",
+        "it": "confrontare, paragonare"
+      },
+      "synonyms": [
+        "gegenüberstellen",
+        "abgleichen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Vergleichen Sie wichtige Informationen mit vertrauenswürdigen Quellen.",
+        "tr": "Önemli bilgileri güvenilir kaynaklarla karşılaştırın.",
+        "en": "Compare important information with trustworthy sources.",
+        "uk": "Порівнюйте важливу інформацію з надійними джерелами.",
+        "ar": "قارن المعلومات المهمة بمصادر موثوقة.",
+        "it": "Confrontate le informazioni importanti con fonti affidabili."
+      },
+      "note": "etwas (Akk.) mit etwas (Dat.) vergleichen; unregelmäßig: vergleicht – verglich – hat verglichen"
+    },
+    {
+      "id": "vertrauenswuerdig",
+      "source": "book",
+      "chapter": 1,
+      "word": "vertrauenswürdig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "So, dass man jemandem oder etwas glauben und vertrauen kann",
+        "tr": "güvenilir",
+        "en": "trustworthy, reliable",
+        "uk": "надійний, вартий довіри",
+        "ar": "جدير بالثقة، موثوق",
+        "it": "affidabile, degno di fiducia"
+      },
+      "synonyms": [
+        "zuverlässig",
+        "seriös"
+      ],
+      "antonyms": [
+        "unzuverlässig",
+        "unseriös"
+      ],
+      "example": {
+        "de": "Nutzen Sie nur vertrauenswürdige Quellen.",
+        "tr": "Yalnızca güvenilir kaynaklar kullanın.",
+        "en": "Use only trustworthy sources.",
+        "uk": "Користуйтеся лише надійними джерелами.",
+        "ar": "استخدم المصادر الموثوقة فقط.",
+        "it": "Usate solo fonti affidabili."
+      },
+      "note": null
+    },
+    {
+      "id": "herumtoben",
+      "source": "book",
+      "chapter": 1,
+      "word": "herumtoben",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "tobt herum",
+        "praeteritum": "tobte herum",
+        "perfekt": "hat herumgetobt"
+      },
+      "meaning": {
+        "de": "Wild und laut spielen und sich viel bewegen",
+        "tr": "(çocuklar) koşuşturup gürültüyle oynamak",
+        "en": "to romp around",
+        "uk": "бешкетувати, гасати",
+        "ar": "يلعب بصخب ويركض هنا وهناك",
+        "it": "scatenarsi, giocare in modo scatenato"
+      },
+      "synonyms": [
+        "toben",
+        "herumrennen"
+      ],
+      "antonyms": [
+        "stillsitzen"
+      ],
+      "example": {
+        "de": "Wenn die Kinder im Haus herumtoben, kann ich nicht lernen.",
+        "tr": "Çocuklar evde koşuşturup gürültü yaptığında ders çalışamıyorum.",
+        "en": "When the children romp around the house, I can't study.",
+        "uk": "Коли діти гасають по дому, я не можу вчитися.",
+        "ar": "عندما يلعب الأطفال بصخب في البيت لا أستطيع الدراسة.",
+        "it": "Quando i bambini si scatenano in casa, non riesco a studiare."
+      },
+      "note": "intransitiv (ohne Objekt); umgangssprachlich"
+    },
+    {
+      "id": "gedaechtnis",
+      "source": "book",
+      "chapter": 1,
+      "word": "Gedächtnis",
+      "type": "noun",
+      "article": "das",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Fähigkeit, sich an Dinge zu erinnern",
+        "tr": "hafıza, bellek",
+        "en": "memory",
+        "uk": "пам'ять",
+        "ar": "الذاكرة",
+        "it": "memoria"
+      },
+      "synonyms": [
+        "die Erinnerung",
+        "das Erinnerungsvermögen"
+      ],
+      "antonyms": [
+        "die Vergesslichkeit"
+      ],
+      "example": {
+        "de": "Man versucht, Informationen aus dem Gedächtnis abzurufen.",
+        "tr": "Bilgileri hafızadan geri çağırmaya çalışılır.",
+        "en": "You try to retrieve information from memory.",
+        "uk": "Намагаються відтворити інформацію з пам'яті.",
+        "ar": "يحاول المرء استرجاع المعلومات من الذاكرة.",
+        "it": "Si cerca di richiamare le informazioni dalla memoria."
+      },
+      "note": null
+    },
+    {
+      "id": "abrufen",
+      "source": "book",
+      "chapter": 1,
+      "word": "abrufen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "ruft ab",
+        "praeteritum": "rief ab",
+        "perfekt": "hat abgerufen"
+      },
+      "meaning": {
+        "de": "Gespeicherte Informationen holen, z. B. aus dem Gedächtnis oder aus dem Internet",
+        "tr": "(bilgiyi) geri çağırmak, erişmek",
+        "en": "to retrieve, to call up",
+        "uk": "відтворювати (з пам'яті), отримувати (дані)",
+        "ar": "يسترجع (معلومات)",
+        "it": "richiamare, recuperare"
+      },
+      "synonyms": [
+        "aufrufen",
+        "holen"
+      ],
+      "antonyms": [
+        "speichern"
+      ],
+      "example": {
+        "de": "Kleine Tests helfen, Wissen abzurufen.",
+        "tr": "Küçük testler bilgiyi hatırlamaya yardımcı olur.",
+        "en": "Small tests help to retrieve knowledge.",
+        "uk": "Невеликі тести допомагають відтворювати знання.",
+        "ar": "تساعد الاختبارات الصغيرة على استرجاع المعرفة.",
+        "it": "Piccoli test aiutano a richiamare le conoscenze."
+      },
+      "note": "etwas (Akk.) abrufen; unregelmäßig: ruft ab – rief ab – hat abgerufen"
+    },
+    {
+      "id": "speichern",
+      "source": "book",
+      "chapter": 1,
+      "word": "speichern",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "speichert",
+        "praeteritum": "speicherte",
+        "perfekt": "hat gespeichert"
+      },
+      "meaning": {
+        "de": "Informationen oder Daten aufbewahren, damit man sie später wieder hat",
+        "tr": "kaydetmek, depolamak",
+        "en": "to store, to save",
+        "uk": "зберігати",
+        "ar": "يحفظ، يخزّن",
+        "it": "memorizzare, salvare"
+      },
+      "synonyms": [
+        "sichern",
+        "aufbewahren"
+      ],
+      "antonyms": [
+        "löschen"
+      ],
+      "example": {
+        "de": "Wenn man sich aktiv erinnert, speichert das Gehirn die Informationen langfristiger.",
+        "tr": "Aktif olarak hatırlandığında beyin bilgileri daha uzun süre saklar.",
+        "en": "When you actively remember, the brain stores the information for longer.",
+        "uk": "Коли активно пригадуєш, мозок довше зберігає інформацію.",
+        "ar": "عندما يتذكّر المرء بنشاط يحفظ الدماغ المعلومات لمدة أطول.",
+        "it": "Quando ci si ricorda attivamente, il cervello memorizza le informazioni più a lungo."
+      },
+      "note": "etwas (Akk.) speichern"
+    },
+    {
+      "id": "langfristig",
+      "source": "book",
+      "chapter": 1,
+      "word": "langfristig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Für eine lange Zeit, auf lange Sicht",
+        "tr": "uzun vadeli",
+        "en": "long-term",
+        "uk": "довгостроковий",
+        "ar": "طويل الأمد",
+        "it": "a lungo termine"
+      },
+      "synonyms": [
+        "dauerhaft",
+        "nachhaltig"
+      ],
+      "antonyms": [
+        "kurzfristig"
+      ],
+      "example": {
+        "de": "Langfristig lohnt sich regelmäßiges Lernen.",
+        "tr": "Uzun vadede düzenli çalışmak karşılığını verir.",
+        "en": "In the long term, regular studying pays off.",
+        "uk": "У довгостроковій перспективі регулярне навчання себе виправдовує.",
+        "ar": "على المدى الطويل يؤتي التعلّم المنتظم ثماره.",
+        "it": "A lungo termine lo studio regolare ripaga."
+      },
+      "note": null
+    },
+    {
+      "id": "stoff",
+      "source": "book",
+      "chapter": 1,
+      "word": "Stoff",
+      "type": "noun",
+      "article": "der",
+      "plural": "Stoffe",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Material, das man lernen muss (Lernstoff); auch: Textil, Substanz",
+        "tr": "(öğrenilecek) konu, ders içeriği; kumaş; madde",
+        "en": "subject matter, material; fabric; substance",
+        "uk": "навчальний матеріал; тканина; речовина",
+        "ar": "المادة الدراسية؛ قماش؛ مادة",
+        "it": "materia, argomento; stoffa; sostanza"
+      },
+      "synonyms": [
+        "der Lernstoff",
+        "der Inhalt"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Man wiederholt den Stoff in mehreren kurzen Einheiten.",
+        "tr": "Konu birkaç kısa bölüm hâlinde tekrar edilir.",
+        "en": "You review the material in several short units.",
+        "uk": "Матеріал повторюють кількома короткими частинами.",
+        "ar": "يُراجَع المحتوى الدراسي على عدّة وحدات قصيرة.",
+        "it": "Si ripassa la materia in diverse unità brevi."
+      },
+      "note": null
+    },
+    {
+      "id": "einheit",
+      "source": "book",
+      "chapter": 1,
+      "word": "Einheit",
+      "type": "noun",
+      "article": "die",
+      "plural": "Einheiten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein abgeschlossener Teil, z. B. eine Lerneinheit; auch: Maßeinheit",
+        "tr": "birim, ünite, bölüm",
+        "en": "unit",
+        "uk": "одиниця, блок",
+        "ar": "وحدة",
+        "it": "unità"
+      },
+      "synonyms": [
+        "der Abschnitt",
+        "der Teil"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Das Buch ist in zwölf Einheiten gegliedert.",
+        "tr": "Kitap on iki üniteye ayrılmıştır.",
+        "en": "The book is divided into twelve units.",
+        "uk": "Книжка поділена на дванадцять блоків.",
+        "ar": "الكتاب مقسّم إلى اثنتي عشرة وحدة.",
+        "it": "Il libro è suddiviso in dodici unità."
+      },
+      "note": null
+    },
+    {
+      "id": "wirksam",
+      "source": "book",
+      "chapter": 1,
+      "word": "wirksam",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Mit der gewünschten Wirkung, effektiv",
+        "tr": "etkili, etkin",
+        "en": "effective",
+        "uk": "дієвий, ефективний",
+        "ar": "فعّال",
+        "it": "efficace"
+      },
+      "synonyms": [
+        "effektiv",
+        "effizient"
+      ],
+      "antonyms": [
+        "unwirksam",
+        "wirkungslos"
+      ],
+      "example": {
+        "de": "Mehrere kurze Wiederholungen sind wirksamer als eine lange Lerneinheit.",
+        "tr": "Birkaç kısa tekrar, tek uzun bir çalışma bölümünden daha etkilidir.",
+        "en": "Several short repetitions are more effective than one long study session.",
+        "uk": "Кілька коротких повторень дієвіші, ніж одне довге заняття.",
+        "ar": "عدّة مراجعات قصيرة أكثر فعالية من جلسة تعلّم طويلة.",
+        "it": "Diverse brevi ripetizioni sono più efficaci di una lunga sessione di studio."
+      },
+      "note": null
+    },
+    {
+      "id": "vermischen",
+      "source": "book",
+      "chapter": 1,
+      "word": "vermischen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "vermischt",
+        "praeteritum": "vermischte",
+        "perfekt": "hat vermischt"
+      },
+      "meaning": {
+        "de": "Verschiedene Dinge zusammenbringen, sodass sie gemischt sind",
+        "tr": "karıştırmak, harmanlamak",
+        "en": "to mix, to blend",
+        "uk": "змішувати",
+        "ar": "يمزج، يخلط",
+        "it": "mescolare"
+      },
+      "synonyms": [
+        "mischen",
+        "kombinieren"
+      ],
+      "antonyms": [
+        "trennen"
+      ],
+      "example": {
+        "de": "Beim Lernen kann man verschiedene Themen vermischen.",
+        "tr": "Ders çalışırken farklı konular karıştırılabilir.",
+        "en": "When studying, you can mix different topics.",
+        "uk": "Під час навчання можна змішувати різні теми.",
+        "ar": "عند الدراسة يمكن المزج بين مواضيع مختلفة.",
+        "it": "Quando si studia si possono mescolare argomenti diversi."
+      },
+      "note": "etwas (Akk.) mit etwas (Dat.) vermischen"
+    },
+    {
+      "id": "foerdern",
+      "source": "book",
+      "chapter": 1,
+      "word": "fördern",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "fördert",
+        "praeteritum": "förderte",
+        "perfekt": "hat gefördert"
+      },
+      "meaning": {
+        "de": "Unterstützen, damit sich etwas oder jemand gut entwickelt",
+        "tr": "desteklemek, teşvik etmek, geliştirmek",
+        "en": "to promote, to support, to encourage",
+        "uk": "сприяти, підтримувати",
+        "ar": "يعزّز، يدعم",
+        "it": "promuovere, favorire"
+      },
+      "synonyms": [
+        "unterstützen",
+        "stärken"
+      ],
+      "antonyms": [
+        "behindern",
+        "hemmen"
+      ],
+      "example": {
+        "de": "Vermischtes Üben fördert das flexible Denken.",
+        "tr": "Karışık alıştırma esnek düşünmeyi geliştirir.",
+        "en": "Mixed practice promotes flexible thinking.",
+        "uk": "Змішані вправи сприяють гнучкому мисленню.",
+        "ar": "يعزّز التمرين المختلط التفكير المرن.",
+        "it": "L'esercizio misto favorisce il pensiero flessibile."
+      },
+      "note": "jemanden / etwas (Akk.) fördern"
+    },
+    {
+      "id": "bewerten",
+      "source": "book",
+      "chapter": 1,
+      "word": "bewerten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "bewertet",
+        "praeteritum": "bewertete",
+        "perfekt": "hat bewertet"
+      },
+      "meaning": {
+        "de": "Beurteilen und eine Note oder einen Wert geben",
+        "tr": "değerlendirmek, puanlamak",
+        "en": "to evaluate, to rate",
+        "uk": "оцінювати",
+        "ar": "يقيّم",
+        "it": "valutare"
+      },
+      "synonyms": [
+        "beurteilen",
+        "einschätzen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Man plant, kontrolliert und bewertet den eigenen Lernprozess.",
+        "tr": "Kişi kendi öğrenme sürecini planlar, kontrol eder ve değerlendirir.",
+        "en": "You plan, monitor and evaluate your own learning process.",
+        "uk": "Людина планує, контролює та оцінює власний процес навчання.",
+        "ar": "يخطّط المرء لعملية تعلّمه ويراقبها ويقيّمها.",
+        "it": "Si pianifica, si controlla e si valuta il proprio processo di apprendimento."
+      },
+      "note": "jemanden / etwas (Akk.) bewerten; etwas (Akk.) mit etwas (Dat.) bewerten (z. B. mit einer Note)"
+    },
+    {
+      "id": "bewusst",
+      "source": "book",
+      "chapter": 1,
+      "word": "bewusst",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Mit Absicht und Aufmerksamkeit; so, dass man es genau weiß",
+        "tr": "bilinçli",
+        "en": "conscious, deliberate, aware",
+        "uk": "свідомий",
+        "ar": "واعٍ، متعمَّد",
+        "it": "consapevole"
+      },
+      "synonyms": [
+        "absichtlich",
+        "achtsam"
+      ],
+      "antonyms": [
+        "unbewusst"
+      ],
+      "example": {
+        "de": "So lernt man bewusster und zielgerichteter.",
+        "tr": "Böylece daha bilinçli ve hedefe yönelik öğrenilir.",
+        "en": "That way you learn more consciously and in a more targeted way.",
+        "uk": "Так навчаються свідоміше й цілеспрямованіше.",
+        "ar": "هكذا يتعلّم المرء بوعي أكبر وتركيز أكبر على الهدف.",
+        "it": "Così si impara in modo più consapevole e mirato."
+      },
+      "note": "sich (Dat.) einer Sache (Gen.) bewusst sein"
+    },
+    {
+      "id": "zielgerichtet",
+      "source": "book",
+      "chapter": 1,
+      "word": "zielgerichtet",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Auf ein bestimmtes Ziel ausgerichtet",
+        "tr": "hedefe yönelik, amaçlı",
+        "en": "targeted, goal-oriented",
+        "uk": "цілеспрямований",
+        "ar": "موجَّه نحو هدف",
+        "it": "mirato, orientato all'obiettivo"
+      },
+      "synonyms": [
+        "zielorientiert",
+        "gezielt"
+      ],
+      "antonyms": [
+        "ziellos",
+        "planlos"
+      ],
+      "example": {
+        "de": "Mit einem Lernplan kann man zielgerichtet arbeiten.",
+        "tr": "Bir çalışma planıyla hedefe yönelik çalışılabilir.",
+        "en": "With a study plan you can work in a targeted way.",
+        "uk": "Маючи план навчання, можна працювати цілеспрямовано.",
+        "ar": "مع خطة تعلّم يمكن العمل بشكل موجَّه نحو الهدف.",
+        "it": "Con un piano di studio si può lavorare in modo mirato."
+      },
+      "note": null
+    },
+    {
+      "id": "sinn",
+      "source": "book",
+      "chapter": 1,
+      "word": "Sinn",
+      "type": "noun",
+      "article": "der",
+      "plural": "Sinne",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Fähigkeit des Körpers wahrzunehmen (Sehen, Hören …); auch: Bedeutung",
+        "tr": "duyu; anlam",
+        "en": "sense; meaning",
+        "uk": "чуття; сенс",
+        "ar": "حاسّة؛ معنى",
+        "it": "senso; significato"
+      },
+      "synonyms": [
+        "die Wahrnehmung",
+        "die Bedeutung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Hier nutzt man beim Lernen mehrere Sinne gleichzeitig.",
+        "tr": "Burada öğrenirken aynı anda birden fazla duyu kullanılır.",
+        "en": "Here you use several senses at the same time while learning.",
+        "uk": "Тут під час навчання використовують кілька чуттів одночасно.",
+        "ar": "هنا يستخدم المرء عدّة حواس في آن واحد أثناء التعلّم.",
+        "it": "Qui, studiando, si usano più sensi contemporaneamente."
+      },
+      "note": "Sinn ergeben / Sinn machen (= logisch sein)"
+    },
+    {
+      "id": "beteiligt",
+      "source": "book",
+      "chapter": 1,
+      "word": "beteiligt",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "an etwas beteiligt sein: bei etwas mitmachen oder eine Rolle spielen",
+        "tr": "katılan, dahil olan",
+        "en": "involved",
+        "uk": "залучений, причетний",
+        "ar": "مشارك، معنيّ",
+        "it": "coinvolto, partecipe"
+      },
+      "synonyms": [
+        "involviert",
+        "mitwirkend"
+      ],
+      "antonyms": [
+        "unbeteiligt"
+      ],
+      "example": {
+        "de": "Wenn mehrere Sinne beteiligt sind, entstehen stärkere Verbindungen im Gehirn.",
+        "tr": "Birden fazla duyu dahil olduğunda beyinde daha güçlü bağlantılar oluşur.",
+        "en": "When several senses are involved, stronger connections form in the brain.",
+        "uk": "Коли залучено кілька чуттів, у мозку виникають міцніші зв'язки.",
+        "ar": "عندما تشارك عدّة حواس تنشأ روابط أقوى في الدماغ.",
+        "it": "Quando sono coinvolti più sensi, nel cervello si formano collegamenti più forti."
+      },
+      "note": "an etwas (Dat.) beteiligt sein; Partizip II von „sich beteiligen“"
+    },
+    {
+      "id": "aufhaengen",
+      "source": "book",
+      "chapter": 1,
+      "word": "aufhängen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "hängt auf",
+        "praeteritum": "hängte auf",
+        "perfekt": "hat aufgehängt"
+      },
+      "meaning": {
+        "de": "Etwas an einer Stelle befestigen, sodass es hängt",
+        "tr": "asmak",
+        "en": "to hang up",
+        "uk": "вішати, розвішувати",
+        "ar": "يعلّق",
+        "it": "appendere"
+      },
+      "synonyms": [
+        "anbringen",
+        "befestigen"
+      ],
+      "antonyms": [
+        "abnehmen",
+        "abhängen"
+      ],
+      "example": {
+        "de": "Man kann Wortkarten im Raum aufhängen und im Gehen üben.",
+        "tr": "Kelime kartları odaya asılıp yürürken çalışılabilir.",
+        "en": "You can hang word cards around the room and practise while walking.",
+        "uk": "Можна розвішати картки зі словами в кімнаті й вправлятися під час ходьби.",
+        "ar": "يمكن تعليق بطاقات الكلمات في الغرفة والتمرّن أثناء المشي.",
+        "it": "Si possono appendere le schede di parole nella stanza ed esercitarsi camminando."
+      },
+      "note": "etwas (Akk.) aufhängen; wohin? an die Wand (Akk.)"
+    },
+    {
+      "id": "redewendung",
+      "source": "book",
+      "chapter": 1,
+      "word": "Redewendung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Redewendungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein fester Ausdruck mit einer besonderen, oft bildlichen Bedeutung",
+        "tr": "deyim, kalıp söz",
+        "en": "idiom, saying",
+        "uk": "фразеологізм, усталений вислів",
+        "ar": "تعبير اصطلاحي",
+        "it": "modo di dire, espressione idiomatica"
+      },
+      "synonyms": [
+        "die Redensart",
+        "das Sprichwort"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "„Übung macht den Meister“ ist eine bekannte Redewendung.",
+        "tr": "„Übung macht den Meister“ (pratik ustalaştırır) bilinen bir deyimdir.",
+        "en": "“Übung macht den Meister” (practice makes perfect) is a well-known saying.",
+        "uk": "«Übung macht den Meister» (повторення — мати навчання) — відомий вислів.",
+        "ar": "«Übung macht den Meister» (الممارسة تصنع الإتقان) تعبير اصطلاحي معروف.",
+        "it": "«Übung macht den Meister» (la pratica rende perfetti) è un modo di dire conosciuto."
+      },
+      "note": null
+    },
+    {
+      "id": "nachricht",
+      "source": "book",
+      "chapter": 1,
+      "word": "Nachricht",
+      "type": "noun",
+      "article": "die",
+      "plural": "Nachrichten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Mitteilung oder Information; Plural auch: die Nachrichten im Fernsehen oder Radio",
+        "tr": "mesaj, haber; (çoğul) haberler (TV / radyo)",
+        "en": "message, piece of news; (pl.) the news",
+        "uk": "повідомлення, новина; (мн.) новини",
+        "ar": "رسالة، خبر؛ (جمع) نشرة الأخبار",
+        "it": "messaggio, notizia; (pl.) telegiornale"
+      },
+      "synonyms": [
+        "die Mitteilung",
+        "die Meldung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ich schaue jeden Abend die Nachrichten.",
+        "tr": "Her akşam haberleri izliyorum.",
+        "en": "I watch the news every evening.",
+        "uk": "Я щовечора дивлюся новини.",
+        "ar": "أشاهد نشرة الأخبار كل مساء.",
+        "it": "Guardo il telegiornale ogni sera."
+      },
+      "note": "Nachrichten schauen / hören (= die Nachrichtensendung)"
     }
   ]
 }
