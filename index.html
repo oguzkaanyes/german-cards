@@ -14,6 +14,10 @@
       --die: #ff9494;
       --das: #c7c7c7;
       --none: #ffffff;
+      --verb: #fceb88;
+      --adjective: #69fa94;
+      --adverb: #e1baff;
+      --phrase: #ffc48a;
       --text: #1a1a1a;
       --muted: rgba(0, 0, 0, 0.55);
       --bg: #f4f4f6;
@@ -272,6 +276,10 @@
     #quiz .question[data-article="der"] { --card-bg: var(--der); }
     #quiz .question[data-article="die"] { --card-bg: var(--die); }
     #quiz .question[data-article="das"] { --card-bg: var(--das); }
+    #quiz .question[data-type="verb"] { --card-bg: var(--verb); }
+    #quiz .question[data-type="adjective"] { --card-bg: var(--adjective); }
+    #quiz .question[data-type="adverb"] { --card-bg: var(--adverb); }
+    #quiz .question[data-type="phrase"] { --card-bg: var(--phrase); }
     #quiz .question .word { padding-right: 0; }
     .answers { display: grid; gap: 10px; margin-top: 16px; }
     .answer {
@@ -394,13 +402,17 @@
     .card[data-article="der"] { --card-bg: var(--der); }
     .card[data-article="die"] { --card-bg: var(--die); }
     .card[data-article="das"] { --card-bg: var(--das); }
+    /* Words without an article are colored by their type. */
+    .card[data-type="verb"] { --card-bg: var(--verb); }
+    .card[data-type="adjective"] { --card-bg: var(--adjective); }
+    .card[data-type="adverb"] { --card-bg: var(--adverb); }
+    .card[data-type="phrase"] { --card-bg: var(--phrase); }
 
     /* In the Gelernt list the frame shows how well a word is known from the quiz. */
     .card[data-level] .face { border-width: 5px; border-style: solid; }
     .card[data-level="good"] .face { border-color: #2e9e4f; }
-    .card[data-level="medium"] .face { border-color: #f2c200; }
+    .card[data-level="medium"] .face { border-color: #c98a00; }
     .card[data-level="weak"] .face { border-color: #d93025; }
-    .card:not([data-article]) { --chip: rgba(0, 0, 0, 0.06); }
 
     .save {
       position: absolute;
@@ -729,6 +741,7 @@
       const slide = el("div", "slide");
       const root = el("div", "card");
       if (article) root.dataset.article = article;
+      else if (card.type) root.dataset.type = card.type;
       const score = quizScore(card.id);
       if (tab === "learned" && score) root.dataset.level = quizLevel(score);
 
@@ -1008,6 +1021,7 @@
       const inner = el("div", "quiz-inner");
       const question = el("div", "question");
       if (article) question.dataset.article = article;
+      else if (card.type) question.dataset.type = card.type;
       if (card.type) question.appendChild(el("div", "tag", TYPE_LABELS[card.type] || card.type));
       question.appendChild(wordHeading(card, article));
       inner.appendChild(question);
