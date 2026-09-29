@@ -516,7 +516,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 24px;
+      gap: 12px;
       padding: 6px 16px 12px;
     }
     nav[hidden] { display: none; }
@@ -532,6 +532,7 @@
       cursor: pointer;
     }
     nav button:disabled { opacity: 0.35; cursor: default; }
+    nav .jump { width: 44px; height: 44px; font-size: 1.3rem; }
     #counter { min-width: 72px; text-align: center; color: var(--muted); font-variant-numeric: tabular-nums; }
   </style>
 </head>
@@ -577,9 +578,11 @@
   <section id="quiz" hidden></section>
   <main id="track"></main>
   <nav hidden>
+    <button type="button" id="first" class="jump" aria-label="Erste Karte">«</button>
     <button type="button" id="prev" aria-label="Vorherige Karte">‹</button>
     <span id="counter"></span>
     <button type="button" id="next" aria-label="Nächste Karte">›</button>
+    <button type="button" id="last" class="jump" aria-label="Letzte Karte">»</button>
   </nav>
 
   <script>
@@ -625,6 +628,8 @@
     const nav = document.querySelector("nav");
     const prevBtn = document.getElementById("prev");
     const nextBtn = document.getElementById("next");
+    const firstBtn = document.getElementById("first");
+    const lastBtn = document.getElementById("last");
     const counter = document.getElementById("counter");
 
     let allCards = [];
@@ -1162,8 +1167,8 @@
 
     function updateNav() {
       counter.textContent = (current + 1) + " / " + slides.length;
-      prevBtn.disabled = current === 0;
-      nextBtn.disabled = current === slides.length - 1;
+      prevBtn.disabled = firstBtn.disabled = current === 0;
+      nextBtn.disabled = lastBtn.disabled = current === slides.length - 1;
     }
 
     function goTo(index, smooth) {
@@ -1190,11 +1195,16 @@
 
     prevBtn.addEventListener("click", () => step(-1));
     nextBtn.addEventListener("click", () => step(1));
+    // Jump straight there: a smooth scroll across the whole deck would take too long.
+    firstBtn.addEventListener("click", () => goTo(0, false));
+    lastBtn.addEventListener("click", () => goTo(slides.length - 1, false));
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && drawer.classList.contains("open")) closeMenu();
       if (e.target === langSelect || e.target === searchInput) return;
       if (e.key === "ArrowLeft") step(-1);
       if (e.key === "ArrowRight") step(1);
+      if (e.key === "Home") goTo(0, false);
+      if (e.key === "End") goTo(slides.length - 1, false);
     });
 
     tabButtons.forEach((button) => {
