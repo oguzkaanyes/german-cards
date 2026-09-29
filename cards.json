@@ -4007,6 +4007,677 @@
         "it": "Guardo il telegiornale ogni sera."
       },
       "note": "Nachrichten schauen / hören (= die Nachrichtensendung)"
+    },
+    {
+      "id": "recherche",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "Recherche",
+      "type": "noun",
+      "article": "die",
+      "plural": "Recherchen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die genaue Suche nach Informationen zu einem Thema",
+        "tr": "araştırma, inceleme",
+        "en": "research, investigation",
+        "uk": "дослідження, пошук інформації",
+        "ar": "بحث، تحرٍّ",
+        "it": "ricerca, indagine"
+      },
+      "synonyms": [
+        "die Nachforschung",
+        "die Untersuchung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für den Artikel hat die Journalistin wochenlange Recherchen gemacht.",
+        "tr": "Gazeteci makale için haftalarca araştırma yaptı.",
+        "en": "The journalist did weeks of research for the article.",
+        "uk": "Для статті журналістка тижнями проводила дослідження.",
+        "ar": "أجرت الصحفية أبحاثًا لأسابيع من أجل المقال.",
+        "it": "Per l'articolo la giornalista ha fatto settimane di ricerche."
+      },
+      "note": "eine Recherche zu etwas (Dat.) / über etwas (Akk.)"
+    },
+    {
+      "id": "recherchieren",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "recherchieren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "recherchiert",
+        "praeteritum": "recherchierte",
+        "perfekt": "hat recherchiert"
+      },
+      "meaning": {
+        "de": "Gezielt Informationen zu einem Thema suchen und sammeln",
+        "tr": "araştırmak, araştırma yapmak",
+        "en": "to research, to investigate",
+        "uk": "досліджувати, шукати інформацію",
+        "ar": "يبحث، يتحرّى",
+        "it": "fare ricerche, indagare"
+      },
+      "synonyms": [
+        "nachforschen",
+        "untersuchen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ich habe im Internet recherchiert, welche Versicherung am günstigsten ist.",
+        "tr": "Hangi sigortanın en uygun olduğunu internette araştırdım.",
+        "en": "I researched online which insurance is the cheapest.",
+        "uk": "Я шукав в інтернеті, яка страховка найдешевша.",
+        "ar": "بحثت على الإنترنت عن أرخص تأمين.",
+        "it": "Ho cercato su internet quale assicurazione sia la più economica."
+      },
+      "note": "etwas (Akk.) recherchieren; zu etwas (Dat.) / über etwas (Akk.) recherchieren"
+    },
+    {
+      "id": "nachforschen",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "nachforschen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "forscht nach",
+        "praeteritum": "forschte nach",
+        "perfekt": "hat nachgeforscht"
+      },
+      "meaning": {
+        "de": "Genau nachsehen und suchen, um etwas herauszufinden",
+        "tr": "araştırmak, soruşturmak, izini sürmek",
+        "en": "to investigate, to look into",
+        "uk": "розслідувати, з'ясовувати",
+        "ar": "يتقصّى، يتحرّى",
+        "it": "indagare, fare indagini"
+      },
+      "synonyms": [
+        "recherchieren",
+        "ermitteln"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Polizei forscht nach, wer den Unfall verursacht hat.",
+        "tr": "Polis kazaya kimin sebep olduğunu araştırıyor.",
+        "en": "The police are investigating who caused the accident.",
+        "uk": "Поліція з'ясовує, хто спричинив аварію.",
+        "ar": "تتحرّى الشرطة عمّن تسبّب في الحادث.",
+        "it": "La polizia indaga su chi abbia causato l'incidente."
+      },
+      "note": "intransitiv; einer Sache (Dat.) nachforschen / nachforschen, ob … / wer …"
+    },
+    {
+      "id": "uebermaessig",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "übermäßig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Mehr als normal oder nötig; zu stark",
+        "tr": "aşırı, fazla",
+        "en": "excessive, too much",
+        "uk": "надмірний",
+        "ar": "مفرط، زائد عن الحد",
+        "it": "eccessivo"
+      },
+      "synonyms": [
+        "zu viel",
+        "exzessiv",
+        "maßlos"
+      ],
+      "antonyms": [
+        "mäßig",
+        "maßvoll"
+      ],
+      "example": {
+        "de": "Übermäßiger Zuckerkonsum ist schlecht für die Gesundheit.",
+        "tr": "Aşırı şeker tüketimi sağlığa zararlıdır.",
+        "en": "Excessive sugar consumption is bad for your health.",
+        "uk": "Надмірне споживання цукру шкодить здоров'ю.",
+        "ar": "الإفراط في استهلاك السكر مضرّ بالصحة.",
+        "it": "Un consumo eccessivo di zucchero fa male alla salute."
+      },
+      "note": "= zu viel; auch als Adverb: übermäßig viel essen"
+    },
+    {
+      "id": "verbindlich",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "verbindlich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "So, dass man sich daran halten muss; auch: freundlich und höflich",
+        "tr": "bağlayıcı, zorunlu; nazik",
+        "en": "binding, obligatory; courteous",
+        "uk": "обов'язковий; люб'язний",
+        "ar": "مُلزِم؛ لطيف",
+        "it": "vincolante, obbligatorio; cortese"
+      },
+      "synonyms": [
+        "bindend",
+        "verpflichtend"
+      ],
+      "antonyms": [
+        "unverbindlich",
+        "freiwillig"
+      ],
+      "example": {
+        "de": "Die Anmeldung zum Kurs ist verbindlich.",
+        "tr": "Kursa kayıt bağlayıcıdır.",
+        "en": "The registration for the course is binding.",
+        "uk": "Реєстрація на курс є обов'язковою.",
+        "ar": "التسجيل في الدورة مُلزِم.",
+        "it": "L'iscrizione al corso è vincolante."
+      },
+      "note": "für jemanden (Akk.) verbindlich sein"
+    },
+    {
+      "id": "ersetzen",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "ersetzen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "ersetzt",
+        "praeteritum": "ersetzte",
+        "perfekt": "hat ersetzt"
+      },
+      "meaning": {
+        "de": "Etwas oder jemanden an die Stelle von etwas anderem setzen; einen Schaden bezahlen",
+        "tr": "yerine koymak, değiştirmek; (zararı) karşılamak",
+        "en": "to replace, to substitute; to compensate",
+        "uk": "замінювати; відшкодовувати",
+        "ar": "يستبدل؛ يعوّض",
+        "it": "sostituire; risarcire"
+      },
+      "synonyms": [
+        "austauschen",
+        "auswechseln"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Kann künstliche Intelligenz menschliche Lehrer ersetzen?",
+        "tr": "Yapay zekâ insan öğretmenlerin yerini alabilir mi?",
+        "en": "Can artificial intelligence replace human teachers?",
+        "uk": "Чи може штучний інтелект замінити вчителів-людей?",
+        "ar": "هل يمكن للذكاء الاصطناعي أن يحلّ محلّ المعلمين البشر؟",
+        "it": "L'intelligenza artificiale può sostituire gli insegnanti umani?"
+      },
+      "note": "etwas (Akk.) durch etwas (Akk.) ersetzen; jemandem (Dat.) etwas (Akk.) ersetzen (= Schaden bezahlen)"
+    },
+    {
+      "id": "auswirkung",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "Auswirkung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Auswirkungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Folge oder der Effekt, den etwas auf etwas anderes hat",
+        "tr": "etki, sonuç",
+        "en": "effect, impact",
+        "uk": "вплив, наслідок",
+        "ar": "تأثير، أثر",
+        "it": "effetto, ripercussione"
+      },
+      "synonyms": [
+        "die Folge",
+        "die Wirkung",
+        "der Einfluss"
+      ],
+      "antonyms": [
+        "die Ursache"
+      ],
+      "example": {
+        "de": "Der Klimawandel hat große Auswirkungen auf die Landwirtschaft.",
+        "tr": "İklim değişikliğinin tarım üzerinde büyük etkileri var.",
+        "en": "Climate change has a big impact on agriculture.",
+        "uk": "Зміна клімату має великий вплив на сільське господарство.",
+        "ar": "لتغيّر المناخ آثار كبيرة على الزراعة.",
+        "it": "Il cambiamento climatico ha grandi ripercussioni sull'agricoltura."
+      },
+      "note": "Auswirkungen auf etwas (Akk.); meist im Plural"
+    },
+    {
+      "id": "sendung",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "Sendung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Sendungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Programm im Fernsehen oder Radio; auch: ein verschicktes Paket oder Brief",
+        "tr": "(TV/radyo) program, yayın; gönderi",
+        "en": "broadcast, programme; shipment",
+        "uk": "передача, програма; відправлення",
+        "ar": "برنامج (إذاعي/تلفزيوني)؛ شحنة",
+        "it": "trasmissione, programma; spedizione"
+      },
+      "synonyms": [
+        "das Programm",
+        "die Übertragung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Meine Lieblingssendung läuft jeden Freitag um acht Uhr.",
+        "tr": "En sevdiğim program her cuma saat sekizde yayınlanıyor.",
+        "en": "My favourite show is on every Friday at eight.",
+        "uk": "Моя улюблена передача виходить щоп'ятниці о восьмій.",
+        "ar": "يُعرض برنامجي المفضّل كل يوم جمعة في الساعة الثامنة.",
+        "it": "Il mio programma preferito va in onda ogni venerdì alle otto."
+      },
+      "note": "eine Sendung sehen / hören; eine Sendung (Paket) verschicken"
+    },
+    {
+      "id": "ehrenamtlich",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "ehrenamtlich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Freiwillig und ohne Bezahlung für andere oder die Gesellschaft arbeitend",
+        "tr": "gönüllü, fahri, ücretsiz",
+        "en": "voluntary, honorary, unpaid",
+        "uk": "волонтерський, на громадських засадах",
+        "ar": "تطوّعي، فخري",
+        "it": "volontario, a titolo gratuito"
+      },
+      "synonyms": [
+        "freiwillig",
+        "unentgeltlich"
+      ],
+      "antonyms": [
+        "hauptamtlich",
+        "bezahlt"
+      ],
+      "example": {
+        "de": "Sie arbeitet ehrenamtlich in einem Tierheim.",
+        "tr": "Bir hayvan barınağında gönüllü olarak çalışıyor.",
+        "en": "She works as a volunteer at an animal shelter.",
+        "uk": "Вона працює волонтеркою в притулку для тварин.",
+        "ar": "تعمل متطوّعةً في ملجأ للحيوانات.",
+        "it": "Lavora come volontaria in un canile."
+      },
+      "note": "ehrenamtlich tätig sein; Nomen: das Ehrenamt"
+    },
+    {
+      "id": "sich-anstrengen",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "sich anstrengen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "strengt sich an",
+        "praeteritum": "strengte sich an",
+        "perfekt": "hat sich angestrengt"
+      },
+      "meaning": {
+        "de": "Viel Kraft oder Mühe einsetzen, um etwas zu schaffen",
+        "tr": "çaba göstermek, gayret etmek, zorlamak",
+        "en": "to make an effort, to try hard",
+        "uk": "намагатися, докладати зусиль",
+        "ar": "يجتهد، يبذل جهدًا",
+        "it": "sforzarsi, impegnarsi"
+      },
+      "synonyms": [
+        "sich bemühen",
+        "sich Mühe geben"
+      ],
+      "antonyms": [
+        "faulenzen"
+      ],
+      "example": {
+        "de": "Wenn du dich anstrengst, bestehst du die Prüfung.",
+        "tr": "Çaba gösterirsen sınavı geçersin.",
+        "en": "If you make an effort, you'll pass the exam.",
+        "uk": "Якщо постараєшся, складеш іспит.",
+        "ar": "إذا اجتهدت فستنجح في الامتحان.",
+        "it": "Se ti impegni, superi l'esame."
+      },
+      "note": "sich (Akk.) anstrengen; sich (Akk.) für etwas (Akk.) anstrengen; Adjektiv: anstrengend"
+    },
+    {
+      "id": "verarbeiten",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "verarbeiten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "verarbeitet",
+        "praeteritum": "verarbeitete",
+        "perfekt": "hat verarbeitet"
+      },
+      "meaning": {
+        "de": "Etwas bearbeiten und in eine neue Form bringen; Erlebnisse oder Informationen innerlich aufnehmen",
+        "tr": "işlemek; (duygusal olarak) sindirmek",
+        "en": "to process; to come to terms with",
+        "uk": "переробляти, обробляти; осмислювати",
+        "ar": "يعالج، يصنّع؛ يستوعب",
+        "it": "lavorare, elaborare; metabolizzare"
+      },
+      "synonyms": [
+        "bearbeiten",
+        "verdauen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Im Schlaf verarbeitet das Gehirn die Informationen des Tages.",
+        "tr": "Uykuda beyin günün bilgilerini işler.",
+        "en": "During sleep the brain processes the day's information.",
+        "uk": "Уві сні мозок обробляє інформацію за день.",
+        "ar": "يعالج الدماغ معلومات اليوم أثناء النوم.",
+        "it": "Durante il sonno il cervello elabora le informazioni della giornata."
+      },
+      "note": "etwas (Akk.) verarbeiten; etwas (Akk.) zu etwas (Dat.) verarbeiten"
+    },
+    {
+      "id": "abspeichern",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "abspeichern",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "speichert ab",
+        "praeteritum": "speicherte ab",
+        "perfekt": "hat abgespeichert"
+      },
+      "meaning": {
+        "de": "Etwas sichern, damit es später wieder abrufbar ist (im Computer oder im Gehirn)",
+        "tr": "kaydetmek, (beyinde) depolamak",
+        "en": "to save, to store (in memory)",
+        "uk": "зберігати, запам'ятовувати",
+        "ar": "يحفظ، يخزّن (في الذاكرة)",
+        "it": "salvare, memorizzare"
+      },
+      "synonyms": [
+        "speichern",
+        "sichern",
+        "sich merken"
+      ],
+      "antonyms": [
+        "löschen",
+        "vergessen"
+      ],
+      "example": {
+        "de": "Neue Wörter werden im Gehirn besser abgespeichert, wenn man sie oft wiederholt.",
+        "tr": "Yeni kelimeler sık tekrar edilince beyinde daha iyi depolanır.",
+        "en": "New words are stored better in the brain if you repeat them often.",
+        "uk": "Нові слова краще зберігаються в мозку, якщо їх часто повторювати.",
+        "ar": "تُخزَّن الكلمات الجديدة في الدماغ بشكل أفضل عند تكرارها كثيرًا.",
+        "it": "Le parole nuove si memorizzano meglio nel cervello se si ripetono spesso."
+      },
+      "note": "etwas (Akk.) abspeichern; etwas (Akk.) im Gehirn abspeichern"
+    },
+    {
+      "id": "gehirn",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "Gehirn",
+      "type": "noun",
+      "article": "das",
+      "plural": "Gehirne",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Organ im Kopf, mit dem man denkt, fühlt und sich erinnert",
+        "tr": "beyin",
+        "en": "brain",
+        "uk": "мозок",
+        "ar": "دماغ، مخ",
+        "it": "cervello"
+      },
+      "synonyms": [
+        "das Hirn",
+        "der Verstand"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Das Gehirn braucht viel Energie.",
+        "tr": "Beyin çok enerjiye ihtiyaç duyar.",
+        "en": "The brain needs a lot of energy.",
+        "uk": "Мозку потрібно багато енергії.",
+        "ar": "يحتاج الدماغ إلى الكثير من الطاقة.",
+        "it": "Il cervello ha bisogno di molta energia."
+      },
+      "note": null
+    },
+    {
+      "id": "zusaetzlich",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "zusätzlich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Noch dazu kommend, extra",
+        "tr": "ek, ilave; ayrıca",
+        "en": "additional, extra; in addition",
+        "uk": "додатковий; додатково",
+        "ar": "إضافي؛ بالإضافة إلى ذلك",
+        "it": "aggiuntivo, supplementare; in più"
+      },
+      "synonyms": [
+        "extra",
+        "ergänzend",
+        "außerdem"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für das Frühstück muss man zusätzlich zehn Euro bezahlen.",
+        "tr": "Kahvaltı için ayrıca on euro ödemek gerekiyor.",
+        "en": "You have to pay an extra ten euros for breakfast.",
+        "uk": "За сніданок потрібно додатково заплатити десять євро.",
+        "ar": "يجب دفع عشرة يوروهات إضافية مقابل الفطور.",
+        "it": "Per la colazione bisogna pagare dieci euro in più."
+      },
+      "note": "auch als Adverb: zusätzlich zu etwas (Dat.)"
+    },
+    {
+      "id": "umhergehen",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "umhergehen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "geht umher",
+        "praeteritum": "ging umher",
+        "perfekt": "ist umhergegangen"
+      },
+      "meaning": {
+        "de": "Ohne festes Ziel hin und her gehen",
+        "tr": "dolaşmak, oradan oraya yürümek",
+        "en": "to walk around, to wander about",
+        "uk": "ходити туди-сюди, походжати",
+        "ar": "يتجوّل، يمشي هنا وهناك",
+        "it": "andare in giro, camminare avanti e indietro"
+      },
+      "synonyms": [
+        "herumlaufen",
+        "umherlaufen",
+        "spazieren"
+      ],
+      "antonyms": [
+        "stillstehen"
+      ],
+      "example": {
+        "de": "Beim Telefonieren geht er immer im Zimmer umher.",
+        "tr": "Telefonla konuşurken hep odada dolaşır.",
+        "en": "He always walks around the room when he's on the phone.",
+        "uk": "Розмовляючи по телефону, він завжди ходить по кімнаті.",
+        "ar": "يتجوّل دائمًا في الغرفة أثناء حديثه في الهاتف.",
+        "it": "Quando telefona cammina sempre avanti e indietro per la stanza."
+      },
+      "note": "intransitiv (ohne Objekt); in etwas (Dat.) umhergehen; Perfekt mit sein"
+    },
+    {
+      "id": "spion",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "Spion",
+      "type": "noun",
+      "article": "der",
+      "plural": "Spione",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Person, die heimlich geheime Informationen sammelt",
+        "tr": "casus",
+        "en": "spy",
+        "uk": "шпигун",
+        "ar": "جاسوس",
+        "it": "spia"
+      },
+      "synonyms": [
+        "der Agent"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Spion wurde an der Grenze festgenommen.",
+        "tr": "Casus sınırda yakalandı.",
+        "en": "The spy was arrested at the border.",
+        "uk": "Шпигуна затримали на кордоні.",
+        "ar": "أُلقي القبض على الجاسوس عند الحدود.",
+        "it": "La spia è stata arrestata al confine."
+      },
+      "note": "weiblich: die Spionin; Verb: spionieren"
+    },
+    {
+      "id": "agent",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "Agent",
+      "type": "noun",
+      "article": "der",
+      "plural": "Agenten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Person, die im Auftrag eines Geheimdienstes arbeitet; auch: Vermittler",
+        "tr": "ajan; temsilci",
+        "en": "agent, secret agent",
+        "uk": "агент",
+        "ar": "عميل، وكيل",
+        "it": "agente"
+      },
+      "synonyms": [
+        "der Spion",
+        "der Vermittler"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Im Film jagt ein Agent einen gefährlichen Verbrecher.",
+        "tr": "Filmde bir ajan tehlikeli bir suçlunun peşine düşüyor.",
+        "en": "In the film an agent hunts a dangerous criminal.",
+        "uk": "У фільмі агент полює на небезпечного злочинця.",
+        "ar": "في الفيلم يطارد عميلٌ مجرمًا خطيرًا.",
+        "it": "Nel film un agente dà la caccia a un criminale pericoloso."
+      },
+      "note": "n-Deklination: den/dem/des Agenten; weiblich: die Agentin"
+    },
+    {
+      "id": "unterhaltung",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "Unterhaltung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Unterhaltungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Gespräch zwischen Personen; auch: Vergnügen und Zeitvertreib",
+        "tr": "sohbet, konuşma; eğlence",
+        "en": "conversation; entertainment",
+        "uk": "розмова; розвага",
+        "ar": "محادثة؛ تسلية، ترفيه",
+        "it": "conversazione; intrattenimento"
+      },
+      "synonyms": [
+        "das Gespräch",
+        "der Zeitvertreib"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Wir hatten eine lange Unterhaltung über unsere Pläne.",
+        "tr": "Planlarımız hakkında uzun bir sohbet ettik.",
+        "en": "We had a long conversation about our plans.",
+        "uk": "У нас була довга розмова про наші плани.",
+        "ar": "أجرينا محادثة طويلة عن خططنا.",
+        "it": "Abbiamo avuto una lunga conversazione sui nostri progetti."
+      },
+      "note": "eine Unterhaltung mit jemandem (Dat.) über etwas (Akk.); Verb: sich unterhalten"
+    },
+    {
+      "id": "sich-aussetzen",
+      "source": "notes",
+      "date": "2026-09-29",
+      "word": "sich aussetzen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "setzt sich aus",
+        "praeteritum": "setzte sich aus",
+        "perfekt": "hat sich ausgesetzt"
+      },
+      "meaning": {
+        "de": "Sich in eine Situation bringen, in der etwas (oft Negatives) auf einen wirkt",
+        "tr": "kendini (bir şeye) maruz bırakmak",
+        "en": "to expose oneself (to something)",
+        "uk": "піддавати себе (чомусь)",
+        "ar": "يعرّض نفسه (لشيء)",
+        "it": "esporsi (a qualcosa)"
+      },
+      "synonyms": [
+        "sich preisgeben"
+      ],
+      "antonyms": [
+        "sich schützen"
+      ],
+      "example": {
+        "de": "Man sollte sich nicht zu lange der Sonne aussetzen.",
+        "tr": "Kendini çok uzun süre güneşe maruz bırakmamalısın.",
+        "en": "You shouldn't expose yourself to the sun for too long.",
+        "uk": "Не варто надто довго перебувати під сонцем.",
+        "ar": "لا ينبغي أن يعرّض المرء نفسه للشمس لفترة طويلة.",
+        "it": "Non bisognerebbe esporsi troppo a lungo al sole."
+      },
+      "note": "sich (Akk.) einer Sache (Dat.) aussetzen; einer Gefahr / Kritik ausgesetzt sein"
     }
   ]
 }

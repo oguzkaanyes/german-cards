@@ -40,62 +40,150 @@
 
     button { font: inherit; color: inherit; -webkit-tap-highlight-color: transparent; }
 
-    /* ---------- Top bar: tabs + language ---------- */
+    /* ---------- Top bar: menu button + search ---------- */
     .topbar {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 12px;
+      gap: 10px;
       padding: 10px max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left));
     }
     .topbar[hidden] { display: none; }
 
-    .tabs {
+    #menu-btn {
       flex: none;
-      display: flex;
-      background: rgba(0, 0, 0, 0.06);
-      border-radius: 10px;
-      padding: 3px;
-    }
-    .tabs button {
-      border: 0;
-      background: none;
-      padding: 7px 10px;
-      border-radius: 8px;
-      font-size: 0.95rem;
-      white-space: nowrap;
+      width: 44px;
+      height: 44px;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      border-radius: 12px;
+      background: #fff;
+      font-size: 1.35rem;
+      line-height: 1;
       cursor: pointer;
     }
-    .tabs button[aria-selected="true"] {
+
+    /* 16px font keeps iOS Safari from zooming in when the field is focused. */
+    #search {
+      flex: 1;
+      min-width: 0;
+      height: 44px;
+      font: inherit;
+      font-size: 16px;
+      padding: 0 12px;
+      border-radius: 12px;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      background: #fff;
+      color: var(--text);
+      -webkit-appearance: none;
+      appearance: none;
+    }
+
+    /* ---------- Side menu: tabs, their filters, language ---------- */
+    #backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 15;
+      background: rgba(0, 0, 0, 0.35);
+    }
+    #backdrop[hidden] { display: none; }
+
+    /* Only a 2D slide, and none at rest, so the menu stays touch-scrollable on iOS. */
+    #drawer {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 20;
+      width: min(300px, 84vw);
+      display: flex;
+      flex-direction: column;
+      background: var(--bg);
+      box-shadow: 4px 0 24px rgba(0, 0, 0, 0.18);
+      padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom) env(safe-area-inset-left);
+      transform: translateX(-105%);
+      visibility: hidden;
+      transition: transform 0.25s ease, visibility 0s 0.25s;
+    }
+    #drawer.open {
+      transform: none;
+      visibility: visible;
+      transition: transform 0.25s ease;
+    }
+
+    .menu {
+      flex: 1;
+      min-height: 0;
+      overflow-y: auto;
+      overscroll-behavior-y: contain;
+      -webkit-overflow-scrolling: touch;
+      padding: 14px 12px;
+    }
+
+    .menu-item {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-top: 4px;
+      border: 0;
+      border-radius: 12px;
+      background: none;
+      padding: 12px 14px;
+      font-size: 1.05rem;
+      text-align: left;
+      cursor: pointer;
+    }
+    .menu-item[aria-current="true"] {
       background: #fff;
       font-weight: 600;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
     }
-    .badge { color: var(--muted); font-weight: 400; margin-left: 4px; }
+    .badge { color: var(--muted); font-weight: 400; margin-left: auto; padding-left: 8px; }
 
-    /* Allowed to shrink on narrow phones so the tabs keep their size. */
-    #lang {
-      min-width: 0;
-      flex: 0 1 auto;
-      font: inherit;
+    .submenu { padding: 4px 0 8px 14px; }
+    .sub-heading {
+      margin: 10px 0 2px 12px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .sub-item {
+      display: flex;
+      width: 100%;
+      border: 0;
+      border-left: 3px solid transparent;
+      border-radius: 0 10px 10px 0;
+      background: none;
+      padding: 9px 12px;
       font-size: 0.95rem;
-      padding: 7px 10px;
-      border-radius: 10px;
-      border: 1px solid rgba(0, 0, 0, 0.12);
-      background: #fff;
-      color: var(--text);
+      text-align: left;
+      cursor: pointer;
+    }
+    .sub-item[aria-current="true"] {
+      border-left-color: var(--text);
+      background: rgba(0, 0, 0, 0.06);
+      font-weight: 600;
     }
 
-    .filterbar {
-      padding: 8px max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left));
+    .menu-footer {
+      flex: none;
+      padding: 12px 12px 16px;
+      border-top: 1px solid rgba(0, 0, 0, 0.08);
     }
-    .filterbar[hidden] { display: none; }
-
-    #date {
+    .menu-footer label {
+      display: block;
+      margin: 0 0 6px 2px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    #lang {
       width: 100%;
       font: inherit;
-      font-size: 0.95rem;
-      padding: 7px 10px;
+      font-size: 16px;
+      padding: 9px 10px;
       border-radius: 10px;
       border: 1px solid rgba(0, 0, 0, 0.12);
       background: #fff;
@@ -106,7 +194,7 @@
     #lang-modal {
       position: fixed;
       inset: 0;
-      z-index: 10;
+      z-index: 30;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -354,22 +442,30 @@
 </head>
 <body>
   <header class="topbar" hidden>
-    <div class="tabs" role="tablist">
-      <button type="button" role="tab" data-tab="notes">Notizen</button>
-      <button type="button" role="tab" data-tab="book">Buch</button>
-      <button type="button" role="tab" data-tab="saved">Saved<span class="badge" id="saved-count"></span></button>
-    </div>
-    <select id="lang" aria-label="Language">
-      <option value="tr">Türkçe</option>
-      <option value="en">English</option>
-      <option value="uk">Українська</option>
-      <option value="ar">العربية</option>
-      <option value="it">Italiano</option>
-    </select>
+    <button type="button" id="menu-btn" aria-label="Menü" aria-controls="drawer" aria-expanded="false">☰</button>
+    <input type="search" id="search" aria-label="Suchen" autocomplete="off" autocorrect="off"
+           autocapitalize="off" spellcheck="false" enterkeyhint="search">
   </header>
-  <div class="filterbar" hidden>
-    <select id="date" aria-label="Datum / Kapitel"></select>
-  </div>
+
+  <div id="backdrop" hidden></div>
+  <aside id="drawer" aria-label="Menü">
+    <div class="menu">
+      <button type="button" class="menu-item" data-tab="notes">Notizen</button>
+      <button type="button" class="menu-item" data-tab="book">Buch</button>
+      <button type="button" class="menu-item" data-tab="saved">Saved<span class="badge" id="saved-count"></span></button>
+      <div class="submenu" id="filters"></div>
+    </div>
+    <div class="menu-footer">
+      <label for="lang">Sprache</label>
+      <select id="lang">
+        <option value="tr">Türkçe</option>
+        <option value="en">English</option>
+        <option value="uk">Українська</option>
+        <option value="ar">العربية</option>
+        <option value="it">Italiano</option>
+      </select>
+    </div>
+  </aside>
 
   <div id="lang-modal" hidden role="dialog" aria-modal="true" aria-labelledby="lang-modal-title">
     <div class="dialog">
@@ -398,11 +494,11 @@
       phrase: "Phrase",
     };
     const LANGUAGES = {
-      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi." },
-      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet." },
-      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника." },
-      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", rtl: true },
-      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora." },
+      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi.", noMatch: "Aramana uyan kelime yok." },
+      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet.", noMatch: "No words match your search." },
+      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника.", noMatch: "Немає слів, що відповідають пошуку." },
+      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", noMatch: "لا توجد كلمات مطابقة لبحثك.", rtl: true },
+      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora.", noMatch: "Nessuna parola corrisponde alla ricerca." },
     };
     const KEYS = {
       lang: "wortkarten:lang",
@@ -416,11 +512,14 @@
     const statusBox = document.getElementById("status");
     const emptyBox = document.getElementById("empty");
     const topbar = document.querySelector(".topbar");
-    const tabButtons = document.querySelectorAll(".tabs button");
+    const menuBtn = document.getElementById("menu-btn");
+    const drawer = document.getElementById("drawer");
+    const backdrop = document.getElementById("backdrop");
+    const tabButtons = document.querySelectorAll(".menu-item");
+    const filterList = document.getElementById("filters");
+    const searchInput = document.getElementById("search");
     const savedCount = document.getElementById("saved-count");
     const langSelect = document.getElementById("lang");
-    const filterbar = document.querySelector(".filterbar");
-    const dateSelect = document.getElementById("date");
     const nav = document.querySelector("nav");
     const prevBtn = document.getElementById("prev");
     const nextBtn = document.getElementById("next");
@@ -435,6 +534,7 @@
     let lang = "tr";
     let filter = "";    // current tab's filter: "" (all), "date:YYYY-MM-DD" or "chapter:N"
     let saved = new Set();
+    let query = "";     // normalized search text, matched against the word and its synonyms
 
     // Storage is wrapped: private mode or blocked storage must not break the app.
     function readStorage(key) {
@@ -651,6 +751,16 @@
       return !filter || dateKey(card) === filter || chapterKey(card) === filter;
     }
 
+    // Lowercase without accents, so "uber" finds "übermäßig" and "strasse" finds "Straße".
+    function normalize(text) {
+      return String(text).toLowerCase().replace(/ß/g, "ss").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    }
+    function matchesSearch(card) {
+      if (!query) return true;
+      const words = [card.word, card.article ? card.article + " " + card.word : null, ...nonEmpty(card.synonyms)];
+      return words.some((w) => w && normalize(w).includes(query));
+    }
+
     // Each tab remembers its own filter; the notes tab also picks up the date saved by older versions.
     function loadFilter() {
       const stored = readStorage(KEYS.filter(tab));
@@ -668,44 +778,62 @@
       return counts;
     }
 
-    // Lists only what the current tab's cards have: dates newest first for notes,
+    const TAB_LABELS = { notes: "Notizen", book: "Buch", saved: "Saved" };
+
+    // Lists, under the active tab in the menu, only what its cards have: dates newest first for notes,
     // chapters in book order for the book, both (grouped) for saved. Each with a word count.
-    // A chosen filter that this tab doesn't have falls back to "all".
-    function buildFilterOptions() {
+    // A chosen filter that this tab doesn't have falls back to "all". Returns the chosen filter's label.
+    function buildFilterMenu() {
       const cards = tabCards();
       const dates = tab === "book" ? new Map() : countBy(cards, dateKey);
       const chapters = tab === "notes" ? new Map() : countBy(cards, chapterKey);
       const allLabel = tab === "notes" ? "Alle Tage" : tab === "book" ? "Alle Kapitel" : "Alle";
+      if (!dates.has(filter) && !chapters.has(filter)) filter = "";
 
-      dateSelect.textContent = "";
-      dateSelect.appendChild(new Option(allLabel + " (" + cards.length + ")", ""));
-
-      const dateOptions = [...dates.keys()].sort().reverse().map((key) => {
-        const [, y, m, day] = key.slice(5).match(DATE_PATTERN);
-        return new Option(day + "." + m + "." + y + " (" + dates.get(key) + ")", key);
-      });
-      const chapterOptions = [...chapters.keys()]
-        .sort((a, b) => Number(a.slice(8)) - Number(b.slice(8)))
-        .map((key) => new Option("Kapitel " + key.slice(8) + " (" + chapters.get(key) + ")", key));
-
-      const groups = [["Notizen", dateOptions], ["Buch", chapterOptions]].filter(([, options]) => options.length);
-      for (const [label, options] of groups) {
-        const parent = tab === "saved" ? document.createElement("optgroup") : dateSelect;
-        if (tab === "saved") {
-          parent.label = label;
-          dateSelect.appendChild(parent);
-        }
-        options.forEach((option) => parent.appendChild(option));
+      let chosenLabel = "";
+      function item(label, count, key) {
+        const button = el("button", "sub-item", label);
+        button.type = "button";
+        button.appendChild(el("span", "badge", String(count)));
+        button.setAttribute("aria-current", String(key === filter));
+        if (key === filter && key) chosenLabel = label;
+        button.addEventListener("click", () => {
+          filter = key;
+          writeStorage(KEYS.filter(tab), filter);
+          render(currentId());
+          closeMenu();
+        });
+        return button;
       }
 
-      if (!dates.has(filter) && !chapters.has(filter)) filter = "";
-      dateSelect.value = filter;
+      filterList.textContent = "";
+      filterList.appendChild(item(allLabel, cards.length, ""));
+
+      const dateItems = [...dates.keys()].sort().reverse().map((key) => {
+        const [, y, m, day] = key.slice(5).match(DATE_PATTERN);
+        return item(day + "." + m + "." + y, dates.get(key), key);
+      });
+      const chapterItems = [...chapters.keys()]
+        .sort((a, b) => Number(a.slice(8)) - Number(b.slice(8)))
+        .map((key) => item("Kapitel " + key.slice(8), chapters.get(key), key));
+
+      const groups = [["Notizen", dateItems], ["Buch", chapterItems]].filter(([, items]) => items.length);
+      for (const [label, items] of groups) {
+        if (tab === "saved") filterList.appendChild(el("div", "sub-heading", label));
+        items.forEach((node) => filterList.appendChild(node));
+      }
+
+      // The filters sit right under the tab they belong to.
+      const active = [...tabButtons].find((b) => b.dataset.tab === tab);
+      active.after(filterList);
+      return chosenLabel;
     }
 
     // Rebuilds the slides for the current tab and language, opening the card with startId if present.
     function render(startId) {
-      buildFilterOptions();
-      const deck = tabCards().filter(matchesFilter);
+      const filterLabel = buildFilterMenu();
+      searchInput.placeholder = "Suchen · " + TAB_LABELS[tab] + (filterLabel ? " · " + filterLabel : "");
+      const deck = tabCards().filter((c) => matchesFilter(c) && matchesSearch(c));
 
       track.textContent = "";
       target = null;
@@ -714,14 +842,15 @@
       slides.forEach((slide) => fragment.appendChild(slide));
       track.appendChild(fragment);
 
-      tabButtons.forEach((b) => b.setAttribute("aria-selected", String(b.dataset.tab === tab)));
+      tabButtons.forEach((b) => b.setAttribute("aria-current", String(b.dataset.tab === tab)));
       updateSavedCount();
 
       const empty = slides.length === 0;
       track.hidden = empty;
       nav.hidden = empty;
       emptyBox.hidden = !empty;
-      emptyBox.textContent = !empty ? "" : tab === "book" ? LANGUAGES[lang].emptyBook : LANGUAGES[lang].empty;
+      const texts = LANGUAGES[lang];
+      emptyBox.textContent = !empty ? "" : query ? texts.noMatch : tab === "book" ? texts.emptyBook : texts.empty;
       emptyBox.dir = LANGUAGES[lang].rtl ? "rtl" : "";
       if (empty) return;
 
@@ -794,7 +923,8 @@
     prevBtn.addEventListener("click", () => step(-1));
     nextBtn.addEventListener("click", () => step(1));
     document.addEventListener("keydown", (e) => {
-      if (e.target === langSelect || e.target === dateSelect) return;
+      if (e.key === "Escape" && drawer.classList.contains("open")) closeMenu();
+      if (e.target === langSelect || e.target === searchInput) return;
       if (e.key === "ArrowLeft") step(-1);
       if (e.key === "ArrowRight") step(1);
     });
@@ -809,11 +939,27 @@
       });
     });
 
-    dateSelect.addEventListener("change", () => {
-      filter = dateSelect.value;
-      writeStorage(KEYS.filter(tab), filter);
+    searchInput.addEventListener("input", () => {
+      query = normalize(searchInput.value.trim());
       render(currentId());
     });
+    // "Search" on the iPhone keyboard: hide the keyboard so the cards are visible.
+    searchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") searchInput.blur();
+    });
+
+    function openMenu() {
+      drawer.classList.add("open");
+      backdrop.hidden = false;
+      menuBtn.setAttribute("aria-expanded", "true");
+    }
+    function closeMenu() {
+      drawer.classList.remove("open");
+      backdrop.hidden = true;
+      menuBtn.setAttribute("aria-expanded", "false");
+    }
+    menuBtn.addEventListener("click", openMenu);
+    backdrop.addEventListener("click", closeMenu);
 
     langSelect.addEventListener("change", () => {
       lang = langSelect.value;
@@ -861,7 +1007,6 @@
       langSelect.value = lang;
       filter = loadFilter();
       topbar.hidden = false;
-      filterbar.hidden = false;
       // The notes tab used to be called "all"; pick up the position saved under the old name.
       render(readStorage(KEYS.position(tab)) || readStorage(KEYS.position("all")));
     }
