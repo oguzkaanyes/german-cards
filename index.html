@@ -354,6 +354,25 @@
     }
     .save[aria-pressed="true"] { color: #e0a100; }
 
+    /* "Learned" sits left of the star; pressed = the card is in the Gelernt list. */
+    .learn {
+      position: absolute;
+      top: 10px;
+      right: 60px;
+      z-index: 2;
+      width: 44px;
+      height: 44px;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.55);
+      color: rgba(0, 0, 0, 0.4);
+      font-size: 1.35rem;
+      font-weight: 700;
+      line-height: 1;
+      cursor: pointer;
+    }
+    .learn[aria-pressed="true"] { background: #2e9e4f; color: #fff; }
+
     .tag {
       font-size: 0.75rem;
       color: var(--muted);
@@ -363,7 +382,7 @@
 
     .word {
       margin: 6px 0 2px;
-      padding-right: 44px;
+      padding-right: 96px;
       font-size: 2.1rem;
       line-height: 1.15;
       font-weight: 700;
@@ -453,6 +472,7 @@
       <button type="button" class="menu-item" data-tab="notes">Notizen</button>
       <button type="button" class="menu-item" data-tab="book">Buch</button>
       <button type="button" class="menu-item" data-tab="saved">Saved<span class="badge" id="saved-count"></span></button>
+      <button type="button" class="menu-item" data-tab="learned">Gelernt<span class="badge" id="learned-count"></span></button>
       <div class="submenu" id="filters"></div>
     </div>
     <div class="menu-footer">
@@ -494,17 +514,18 @@
       phrase: "Phrase",
     };
     const LANGUAGES = {
-      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi.", noMatch: "Aramana uyan kelime yok." },
-      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet.", noMatch: "No words match your search." },
-      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника.", noMatch: "Немає слів, що відповідають пошуку." },
-      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", noMatch: "لا توجد كلمات مطابقة لبحثك.", rtl: true },
-      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora.", noMatch: "Nessuna parola corrisponde alla ricerca." },
+      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi.", noMatch: "Aramana uyan kelime yok.", emptyLearned: "Henüz ezberlenmiş kelime yok. Kartlardaki ✓ ile işaretleyebilirsin." },
+      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet.", noMatch: "No words match your search.", emptyLearned: "No learned words yet. Tap ✓ on a card to mark it as learned." },
+      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника.", noMatch: "Немає слів, що відповідають пошуку.", emptyLearned: "Ще немає вивчених слів. Натисніть ✓ на картці, щоб позначити її." },
+      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", noMatch: "لا توجد كلمات مطابقة لبحثك.", emptyLearned: "لا توجد كلمات محفوظة عن ظهر قلب بعد. اضغط ✓ على البطاقة لتعليمها.", rtl: true },
+      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora.", noMatch: "Nessuna parola corrisponde alla ricerca.", emptyLearned: "Nessuna parola imparata. Tocca ✓ su una carta per segnarla." },
     };
     const KEYS = {
       lang: "wortkarten:lang",
       date: "wortkarten:date",   // pre-chapter versions stored the notes date filter here
       filter: (tab) => "wortkarten:filter:" + tab,
       saved: "wortkarten:saved",
+      learned: "wortkarten:learned",
       position: (tab) => "wortkarten:lastCardId:" + tab,
     };
 
@@ -519,6 +540,7 @@
     const filterList = document.getElementById("filters");
     const searchInput = document.getElementById("search");
     const savedCount = document.getElementById("saved-count");
+    const learnedCount = document.getElementById("learned-count");
     const langSelect = document.getElementById("lang");
     const nav = document.querySelector("nav");
     const prevBtn = document.getElementById("prev");
@@ -530,10 +552,11 @@
     let current = 0;
     // Where a button/key press is heading, so rapid taps add up before the smooth scroll lands.
     let target = null;
-    let tab = "notes";  // "notes" (handwritten lesson notes), "book" (underlined book words) or "saved"
+    let tab = "notes";  // "notes" (handwritten lesson notes), "book" (underlined book words) "saved" or "learned"
     let lang = "tr";
     let filter = "";    // current tab's filter: "" (all), "date:YYYY-MM-DD" or "chapter:N"
     let saved = new Set();
+    let learned = new Set();  // memorized cards: shown only in the Gelernt tab
     let query = "";     // normalized search text, matched against the word and its synonyms
 
     // Storage is wrapped: private mode or blocked storage must not break the app.
@@ -552,6 +575,10 @@
       try {
         const ids = JSON.parse(readStorage(KEYS.saved) || "[]");
         if (Array.isArray(ids)) saved = new Set(ids);
+      } catch (e) {}
+      try {
+        const ids = JSON.parse(readStorage(KEYS.learned) || "[]");
+        if (Array.isArray(ids)) learned = new Set(ids);
       } catch (e) {}
       return hasLang;
     }
@@ -635,6 +662,12 @@
       setSaveButton(saveBtn, saved.has(card.id));
       saveBtn.addEventListener("click", () => toggleSaved(card.id));
 
+      const learnBtn = el("button", "learn", "✓");
+      learnBtn.type = "button";
+      learnBtn.setAttribute("aria-label", "Gelernt");
+      learnBtn.setAttribute("aria-pressed", String(learned.has(card.id)));
+      learnBtn.addEventListener("click", () => toggleLearned(card.id));
+
       const flipper = el("div", "flipper");
 
       // Front: German dictionary entry.
@@ -675,7 +708,7 @@
       back.addEventListener("click", () => flipCard(root, false));
 
       flipper.append(front, back);
-      root.append(flipper, saveBtn);
+      root.append(flipper, learnBtn, saveBtn);
       slide.appendChild(root);
       slide.dataset.id = card.id || "";
       return slide;
@@ -723,7 +756,10 @@
     }
 
     function updateSavedCount() {
-      savedCount.textContent = saved.size ? " " + saved.size : "";
+      const savedOpen = allCards.filter((c) => saved.has(c.id) && !learned.has(c.id)).length;
+      const learnedAll = allCards.filter((c) => learned.has(c.id)).length;
+      savedCount.textContent = savedOpen ? " " + savedOpen : "";
+      learnedCount.textContent = learnedAll ? " " + learnedAll : "";
     }
 
     const DATE_PATTERN = /^(\d{4})-(\d{2})-(\d{2})$/;
@@ -734,8 +770,11 @@
 
     // Cards of the current tab before the date/chapter filter.
     function tabCards() {
-      if (tab === "saved") return allCards.filter((c) => saved.has(c.id));
-      return allCards.filter((c) => sourceOf(c) === tab);
+      // Learned cards leave every other list until they are unmarked again.
+      if (tab === "learned") return allCards.filter((c) => learned.has(c.id));
+      const open = allCards.filter((c) => !learned.has(c.id));
+      if (tab === "saved") return open.filter((c) => saved.has(c.id));
+      return open.filter((c) => sourceOf(c) === tab);
     }
 
     // Filter keys: the lesson date of a notes card ("date:2026-09-28") or the chapter of a book card ("chapter:3").
@@ -778,10 +817,10 @@
       return counts;
     }
 
-    const TAB_LABELS = { notes: "Notizen", book: "Buch", saved: "Saved" };
+    const TAB_LABELS = { notes: "Notizen", book: "Buch", saved: "Saved", learned: "Gelernt" };
 
     // Lists, under the active tab in the menu, only what its cards have: dates newest first for notes,
-    // chapters in book order for the book, both (grouped) for saved. Each with a word count.
+    // chapters in book order for the book, both (grouped) for saved and learned. Each with a word count.
     // A chosen filter that this tab doesn't have falls back to "all". Returns the chosen filter's label.
     function buildFilterMenu() {
       const cards = tabCards();
@@ -819,7 +858,7 @@
 
       const groups = [["Notizen", dateItems], ["Buch", chapterItems]].filter(([, items]) => items.length);
       for (const [label, items] of groups) {
-        if (tab === "saved") filterList.appendChild(el("div", "sub-heading", label));
+        if (tab === "saved" || tab === "learned") filterList.appendChild(el("div", "sub-heading", label));
         items.forEach((node) => filterList.appendChild(node));
       }
 
@@ -850,7 +889,8 @@
       nav.hidden = empty;
       emptyBox.hidden = !empty;
       const texts = LANGUAGES[lang];
-      emptyBox.textContent = !empty ? "" : query ? texts.noMatch : tab === "book" ? texts.emptyBook : texts.empty;
+      emptyBox.textContent = !empty ? "" : query ? texts.noMatch : tab === "book" ? texts.emptyBook
+        : tab === "learned" ? texts.emptyLearned : texts.empty;
       emptyBox.dir = LANGUAGES[lang].rtl ? "rtl" : "";
       if (empty) return;
 
@@ -881,6 +921,19 @@
       const slide = slides.find((s) => s.dataset.id === id);
       if (slide) setSaveButton(slide.querySelector(".save"), saved.has(id));
       updateSavedCount();
+    }
+
+    // Marking or unmarking always moves the card to the other list, so it leaves this deck:
+    // land on the card after it (or the one before, at the end).
+    function toggleLearned(id) {
+      if (learned.has(id)) learned.delete(id);
+      else learned.add(id);
+      writeStorage(KEYS.learned, JSON.stringify([...learned]));
+
+      const index = slides.findIndex((s) => s.dataset.id === id);
+      const neighbour = slides[index + 1] || slides[index - 1];
+      render(neighbour ? neighbour.dataset.id : null);
+      writeStorage(KEYS.position(tab), currentId() || "");
     }
 
     function setCurrent(index) {
