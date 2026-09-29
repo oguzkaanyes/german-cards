@@ -18,6 +18,9 @@
       --adjective: #69fa94;
       --adverb: #e1baff;
       --phrase: #ffc48a;
+      --good: #2e9e4f;
+      --medium: #c98a00;
+      --weak: #d93025;
       --text: #1a1a1a;
       --muted: rgba(0, 0, 0, 0.55);
       --bg: #f4f4f6;
@@ -142,6 +145,18 @@
     }
     .badge { color: var(--muted); font-weight: 400; margin-left: auto; padding-left: 8px; }
 
+    /* Down arrow on a tab whose list is closed, up arrow when it is open. */
+    .chev {
+      flex: none;
+      width: 18px;
+      height: 18px;
+      margin-left: 10px;
+      color: var(--muted);
+      transition: transform 0.2s ease;
+    }
+    .menu-item > .chev:first-child { margin-left: auto; }  /* no badge before it */
+    .menu-item[aria-expanded="true"] .chev { transform: rotate(180deg); }
+
     .submenu { padding: 4px 0 8px 14px; }
     .sub-heading {
       margin: 10px 0 2px 12px;
@@ -168,6 +183,11 @@
       background: rgba(0, 0, 0, 0.06);
       font-weight: 600;
     }
+    /* Level filters always show their color as a line on the left. */
+    .sub-item[data-level] { border-left-width: 5px; }
+    .sub-item[data-level="good"] { border-left-color: var(--good); }
+    .sub-item[data-level="medium"] { border-left-color: var(--medium); }
+    .sub-item[data-level="weak"] { border-left-color: var(--weak); }
 
     .menu-footer {
       flex: none;
@@ -410,9 +430,9 @@
 
     /* In the Gelernt list the frame shows how well a word is known from the quiz. */
     .card[data-level] .face { border-width: 5px; border-style: solid; }
-    .card[data-level="good"] .face { border-color: #2e9e4f; }
-    .card[data-level="medium"] .face { border-color: #c98a00; }
-    .card[data-level="weak"] .face { border-color: #d93025; }
+    .card[data-level="good"] .face { border-color: var(--good); }
+    .card[data-level="medium"] .face { border-color: var(--medium); }
+    .card[data-level="weak"] .face { border-color: var(--weak); }
 
     .save {
       position: absolute;
@@ -546,10 +566,10 @@
   <div id="backdrop" hidden></div>
   <aside id="drawer" aria-label="Menü">
     <div class="menu">
-      <button type="button" class="menu-item" data-tab="notes">Notizen</button>
-      <button type="button" class="menu-item" data-tab="book">Buch</button>
-      <button type="button" class="menu-item" data-tab="saved">Saved<span class="badge" id="saved-count"></span></button>
-      <button type="button" class="menu-item" data-tab="learned">Gelernt<span class="badge" id="learned-count"></span></button>
+      <button type="button" class="menu-item" data-tab="notes">Notizen<svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button type="button" class="menu-item" data-tab="book">Buch<svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button type="button" class="menu-item" data-tab="saved">Saved<span class="badge" id="saved-count"></span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button type="button" class="menu-item" data-tab="learned">Gelernt<span class="badge" id="learned-count"></span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       <button type="button" class="menu-item" data-tab="play">Jetzt spielen 🎯</button>
       <div class="submenu" id="filters"></div>
     </div>
@@ -595,11 +615,11 @@
       phrase: "Phrase",
     };
     const LANGUAGES = {
-      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi.", noMatch: "Aramana uyan kelime yok.", emptyLearned: "Henüz ezberlenmiş kelime yok. Kartlardaki ✓ ile işaretleyebilirsin.", emptyPlay: "Önce birkaç kelimeyi ✓ ile ezberlendi olarak işaretle, sonra burada oynayabilirsin.", correct: "Doğru!", wrong: "Yanlış.", next: "Sonraki", timesCorrect: "doğru" },
-      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet.", noMatch: "No words match your search.", emptyLearned: "No learned words yet. Tap ✓ on a card to mark it as learned.", emptyPlay: "Mark some words as learned with ✓ first, then you can play here.", correct: "Correct!", wrong: "Wrong.", next: "Next", timesCorrect: "correct" },
-      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника.", noMatch: "Немає слів, що відповідають пошуку.", emptyLearned: "Ще немає вивчених слів. Натисніть ✓ на картці, щоб позначити її.", emptyPlay: "Спочатку позначте кілька слів як вивчені за допомогою ✓, тоді можна грати тут.", correct: "Правильно!", wrong: "Неправильно.", next: "Далі", timesCorrect: "правильно" },
-      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", noMatch: "لا توجد كلمات مطابقة لبحثك.", emptyLearned: "لا توجد كلمات محفوظة عن ظهر قلب بعد. اضغط ✓ على البطاقة لتعليمها.", emptyPlay: "علّم بعض الكلمات بـ ✓ كمحفوظة أولًا، ثم يمكنك اللعب هنا.", correct: "صحيح!", wrong: "خطأ.", next: "التالي", timesCorrect: "صحيح", rtl: true },
-      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora.", noMatch: "Nessuna parola corrisponde alla ricerca.", emptyLearned: "Nessuna parola imparata. Tocca ✓ su una carta per segnarla.", emptyPlay: "Segna prima alcune parole come imparate con ✓, poi puoi giocare qui.", correct: "Giusto!", wrong: "Sbagliato.", next: "Avanti", timesCorrect: "giuste" },
+      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi.", noMatch: "Aramana uyan kelime yok.", emptyLearned: "Henüz ezberlenmiş kelime yok. Kartlardaki ✓ ile işaretleyebilirsin.", emptyLevel: "Bu seviyede henüz kelime yok.", emptyPlay: "Önce birkaç kelimeyi ✓ ile ezberlendi olarak işaretle, sonra burada oynayabilirsin.", correct: "Doğru!", wrong: "Yanlış.", next: "Sonraki", timesCorrect: "doğru" },
+      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet.", noMatch: "No words match your search.", emptyLearned: "No learned words yet. Tap ✓ on a card to mark it as learned.", emptyLevel: "No words at this level yet.", emptyPlay: "Mark some words as learned with ✓ first, then you can play here.", correct: "Correct!", wrong: "Wrong.", next: "Next", timesCorrect: "correct" },
+      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника.", noMatch: "Немає слів, що відповідають пошуку.", emptyLearned: "Ще немає вивчених слів. Натисніть ✓ на картці, щоб позначити її.", emptyLevel: "На цьому рівні ще немає слів.", emptyPlay: "Спочатку позначте кілька слів як вивчені за допомогою ✓, тоді можна грати тут.", correct: "Правильно!", wrong: "Неправильно.", next: "Далі", timesCorrect: "правильно" },
+      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", noMatch: "لا توجد كلمات مطابقة لبحثك.", emptyLearned: "لا توجد كلمات محفوظة عن ظهر قلب بعد. اضغط ✓ على البطاقة لتعليمها.", emptyLevel: "لا توجد كلمات في هذا المستوى بعد.", emptyPlay: "علّم بعض الكلمات بـ ✓ كمحفوظة أولًا، ثم يمكنك اللعب هنا.", correct: "صحيح!", wrong: "خطأ.", next: "التالي", timesCorrect: "صحيح", rtl: true },
+      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora.", noMatch: "Nessuna parola corrisponde alla ricerca.", emptyLearned: "Nessuna parola imparata. Tocca ✓ su una carta per segnarla.", emptyLevel: "Nessuna parola a questo livello.", emptyPlay: "Segna prima alcune parole come imparate con ✓, poi puoi giocare qui.", correct: "Giusto!", wrong: "Sbagliato.", next: "Avanti", timesCorrect: "giuste" },
     };
     const KEYS = {
       lang: "wortkarten:lang",
@@ -644,6 +664,7 @@
     let learned = new Set();  // memorized cards: shown only in the Gelernt tab
     let quizScores = {};      // correct quiz answers per card id
     let quizCard = null;      // the card currently asked in the quiz
+    let filtersOpen = true;   // whether the active tab's list is unfolded in the menu
     let query = "";     // normalized search text, matched against the word and its synonyms
 
     // Storage is wrapped: private mode or blocked storage must not break the app.
@@ -748,7 +769,8 @@
       if (article) root.dataset.article = article;
       else if (card.type) root.dataset.type = card.type;
       const score = quizScore(card.id);
-      if (tab === "learned" && score) root.dataset.level = quizLevel(score);
+      const level = tab === "learned" ? quizLevel(score) : null;
+      if (level) root.dataset.level = level;
 
       const saveBtn = el("button", "save");
       saveBtn.type = "button";
@@ -882,8 +904,13 @@
       return sourceOf(card) === "book" && Number.isInteger(card.chapter) && card.chapter > 0
         ? "chapter:" + card.chapter : null;
     }
+    // Learned cards are filtered by quiz level ("level:good") instead of date or chapter.
+    function levelKey(card) {
+      const level = learned.has(card.id) ? quizLevel(quizScore(card.id)) : null;
+      return level ? "level:" + level : null;
+    }
     function matchesFilter(card) {
-      return !filter || dateKey(card) === filter || chapterKey(card) === filter;
+      return !filter || dateKey(card) === filter || chapterKey(card) === filter || levelKey(card) === filter;
     }
 
     // Lowercase without accents, so "uber" finds "übermäßig" and "strasse" finds "Straße".
@@ -913,6 +940,7 @@
       return counts;
     }
 
+    const LEVELS = [["good", "Gut"], ["medium", "Mittel"], ["weak", "Schwach"]];
     const TAB_LABELS = { notes: "Notizen", book: "Buch", saved: "Saved", learned: "Gelernt" };
 
     // Lists, under the active tab in the menu, only what its cards have: dates newest first for notes,
@@ -920,15 +948,19 @@
     // A chosen filter that this tab doesn't have falls back to "all". Returns the chosen filter's label.
     function buildFilterMenu() {
       const cards = tabCards();
-      const dates = tab === "book" ? new Map() : countBy(cards, dateKey);
-      const chapters = tab === "notes" ? new Map() : countBy(cards, chapterKey);
+      const byLevel = tab === "learned";
+      const dates = tab === "book" || byLevel ? new Map() : countBy(cards, dateKey);
+      const chapters = tab === "notes" || byLevel ? new Map() : countBy(cards, chapterKey);
+      const levels = byLevel ? countBy(cards, levelKey) : new Map();
       const allLabel = tab === "notes" ? "Alle Tage" : tab === "book" ? "Alle Kapitel" : "Alle";
-      if (!dates.has(filter) && !chapters.has(filter)) filter = "";
+      const levelKeys = byLevel ? LEVELS.map(([level]) => "level:" + level) : [];
+      if (!dates.has(filter) && !chapters.has(filter) && !levelKeys.includes(filter)) filter = "";
 
       let chosenLabel = "";
       function item(label, count, key) {
         const button = el("button", "sub-item", label);
         button.type = "button";
+        if (key.startsWith("level:")) button.dataset.level = key.slice(6);
         button.appendChild(el("span", "badge", String(count)));
         button.setAttribute("aria-current", String(key === filter));
         if (key === filter && key) chosenLabel = label;
@@ -952,15 +984,24 @@
         .sort((a, b) => Number(a.slice(8)) - Number(b.slice(8)))
         .map((key) => item("Kapitel " + key.slice(8), chapters.get(key), key));
 
+      // All three levels are always listed, even while one is still empty.
+      LEVELS.forEach(([level, label]) => {
+        if (byLevel) filterList.appendChild(item(label, levels.get("level:" + level) || 0, "level:" + level));
+      });
+
       const groups = [["Notizen", dateItems], ["Buch", chapterItems]].filter(([, items]) => items.length);
       for (const [label, items] of groups) {
-        if (tab === "saved" || tab === "learned") filterList.appendChild(el("div", "sub-heading", label));
+        if (tab === "saved") filterList.appendChild(el("div", "sub-heading", label));
         items.forEach((node) => filterList.appendChild(node));
       }
 
-      // The filters sit right under the tab they belong to.
+      // The filters sit right under the tab they belong to; tapping that tab again folds them away.
       const active = [...tabButtons].find((b) => b.dataset.tab === tab);
       active.after(filterList);
+      filterList.hidden = !filtersOpen;
+      tabButtons.forEach((b) => {
+        if (b.dataset.tab !== "play") b.setAttribute("aria-expanded", String(b === active && filtersOpen));
+      });
       return chosenLabel;
     }
 
@@ -968,9 +1009,9 @@
       const n = quizScores[id];
       return Number.isInteger(n) && n > 0 ? n : 0;
     }
-    // 5+ correct answers: good, 3+: medium, 1+: weak.
+    // 10+ correct answers: good, 5+: medium, 2+: weak; fewer have no level yet.
     function quizLevel(score) {
-      return score >= 5 ? "good" : score >= 3 ? "medium" : score >= 1 ? "weak" : null;
+      return score >= 10 ? "good" : score >= 5 ? "medium" : score >= 2 ? "weak" : null;
     }
 
     function shuffle(list) {
@@ -1109,7 +1150,8 @@
       nav.hidden = empty;
       emptyBox.hidden = !empty;
       const texts = LANGUAGES[lang];
-      emptyBox.textContent = !empty ? "" : query ? texts.noMatch : tab === "book" ? texts.emptyBook
+      emptyBox.textContent = !empty ? "" : query ? texts.noMatch : filter.startsWith("level:") ? texts.emptyLevel
+        : tab === "book" ? texts.emptyBook
         : tab === "learned" ? texts.emptyLearned : texts.empty;
       emptyBox.dir = LANGUAGES[lang].rtl ? "rtl" : "";
       if (empty) return;
@@ -1209,7 +1251,14 @@
 
     tabButtons.forEach((button) => {
       button.addEventListener("click", () => {
-        if (button.dataset.tab === tab) return;
+        if (button.dataset.tab === tab) {
+          if (tab === "play") return;
+          filtersOpen = !filtersOpen;
+          filterList.hidden = !filtersOpen;
+          button.setAttribute("aria-expanded", String(filtersOpen));
+          return;
+        }
+        filtersOpen = true;
         tab = button.dataset.tab;
         filter = loadFilter();
         render(readStorage(KEYS.position(tab)));
