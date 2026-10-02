@@ -618,6 +618,7 @@
       <button type="button" class="menu-item" data-tab="saved">Saved<span class="badge" id="saved-count"></span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       <button type="button" class="menu-item" data-tab="learned">Gelernt<span class="badge" id="learned-count"></span><svg class="chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
       <button type="button" class="menu-item" data-tab="play">Jetzt spielen 🎯</button>
+      <button type="button" class="menu-item" data-tab="review">Erinnerung 🔔<span class="badge" id="review-count"></span></button>
       <div class="submenu" id="filters"></div>
     </div>
     <div class="menu-footer">
@@ -663,11 +664,11 @@
       phrase: "Phrase",
     };
     const LANGUAGES = {
-      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi.", noMatch: "Aramana uyan kelime yok.", emptyLearned: "Henüz ezberlenmiş kelime yok. Kartlardaki ✓ ile işaretleyebilirsin.", emptyLevel: "Bu seviyede henüz kelime yok.", emptyPlay: "Önce birkaç kelimeyi ✓ ile ezberlendi olarak işaretle, sonra burada oynayabilirsin.", correct: "Doğru!", wrong: "Yanlış.", next: "Sonraki", timesCorrect: "doğru", allDone: "Bütün ezberlenmiş kelimeler en az 10 kez doğru cevaplandı. 🎉" },
-      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet.", noMatch: "No words match your search.", emptyLearned: "No learned words yet. Tap ✓ on a card to mark it as learned.", emptyLevel: "No words at this level yet.", emptyPlay: "Mark some words as learned with ✓ first, then you can play here.", correct: "Correct!", wrong: "Wrong.", next: "Next", timesCorrect: "correct", allDone: "Every learned word has been answered correctly at least 10 times. 🎉" },
-      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника.", noMatch: "Немає слів, що відповідають пошуку.", emptyLearned: "Ще немає вивчених слів. Натисніть ✓ на картці, щоб позначити її.", emptyLevel: "На цьому рівні ще немає слів.", emptyPlay: "Спочатку позначте кілька слів як вивчені за допомогою ✓, тоді можна грати тут.", correct: "Правильно!", wrong: "Неправильно.", next: "Далі", timesCorrect: "правильно", allDone: "На всі вивчені слова вже щонайменше 10 разів відповіли правильно. 🎉" },
-      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", noMatch: "لا توجد كلمات مطابقة لبحثك.", emptyLearned: "لا توجد كلمات محفوظة عن ظهر قلب بعد. اضغط ✓ على البطاقة لتعليمها.", emptyLevel: "لا توجد كلمات في هذا المستوى بعد.", emptyPlay: "علّم بعض الكلمات بـ ✓ كمحفوظة أولًا، ثم يمكنك اللعب هنا.", correct: "صحيح!", wrong: "خطأ.", next: "التالي", timesCorrect: "صحيح", allDone: "تمت الإجابة عن كل الكلمات المحفوظة إجابة صحيحة 10 مرات على الأقل. 🎉", rtl: true },
-      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora.", noMatch: "Nessuna parola corrisponde alla ricerca.", emptyLearned: "Nessuna parola imparata. Tocca ✓ su una carta per segnarla.", emptyLevel: "Nessuna parola a questo livello.", emptyPlay: "Segna prima alcune parole come imparate con ✓, poi puoi giocare qui.", correct: "Giusto!", wrong: "Sbagliato.", next: "Avanti", timesCorrect: "giuste", allDone: "Ogni parola imparata ha già almeno 10 risposte giuste. 🎉" },
+      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi.", noMatch: "Aramana uyan kelime yok.", emptyLearned: "Henüz ezberlenmiş kelime yok. Kartlardaki ✓ ile işaretleyebilirsin.", emptyLevel: "Bu seviyede henüz kelime yok.", emptyPlay: "Önce birkaç kelimeyi ✓ ile ezberlendi olarak işaretle, sonra burada oynayabilirsin.", correct: "Doğru!", wrong: "Yanlış.", next: "Sonraki", timesCorrect: "doğru", allDone: "Bütün ezberlenmiş kelimeler en az 10 kez doğru cevaplandı. 🎉", reviewDone: "Bugünlük bu kadar! Bir sonraki girişte yeni hatırlatma soruları gelecek.", reviewEmpty: "Henüz 10 kez doğru cevaplanmış kelime yok. Jetzt spielen'de 10 doğruya ulaşan kelimeler burada tekrar sorulur." },
+      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet.", noMatch: "No words match your search.", emptyLearned: "No learned words yet. Tap ✓ on a card to mark it as learned.", emptyLevel: "No words at this level yet.", emptyPlay: "Mark some words as learned with ✓ first, then you can play here.", correct: "Correct!", wrong: "Wrong.", next: "Next", timesCorrect: "correct", allDone: "Every learned word has been answered correctly at least 10 times. 🎉", reviewDone: "That's all for now! New review questions will come next time you open the app.", reviewEmpty: "No word has been answered correctly 10 times yet. Words that reach 10 in Jetzt spielen are reviewed here." },
+      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника.", noMatch: "Немає слів, що відповідають пошуку.", emptyLearned: "Ще немає вивчених слів. Натисніть ✓ на картці, щоб позначити її.", emptyLevel: "На цьому рівні ще немає слів.", emptyPlay: "Спочатку позначте кілька слів як вивчені за допомогою ✓, тоді можна грати тут.", correct: "Правильно!", wrong: "Неправильно.", next: "Далі", timesCorrect: "правильно", allDone: "На всі вивчені слова вже щонайменше 10 разів відповіли правильно. 🎉", reviewDone: "На сьогодні все! Нові питання для повторення з'являться наступного разу, коли ви відкриєте застосунок.", reviewEmpty: "Ще немає слів із 10 правильними відповідями. Слова, що досягли 10 у Jetzt spielen, повторюються тут." },
+      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", noMatch: "لا توجد كلمات مطابقة لبحثك.", emptyLearned: "لا توجد كلمات محفوظة عن ظهر قلب بعد. اضغط ✓ على البطاقة لتعليمها.", emptyLevel: "لا توجد كلمات في هذا المستوى بعد.", emptyPlay: "علّم بعض الكلمات بـ ✓ كمحفوظة أولًا، ثم يمكنك اللعب هنا.", correct: "صحيح!", wrong: "خطأ.", next: "التالي", timesCorrect: "صحيح", allDone: "تمت الإجابة عن كل الكلمات المحفوظة إجابة صحيحة 10 مرات على الأقل. 🎉", reviewDone: "انتهيت لهذا اليوم! ستظهر أسئلة مراجعة جديدة في المرة القادمة التي تفتح فيها التطبيق.", reviewEmpty: "لا توجد بعد كلمات أُجيب عنها إجابة صحيحة 10 مرات. الكلمات التي تصل إلى 10 في Jetzt spielen تُراجَع هنا.", rtl: true },
+      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora.", noMatch: "Nessuna parola corrisponde alla ricerca.", emptyLearned: "Nessuna parola imparata. Tocca ✓ su una carta per segnarla.", emptyLevel: "Nessuna parola a questo livello.", emptyPlay: "Segna prima alcune parole come imparate con ✓, poi puoi giocare qui.", correct: "Giusto!", wrong: "Sbagliato.", next: "Avanti", timesCorrect: "giuste", allDone: "Ogni parola imparata ha già almeno 10 risposte giuste. 🎉", reviewDone: "Per ora è tutto! Nuove domande di ripasso arriveranno la prossima volta che apri l'app.", reviewEmpty: "Nessuna parola ha ancora 10 risposte giuste. Le parole che arrivano a 10 in Jetzt spielen si ripassano qui." },
     };
     const KEYS = {
       lang: "wortkarten:lang",
@@ -677,6 +678,7 @@
       learned: "wortkarten:learned",
       quiz: "wortkarten:quiz",   // { cardId: number of correct quiz answers }
       quizCard: "wortkarten:quizCardId",  // the question the quiz is at
+      review: "wortkarten:review",  // [cardId] Erinnerung questions still to answer
       position: (tab) => "wortkarten:lastCardId:" + tab,
     };
 
@@ -692,6 +694,7 @@
     const searchInput = document.getElementById("search");
     const savedCount = document.getElementById("saved-count");
     const learnedCount = document.getElementById("learned-count");
+    const reviewCount = document.getElementById("review-count");
     const quizBox = document.getElementById("quiz");
     const detailBox = document.getElementById("detail");
     const langSelect = document.getElementById("lang");
@@ -707,13 +710,15 @@
     let current = 0;
     // Where a button/key press is heading, so rapid taps add up before the smooth scroll lands.
     let target = null;
-    let tab = "notes";  // "notes" (handwritten lesson notes), "book" (underlined book words) "saved", "learned" or "play" (quiz)
+    let tab = "notes";  // "notes" (handwritten lesson notes), "book" (underlined book words) "saved", "learned",
+                        // "play" (quiz) or "review" (Erinnerung: quiz over words already answered right 10 times)
     let lang = "tr";
     let filter = "";    // current tab's filter: "" (all), "date:YYYY-MM-DD" or "chapter:N"
     let saved = new Set();
     let learned = new Set();  // memorized cards: shown only in the Gelernt tab
     let quizScores = {};      // correct quiz answers per card id
     let quizCard = null;      // the card currently asked in the quiz
+    let reviewIds = [];       // Erinnerung questions still to answer, in asking order
     let filtersOpen = true;   // whether the active tab's list is unfolded in the menu
     let query = "";     // normalized search text, matched against the word and its synonyms
 
@@ -741,6 +746,10 @@
       try {
         const scores = JSON.parse(readStorage(KEYS.quiz) || "{}");
         if (scores && typeof scores === "object" && !Array.isArray(scores)) quizScores = scores;
+      } catch (e) {}
+      try {
+        const ids = JSON.parse(readStorage(KEYS.review) || "[]");
+        if (Array.isArray(ids)) reviewIds = ids;
       } catch (e) {}
       return hasLang;
     }
@@ -928,6 +937,7 @@
       const learnedAll = allCards.filter((c) => learned.has(c.id)).length;
       savedCount.textContent = savedOpen ? " " + savedOpen : "";
       learnedCount.textContent = learnedAll ? " " + learnedAll : "";
+      reviewCount.textContent = reviewIds.length ? " " + reviewIds.length : "";
     }
 
     const DATE_PATTERN = /^(\d{4})-(\d{2})-(\d{2})$/;
@@ -1050,7 +1060,7 @@
       active.after(filterList);
       filterList.hidden = !filtersOpen;
       tabButtons.forEach((b) => {
-        if (b.dataset.tab !== "play") b.setAttribute("aria-expanded", String(b === active && filtersOpen));
+        if (!isQuizTab(b.dataset.tab)) b.setAttribute("aria-expanded", String(b === active && filtersOpen));
       });
       return chosenLabel;
     }
@@ -1098,6 +1108,67 @@
       writeStorage(KEYS.quizCard, card ? card.id : "");
     }
 
+    function isQuizTab(name) {
+      return name === "play" || name === "review";
+    }
+
+    // Erinnerung: words that are done in the quiz (QUIZ_GOAL correct answers) come back for review.
+    const REVIEW_SIZE = 10;
+    const REVIEW_AFTER = 60 * 60 * 1000;  // back in the app after this long counts as a new visit
+
+    function reviewPool() {
+      return quizPool().filter((c) => !isAsked(c));
+    }
+    function saveReview() {
+      writeStorage(KEYS.review, JSON.stringify(reviewIds));
+      updateSavedCount();
+    }
+    // Drops questions whose word can no longer be asked (unmarked as learned, removed from cards.json).
+    function pruneReview() {
+      const ok = new Set(reviewPool().map((c) => c.id));
+      const kept = reviewIds.filter((id) => ok.has(id));
+      if (kept.length !== reviewIds.length) {
+        reviewIds = kept;
+        saveReview();
+      }
+    }
+    // On every visit: top the open questions up to REVIEW_SIZE with the words that have the fewest
+    // correct answers (list order between equals), skipping the ones already waiting.
+    function refillReview() {
+      pruneReview();
+      const waiting = new Set(reviewIds);
+      const fresh = reviewPool()
+        .filter((c) => !waiting.has(c.id))
+        .map((c, i) => [c, i])
+        .sort((a, b) => quizScore(a[0].id) - quizScore(b[0].id) || a[1] - b[1])
+        .slice(0, Math.max(0, REVIEW_SIZE - reviewIds.length))
+        .map(([c]) => c.id);
+      reviewIds = reviewIds.concat(fresh);
+      saveReview();
+    }
+
+    // Right: the question is done and leaves the list. Wrong: it stays and is asked again after the others.
+    function answerReview(card, isRight) {
+      reviewIds = reviewIds.filter((id) => id !== card.id);
+      if (!isRight) reviewIds.push(card.id);
+      saveReview();
+    }
+
+    function currentPlayCard() {
+      // Resume at the question left last time.
+      if (!quizCard) quizCard = allCards.find((c) => c.id === readStorage(KEYS.quizCard)) || null;
+      // The question dropped out (reached the goal, unmarked, no translation): go on to the next one still asked.
+      const pool = quizPool();
+      if (!quizCard || !pool.includes(quizCard) || !isAsked(quizCard)) {
+        setQuizCard(pickQuizCard(pool.includes(quizCard) ? quizCard : null));
+      }
+      return quizCard;
+    }
+    function currentReviewCard() {
+      pruneReview();
+      return allCards.find((c) => c.id === reviewIds[0]) || null;
+    }
+
     // Three wrong answers from all cards, preferring the same word type so they are not too easy.
     function quizOptions(card) {
       const right = card.meaning[lang];
@@ -1114,26 +1185,23 @@
       return shuffle([right, ...wrong]);
     }
 
+    // The question screen shared by Jetzt spielen and Erinnerung.
     function renderQuiz() {
       const texts = LANGUAGES[lang];
-      // Resume at the question left last time.
-      if (!quizCard) quizCard = allCards.find((c) => c.id === readStorage(KEYS.quizCard)) || null;
-      // The question dropped out (reached the goal, unmarked, no translation): go on to the next one still asked.
-      const pool = quizPool();
-      if (!quizCard || !pool.includes(quizCard) || !isAsked(quizCard)) {
-        setQuizCard(pickQuizCard(pool.includes(quizCard) ? quizCard : null));
-      }
+      const reviewing = tab === "review";
+      const card = reviewing ? currentReviewCard() : currentPlayCard();
       quizBox.textContent = "";
-      if (!quizCard) {
+      if (!card) {
         quizBox.hidden = true;
         emptyBox.hidden = false;
-        emptyBox.textContent = pool.length ? texts.allDone : texts.emptyPlay;
+        emptyBox.textContent = reviewing
+          ? (reviewPool().length ? texts.reviewDone : texts.reviewEmpty)
+          : (quizPool().length ? texts.allDone : texts.emptyPlay);
         emptyBox.dir = texts.rtl ? "rtl" : "";
         return;
       }
       emptyBox.hidden = true;
       quizBox.hidden = false;
-      const card = quizCard;
       const article = ARTICLES.includes(card.article) ? card.article : null;
 
       const inner = el("div", "quiz-inner");
@@ -1159,7 +1227,7 @@
       const buttons = quizOptions(card).map((text) => {
         const button = el("button", "answer", text);
         button.type = "button";
-        button.addEventListener("click", () => answerQuiz(button, text === right, buttons, right, inner));
+        button.addEventListener("click", () => answerQuiz(card, button, text === right, buttons, right, inner));
         answers.appendChild(button);
         return button;
       });
@@ -1169,26 +1237,27 @@
       quizBox.scrollTop = 0;
     }
 
-    function answerQuiz(chosen, isRight, buttons, right, inner) {
+    function answerQuiz(card, chosen, isRight, buttons, right, inner) {
       const texts = LANGUAGES[lang];
       buttons.forEach((b) => {
         b.disabled = true;
         if (b.textContent === right) b.classList.add("correct");
       });
       if (isRight) {
-        quizScores[quizCard.id] = quizScore(quizCard.id) + 1;
+        quizScores[card.id] = quizScore(card.id) + 1;
         writeStorage(KEYS.quiz, JSON.stringify(quizScores));
       } else {
         chosen.classList.add("wrong");
       }
-      inner.querySelector(".quiz-score").textContent = "✓ " + quizScore(quizCard.id) + "× " + texts.timesCorrect;
+      inner.querySelector(".quiz-score").textContent = "✓ " + quizScore(card.id) + "× " + texts.timesCorrect;
+      if (tab === "review") answerReview(card, isRight);
 
       const result = el("div", "quiz-result", isRight ? texts.correct : texts.wrong);
       if (texts.rtl) result.dir = "rtl";
       const next = el("button", "quiz-next", texts.next);
       next.type = "button";
       next.addEventListener("click", () => {
-        setQuizCard(pickQuizCard(quizCard));
+        if (tab === "play") setQuizCard(pickQuizCard(card));
         renderQuiz();
       });
       inner.insertBefore(result, inner.querySelector(".quiz-score"));
@@ -1227,7 +1296,7 @@
     function render(startId) {
       tabButtons.forEach((b) => b.setAttribute("aria-current", String(b.dataset.tab === tab)));
       updateSavedCount();
-      const playing = tab === "play";
+      const playing = isQuizTab(tab);
       searchInput.hidden = playing;
       if (playing) {
         filterList.remove();
@@ -1359,7 +1428,7 @@
     tabButtons.forEach((button) => {
       button.addEventListener("click", () => {
         if (button.dataset.tab === tab) {
-          if (tab === "play") return;
+          if (isQuizTab(tab)) return;
           filtersOpen = !filtersOpen;
           filterList.hidden = !filtersOpen;
           button.setAttribute("aria-expanded", String(filtersOpen));
@@ -1370,7 +1439,7 @@
         filter = loadFilter();
         render(readStorage(KEYS.position(tab)));
         writeStorage(KEYS.position(tab), currentId() || "");
-        if (tab === "play") closeMenu();
+        if (isQuizTab(tab)) closeMenu();
       });
     });
 
@@ -1400,6 +1469,18 @@
       lang = langSelect.value;
       writeStorage(KEYS.lang, lang);
       render(currentId());
+    });
+
+    // iOS often keeps the app alive in the background: coming back after a long break is a new visit too.
+    let hiddenAt = null;
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) {
+        hiddenAt = Date.now();
+      } else if (hiddenAt && Date.now() - hiddenAt >= REVIEW_AFTER && allCards.length) {
+        hiddenAt = null;
+        refillReview();
+        if (tab === "review") renderQuiz();
+      }
     });
 
     async function load() {
@@ -1440,6 +1521,7 @@
         writeStorage(KEYS.lang, lang);
       }
       langSelect.value = lang;
+      refillReview();
       filter = loadFilter();
       topbar.hidden = false;
       // The notes tab used to be called "all"; pick up the position saved under the old name.
