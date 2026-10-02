@@ -4678,6 +4678,1005 @@
         "it": "Non bisognerebbe esporsi troppo a lungo al sole."
       },
       "note": "sich (Akk.) einer Sache (Dat.) aussetzen; einer Gefahr / Kritik ausgesetzt sein"
+    },
+    {
+      "id": "festhalten",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "festhalten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "hält fest",
+        "praeteritum": "hielt fest",
+        "perfekt": "hat festgehalten"
+      },
+      "meaning": {
+        "de": "Etwas mit der Hand halten, damit es nicht fällt; etwas schriftlich notieren",
+        "tr": "sıkıca tutmak, kayda geçirmek, not etmek",
+        "en": "to hold on to, to record, to note down",
+        "uk": "міцно тримати, фіксувати, записувати",
+        "ar": "يمسك بإحكام، يدوّن، يسجّل",
+        "it": "tenere stretto, fissare, annotare"
+      },
+      "synonyms": [
+        "notieren",
+        "aufschreiben",
+        "halten"
+      ],
+      "antonyms": [
+        "loslassen"
+      ],
+      "example": {
+        "de": "Wir sollten die wichtigsten Ergebnisse der Besprechung schriftlich festhalten.",
+        "tr": "Toplantının en önemli sonuçlarını yazılı olarak kayda geçirmeliyiz.",
+        "en": "We should record the most important results of the meeting in writing.",
+        "uk": "Нам варто письмово зафіксувати найважливіші результати наради.",
+        "ar": "ينبغي أن ندوّن أهم نتائج الاجتماع كتابيًا.",
+        "it": "Dovremmo annotare per iscritto i risultati più importanti della riunione."
+      },
+      "note": "etwas (Akk.) festhalten; sich (Akk.) an etwas (Dat.) festhalten; an etwas (Dat.) festhalten (beibehalten)"
+    },
+    {
+      "id": "uebersichtlich",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "übersichtlich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Klar geordnet, sodass man alles schnell verstehen und finden kann",
+        "tr": "derli toplu, anlaşılır, kolay takip edilebilir",
+        "en": "clear, well-organized, easy to follow",
+        "uk": "наочний, чітко впорядкований",
+        "ar": "واضح، منظّم، سهل الاستيعاب",
+        "it": "chiaro, ordinato, di facile consultazione"
+      },
+      "synonyms": [
+        "klar",
+        "geordnet",
+        "strukturiert"
+      ],
+      "antonyms": [
+        "unübersichtlich",
+        "chaotisch"
+      ],
+      "example": {
+        "de": "Die Tabelle ist sehr übersichtlich, man findet alle Informationen sofort.",
+        "tr": "Tablo çok derli toplu, bütün bilgileri hemen buluyorsun.",
+        "en": "The table is very clear; you find all the information immediately.",
+        "uk": "Таблиця дуже наочна, всю інформацію знаходиш одразу.",
+        "ar": "الجدول واضح جدًا، فتجد كل المعلومات فورًا.",
+        "it": "La tabella è molto chiara, si trovano subito tutte le informazioni."
+      },
+      "note": null
+    },
+    {
+      "id": "redselig",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "redselig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Gern und viel sprechend",
+        "tr": "konuşkan, geveze",
+        "en": "talkative, chatty",
+        "uk": "балакучий, говіркий",
+        "ar": "ثرثار، كثير الكلام",
+        "it": "loquace, chiacchierone"
+      },
+      "synonyms": [
+        "gesprächig",
+        "geschwätzig"
+      ],
+      "antonyms": [
+        "schweigsam",
+        "wortkarg"
+      ],
+      "example": {
+        "de": "Mein Nachbar ist sehr redselig und erzählt mir jeden Morgen etwas Neues.",
+        "tr": "Komşum çok konuşkan ve her sabah bana yeni bir şey anlatıyor.",
+        "en": "My neighbour is very talkative and tells me something new every morning.",
+        "uk": "Мій сусід дуже балакучий і щоранку розповідає мені щось нове.",
+        "ar": "جاري ثرثار جدًا ويحكي لي شيئًا جديدًا كل صباح.",
+        "it": "Il mio vicino è molto loquace e ogni mattina mi racconta qualcosa di nuovo."
+      },
+      "note": null
+    },
+    {
+      "id": "nutzen",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "Nutzen",
+      "type": "noun",
+      "article": "der",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Der Vorteil oder Gewinn, den man von etwas hat",
+        "tr": "fayda, yarar",
+        "en": "benefit, use, advantage",
+        "uk": "користь, вигода",
+        "ar": "فائدة، منفعة",
+        "it": "utilità, vantaggio, beneficio"
+      },
+      "synonyms": [
+        "der Vorteil",
+        "der Gewinn"
+      ],
+      "antonyms": [
+        "der Schaden",
+        "der Nachteil"
+      ],
+      "example": {
+        "de": "Der Nutzen eines Sprachkurses zeigt sich oft erst nach einigen Monaten.",
+        "tr": "Bir dil kursunun faydası çoğu zaman ancak birkaç ay sonra görülür.",
+        "en": "The benefit of a language course often only becomes apparent after a few months.",
+        "uk": "Користь мовного курсу часто стає помітною лише через кілька місяців.",
+        "ar": "غالبًا ما تظهر فائدة دورة اللغة بعد بضعة أشهر فقط.",
+        "it": "L'utilità di un corso di lingua spesso si vede solo dopo alcuni mesi."
+      },
+      "note": "der Nutzen für jemanden (Akk.); von Nutzen sein; Plural selten"
+    },
+    {
+      "id": "fortschritt",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "Fortschritt",
+      "type": "noun",
+      "article": "der",
+      "plural": "Fortschritte",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Entwicklung zu einem besseren oder höheren Stand",
+        "tr": "ilerleme, gelişme",
+        "en": "progress",
+        "uk": "прогрес, успіх",
+        "ar": "تقدّم",
+        "it": "progresso"
+      },
+      "synonyms": [
+        "die Entwicklung",
+        "die Verbesserung"
+      ],
+      "antonyms": [
+        "der Rückschritt"
+      ],
+      "example": {
+        "de": "Seit dem Kurs mache ich beim Sprechen große Fortschritte.",
+        "tr": "Kurstan beri konuşmada büyük ilerleme kaydediyorum.",
+        "en": "Since the course I've been making great progress in speaking.",
+        "uk": "Відколи я на курсі, я роблю великі успіхи в мовленні.",
+        "ar": "منذ الدورة أحقق تقدمًا كبيرًا في التحدث.",
+        "it": "Dal corso faccio grandi progressi nel parlare."
+      },
+      "note": "Fortschritte (in etwas (Dat.) / bei etwas (Dat.)) machen"
+    },
+    {
+      "id": "belohnung",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "Belohnung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Belohnungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas Positives, das man für eine gute Leistung bekommt",
+        "tr": "ödül, mükâfat",
+        "en": "reward",
+        "uk": "винагорода",
+        "ar": "مكافأة",
+        "it": "ricompensa, premio"
+      },
+      "synonyms": [
+        "der Lohn",
+        "die Anerkennung"
+      ],
+      "antonyms": [
+        "die Strafe"
+      ],
+      "example": {
+        "de": "Als Belohnung für die bestandene Prüfung gönne ich mir ein gutes Essen.",
+        "tr": "Geçtiğim sınavın ödülü olarak kendime güzel bir yemek ısmarlıyorum.",
+        "en": "As a reward for passing the exam, I'm treating myself to a good meal.",
+        "uk": "Як винагороду за складений іспит я побалую себе смачною вечерею.",
+        "ar": "مكافأةً على نجاحي في الامتحان، أدلّل نفسي بوجبة جيدة.",
+        "it": "Come ricompensa per l'esame superato mi concedo una buona cena."
+      },
+      "note": "eine Belohnung für etwas (Akk.)"
+    },
+    {
+      "id": "fehler",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "Fehler",
+      "type": "noun",
+      "article": "der",
+      "plural": "Fehler",
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas, das falsch ist oder falsch gemacht wurde",
+        "tr": "hata, yanlış",
+        "en": "mistake, error",
+        "uk": "помилка",
+        "ar": "خطأ",
+        "it": "errore, sbaglio"
+      },
+      "synonyms": [
+        "der Irrtum",
+        "das Versehen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Aus Fehlern lernt man am meisten.",
+        "tr": "İnsan en çok hatalarından öğrenir.",
+        "en": "You learn the most from mistakes.",
+        "uk": "На помилках учаться найбільше.",
+        "ar": "يتعلم المرء أكثر ما يتعلم من أخطائه.",
+        "it": "Dagli errori si impara di più."
+      },
+      "note": "einen Fehler machen / begehen"
+    },
+    {
+      "id": "eigen",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "eigen",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Zu einer bestimmten Person selbst gehörend",
+        "tr": "kendi, kendine ait",
+        "en": "own",
+        "uk": "власний",
+        "ar": "خاص، ذاتي",
+        "it": "proprio"
+      },
+      "synonyms": [
+        "persönlich"
+      ],
+      "antonyms": [
+        "fremd"
+      ],
+      "example": {
+        "de": "Er wohnt jetzt in einer eigenen Wohnung und hat sein eigenes Auto.",
+        "tr": "Artık kendi evinde oturuyor ve kendi arabası var.",
+        "en": "He now lives in his own flat and has his own car.",
+        "uk": "Тепер він живе у власній квартирі й має власну машину.",
+        "ar": "يسكن الآن في شقته الخاصة ولديه سيارته الخاصة.",
+        "it": "Ora vive in un appartamento proprio e ha la sua auto."
+      },
+      "note": "meist attributiv (mein eigenes Zimmer); jemandem (Dat.) eigen sein = typisch für jemanden"
+    },
+    {
+      "id": "zeitaufwendig",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "zeitaufwendig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "So, dass es viel Zeit kostet",
+        "tr": "zaman alıcı, çok vakit isteyen",
+        "en": "time-consuming",
+        "uk": "трудомісткий, що забирає багато часу",
+        "ar": "مستهلك للوقت",
+        "it": "che richiede molto tempo, dispendioso in termini di tempo"
+      },
+      "synonyms": [
+        "langwierig",
+        "aufwendig"
+      ],
+      "antonyms": [
+        "schnell",
+        "zeitsparend"
+      ],
+      "example": {
+        "de": "Die Vorbereitung auf die Prüfung ist zeitaufwendig, aber sie lohnt sich.",
+        "tr": "Sınava hazırlık zaman alıcı ama buna değer.",
+        "en": "Preparing for the exam is time-consuming, but it's worth it.",
+        "uk": "Підготовка до іспиту забирає багато часу, але вона того варта.",
+        "ar": "التحضير للامتحان مستهلك للوقت، لكنه يستحق العناء.",
+        "it": "La preparazione all'esame richiede molto tempo, ma ne vale la pena."
+      },
+      "note": "auch: zeitaufwändig"
+    },
+    {
+      "id": "lob",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "Lob",
+      "type": "noun",
+      "article": "das",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Positive Worte, mit denen man jemandes Leistung anerkennt",
+        "tr": "övgü, takdir",
+        "en": "praise",
+        "uk": "похвала",
+        "ar": "مدح، ثناء",
+        "it": "lode, elogio"
+      },
+      "synonyms": [
+        "die Anerkennung",
+        "das Kompliment"
+      ],
+      "antonyms": [
+        "die Kritik",
+        "der Tadel"
+      ],
+      "example": {
+        "de": "Ein ehrliches Lob vom Lehrer motiviert die Schüler sehr.",
+        "tr": "Öğretmenden gelen içten bir övgü öğrencileri çok motive eder.",
+        "en": "Honest praise from the teacher motivates the students a lot.",
+        "uk": "Щира похвала від учителя дуже мотивує учнів.",
+        "ar": "المديح الصادق من المعلم يحفّز الطلاب كثيرًا.",
+        "it": "Una lode sincera dell'insegnante motiva molto gli studenti."
+      },
+      "note": "Genitiv: des Lob(e)s; Plural selten (Lobe); Lob für etwas (Akk.) bekommen"
+    },
+    {
+      "id": "aeussere",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "äußere",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sich außen befindend oder von außen kommend",
+        "tr": "dış, harici",
+        "en": "outer, external",
+        "uk": "зовнішній",
+        "ar": "خارجي",
+        "it": "esterno, esteriore"
+      },
+      "synonyms": [
+        "extern",
+        "außen liegend"
+      ],
+      "antonyms": [
+        "innere"
+      ],
+      "example": {
+        "de": "Auch äußere Faktoren wie Lärm können beim Lernen stören.",
+        "tr": "Gürültü gibi dış etkenler de öğrenmeyi bozabilir.",
+        "en": "External factors such as noise can also disturb learning.",
+        "uk": "Зовнішні чинники, як-от шум, теж можуть заважати навчанню.",
+        "ar": "يمكن للعوامل الخارجية مثل الضوضاء أن تعيق التعلّم أيضًا.",
+        "it": "Anche fattori esterni come il rumore possono disturbare lo studio."
+      },
+      "note": "nur attributiv (der äußere Rand, äußere Faktoren); kein prädikativer Gebrauch"
+    },
+    {
+      "id": "aeussern",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "äußern",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "äußert",
+        "praeteritum": "äußerte",
+        "perfekt": "hat geäußert"
+      },
+      "meaning": {
+        "de": "Etwas sagen, z. B. eine Meinung oder einen Wunsch mitteilen",
+        "tr": "(fikir, istek) belirtmek, dile getirmek",
+        "en": "to express, to voice",
+        "uk": "висловлювати",
+        "ar": "يُبدي، يعبّر عن",
+        "it": "esprimere, manifestare"
+      },
+      "synonyms": [
+        "ausdrücken",
+        "sagen",
+        "mitteilen"
+      ],
+      "antonyms": [
+        "verschweigen"
+      ],
+      "example": {
+        "de": "Im Kurs darf jeder seine Meinung frei äußern.",
+        "tr": "Kursta herkes fikrini özgürce dile getirebilir.",
+        "en": "In the course everyone may express their opinion freely.",
+        "uk": "На курсі кожен може вільно висловлювати свою думку.",
+        "ar": "في الدورة يحق لكل شخص أن يعبّر عن رأيه بحرية.",
+        "it": "Nel corso ognuno può esprimere liberamente la propria opinione."
+      },
+      "note": "etwas (Akk.) äußern; sich (Akk.) zu etwas (Dat.) äußern"
+    },
+    {
+      "id": "rueckschlag",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "Rückschlag",
+      "type": "noun",
+      "article": "der",
+      "plural": "Rückschläge",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine plötzliche Verschlechterung, nachdem es vorher gut lief",
+        "tr": "aksilik, gerileme, geri tepme",
+        "en": "setback",
+        "uk": "невдача, регрес",
+        "ar": "انتكاسة",
+        "it": "battuta d'arresto, contraccolpo"
+      },
+      "synonyms": [
+        "die Niederlage",
+        "der Misserfolg"
+      ],
+      "antonyms": [
+        "der Fortschritt",
+        "der Erfolg"
+      ],
+      "example": {
+        "de": "Rückschläge gehören zum Lernen dazu, man darf nicht aufgeben.",
+        "tr": "Aksilikler öğrenmenin bir parçasıdır, pes etmemek gerekir.",
+        "en": "Setbacks are part of learning; you mustn't give up.",
+        "uk": "Невдачі є частиною навчання, не можна здаватися.",
+        "ar": "الانتكاسات جزء من التعلّم، ولا ينبغي الاستسلام.",
+        "it": "Le battute d'arresto fanno parte dell'apprendimento, non bisogna arrendersi."
+      },
+      "note": "einen Rückschlag erleiden / hinnehmen"
+    },
+    {
+      "id": "belasten",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "belasten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "belastet",
+        "praeteritum": "belastete",
+        "perfekt": "hat belastet"
+      },
+      "meaning": {
+        "de": "Jemandem Sorgen oder Mühe machen; ein Gewicht auf etwas legen",
+        "tr": "(birine) yük olmak, sıkıntı vermek, yüklemek",
+        "en": "to burden, to weigh on, to load",
+        "uk": "обтяжувати, навантажувати",
+        "ar": "يُثقل، يُرهق، يحمّل",
+        "it": "gravare, pesare su, caricare"
+      },
+      "synonyms": [
+        "bedrücken",
+        "beanspruchen"
+      ],
+      "antonyms": [
+        "entlasten"
+      ],
+      "example": {
+        "de": "Der Stress bei der Arbeit belastet ihn sehr.",
+        "tr": "İşteki stres onu çok yıpratıyor.",
+        "en": "The stress at work weighs on him a lot.",
+        "uk": "Стрес на роботі дуже його обтяжує.",
+        "ar": "ضغط العمل يُثقل عليه كثيرًا.",
+        "it": "Lo stress al lavoro gli pesa molto."
+      },
+      "note": "jemanden / etwas (Akk.) (mit etwas (Dat.)) belasten"
+    },
+    {
+      "id": "ueberwinden",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "überwinden",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "überwindet",
+        "praeteritum": "überwand",
+        "perfekt": "hat überwunden"
+      },
+      "meaning": {
+        "de": "Mit einer Schwierigkeit fertig werden und sie hinter sich lassen",
+        "tr": "üstesinden gelmek, aşmak",
+        "en": "to overcome",
+        "uk": "долати, подолати",
+        "ar": "يتغلّب على، يتجاوز",
+        "it": "superare, vincere"
+      },
+      "synonyms": [
+        "bewältigen",
+        "meistern"
+      ],
+      "antonyms": [
+        "scheitern"
+      ],
+      "example": {
+        "de": "Mit viel Übung hat sie ihre Angst vor dem Sprechen überwunden.",
+        "tr": "Çok pratik yaparak konuşma korkusunun üstesinden geldi.",
+        "en": "With lots of practice she overcame her fear of speaking.",
+        "uk": "Завдяки великій практиці вона подолала страх говорити.",
+        "ar": "بكثير من التمرين تغلّبت على خوفها من التحدث.",
+        "it": "Con molto esercizio ha superato la sua paura di parlare."
+      },
+      "note": "etwas (Akk.) überwinden; untrennbar; sich (Akk.) überwinden, etwas zu tun"
+    },
+    {
+      "id": "fertigkeit",
+      "source": "notes",
+      "date": "2026-09-30",
+      "word": "Fertigkeit",
+      "type": "noun",
+      "article": "die",
+      "plural": "Fertigkeiten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Fähigkeit, die man durch Übung gelernt hat",
+        "tr": "beceri, yetenek",
+        "en": "skill",
+        "uk": "навичка, уміння",
+        "ar": "مهارة",
+        "it": "abilità, competenza"
+      },
+      "synonyms": [
+        "die Fähigkeit",
+        "die Kompetenz"
+      ],
+      "antonyms": [
+        "die Unfähigkeit"
+      ],
+      "example": {
+        "de": "Im Sprachkurs üben wir die vier Fertigkeiten Lesen, Hören, Schreiben und Sprechen.",
+        "tr": "Dil kursunda okuma, dinleme, yazma ve konuşma olmak üzere dört beceriyi çalışıyoruz.",
+        "en": "In the language course we practise the four skills: reading, listening, writing and speaking.",
+        "uk": "На мовному курсі ми тренуємо чотири навички: читання, слухання, письмо і мовлення.",
+        "ar": "في دورة اللغة نتدرّب على المهارات الأربع: القراءة والاستماع والكتابة والتحدث.",
+        "it": "Nel corso di lingua esercitiamo le quattro abilità: leggere, ascoltare, scrivere e parlare."
+      },
+      "note": "Fertigkeit in etwas (Dat.)"
+    },
+    {
+      "id": "sich-zurechtfinden",
+      "source": "notes",
+      "date": "2026-10-01",
+      "word": "sich zurechtfinden",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "findet sich zurecht",
+        "praeteritum": "fand sich zurecht",
+        "perfekt": "hat sich zurechtgefunden"
+      },
+      "meaning": {
+        "de": "Sich an einem Ort oder in einer Situation orientieren und klarkommen",
+        "tr": "yolunu bulmak, (bir yere/duruma) alışıp idare etmek",
+        "en": "to find one's way, to get one's bearings",
+        "uk": "орієнтуватися, давати собі раду",
+        "ar": "يتدبّر أمره، يهتدي إلى طريقه",
+        "it": "orientarsi, raccapezzarsi"
+      },
+      "synonyms": [
+        "sich orientieren",
+        "klarkommen"
+      ],
+      "antonyms": [
+        "sich verirren"
+      ],
+      "example": {
+        "de": "Nach ein paar Wochen habe ich mich in der neuen Stadt gut zurechtgefunden.",
+        "tr": "Birkaç hafta sonra yeni şehirde yolumu iyi bulmaya başladım.",
+        "en": "After a few weeks I found my way around the new city well.",
+        "uk": "Через кілька тижнів я добре зорієнтувався в новому місті.",
+        "ar": "بعد بضعة أسابيع صرت أتدبّر أمري جيدًا في المدينة الجديدة.",
+        "it": "Dopo qualche settimana mi sono orientato bene nella nuova città."
+      },
+      "note": "sich (Akk.) irgendwo / in etwas (Dat.) zurechtfinden"
+    },
+    {
+      "id": "hinterfragen",
+      "source": "notes",
+      "date": "2026-10-01",
+      "word": "hinterfragen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "hinterfragt",
+        "praeteritum": "hinterfragte",
+        "perfekt": "hat hinterfragt"
+      },
+      "meaning": {
+        "de": "Nach den Gründen und dem Sinn von etwas fragen, es kritisch prüfen",
+        "tr": "sorgulamak",
+        "en": "to question, to scrutinize",
+        "uk": "ставити під сумнів, критично аналізувати",
+        "ar": "يتساءل عن، يُخضع للنقد والتمحيص",
+        "it": "mettere in discussione, interrogarsi su"
+      },
+      "synonyms": [
+        "infrage stellen",
+        "prüfen"
+      ],
+      "antonyms": [
+        "akzeptieren",
+        "hinnehmen"
+      ],
+      "example": {
+        "de": "Man sollte Informationen aus dem Internet immer kritisch hinterfragen.",
+        "tr": "İnternetteki bilgiler her zaman eleştirel olarak sorgulanmalıdır.",
+        "en": "You should always critically question information from the internet.",
+        "uk": "Інформацію з інтернету завжди слід критично аналізувати.",
+        "ar": "ينبغي دائمًا التساؤل بشكل نقدي عن المعلومات القادمة من الإنترنت.",
+        "it": "Bisognerebbe sempre mettere in discussione in modo critico le informazioni da internet."
+      },
+      "note": "etwas (Akk.) hinterfragen; untrennbar"
+    },
+    {
+      "id": "eigenstaendig",
+      "source": "notes",
+      "date": "2026-10-01",
+      "word": "eigenständig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Ohne Hilfe von anderen, unabhängig",
+        "tr": "bağımsız, kendi başına",
+        "en": "independent, autonomous",
+        "uk": "самостійний, незалежний",
+        "ar": "مستقل، بشكل ذاتي",
+        "it": "autonomo, indipendente"
+      },
+      "synonyms": [
+        "selbstständig",
+        "unabhängig"
+      ],
+      "antonyms": [
+        "abhängig",
+        "unselbstständig"
+      ],
+      "example": {
+        "de": "Im Kurs lernen wir, eigenständig mit Texten zu arbeiten.",
+        "tr": "Kursta metinlerle kendi başımıza çalışmayı öğreniyoruz.",
+        "en": "In the course we learn to work with texts independently.",
+        "uk": "На курсі ми вчимося самостійно працювати з текстами.",
+        "ar": "في الدورة نتعلّم العمل على النصوص بشكل مستقل.",
+        "it": "Nel corso impariamo a lavorare con i testi in modo autonomo."
+      },
+      "note": null
+    },
+    {
+      "id": "benennen",
+      "source": "notes",
+      "date": "2026-10-01",
+      "word": "benennen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "benennt",
+        "praeteritum": "benannte",
+        "perfekt": "hat benannt"
+      },
+      "meaning": {
+        "de": "Einer Sache einen Namen geben oder sie genau nennen",
+        "tr": "adlandırmak, isim vermek, belirtmek",
+        "en": "to name, to identify",
+        "uk": "називати, давати назву",
+        "ar": "يسمّي، يحدّد بالاسم",
+        "it": "nominare, chiamare, indicare"
+      },
+      "synonyms": [
+        "nennen",
+        "bezeichnen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Kannst du die Gründe für dein Problem genau benennen?",
+        "tr": "Sorununun nedenlerini tam olarak belirtebilir misin?",
+        "en": "Can you name the reasons for your problem exactly?",
+        "uk": "Чи можеш ти точно назвати причини своєї проблеми?",
+        "ar": "هل يمكنك أن تحدّد أسباب مشكلتك بدقة؟",
+        "it": "Riesci a indicare con precisione le cause del tuo problema?"
+      },
+      "note": "etwas (Akk.) benennen; jemanden / etwas (Akk.) nach jemandem (Dat.) benennen"
+    },
+    {
+      "id": "werdegang",
+      "source": "notes",
+      "date": "2026-10-01",
+      "word": "Werdegang",
+      "type": "noun",
+      "article": "der",
+      "plural": "Werdegänge",
+      "reflexive": false,
+      "meaning": {
+        "de": "Der Weg der Ausbildung und des Berufs im Leben einer Person",
+        "tr": "(mesleki) gelişim süreci, kariyer geçmişi",
+        "en": "career path, background",
+        "uk": "кар'єрний шлях, біографія",
+        "ar": "المسيرة المهنية",
+        "it": "percorso professionale, carriera"
+      },
+      "synonyms": [
+        "die Laufbahn",
+        "der Lebenslauf"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Im Vorstellungsgespräch sollte man seinen beruflichen Werdegang kurz beschreiben.",
+        "tr": "İş görüşmesinde mesleki geçmişini kısaca anlatmak gerekir.",
+        "en": "In a job interview you should briefly describe your career path.",
+        "uk": "На співбесіді варто коротко описати свій професійний шлях.",
+        "ar": "في مقابلة العمل ينبغي وصف المسيرة المهنية باختصار.",
+        "it": "Al colloquio di lavoro bisognerebbe descrivere brevemente il proprio percorso professionale."
+      },
+      "note": "beruflicher Werdegang"
+    },
+    {
+      "id": "anspruchsvoll",
+      "source": "notes",
+      "date": "2026-10-01",
+      "word": "anspruchsvoll",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Schwierig und mit hohen Anforderungen; mit hohen Erwartungen",
+        "tr": "zorlu, iddialı; talepkâr",
+        "en": "demanding, challenging, sophisticated",
+        "uk": "вимогливий, складний",
+        "ar": "متطلّب، صعب",
+        "it": "impegnativo, esigente"
+      },
+      "synonyms": [
+        "schwierig",
+        "fordernd",
+        "anstrengend"
+      ],
+      "antonyms": [
+        "einfach",
+        "anspruchslos"
+      ],
+      "example": {
+        "de": "Der C1-Kurs ist anspruchsvoll, aber sehr interessant.",
+        "tr": "C1 kursu zorlu ama çok ilginç.",
+        "en": "The C1 course is demanding but very interesting.",
+        "uk": "Курс C1 складний, але дуже цікавий.",
+        "ar": "دورة C1 صعبة لكنها مثيرة جدًا للاهتمام.",
+        "it": "Il corso C1 è impegnativo, ma molto interessante."
+      },
+      "note": null
+    },
+    {
+      "id": "redemittel",
+      "source": "notes",
+      "date": "2026-10-01",
+      "word": "Redemittel",
+      "type": "noun",
+      "article": "das",
+      "plural": "Redemittel",
+      "reflexive": false,
+      "meaning": {
+        "de": "Feste Ausdrücke und Sätze, die man in bestimmten Situationen beim Sprechen benutzt",
+        "tr": "kalıp ifade, konuşma kalıbı",
+        "en": "useful phrase, expression (for speaking)",
+        "uk": "мовний засіб, мовленнєвий зворот",
+        "ar": "عبارة جاهزة، تعبير للمحادثة",
+        "it": "espressione utile, formula comunicativa"
+      },
+      "synonyms": [
+        "die Redewendung",
+        "der Ausdruck"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für die Diskussion lernen wir Redemittel, um unsere Meinung zu äußern.",
+        "tr": "Tartışma için fikrimizi belirtmeye yarayan kalıp ifadeler öğreniyoruz.",
+        "en": "For the discussion we're learning useful phrases to express our opinion.",
+        "uk": "Для дискусії ми вчимо мовні звороти, щоб висловлювати свою думку.",
+        "ar": "من أجل النقاش نتعلّم عبارات جاهزة للتعبير عن رأينا.",
+        "it": "Per la discussione impariamo espressioni utili per esprimere la nostra opinione."
+      },
+      "note": "meist im Plural verwendet"
+    },
+    {
+      "id": "ausdruck",
+      "source": "notes",
+      "date": "2026-10-01",
+      "word": "Ausdruck",
+      "type": "noun",
+      "article": "der",
+      "plural": "Ausdrücke",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Wort oder eine Wortgruppe; auch das Zeigen von Gefühlen",
+        "tr": "ifade, deyim",
+        "en": "expression, term",
+        "uk": "вираз, вислів",
+        "ar": "تعبير، عبارة",
+        "it": "espressione"
+      },
+      "synonyms": [
+        "die Redewendung",
+        "der Begriff"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Diesen Ausdruck benutzt man eher in der gesprochenen Sprache.",
+        "tr": "Bu ifade daha çok konuşma dilinde kullanılır.",
+        "en": "This expression is used more in spoken language.",
+        "uk": "Цей вираз вживають радше в розмовній мові.",
+        "ar": "تُستخدم هذه العبارة أكثر في اللغة المحكية.",
+        "it": "Questa espressione si usa piuttosto nella lingua parlata."
+      },
+      "note": "etwas (Akk.) zum Ausdruck bringen; Plural auch: Ausdrucke (= ausgedruckte Seiten)"
+    },
+    {
+      "id": "fuss-fassen",
+      "source": "notes",
+      "date": "2026-10-01",
+      "word": "Fuß fassen",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sich an einem neuen Ort oder in einem neuen Bereich etablieren und sicher werden",
+        "tr": "tutunmak, yerleşmek, ayak basmak",
+        "en": "to gain a foothold, to get established",
+        "uk": "закріпитися, влаштуватися",
+        "ar": "يثبّت قدمه، يستقرّ",
+        "it": "prendere piede, affermarsi"
+      },
+      "synonyms": [
+        "sich etablieren",
+        "sich einleben"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Es dauerte zwei Jahre, bis sie in Deutschland beruflich Fuß gefasst hat.",
+        "tr": "Almanya'da mesleki olarak tutunması iki yıl sürdü.",
+        "en": "It took two years before she got established professionally in Germany.",
+        "uk": "Минуло два роки, поки вона професійно закріпилася в Німеччині.",
+        "ar": "استغرق الأمر عامين حتى ثبّتت قدمها مهنيًا في ألمانيا.",
+        "it": "Ci sono voluti due anni prima che prendesse piede professionalmente in Germania."
+      },
+      "note": "irgendwo / in etwas (Dat.) Fuß fassen; fasst Fuß – fasste Fuß – hat Fuß gefasst"
+    },
+    {
+      "id": "leidenschaft",
+      "source": "notes",
+      "date": "2026-10-01",
+      "word": "Leidenschaft",
+      "type": "noun",
+      "article": "die",
+      "plural": "Leidenschaften",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein sehr starkes Gefühl der Begeisterung für etwas oder jemanden",
+        "tr": "tutku",
+        "en": "passion",
+        "uk": "пристрасть",
+        "ar": "شغف",
+        "it": "passione"
+      },
+      "synonyms": [
+        "die Begeisterung",
+        "die Hingabe"
+      ],
+      "antonyms": [
+        "die Gleichgültigkeit"
+      ],
+      "example": {
+        "de": "Kochen ist seine große Leidenschaft.",
+        "tr": "Yemek yapmak onun büyük tutkusu.",
+        "en": "Cooking is his great passion.",
+        "uk": "Кулінарія — його велика пристрасть.",
+        "ar": "الطبخ شغفه الكبير.",
+        "it": "Cucinare è la sua grande passione."
+      },
+      "note": "Leidenschaft für etwas (Akk.)"
+    },
+    {
+      "id": "sich-gewoehnen",
+      "source": "notes",
+      "date": "2026-10-01",
+      "word": "sich gewöhnen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "gewöhnt sich",
+        "praeteritum": "gewöhnte sich",
+        "perfekt": "hat sich gewöhnt"
+      },
+      "meaning": {
+        "de": "Mit der Zeit etwas als normal empfinden",
+        "tr": "alışmak",
+        "en": "to get used to",
+        "uk": "звикати",
+        "ar": "يعتاد على",
+        "it": "abituarsi"
+      },
+      "synonyms": [
+        "sich anpassen",
+        "sich eingewöhnen"
+      ],
+      "antonyms": [
+        "sich entwöhnen"
+      ],
+      "example": {
+        "de": "Ich habe mich schnell an das frühe Aufstehen gewöhnt.",
+        "tr": "Erken kalkmaya çabuk alıştım.",
+        "en": "I quickly got used to getting up early.",
+        "uk": "Я швидко звик рано вставати.",
+        "ar": "اعتدت بسرعة على الاستيقاظ مبكرًا.",
+        "it": "Mi sono abituato in fretta ad alzarmi presto."
+      },
+      "note": "sich (Akk.) an jemanden / etwas (Akk.) gewöhnen"
+    },
+    {
+      "id": "anerkennen",
+      "source": "notes",
+      "date": "2026-10-01",
+      "word": "anerkennen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "erkennt an",
+        "praeteritum": "erkannte an",
+        "perfekt": "hat anerkannt"
+      },
+      "meaning": {
+        "de": "Etwas offiziell als gültig bestätigen; jemandes Leistung würdigen",
+        "tr": "tanımak, kabul etmek, takdir etmek",
+        "en": "to recognize, to acknowledge, to appreciate",
+        "uk": "визнавати",
+        "ar": "يعترف بـ، يقدّر",
+        "it": "riconoscere, apprezzare"
+      },
+      "synonyms": [
+        "würdigen",
+        "akzeptieren",
+        "bestätigen"
+      ],
+      "antonyms": [
+        "ablehnen",
+        "missachten"
+      ],
+      "example": {
+        "de": "Mein ausländischer Abschluss wurde in Deutschland anerkannt.",
+        "tr": "Yurt dışındaki diplomam Almanya'da tanındı.",
+        "en": "My foreign degree was recognized in Germany.",
+        "uk": "Мій іноземний диплом визнали в Німеччині.",
+        "ar": "تم الاعتراف بشهادتي الأجنبية في ألمانيا.",
+        "it": "Il mio titolo di studio straniero è stato riconosciuto in Germania."
+      },
+      "note": "etwas (Akk.) anerkennen; jemanden (Akk.) als etwas (Akk.) anerkennen; Präsens auch: anerkennt"
     }
   ]
 }
