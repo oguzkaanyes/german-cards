@@ -300,7 +300,54 @@
     #quiz .question[data-type="adjective"] { --card-bg: var(--adjective); }
     #quiz .question[data-type="adverb"] { --card-bg: var(--adverb); }
     #quiz .question[data-type="phrase"] { --card-bg: var(--phrase); }
-    #quiz .question .word { padding-right: 0; }
+    #quiz .question { position: relative; cursor: pointer; }
+    #quiz .question .word { padding-right: 36px; }
+    #quiz .question .info {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.55);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--muted);
+    }
+
+    /* Word details opened from a quiz question; closing it returns to the same question. */
+    #detail {
+      position: fixed;
+      inset: 0;
+      z-index: 25;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+               max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+      background: rgba(0, 0, 0, 0.45);
+    }
+    #detail[hidden] { display: none; }
+    #detail .slide { flex: none; width: 100%; max-width: 560px; height: min(78dvh, 680px); padding: 0; }
+    #detail .word { padding-right: 56px; }
+    .detail-close {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 2;
+      width: 44px;
+      height: 44px;
+      border: 0;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.7);
+      font-size: 1.3rem;
+      line-height: 1;
+      cursor: pointer;
+    }
     .answers { display: grid; gap: 10px; margin-top: 16px; }
     .answer {
       width: 100%;
@@ -596,6 +643,7 @@
   <div id="status" hidden></div>
   <div id="empty" hidden></div>
   <section id="quiz" hidden></section>
+  <div id="detail" hidden role="dialog" aria-modal="true"></div>
   <main id="track"></main>
   <nav hidden>
     <button type="button" id="first" class="jump" aria-label="Erste Karte">«</button>
@@ -615,11 +663,11 @@
       phrase: "Phrase",
     };
     const LANGUAGES = {
-      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi.", noMatch: "Aramana uyan kelime yok.", emptyLearned: "Henüz ezberlenmiş kelime yok. Kartlardaki ✓ ile işaretleyebilirsin.", emptyLevel: "Bu seviyede henüz kelime yok.", emptyPlay: "Önce birkaç kelimeyi ✓ ile ezberlendi olarak işaretle, sonra burada oynayabilirsin.", correct: "Doğru!", wrong: "Yanlış.", next: "Sonraki", timesCorrect: "doğru" },
-      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet.", noMatch: "No words match your search.", emptyLearned: "No learned words yet. Tap ✓ on a card to mark it as learned.", emptyLevel: "No words at this level yet.", emptyPlay: "Mark some words as learned with ✓ first, then you can play here.", correct: "Correct!", wrong: "Wrong.", next: "Next", timesCorrect: "correct" },
-      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника.", noMatch: "Немає слів, що відповідають пошуку.", emptyLearned: "Ще немає вивчених слів. Натисніть ✓ на картці, щоб позначити її.", emptyLevel: "На цьому рівні ще немає слів.", emptyPlay: "Спочатку позначте кілька слів як вивчені за допомогою ✓, тоді можна грати тут.", correct: "Правильно!", wrong: "Неправильно.", next: "Далі", timesCorrect: "правильно" },
-      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", noMatch: "لا توجد كلمات مطابقة لبحثك.", emptyLearned: "لا توجد كلمات محفوظة عن ظهر قلب بعد. اضغط ✓ على البطاقة لتعليمها.", emptyLevel: "لا توجد كلمات في هذا المستوى بعد.", emptyPlay: "علّم بعض الكلمات بـ ✓ كمحفوظة أولًا، ثم يمكنك اللعب هنا.", correct: "صحيح!", wrong: "خطأ.", next: "التالي", timesCorrect: "صحيح", rtl: true },
-      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora.", noMatch: "Nessuna parola corrisponde alla ricerca.", emptyLearned: "Nessuna parola imparata. Tocca ✓ su una carta per segnarla.", emptyLevel: "Nessuna parola a questo livello.", emptyPlay: "Segna prima alcune parole come imparate con ✓, poi puoi giocare qui.", correct: "Giusto!", wrong: "Sbagliato.", next: "Avanti", timesCorrect: "giuste" },
+      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi.", noMatch: "Aramana uyan kelime yok.", emptyLearned: "Henüz ezberlenmiş kelime yok. Kartlardaki ✓ ile işaretleyebilirsin.", emptyLevel: "Bu seviyede henüz kelime yok.", emptyPlay: "Önce birkaç kelimeyi ✓ ile ezberlendi olarak işaretle, sonra burada oynayabilirsin.", correct: "Doğru!", wrong: "Yanlış.", next: "Sonraki", timesCorrect: "doğru", allDone: "Bütün ezberlenmiş kelimeler en az 10 kez doğru cevaplandı. 🎉" },
+      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet.", noMatch: "No words match your search.", emptyLearned: "No learned words yet. Tap ✓ on a card to mark it as learned.", emptyLevel: "No words at this level yet.", emptyPlay: "Mark some words as learned with ✓ first, then you can play here.", correct: "Correct!", wrong: "Wrong.", next: "Next", timesCorrect: "correct", allDone: "Every learned word has been answered correctly at least 10 times. 🎉" },
+      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника.", noMatch: "Немає слів, що відповідають пошуку.", emptyLearned: "Ще немає вивчених слів. Натисніть ✓ на картці, щоб позначити її.", emptyLevel: "На цьому рівні ще немає слів.", emptyPlay: "Спочатку позначте кілька слів як вивчені за допомогою ✓, тоді можна грати тут.", correct: "Правильно!", wrong: "Неправильно.", next: "Далі", timesCorrect: "правильно", allDone: "На всі вивчені слова вже щонайменше 10 разів відповіли правильно. 🎉" },
+      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", noMatch: "لا توجد كلمات مطابقة لبحثك.", emptyLearned: "لا توجد كلمات محفوظة عن ظهر قلب بعد. اضغط ✓ على البطاقة لتعليمها.", emptyLevel: "لا توجد كلمات في هذا المستوى بعد.", emptyPlay: "علّم بعض الكلمات بـ ✓ كمحفوظة أولًا، ثم يمكنك اللعب هنا.", correct: "صحيح!", wrong: "خطأ.", next: "التالي", timesCorrect: "صحيح", allDone: "تمت الإجابة عن كل الكلمات المحفوظة إجابة صحيحة 10 مرات على الأقل. 🎉", rtl: true },
+      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora.", noMatch: "Nessuna parola corrisponde alla ricerca.", emptyLearned: "Nessuna parola imparata. Tocca ✓ su una carta per segnarla.", emptyLevel: "Nessuna parola a questo livello.", emptyPlay: "Segna prima alcune parole come imparate con ✓, poi puoi giocare qui.", correct: "Giusto!", wrong: "Sbagliato.", next: "Avanti", timesCorrect: "giuste", allDone: "Ogni parola imparata ha già almeno 10 risposte giuste. 🎉" },
     };
     const KEYS = {
       lang: "wortkarten:lang",
@@ -628,6 +676,7 @@
       saved: "wortkarten:saved",
       learned: "wortkarten:learned",
       quiz: "wortkarten:quiz",   // { cardId: number of correct quiz answers }
+      quizCard: "wortkarten:quizCardId",  // the question the quiz is at
       position: (tab) => "wortkarten:lastCardId:" + tab,
     };
 
@@ -644,6 +693,7 @@
     const savedCount = document.getElementById("saved-count");
     const learnedCount = document.getElementById("learned-count");
     const quizBox = document.getElementById("quiz");
+    const detailBox = document.getElementById("detail");
     const langSelect = document.getElementById("lang");
     const nav = document.querySelector("nav");
     const prevBtn = document.getElementById("prev");
@@ -1022,12 +1072,30 @@
       return list;
     }
 
-    // A random learned card, not the same one twice in a row when there is a choice.
-    function pickQuizCard() {
-      const pool = allCards.filter((c) => learned.has(c.id) && c.meaning && c.meaning[lang]);
-      const others = pool.filter((c) => c !== quizCard);
-      const from = others.length ? others : pool;
-      return from.length ? from[Math.floor(Math.random() * from.length)] : null;
+    const QUIZ_GOAL = 10;  // a word leaves the quiz once it has been answered correctly this often
+
+    function quizPool() {
+      return allCards.filter((c) => learned.has(c.id) && c.meaning && c.meaning[lang]);
+    }
+    function isAsked(card) {
+      return quizScore(card.id) < QUIZ_GOAL;
+    }
+
+    // The learned cards are asked in list order; the next one after `after` (wrapping around)
+    // that is still under QUIZ_GOAL correct answers. With no `after`, the first one.
+    function pickQuizCard(after) {
+      const pool = quizPool();
+      const start = after ? pool.indexOf(after) + 1 : 0;
+      for (let i = 0; i < pool.length; i++) {
+        const card = pool[(start + i) % pool.length];
+        if (isAsked(card)) return card;
+      }
+      return null;
+    }
+
+    function setQuizCard(card) {
+      quizCard = card;
+      writeStorage(KEYS.quizCard, card ? card.id : "");
     }
 
     // Three wrong answers from all cards, preferring the same word type so they are not too easy.
@@ -1048,14 +1116,18 @@
 
     function renderQuiz() {
       const texts = LANGUAGES[lang];
-      if (!quizCard || !learned.has(quizCard.id) || !(quizCard.meaning && quizCard.meaning[lang])) {
-        quizCard = pickQuizCard();
+      // Resume at the question left last time.
+      if (!quizCard) quizCard = allCards.find((c) => c.id === readStorage(KEYS.quizCard)) || null;
+      // The question dropped out (reached the goal, unmarked, no translation): go on to the next one still asked.
+      const pool = quizPool();
+      if (!quizCard || !pool.includes(quizCard) || !isAsked(quizCard)) {
+        setQuizCard(pickQuizCard(pool.includes(quizCard) ? quizCard : null));
       }
       quizBox.textContent = "";
       if (!quizCard) {
         quizBox.hidden = true;
         emptyBox.hidden = false;
-        emptyBox.textContent = texts.emptyPlay;
+        emptyBox.textContent = pool.length ? texts.allDone : texts.emptyPlay;
         emptyBox.dir = texts.rtl ? "rtl" : "";
         return;
       }
@@ -1070,6 +1142,14 @@
       else if (card.type) question.dataset.type = card.type;
       if (card.type) question.appendChild(el("div", "tag", TYPE_LABELS[card.type] || card.type));
       question.appendChild(wordHeading(card, article));
+      question.appendChild(el("span", "info", "i"));
+      question.setAttribute("role", "button");
+      question.tabIndex = 0;
+      question.setAttribute("aria-label", (card.word || "") + " – Details");
+      question.addEventListener("click", () => openDetail(card));
+      question.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openDetail(card); }
+      });
       inner.appendChild(question);
 
       const answers = el("div", "answers");
@@ -1108,7 +1188,7 @@
       const next = el("button", "quiz-next", texts.next);
       next.type = "button";
       next.addEventListener("click", () => {
-        quizCard = pickQuizCard();
+        setQuizCard(pickQuizCard(quizCard));
         renderQuiz();
       });
       inner.insertBefore(result, inner.querySelector(".quiz-score"));
@@ -1116,6 +1196,32 @@
       next.focus({ preventScroll: true });
       next.scrollIntoView({ block: "nearest", behavior: "smooth" });
     }
+
+    // The full card (both faces) over the quiz, without the save/learned buttons; the quiz underneath is untouched.
+    function openDetail(card) {
+      const slide = buildCard(card);
+      slide.querySelectorAll(".save, .learn").forEach((b) => b.remove());
+      const close = el("button", "detail-close", "✕");
+      close.type = "button";
+      close.setAttribute("aria-label", "Schließen");
+      close.addEventListener("click", closeDetail);
+      slide.querySelector(".card").appendChild(close);
+      detailBox.textContent = "";
+      detailBox.appendChild(slide);
+      detailBox.hidden = false;
+      updateFade(slide.querySelector(".front .content"));
+      close.focus({ preventScroll: true });
+    }
+    function closeDetail() {
+      if (detailBox.hidden) return;
+      detailBox.hidden = true;
+      detailBox.textContent = "";
+      const question = quizBox.querySelector(".question");
+      if (question) question.focus({ preventScroll: true });
+    }
+    detailBox.addEventListener("click", (e) => {
+      if (e.target === detailBox) closeDetail();
+    });
 
     // Rebuilds the slides for the current tab and language, opening the card with startId if present.
     function render(startId) {
@@ -1241,6 +1347,7 @@
     firstBtn.addEventListener("click", () => goTo(0, false));
     lastBtn.addEventListener("click", () => goTo(slides.length - 1, false));
     document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && !detailBox.hidden) return closeDetail();
       if (e.key === "Escape" && drawer.classList.contains("open")) closeMenu();
       if (e.target === langSelect || e.target === searchInput) return;
       if (e.key === "ArrowLeft") step(-1);
