@@ -5677,6 +5677,1932 @@
         "it": "Il mio titolo di studio straniero è stato riconosciuto in Germania."
       },
       "note": "etwas (Akk.) anerkennen; jemanden (Akk.) als etwas (Akk.) anerkennen; Präsens auch: anerkennt"
+    },
+    {
+      "id": "verzeihung",
+      "source": "book",
+      "chapter": 2,
+      "word": "Verzeihung",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Vergeben eines Fehlers; auch eine höfliche Bitte um Entschuldigung",
+        "tr": "af, bağışlama; affedersiniz",
+        "en": "forgiveness, pardon; excuse me",
+        "uk": "прощення, вибачення",
+        "ar": "عفو، مغفرة",
+        "it": "perdono, scusa"
+      },
+      "synonyms": [
+        "die Vergebung",
+        "die Entschuldigung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Verzeihung, können Sie mir sagen, wo der Kursraum ist?",
+        "tr": "Affedersiniz, kurs sınıfının nerede olduğunu söyleyebilir misiniz?",
+        "en": "Excuse me, can you tell me where the classroom is?",
+        "uk": "Вибачте, ви можете сказати мені, де навчальна аудиторія?",
+        "ar": "عفوًا، هل يمكنك أن تخبرني أين قاعة الدرس؟",
+        "it": "Mi scusi, può dirmi dov'è l'aula del corso?"
+      },
+      "note": "jemanden (Akk.) um Verzeihung bitten"
+    },
+    {
+      "id": "plenum",
+      "source": "book",
+      "chapter": 2,
+      "word": "Plenum",
+      "type": "noun",
+      "article": "das",
+      "plural": "Plenen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Versammlung aller Teilnehmenden, z. B. alle im Kurs zusammen",
+        "tr": "genel kurul, tüm grup",
+        "en": "plenary (session), the whole group",
+        "uk": "пленум, загальне зібрання",
+        "ar": "الجلسة العامة، المجموعة كلها",
+        "it": "plenaria, assemblea plenaria"
+      },
+      "synonyms": [
+        "die Vollversammlung",
+        "die Gesamtgruppe"
+      ],
+      "antonyms": [
+        "die Kleingruppe"
+      ],
+      "example": {
+        "de": "Nach der Gruppenarbeit präsentieren wir die Ergebnisse im Plenum.",
+        "tr": "Grup çalışmasından sonra sonuçları tüm gruba sunuyoruz.",
+        "en": "After the group work we present the results to the whole class.",
+        "uk": "Після роботи в групах ми презентуємо результати перед усіма.",
+        "ar": "بعد العمل الجماعي نعرض النتائج أمام المجموعة كلها.",
+        "it": "Dopo il lavoro di gruppo presentiamo i risultati in plenaria."
+      },
+      "note": "im Plenum (Dat.) besprechen / präsentieren"
+    },
+    {
+      "id": "ausnahme",
+      "source": "book",
+      "chapter": 2,
+      "word": "Ausnahme",
+      "type": "noun",
+      "article": "die",
+      "plural": "Ausnahmen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Fall, der nicht der Regel entspricht",
+        "tr": "istisna",
+        "en": "exception",
+        "uk": "виняток",
+        "ar": "استثناء",
+        "it": "eccezione"
+      },
+      "synonyms": [
+        "der Sonderfall"
+      ],
+      "antonyms": [
+        "die Regel"
+      ],
+      "example": {
+        "de": "Ausnahmen bestätigen die Regel.",
+        "tr": "İstisnalar kuralı bozmaz.",
+        "en": "The exception proves the rule.",
+        "uk": "Винятки підтверджують правило.",
+        "ar": "الاستثناءات تؤكد القاعدة.",
+        "it": "L'eccezione conferma la regola."
+      },
+      "note": "mit Ausnahme von + Dat.; eine Ausnahme machen"
+    },
+    {
+      "id": "verlassen",
+      "source": "book",
+      "chapter": 2,
+      "word": "verlassen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "verlässt",
+        "praeteritum": "verließ",
+        "perfekt": "hat verlassen"
+      },
+      "meaning": {
+        "de": "Von einem Ort weggehen oder sich von jemandem trennen",
+        "tr": "terk etmek, ayrılmak",
+        "en": "to leave, to abandon",
+        "uk": "залишати, покидати",
+        "ar": "يغادر، يترك",
+        "it": "lasciare, abbandonare"
+      },
+      "synonyms": [
+        "weggehen",
+        "zurücklassen"
+      ],
+      "antonyms": [
+        "betreten",
+        "bleiben"
+      ],
+      "example": {
+        "de": "Bitte verlassen Sie den Raum nach der Prüfung leise.",
+        "tr": "Lütfen sınavdan sonra odadan sessizce çıkın.",
+        "en": "Please leave the room quietly after the exam.",
+        "uk": "Будь ласка, тихо залиште кімнату після іспиту.",
+        "ar": "يرجى مغادرة الغرفة بهدوء بعد الامتحان.",
+        "it": "Per favore, lasci l'aula in silenzio dopo l'esame."
+      },
+      "note": "jemanden/etwas (Akk.) verlassen; sich (Akk.) auf jemanden/etwas (Akk.) verlassen = vertrauen"
+    },
+    {
+      "id": "vorschlagen",
+      "source": "book",
+      "chapter": 2,
+      "word": "vorschlagen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schlägt vor",
+        "praeteritum": "schlug vor",
+        "perfekt": "hat vorgeschlagen"
+      },
+      "meaning": {
+        "de": "Eine Idee oder einen Plan nennen, damit andere darüber entscheiden",
+        "tr": "önermek, teklif etmek",
+        "en": "to suggest, to propose",
+        "uk": "пропонувати",
+        "ar": "يقترح",
+        "it": "proporre, suggerire"
+      },
+      "synonyms": [
+        "anregen",
+        "empfehlen"
+      ],
+      "antonyms": [
+        "ablehnen"
+      ],
+      "example": {
+        "de": "Ich schlage vor, dass wir die Hausaufgaben zusammen machen.",
+        "tr": "Ödevleri birlikte yapmamızı öneriyorum.",
+        "en": "I suggest that we do the homework together.",
+        "uk": "Я пропоную зробити домашнє завдання разом.",
+        "ar": "أقترح أن نقوم بالواجبات المنزلية معًا.",
+        "it": "Propongo di fare i compiti insieme."
+      },
+      "note": "jemandem (Dat.) etwas (Akk.) vorschlagen"
+    },
+    {
+      "id": "ausschlafen",
+      "source": "book",
+      "chapter": 2,
+      "word": "ausschlafen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schläft aus",
+        "praeteritum": "schlief aus",
+        "perfekt": "hat ausgeschlafen"
+      },
+      "meaning": {
+        "de": "So lange schlafen, bis man nicht mehr müde ist",
+        "tr": "uykusunu almak, doyasıya uyumak",
+        "en": "to sleep in, to get enough sleep",
+        "uk": "виспатися",
+        "ar": "ينام حتى يشبع من النوم",
+        "it": "dormire fino a tardi, fare una bella dormita"
+      },
+      "synonyms": [
+        "lange schlafen"
+      ],
+      "antonyms": [
+        "früh aufstehen"
+      ],
+      "example": {
+        "de": "Am Wochenende kann ich endlich ausschlafen.",
+        "tr": "Hafta sonu nihayet uykumu alabiliyorum.",
+        "en": "At the weekend I can finally sleep in.",
+        "uk": "На вихідних я нарешті можу виспатися.",
+        "ar": "في عطلة نهاية الأسبوع أستطيع أخيرًا أن أنام حتى أشبع.",
+        "it": "Nel fine settimana posso finalmente dormire fino a tardi."
+      },
+      "note": "intransitiv (ohne Objekt)"
+    },
+    {
+      "id": "auftrag",
+      "source": "book",
+      "chapter": 2,
+      "word": "Auftrag",
+      "type": "noun",
+      "article": "der",
+      "plural": "Aufträge",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Aufgabe, die man von jemandem bekommt; auch eine Bestellung bei einer Firma",
+        "tr": "görev, iş; sipariş",
+        "en": "task, assignment; order",
+        "uk": "доручення, завдання; замовлення",
+        "ar": "مهمة، تكليف؛ طلبية",
+        "it": "incarico, compito; commessa, ordine"
+      },
+      "synonyms": [
+        "die Aufgabe",
+        "die Bestellung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Firma hat einen großen Auftrag aus China bekommen.",
+        "tr": "Şirket Çin'den büyük bir sipariş aldı.",
+        "en": "The company received a big order from China.",
+        "uk": "Фірма отримала велике замовлення з Китаю.",
+        "ar": "حصلت الشركة على طلبية كبيرة من الصين.",
+        "it": "L'azienda ha ricevuto una grossa commessa dalla Cina."
+      },
+      "note": "im Auftrag von + Dat.; einen Auftrag erteilen / erhalten"
+    },
+    {
+      "id": "sich-kuemmern",
+      "source": "book",
+      "chapter": 2,
+      "word": "sich kümmern",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "kümmert sich",
+        "praeteritum": "kümmerte sich",
+        "perfekt": "hat sich gekümmert"
+      },
+      "meaning": {
+        "de": "Für jemanden oder etwas sorgen und die Verantwortung übernehmen",
+        "tr": "ilgilenmek, bakmak",
+        "en": "to take care of, to look after",
+        "uk": "піклуватися, дбати",
+        "ar": "يعتني بـ، يهتم بـ",
+        "it": "occuparsi di, prendersi cura di"
+      },
+      "synonyms": [
+        "sorgen für",
+        "betreuen"
+      ],
+      "antonyms": [
+        "vernachlässigen"
+      ],
+      "example": {
+        "de": "Wer kümmert sich um die Kinder, wenn du im Kurs bist?",
+        "tr": "Sen kurstayken çocuklarla kim ilgileniyor?",
+        "en": "Who looks after the children when you're in class?",
+        "uk": "Хто доглядає за дітьми, коли ти на курсі?",
+        "ar": "من يعتني بالأطفال عندما تكون في الدورة؟",
+        "it": "Chi si occupa dei bambini quando sei al corso?"
+      },
+      "note": "sich (Akk.) um jemanden/etwas (Akk.) kümmern"
+    },
+    {
+      "id": "unternehmen",
+      "source": "book",
+      "chapter": 2,
+      "word": "Unternehmen",
+      "type": "noun",
+      "article": "das",
+      "plural": "Unternehmen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Firma, die Waren oder Dienstleistungen anbietet",
+        "tr": "şirket, işletme",
+        "en": "company, enterprise",
+        "uk": "підприємство, компанія",
+        "ar": "شركة، مؤسسة",
+        "it": "impresa, azienda"
+      },
+      "synonyms": [
+        "die Firma",
+        "der Betrieb"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Sie arbeitet seit fünf Jahren in einem mittelständischen Unternehmen.",
+        "tr": "Beş yıldır orta ölçekli bir şirkette çalışıyor.",
+        "en": "She has been working at a medium-sized company for five years.",
+        "uk": "Вона вже п'ять років працює на середньому підприємстві.",
+        "ar": "تعمل منذ خمس سنوات في شركة متوسطة الحجم.",
+        "it": "Lavora da cinque anni in un'azienda di medie dimensioni."
+      },
+      "note": null
+    },
+    {
+      "id": "nachholen",
+      "source": "book",
+      "chapter": 2,
+      "word": "nachholen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "holt nach",
+        "praeteritum": "holte nach",
+        "perfekt": "hat nachgeholt"
+      },
+      "meaning": {
+        "de": "Etwas später machen, was man vorher verpasst hat",
+        "tr": "telafi etmek, sonradan yapmak",
+        "en": "to make up for, to catch up on",
+        "uk": "надолужувати",
+        "ar": "يعوّض، يستدرك",
+        "it": "recuperare"
+      },
+      "synonyms": [
+        "aufholen"
+      ],
+      "antonyms": [
+        "versäumen",
+        "verpassen"
+      ],
+      "example": {
+        "de": "Er hat das Abitur an der Abendschule nachgeholt.",
+        "tr": "Abitur'u sonradan akşam okulunda tamamladı.",
+        "en": "He made up his Abitur later at evening school.",
+        "uk": "Він пізніше здобув атестат (Abitur) у вечірній школі.",
+        "ar": "حصل على شهادة الثانوية (Abitur) لاحقًا في المدرسة المسائية.",
+        "it": "Ha recuperato la maturità alla scuola serale."
+      },
+      "note": "etwas (Akk.) nachholen"
+    },
+    {
+      "id": "hochschulreife",
+      "source": "book",
+      "chapter": 2,
+      "word": "Hochschulreife",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Schulabschluss, mit dem man an einer Universität studieren darf",
+        "tr": "üniversiteye giriş yeterliliği (lise diploması)",
+        "en": "university entrance qualification",
+        "uk": "атестат, що дає право на вступ до вишу",
+        "ar": "شهادة الأهلية للالتحاق بالجامعة",
+        "it": "maturità, diploma di accesso all'università"
+      },
+      "synonyms": [
+        "das Abitur"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für ein Studium an der Universität braucht man die allgemeine Hochschulreife.",
+        "tr": "Üniversitede okumak için genel üniversite giriş yeterliliği gerekir.",
+        "en": "To study at university you need the general university entrance qualification.",
+        "uk": "Для навчання в університеті потрібен атестат із правом вступу до вишу.",
+        "ar": "للدراسة في الجامعة يحتاج المرء إلى شهادة الأهلية العامة للالتحاق بالجامعة.",
+        "it": "Per studiare all'università serve la maturità."
+      },
+      "note": "allgemeine Hochschulreife = Abitur; vgl. Fachhochschulreife"
+    },
+    {
+      "id": "gemeinnuetzig",
+      "source": "book",
+      "chapter": 2,
+      "word": "gemeinnützig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nicht für Gewinn, sondern zum Nutzen der Allgemeinheit",
+        "tr": "kamu yararına, kâr amacı gütmeyen",
+        "en": "non-profit, charitable",
+        "uk": "громадський, неприбутковий",
+        "ar": "ذو نفع عام، غير ربحي",
+        "it": "di pubblica utilità, senza scopo di lucro"
+      },
+      "synonyms": [
+        "wohltätig"
+      ],
+      "antonyms": [
+        "gewinnorientiert"
+      ],
+      "example": {
+        "de": "Sie macht ein freiwilliges Jahr in einer gemeinnützigen Organisation.",
+        "tr": "Kâr amacı gütmeyen bir kuruluşta gönüllü bir yıl geçiriyor.",
+        "en": "She is doing a voluntary year at a non-profit organisation.",
+        "uk": "Вона проходить волонтерський рік у неприбутковій організації.",
+        "ar": "تقضي سنة تطوعية في منظمة غير ربحية.",
+        "it": "Sta facendo un anno di volontariato in un'organizzazione senza scopo di lucro."
+      },
+      "note": null
+    },
+    {
+      "id": "einrichtung",
+      "source": "book",
+      "chapter": 2,
+      "word": "Einrichtung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Einrichtungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Institution wie Schule, Krankenhaus oder Heim; auch die Möbel einer Wohnung",
+        "tr": "kurum, tesis; mobilya, döşeme",
+        "en": "institution, facility; furnishings",
+        "uk": "заклад, установа; обстановка",
+        "ar": "مؤسسة، منشأة؛ أثاث",
+        "it": "istituzione, struttura; arredamento"
+      },
+      "synonyms": [
+        "die Institution",
+        "die Anstalt"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Nach der Schule arbeitete er ein Jahr in einer sozialen Einrichtung.",
+        "tr": "Okuldan sonra bir yıl sosyal bir kurumda çalıştı.",
+        "en": "After school he worked for a year in a social institution.",
+        "uk": "Після школи він рік працював у соціальному закладі.",
+        "ar": "بعد المدرسة عمل لمدة عام في مؤسسة اجتماعية.",
+        "it": "Dopo la scuola ha lavorato per un anno in una struttura sociale."
+      },
+      "note": null
+    },
+    {
+      "id": "inwiefern",
+      "source": "book",
+      "chapter": 2,
+      "word": "inwiefern",
+      "type": "adverb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Fragewort: in welchem Maß, in welcher Hinsicht",
+        "tr": "ne ölçüde, ne bakımdan",
+        "en": "to what extent, in what way",
+        "uk": "наскільки, якою мірою",
+        "ar": "إلى أي مدى، من أي ناحية",
+        "it": "in che misura, in che senso"
+      },
+      "synonyms": [
+        "inwieweit"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Inwiefern hat dich die Schulzeit geprägt?",
+        "tr": "Okul yılları seni ne ölçüde etkiledi?",
+        "en": "To what extent did your school years shape you?",
+        "uk": "Наскільки шкільні роки вплинули на тебе?",
+        "ar": "إلى أي مدى أثّرت فيك سنوات الدراسة؟",
+        "it": "In che misura ti hanno segnato gli anni di scuola?"
+      },
+      "note": "Fragewort; leitet auch Nebensätze ein: Ich weiß nicht, inwiefern …"
+    },
+    {
+      "id": "selten",
+      "source": "book",
+      "chapter": 2,
+      "word": "selten",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nicht oft, nur manchmal vorkommend",
+        "tr": "nadiren, seyrek; nadir",
+        "en": "rarely, seldom; rare",
+        "uk": "рідко; рідкісний",
+        "ar": "نادرًا؛ نادر",
+        "it": "raramente; raro"
+      },
+      "synonyms": [
+        "rar",
+        "kaum"
+      ],
+      "antonyms": [
+        "oft",
+        "häufig"
+      ],
+      "example": {
+        "de": "Früher haben wir in der Schule sehr selten in Gruppen gearbeitet.",
+        "tr": "Eskiden okulda çok nadiren grup halinde çalışırdık.",
+        "en": "In the past we very rarely worked in groups at school.",
+        "uk": "Раніше ми в школі дуже рідко працювали в групах.",
+        "ar": "في الماضي كنا نادرًا جدًا ما نعمل في مجموعات في المدرسة.",
+        "it": "Una volta a scuola lavoravamo molto raramente in gruppo."
+      },
+      "note": "auch als Adverb: Er kommt selten."
+    },
+    {
+      "id": "vollendete-gegenwart",
+      "source": "book",
+      "chapter": 2,
+      "word": "vollendete Gegenwart",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Grammatischer Begriff für das Perfekt",
+        "tr": "Perfekt zamanı (geçmiş zaman)",
+        "en": "present perfect (German Perfekt)",
+        "uk": "перфект (минулий доконаний час)",
+        "ar": "زمن الماضي التام (Perfekt)",
+        "it": "passato prossimo (Perfekt)"
+      },
+      "synonyms": [
+        "das Perfekt"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Im Gespräch benutzt man meistens die vollendete Gegenwart: Ich habe gelernt.",
+        "tr": "Konuşmada çoğunlukla Perfekt kullanılır: Ich habe gelernt.",
+        "en": "In conversation people mostly use the present perfect: Ich habe gelernt.",
+        "uk": "У розмові переважно використовують перфект: Ich habe gelernt.",
+        "ar": "في الحديث يُستخدم غالبًا زمن الـ Perfekt: Ich habe gelernt.",
+        "it": "Nel parlato si usa soprattutto il Perfekt: Ich habe gelernt."
+      },
+      "note": "= Perfekt; vgl. vollendete Vergangenheit = Plusquamperfekt"
+    },
+    {
+      "id": "ueberfliegen",
+      "source": "book",
+      "chapter": 2,
+      "word": "überfliegen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "überfliegt",
+        "praeteritum": "überflog",
+        "perfekt": "hat überflogen"
+      },
+      "meaning": {
+        "de": "Einen Text schnell lesen, um nur das Wichtigste zu erfassen",
+        "tr": "göz gezdirmek, hızlıca okumak",
+        "en": "to skim (a text)",
+        "uk": "побіжно переглядати",
+        "ar": "يتصفّح بسرعة",
+        "it": "scorrere, leggere velocemente"
+      },
+      "synonyms": [
+        "querlesen",
+        "überblicken"
+      ],
+      "antonyms": [
+        "durcharbeiten"
+      ],
+      "example": {
+        "de": "Überfliegen Sie zuerst den Text und lesen Sie die Überschriften.",
+        "tr": "Önce metne göz gezdirin ve başlıkları okuyun.",
+        "en": "First skim the text and read the headings.",
+        "uk": "Спочатку побіжно перегляньте текст і прочитайте заголовки.",
+        "ar": "تصفّحوا النص أولًا واقرؤوا العناوين.",
+        "it": "Prima scorra il testo e legga i titoli."
+      },
+      "note": "etwas (Akk.) überfliegen (z. B. einen Text)"
+    },
+    {
+      "id": "fuegen",
+      "source": "book",
+      "chapter": 2,
+      "word": "fügen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "fügt",
+        "praeteritum": "fügte",
+        "perfekt": "hat gefügt"
+      },
+      "meaning": {
+        "de": "Teile zusammensetzen oder etwas an eine Stelle setzen",
+        "tr": "eklemek, birleştirmek, yerleştirmek",
+        "en": "to join, to fit together, to add",
+        "uk": "з'єднувати, додавати",
+        "ar": "يضمّ، يركّب، يضيف",
+        "it": "unire, aggiungere, inserire"
+      },
+      "synonyms": [
+        "zusammensetzen",
+        "verbinden"
+      ],
+      "antonyms": [
+        "trennen"
+      ],
+      "example": {
+        "de": "Fügen Sie die Satzteile zu einem sinnvollen Satz.",
+        "tr": "Cümle parçalarını anlamlı bir cümle olacak şekilde birleştirin.",
+        "en": "Put the parts together to form a meaningful sentence.",
+        "uk": "Складіть частини в осмислене речення.",
+        "ar": "ركّبوا أجزاء الجملة لتكوين جملة ذات معنى.",
+        "it": "Unisca le parti in una frase sensata."
+      },
+      "note": "etwas (Akk.) an/in etwas (Akk.) fügen; sich (Akk.) in etwas (Akk.) fügen = sich anpassen"
+    },
+    {
+      "id": "ueberschrift",
+      "source": "book",
+      "chapter": 2,
+      "word": "Überschrift",
+      "type": "noun",
+      "article": "die",
+      "plural": "Überschriften",
+      "reflexive": false,
+      "meaning": {
+        "de": "Der Titel über einem Text oder Abschnitt",
+        "tr": "başlık",
+        "en": "heading, headline",
+        "uk": "заголовок",
+        "ar": "عنوان",
+        "it": "titolo"
+      },
+      "synonyms": [
+        "der Titel",
+        "die Schlagzeile"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ordnen Sie die Überschriften den Textabschnitten zu.",
+        "tr": "Başlıkları metin bölümleriyle eşleştirin.",
+        "en": "Match the headings to the sections of the text.",
+        "uk": "Співвіднесіть заголовки з частинами тексту.",
+        "ar": "طابقوا العناوين مع فقرات النص.",
+        "it": "Abbini i titoli ai paragrafi del testo."
+      },
+      "note": null
+    },
+    {
+      "id": "wachstum",
+      "source": "book",
+      "chapter": 2,
+      "word": "Wachstum",
+      "type": "noun",
+      "article": "das",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Größerwerden, z. B. von Pflanzen oder der Wirtschaft",
+        "tr": "büyüme, gelişme",
+        "en": "growth",
+        "uk": "зростання, ріст",
+        "ar": "نمو",
+        "it": "crescita"
+      },
+      "synonyms": [
+        "die Zunahme",
+        "die Entwicklung"
+      ],
+      "antonyms": [
+        "der Rückgang"
+      ],
+      "example": {
+        "de": "Nach dem Krieg erlebte Deutschland ein starkes wirtschaftliches Wachstum.",
+        "tr": "Savaştan sonra Almanya güçlü bir ekonomik büyüme yaşadı.",
+        "en": "After the war Germany experienced strong economic growth.",
+        "uk": "Після війни Німеччина пережила сильне економічне зростання.",
+        "ar": "بعد الحرب شهدت ألمانيا نموًا اقتصاديًا قويًا.",
+        "it": "Dopo la guerra la Germania conobbe una forte crescita economica."
+      },
+      "note": null
+    },
+    {
+      "id": "wandel",
+      "source": "book",
+      "chapter": 2,
+      "word": "Wandel",
+      "type": "noun",
+      "article": "der",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine langsame Veränderung",
+        "tr": "değişim, dönüşüm",
+        "en": "change, transformation",
+        "uk": "зміна, перетворення",
+        "ar": "تحوّل، تغيّر",
+        "it": "cambiamento, mutamento"
+      },
+      "synonyms": [
+        "die Veränderung",
+        "die Entwicklung"
+      ],
+      "antonyms": [
+        "der Stillstand"
+      ],
+      "example": {
+        "de": "Die Schule befindet sich in einem ständigen Wandel.",
+        "tr": "Okul sürekli bir değişim içindedir.",
+        "en": "School is in a constant state of change.",
+        "uk": "Школа перебуває в постійних змінах.",
+        "ar": "المدرسة في تحوّل مستمر.",
+        "it": "La scuola è in continuo cambiamento."
+      },
+      "note": "im Wandel sein; der demografische Wandel"
+    },
+    {
+      "id": "verfassung",
+      "source": "book",
+      "chapter": 2,
+      "word": "Verfassung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Verfassungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das wichtigste Gesetz eines Staates; auch der körperliche oder seelische Zustand",
+        "tr": "anayasa; durum, hal",
+        "en": "constitution; condition, state",
+        "uk": "конституція; стан",
+        "ar": "دستور؛ حالة",
+        "it": "costituzione; condizione, stato"
+      },
+      "synonyms": [
+        "das Grundgesetz",
+        "der Zustand"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Das Recht auf Bildung ist in vielen Verfassungen festgeschrieben.",
+        "tr": "Eğitim hakkı birçok anayasada güvence altına alınmıştır.",
+        "en": "The right to education is laid down in many constitutions.",
+        "uk": "Право на освіту закріплене в багатьох конституціях.",
+        "ar": "الحق في التعليم منصوص عليه في كثير من الدساتير.",
+        "it": "Il diritto all'istruzione è sancito in molte costituzioni."
+      },
+      "note": "in guter / schlechter Verfassung sein"
+    },
+    {
+      "id": "gesetzlich",
+      "source": "book",
+      "chapter": 2,
+      "word": "gesetzlich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Durch ein Gesetz bestimmt oder geregelt",
+        "tr": "yasal, kanuni",
+        "en": "legal, statutory",
+        "uk": "законний, передбачений законом",
+        "ar": "قانوني",
+        "it": "legale, previsto dalla legge"
+      },
+      "synonyms": [
+        "rechtlich",
+        "gesetzmäßig"
+      ],
+      "antonyms": [
+        "ungesetzlich",
+        "freiwillig"
+      ],
+      "example": {
+        "de": "In Deutschland gibt es eine gesetzliche Schulpflicht.",
+        "tr": "Almanya'da yasal bir zorunlu eğitim var.",
+        "en": "In Germany schooling is compulsory by law.",
+        "uk": "У Німеччині навчання в школі обов'язкове за законом.",
+        "ar": "في ألمانيا يوجد تعليم إلزامي بموجب القانون.",
+        "it": "In Germania c'è l'obbligo scolastico previsto dalla legge."
+      },
+      "note": null
+    },
+    {
+      "id": "festschreiben",
+      "source": "book",
+      "chapter": 2,
+      "word": "festschreiben",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schreibt fest",
+        "praeteritum": "schrieb fest",
+        "perfekt": "hat festgeschrieben"
+      },
+      "meaning": {
+        "de": "Etwas offiziell und verbindlich bestimmen, z. B. in einem Gesetz",
+        "tr": "kesin olarak belirlemek, güvence altına almak",
+        "en": "to lay down, to enshrine",
+        "uk": "закріплювати, фіксувати",
+        "ar": "ينصّ على، يثبّت رسميًا",
+        "it": "sancire, fissare"
+      },
+      "synonyms": [
+        "festlegen",
+        "verankern"
+      ],
+      "antonyms": [
+        "aufheben"
+      ],
+      "example": {
+        "de": "Die Gleichberechtigung ist im Grundgesetz festgeschrieben.",
+        "tr": "Eşit haklar Anayasa'da güvence altına alınmıştır.",
+        "en": "Equal rights are enshrined in the Basic Law.",
+        "uk": "Рівноправність закріплена в Основному законі.",
+        "ar": "المساواة منصوص عليها في القانون الأساسي.",
+        "it": "La parità dei diritti è sancita dalla Legge fondamentale."
+      },
+      "note": "etwas (Akk.) (in etwas (Dat.)) festschreiben"
+    },
+    {
+      "id": "teilhaben",
+      "source": "book",
+      "chapter": 2,
+      "word": "teilhaben",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "hat teil",
+        "praeteritum": "hatte teil",
+        "perfekt": "hat teilgehabt"
+      },
+      "meaning": {
+        "de": "An etwas beteiligt sein und es mit anderen teilen",
+        "tr": "katılmak, pay sahibi olmak",
+        "en": "to participate in, to share in",
+        "uk": "брати участь, бути причетним",
+        "ar": "يشارك في، يكون له نصيب في",
+        "it": "partecipare a, prendere parte a"
+      },
+      "synonyms": [
+        "teilnehmen",
+        "beteiligt sein"
+      ],
+      "antonyms": [
+        "ausgeschlossen sein"
+      ],
+      "example": {
+        "de": "Alle Kinder sollen an guter Bildung teilhaben können.",
+        "tr": "Bütün çocuklar iyi eğitimden pay alabilmelidir.",
+        "en": "All children should be able to share in good education.",
+        "uk": "Усі діти повинні мати змогу брати участь у якісній освіті.",
+        "ar": "يجب أن يتمكن جميع الأطفال من المشاركة في التعليم الجيد.",
+        "it": "Tutti i bambini devono poter partecipare a una buona istruzione."
+      },
+      "note": "an etwas (Dat.) teilhaben"
+    },
+    {
+      "id": "frontalunterricht",
+      "source": "book",
+      "chapter": 2,
+      "word": "Frontalunterricht",
+      "type": "noun",
+      "article": "der",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Unterricht, bei dem die Lehrkraft vorne spricht und die Schüler zuhören",
+        "tr": "öğretmen merkezli (önden anlatım) ders",
+        "en": "teacher-centred teaching, frontal teaching",
+        "uk": "фронтальне навчання",
+        "ar": "التدريس التلقيني المتمركز حول المعلم",
+        "it": "lezione frontale"
+      },
+      "synonyms": [],
+      "antonyms": [
+        "die Gruppenarbeit"
+      ],
+      "example": {
+        "de": "Früher gab es in der Schule fast nur Frontalunterricht.",
+        "tr": "Eskiden okulda neredeyse sadece öğretmen merkezli ders vardı.",
+        "en": "In the past there was almost only frontal teaching at school.",
+        "uk": "Раніше в школі було майже лише фронтальне навчання.",
+        "ar": "في الماضي كان التدريس في المدرسة تلقينيًا بالكامل تقريبًا.",
+        "it": "Una volta a scuola c'erano quasi solo lezioni frontali."
+      },
+      "note": null
+    },
+    {
+      "id": "auswendiglernen",
+      "source": "book",
+      "chapter": 2,
+      "word": "Auswendiglernen",
+      "type": "noun",
+      "article": "das",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Lernen eines Textes, sodass man ihn ohne Vorlage wiedergeben kann",
+        "tr": "ezberleme, ezber",
+        "en": "learning by heart, memorization",
+        "uk": "заучування напам'ять",
+        "ar": "الحفظ عن ظهر قلب",
+        "it": "imparare a memoria, memorizzazione"
+      },
+      "synonyms": [
+        "das Pauken"
+      ],
+      "antonyms": [
+        "das Verstehen"
+      ],
+      "example": {
+        "de": "Mit dem Auswendiglernen von Gedichten hatte ich immer Probleme.",
+        "tr": "Şiir ezberlemekte hep zorlanırdım.",
+        "en": "I always had problems learning poems by heart.",
+        "uk": "Мені завжди було важко вчити вірші напам'ять.",
+        "ar": "كنت دائمًا أواجه صعوبة في حفظ القصائد عن ظهر قلب.",
+        "it": "Ho sempre avuto problemi a imparare a memoria le poesie."
+      },
+      "note": "Nominalisierung von „auswendig lernen“"
+    },
+    {
+      "id": "aufnehmen",
+      "source": "book",
+      "chapter": 2,
+      "word": "aufnehmen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "nimmt auf",
+        "praeteritum": "nahm auf",
+        "perfekt": "hat aufgenommen"
+      },
+      "meaning": {
+        "de": "Jemanden in eine Gruppe lassen; etwas beginnen; Ton oder Bild speichern",
+        "tr": "kabul etmek, almak; başlamak; kaydetmek",
+        "en": "to admit, to take in; to take up; to record",
+        "uk": "приймати; розпочинати; записувати",
+        "ar": "يقبل، يستقبل؛ يبدأ؛ يسجّل",
+        "it": "accogliere, ammettere; intraprendere; registrare"
+      },
+      "synonyms": [
+        "akzeptieren",
+        "beginnen",
+        "aufzeichnen"
+      ],
+      "antonyms": [
+        "ablehnen"
+      ],
+      "example": {
+        "de": "Nach dem Abitur nahm sie ein Studium in Berlin auf.",
+        "tr": "Abitur'dan sonra Berlin'de üniversite eğitimine başladı.",
+        "en": "After her Abitur she took up her studies in Berlin.",
+        "uk": "Після атестата вона розпочала навчання в Берліні.",
+        "ar": "بعد الثانوية بدأت دراستها الجامعية في برلين.",
+        "it": "Dopo la maturità ha intrapreso gli studi a Berlino."
+      },
+      "note": "jemanden (Akk.) in etwas (Akk.) aufnehmen; etwas (Akk.) aufnehmen (ein Studium, ein Video)"
+    },
+    {
+      "id": "sogenannt",
+      "source": "book",
+      "chapter": 2,
+      "word": "sogenannt",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Wird benutzt, um einen Namen oder Begriff einzuführen; manchmal auch zweifelnd",
+        "tr": "... denilen, adı verilen; sözde",
+        "en": "so-called",
+        "uk": "так званий",
+        "ar": "ما يُسمّى، المسمّى",
+        "it": "cosiddetto"
+      },
+      "synonyms": [
+        "genannt"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Viele Jugendliche machen ein sogenanntes Freiwilliges Soziales Jahr.",
+        "tr": "Birçok genç, Gönüllü Sosyal Yıl denilen bir program yapıyor.",
+        "en": "Many young people do a so-called Voluntary Social Year.",
+        "uk": "Багато молодих людей проходять так званий добровільний соціальний рік.",
+        "ar": "يقضي كثير من الشباب ما يُسمّى بالسنة الاجتماعية التطوعية.",
+        "it": "Molti giovani fanno un cosiddetto anno di volontariato sociale."
+      },
+      "note": "Abkürzung: sog.; auch: so genannt"
+    },
+    {
+      "id": "leisten",
+      "source": "book",
+      "chapter": 2,
+      "word": "leisten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "leistet",
+        "praeteritum": "leistete",
+        "perfekt": "hat geleistet"
+      },
+      "meaning": {
+        "de": "Arbeit tun oder etwas erreichen; sich etwas leisten = es bezahlen können",
+        "tr": "başarmak, yerine getirmek; (sich leisten) parası yetmek",
+        "en": "to achieve, to perform; (sich leisten) to afford",
+        "uk": "виконувати, досягати; дозволити собі",
+        "ar": "يؤدي، ينجز؛ يستطيع تحمّل تكلفة",
+        "it": "fornire, compiere; permettersi"
+      },
+      "synonyms": [
+        "erbringen",
+        "schaffen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Studenten leisteten einen wichtigen Beitrag zum Widerstand.",
+        "tr": "Öğrenciler direnişe önemli bir katkıda bulundular.",
+        "en": "The students made an important contribution to the resistance.",
+        "uk": "Студенти зробили важливий внесок у спротив.",
+        "ar": "قدّم الطلاب مساهمة مهمة في المقاومة.",
+        "it": "Gli studenti diedero un contributo importante alla resistenza."
+      },
+      "note": "etwas (Akk.) leisten; einen Beitrag / Widerstand leisten; sich (Dat.) etwas (Akk.) leisten (können) = bezahlen können"
+    },
+    {
+      "id": "beitrag",
+      "source": "book",
+      "chapter": 2,
+      "word": "Beitrag",
+      "type": "noun",
+      "article": "der",
+      "plural": "Beiträge",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Teil, den man zu etwas Gemeinsamem gibt; auch Mitgliedsgeld oder ein Artikel",
+        "tr": "katkı; aidat; makale, yazı",
+        "en": "contribution; fee; article, post",
+        "uk": "внесок; стаття",
+        "ar": "مساهمة؛ اشتراك؛ مقالة",
+        "it": "contributo; quota; articolo"
+      },
+      "synonyms": [
+        "der Anteil",
+        "die Gebühr",
+        "der Artikel"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Jeder kann einen Beitrag zum Umweltschutz leisten.",
+        "tr": "Herkes çevre korumaya katkıda bulunabilir.",
+        "en": "Everyone can make a contribution to protecting the environment.",
+        "uk": "Кожен може зробити внесок у захист довкілля.",
+        "ar": "يستطيع كل شخص أن يساهم في حماية البيئة.",
+        "it": "Ognuno può dare un contributo alla tutela dell'ambiente."
+      },
+      "note": "einen Beitrag zu etwas (Dat.) leisten"
+    },
+    {
+      "id": "vertreter",
+      "source": "book",
+      "chapter": 2,
+      "word": "Vertreter",
+      "type": "noun",
+      "article": "der",
+      "plural": "Vertreter",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Person, die für andere spricht oder handelt; auch ein Verkäufer einer Firma",
+        "tr": "temsilci; vekil; satış temsilcisi",
+        "en": "representative; deputy; sales rep",
+        "uk": "представник, заступник",
+        "ar": "ممثّل، نائب، مندوب",
+        "it": "rappresentante, sostituto"
+      },
+      "synonyms": [
+        "der Repräsentant",
+        "der Stellvertreter"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Er ist ein bekannter Vertreter der modernen Pädagogik.",
+        "tr": "Modern pedagojinin tanınmış bir temsilcisidir.",
+        "en": "He is a well-known representative of modern pedagogy.",
+        "uk": "Він відомий представник сучасної педагогіки.",
+        "ar": "إنه ممثّل معروف للتربية الحديثة.",
+        "it": "È un noto rappresentante della pedagogia moderna."
+      },
+      "note": "weiblich: die Vertreterin"
+    },
+    {
+      "id": "lebensnah",
+      "source": "book",
+      "chapter": 2,
+      "word": "lebensnah",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nah am echten Alltag, realistisch und praktisch",
+        "tr": "hayata yakın, gerçekçi, pratik",
+        "en": "true to life, practical, realistic",
+        "uk": "наближений до життя, життєвий",
+        "ar": "قريب من الواقع، عملي",
+        "it": "vicino alla realtà, concreto"
+      },
+      "synonyms": [
+        "realistisch",
+        "praxisnah"
+      ],
+      "antonyms": [
+        "lebensfern",
+        "theoretisch"
+      ],
+      "example": {
+        "de": "Guter Unterricht sollte lebensnah und abwechslungsreich sein.",
+        "tr": "İyi bir ders hayata yakın ve çeşitli olmalıdır.",
+        "en": "Good lessons should be practical and varied.",
+        "uk": "Хороше навчання має бути наближеним до життя та різноманітним.",
+        "ar": "يجب أن يكون التدريس الجيد قريبًا من الواقع ومتنوعًا.",
+        "it": "Una buona lezione dovrebbe essere concreta e varia."
+      },
+      "note": null
+    },
+    {
+      "id": "exkursion",
+      "source": "book",
+      "chapter": 2,
+      "word": "Exkursion",
+      "type": "noun",
+      "article": "die",
+      "plural": "Exkursionen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Ausflug mit einer Klasse oder Gruppe, um etwas zu lernen",
+        "tr": "inceleme gezisi, okul gezisi",
+        "en": "field trip, excursion",
+        "uk": "екскурсія, навчальна поїздка",
+        "ar": "رحلة علمية، رحلة ميدانية",
+        "it": "escursione, gita didattica"
+      },
+      "synonyms": [
+        "der Ausflug",
+        "die Studienfahrt"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Im Biologieunterricht machen wir eine Exkursion in den Wald.",
+        "tr": "Biyoloji dersinde ormana bir inceleme gezisi yapıyoruz.",
+        "en": "In biology class we are going on a field trip to the forest.",
+        "uk": "На уроці біології ми їдемо на екскурсію до лісу.",
+        "ar": "في درس الأحياء نقوم برحلة ميدانية إلى الغابة.",
+        "it": "Nell'ora di biologia facciamo un'escursione nel bosco."
+      },
+      "note": "eine Exkursion machen"
+    },
+    {
+      "id": "veranstaltung",
+      "source": "book",
+      "chapter": 2,
+      "word": "Veranstaltung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Veranstaltungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein organisiertes Ereignis wie ein Konzert, ein Vortrag oder ein Fest",
+        "tr": "etkinlik, organizasyon",
+        "en": "event",
+        "uk": "захід, подія",
+        "ar": "فعالية، حدث",
+        "it": "evento, manifestazione"
+      },
+      "synonyms": [
+        "das Event",
+        "die Feier"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Stadt organisiert im Sommer viele Veranstaltungen im Freien.",
+        "tr": "Şehir yazın açık havada birçok etkinlik düzenliyor.",
+        "en": "The city organises many outdoor events in summer.",
+        "uk": "Улітку місто організовує багато заходів просто неба.",
+        "ar": "تنظّم المدينة في الصيف فعاليات كثيرة في الهواء الطلق.",
+        "it": "D'estate la città organizza molti eventi all'aperto."
+      },
+      "note": null
+    },
+    {
+      "id": "kaum",
+      "source": "book",
+      "chapter": 2,
+      "word": "kaum",
+      "type": "adverb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Fast nicht, nur sehr wenig",
+        "tr": "neredeyse hiç, zar zor",
+        "en": "hardly, barely, scarcely",
+        "uk": "ледве, майже не",
+        "ar": "بالكاد",
+        "it": "appena, quasi non"
+      },
+      "synonyms": [
+        "fast nicht",
+        "selten"
+      ],
+      "antonyms": [
+        "oft",
+        "sehr"
+      ],
+      "example": {
+        "de": "Ich habe kaum Zeit für meine Hobbys.",
+        "tr": "Hobilerime neredeyse hiç zamanım yok.",
+        "en": "I hardly have any time for my hobbies.",
+        "uk": "У мене майже немає часу на хобі.",
+        "ar": "بالكاد لدي وقت لهواياتي.",
+        "it": "Non ho quasi tempo per i miei hobby."
+      },
+      "note": null
+    },
+    {
+      "id": "verfolgen",
+      "source": "book",
+      "chapter": 2,
+      "word": "verfolgen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "verfolgt",
+        "praeteritum": "verfolgte",
+        "perfekt": "hat verfolgt"
+      },
+      "meaning": {
+        "de": "Hinter jemandem herlaufen; Menschen unterdrücken; ein Ziel haben; etwas genau beobachten",
+        "tr": "takip etmek; zulmetmek; (amaç) gütmek",
+        "en": "to pursue, to follow; to persecute",
+        "uk": "переслідувати; стежити; мати на меті",
+        "ar": "يلاحق، يتابع؛ يضطهد",
+        "it": "inseguire, seguire; perseguitare"
+      },
+      "synonyms": [
+        "nachgehen",
+        "beobachten"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Im Nationalsozialismus wurden viele Menschen aus politischen Gründen verfolgt.",
+        "tr": "Nasyonal sosyalizm döneminde birçok insan siyasi nedenlerle zulme uğradı.",
+        "en": "Under National Socialism many people were persecuted for political reasons.",
+        "uk": "За націонал-соціалізму багатьох людей переслідували з політичних причин.",
+        "ar": "في عهد النازية تعرّض كثير من الناس للاضطهاد لأسباب سياسية.",
+        "it": "Durante il nazionalsocialismo molte persone furono perseguitate per motivi politici."
+      },
+      "note": "jemanden/etwas (Akk.) verfolgen; ein Ziel verfolgen"
+    },
+    {
+      "id": "widerstand",
+      "source": "book",
+      "chapter": 2,
+      "word": "Widerstand",
+      "type": "noun",
+      "article": "der",
+      "plural": "Widerstände",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Handeln gegen etwas oder jemanden, z. B. gegen eine Diktatur",
+        "tr": "direniş, direnç, karşı koyma",
+        "en": "resistance, opposition",
+        "uk": "опір, спротив",
+        "ar": "مقاومة",
+        "it": "resistenza, opposizione"
+      },
+      "synonyms": [
+        "die Gegenwehr",
+        "die Opposition"
+      ],
+      "antonyms": [
+        "die Zustimmung"
+      ],
+      "example": {
+        "de": "Die Geschwister Scholl leisteten Widerstand gegen die Nationalsozialisten.",
+        "tr": "Scholl kardeşler Nasyonal Sosyalistlere karşı direniş gösterdiler.",
+        "en": "The Scholl siblings resisted the National Socialists.",
+        "uk": "Брат і сестра Шолль чинили опір націонал-соціалістам.",
+        "ar": "قاوم الأخوان شول النازيين.",
+        "it": "I fratelli Scholl opposero resistenza ai nazionalsocialisti."
+      },
+      "note": "Widerstand gegen jemanden/etwas (Akk.) leisten"
+    },
+    {
+      "id": "hinrichten",
+      "source": "book",
+      "chapter": 2,
+      "word": "hinrichten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "richtet hin",
+        "praeteritum": "richtete hin",
+        "perfekt": "hat hingerichtet"
+      },
+      "meaning": {
+        "de": "Jemanden nach einem Urteil als Strafe töten",
+        "tr": "idam etmek",
+        "en": "to execute",
+        "uk": "страчувати",
+        "ar": "يُعدِم",
+        "it": "giustiziare"
+      },
+      "synonyms": [
+        "exekutieren"
+      ],
+      "antonyms": [
+        "begnadigen"
+      ],
+      "example": {
+        "de": "Sophie Scholl wurde 1943 von den Nationalsozialisten hingerichtet.",
+        "tr": "Sophie Scholl 1943'te Nasyonal Sosyalistler tarafından idam edildi.",
+        "en": "Sophie Scholl was executed by the National Socialists in 1943.",
+        "uk": "Софі Шолль стратили націонал-соціалісти в 1943 році.",
+        "ar": "أُعدمت صوفي شول على يد النازيين عام 1943.",
+        "it": "Sophie Scholl fu giustiziata dai nazionalsocialisti nel 1943."
+      },
+      "note": "jemanden (Akk.) hinrichten"
+    },
+    {
+      "id": "beeinflussen",
+      "source": "book",
+      "chapter": 2,
+      "word": "beeinflussen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "beeinflusst",
+        "praeteritum": "beeinflusste",
+        "perfekt": "hat beeinflusst"
+      },
+      "meaning": {
+        "de": "Eine Wirkung auf jemanden oder etwas haben",
+        "tr": "etkilemek",
+        "en": "to influence, to affect",
+        "uk": "впливати",
+        "ar": "يؤثّر في",
+        "it": "influenzare"
+      },
+      "synonyms": [
+        "prägen",
+        "einwirken auf"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Herkunft beeinflusst oft den Bildungsweg eines Kindes.",
+        "tr": "Aile kökeni çoğu zaman bir çocuğun eğitim yolunu etkiler.",
+        "en": "Family background often influences a child's educational path.",
+        "uk": "Походження часто впливає на освітній шлях дитини.",
+        "ar": "غالبًا ما تؤثّر الخلفية العائلية في المسار التعليمي للطفل.",
+        "it": "L'origine sociale influenza spesso il percorso scolastico di un bambino."
+      },
+      "note": "jemanden/etwas (Akk.) beeinflussen"
+    },
+    {
+      "id": "unberuehrt",
+      "source": "book",
+      "chapter": 2,
+      "word": "unberührt",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nicht angefasst oder verändert; auch: emotional nicht betroffen",
+        "tr": "el değmemiş, dokunulmamış; etkilenmemiş",
+        "en": "untouched, unaffected",
+        "uk": "незайманий, недоторканий; незачеплений",
+        "ar": "لم يُمسّ، بكر؛ غير متأثر",
+        "it": "intatto, incontaminato; indifferente"
+      },
+      "synonyms": [
+        "unverändert",
+        "unbeeinflusst"
+      ],
+      "antonyms": [
+        "betroffen"
+      ],
+      "example": {
+        "de": "Kaum ein Bereich des Lebens blieb von der Diktatur unberührt.",
+        "tr": "Hayatın neredeyse hiçbir alanı diktatörlükten etkilenmeden kalmadı.",
+        "en": "Hardly any area of life remained untouched by the dictatorship.",
+        "uk": "Майже жодна сфера життя не залишилася незачепленою диктатурою.",
+        "ar": "لم يبقَ أي مجال من مجالات الحياة تقريبًا بمنأى عن الديكتاتورية.",
+        "it": "Quasi nessun ambito della vita rimase immune dalla dittatura."
+      },
+      "note": "von etwas (Dat.) unberührt bleiben; un- + Partizip II von „berühren“"
+    },
+    {
+      "id": "gleichschalten",
+      "source": "book",
+      "chapter": 2,
+      "word": "gleichschalten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schaltet gleich",
+        "praeteritum": "schaltete gleich",
+        "perfekt": "hat gleichgeschaltet"
+      },
+      "meaning": {
+        "de": "Organisationen unter die Kontrolle einer Diktatur bringen und vereinheitlichen",
+        "tr": "(diktatörlükte) tek tipleştirmek, rejime bağlamak",
+        "en": "to bring into line (forcibly coordinate)",
+        "uk": "уніфікувати, підпорядковувати режиму",
+        "ar": "يُخضِع لسيطرة النظام، يوحّد قسرًا",
+        "it": "allineare forzatamente al regime"
+      },
+      "synonyms": [
+        "vereinheitlichen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Nach 1933 wurden auch die Schulen und Universitäten gleichgeschaltet.",
+        "tr": "1933'ten sonra okullar ve üniversiteler de rejime bağlandı.",
+        "en": "After 1933 the schools and universities were also brought into line.",
+        "uk": "Після 1933 року школи й університети також були підпорядковані режиму.",
+        "ar": "بعد عام 1933 أُخضعت المدارس والجامعات أيضًا لسيطرة النظام.",
+        "it": "Dopo il 1933 anche le scuole e le università furono allineate al regime."
+      },
+      "note": "etwas (Akk.) gleichschalten; historisch: die Gleichschaltung im Nationalsozialismus"
+    },
+    {
+      "id": "vertreten",
+      "source": "book",
+      "chapter": 2,
+      "word": "vertreten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "vertritt",
+        "praeteritum": "vertrat",
+        "perfekt": "hat vertreten"
+      },
+      "meaning": {
+        "de": "Für jemanden handeln oder sprechen; eine Meinung haben und verteidigen",
+        "tr": "temsil etmek; vekalet etmek; (görüş) savunmak",
+        "en": "to represent; to stand in for; to hold (an opinion)",
+        "uk": "представляти, заміщати; відстоювати",
+        "ar": "يمثّل، ينوب عن؛ يتبنّى رأيًا",
+        "it": "rappresentare, sostituire; sostenere"
+      },
+      "synonyms": [
+        "repräsentieren",
+        "ersetzen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Weiße Rose vertrat die Idee der Freiheit.",
+        "tr": "Beyaz Gül özgürlük fikrini savundu.",
+        "en": "The White Rose stood for the idea of freedom.",
+        "uk": "«Біла троянда» відстоювала ідею свободи.",
+        "ar": "تبنّت حركة الوردة البيضاء فكرة الحرية.",
+        "it": "La Rosa Bianca sosteneva l'idea di libertà."
+      },
+      "note": "jemanden/etwas (Akk.) vertreten; eine Meinung vertreten"
+    },
+    {
+      "id": "gelten",
+      "source": "book",
+      "chapter": 2,
+      "word": "gelten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "gilt",
+        "praeteritum": "galt",
+        "perfekt": "hat gegolten"
+      },
+      "meaning": {
+        "de": "Gültig sein; als etwas angesehen werden",
+        "tr": "geçerli olmak; ... olarak kabul edilmek, sayılmak",
+        "en": "to be valid, to apply; to be regarded as",
+        "uk": "бути чинним; вважатися",
+        "ar": "يسري، يكون صالحًا؛ يُعتبر",
+        "it": "valere, essere valido; essere considerato"
+      },
+      "synonyms": [
+        "gültig sein",
+        "zählen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Mitglieder der Weißen Rose galten als Verräter.",
+        "tr": "Beyaz Gül'ün üyeleri hain olarak görülüyordu.",
+        "en": "The members of the White Rose were regarded as traitors.",
+        "uk": "Членів «Білої троянди» вважали зрадниками.",
+        "ar": "كان أعضاء الوردة البيضاء يُعتبرون خونة.",
+        "it": "I membri della Rosa Bianca erano considerati traditori."
+      },
+      "note": "als etwas (Nom.) gelten; für jemanden (Akk.) gelten"
+    },
+    {
+      "id": "unterdruecken",
+      "source": "book",
+      "chapter": 2,
+      "word": "unterdrücken",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "unterdrückt",
+        "praeteritum": "unterdrückte",
+        "perfekt": "hat unterdrückt"
+      },
+      "meaning": {
+        "de": "Menschen mit Gewalt kontrollieren; ein Gefühl nicht zeigen",
+        "tr": "bastırmak, ezmek, baskı altında tutmak",
+        "en": "to oppress, to suppress",
+        "uk": "пригнічувати, придушувати",
+        "ar": "يقمع، يكبت",
+        "it": "opprimere, reprimere"
+      },
+      "synonyms": [
+        "unterjochen",
+        "zurückhalten"
+      ],
+      "antonyms": [
+        "befreien"
+      ],
+      "example": {
+        "de": "Die Diktatur unterdrückte jede freie Meinung.",
+        "tr": "Diktatörlük her türlü özgür düşünceyi bastırdı.",
+        "en": "The dictatorship suppressed every free opinion.",
+        "uk": "Диктатура придушувала будь-яку вільну думку.",
+        "ar": "قمعت الديكتاتورية كل رأي حر.",
+        "it": "La dittatura reprimeva ogni libera opinione."
+      },
+      "note": "jemanden/etwas (Akk.) unterdrücken"
+    },
+    {
+      "id": "vielfaeltig",
+      "source": "book",
+      "chapter": 2,
+      "word": "vielfältig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sehr verschieden und abwechslungsreich",
+        "tr": "çok yönlü, çeşitli",
+        "en": "diverse, varied",
+        "uk": "різноманітний",
+        "ar": "متنوّع",
+        "it": "vario, molteplice"
+      },
+      "synonyms": [
+        "abwechslungsreich",
+        "vielseitig"
+      ],
+      "antonyms": [
+        "einseitig",
+        "eintönig"
+      ],
+      "example": {
+        "de": "Die Volkshochschule bietet ein vielfältiges Kursprogramm an.",
+        "tr": "Halk eğitim merkezi çok çeşitli bir kurs programı sunuyor.",
+        "en": "The adult education centre offers a diverse course programme.",
+        "uk": "Народний університет пропонує різноманітну програму курсів.",
+        "ar": "يقدّم مركز تعليم الكبار برنامج دورات متنوعًا.",
+        "it": "L'università popolare offre un programma di corsi molto vario."
+      },
+      "note": null
+    },
+    {
+      "id": "zugaenglich",
+      "source": "book",
+      "chapter": 2,
+      "word": "zugänglich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "So, dass man hineinkommen oder es benutzen kann; auch: offen und freundlich",
+        "tr": "erişilebilir, ulaşılabilir; cana yakın",
+        "en": "accessible; approachable",
+        "uk": "доступний",
+        "ar": "متاح، يمكن الوصول إليه",
+        "it": "accessibile"
+      },
+      "synonyms": [
+        "erreichbar",
+        "offen"
+      ],
+      "antonyms": [
+        "unzugänglich",
+        "verschlossen"
+      ],
+      "example": {
+        "de": "Bildung sollte für alle Menschen zugänglich sein.",
+        "tr": "Eğitim herkes için erişilebilir olmalıdır.",
+        "en": "Education should be accessible to everyone.",
+        "uk": "Освіта має бути доступною для всіх людей.",
+        "ar": "يجب أن يكون التعليم متاحًا لجميع الناس.",
+        "it": "L'istruzione dovrebbe essere accessibile a tutti."
+      },
+      "note": "für jemanden (Akk.) zugänglich sein"
+    },
+    {
+      "id": "kompetenz",
+      "source": "book",
+      "chapter": 2,
+      "word": "Kompetenz",
+      "type": "noun",
+      "article": "die",
+      "plural": "Kompetenzen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Fähigkeit und das Wissen, etwas gut zu machen; auch Zuständigkeit",
+        "tr": "yetkinlik, beceri; yetki",
+        "en": "competence, skill; authority",
+        "uk": "компетенція, уміння",
+        "ar": "كفاءة، مهارة؛ صلاحية",
+        "it": "competenza"
+      },
+      "synonyms": [
+        "die Fähigkeit",
+        "die Zuständigkeit"
+      ],
+      "antonyms": [
+        "die Inkompetenz"
+      ],
+      "example": {
+        "de": "Im Studium erwirbt man fachliche und soziale Kompetenzen.",
+        "tr": "Üniversitede mesleki ve sosyal yetkinlikler kazanılır.",
+        "en": "At university you acquire professional and social skills.",
+        "uk": "Під час навчання у виші здобувають фахові та соціальні компетенції.",
+        "ar": "يكتسب المرء في الدراسة الجامعية كفاءات مهنية واجتماعية.",
+        "it": "Durante gli studi si acquisiscono competenze professionali e sociali."
+      },
+      "note": null
+    },
+    {
+      "id": "nachhaltigkeit",
+      "source": "book",
+      "chapter": 2,
+      "word": "Nachhaltigkeit",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Handeln, das die Umwelt schont und auch für die Zukunft gut ist",
+        "tr": "sürdürülebilirlik",
+        "en": "sustainability",
+        "uk": "сталість, сталий розвиток",
+        "ar": "الاستدامة",
+        "it": "sostenibilità"
+      },
+      "synonyms": [
+        "die Umweltverträglichkeit"
+      ],
+      "antonyms": [
+        "die Verschwendung"
+      ],
+      "example": {
+        "de": "Viele Schulen legen heute großen Wert auf Nachhaltigkeit.",
+        "tr": "Bugün birçok okul sürdürülebilirliğe büyük önem veriyor.",
+        "en": "Many schools today place great value on sustainability.",
+        "uk": "Сьогодні багато шкіл приділяють велику увагу сталому розвитку.",
+        "ar": "تولي مدارس كثيرة اليوم أهمية كبيرة للاستدامة.",
+        "it": "Oggi molte scuole danno grande importanza alla sostenibilità."
+      },
+      "note": null
+    },
+    {
+      "id": "bestandteil",
+      "source": "book",
+      "chapter": 2,
+      "word": "Bestandteil",
+      "type": "noun",
+      "article": "der",
+      "plural": "Bestandteile",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Teil von einem Ganzen",
+        "tr": "bileşen, parça, unsur",
+        "en": "component, part, element",
+        "uk": "складова частина, компонент",
+        "ar": "جزء، مكوّن",
+        "it": "componente, parte integrante"
+      },
+      "synonyms": [
+        "das Element",
+        "die Komponente"
+      ],
+      "antonyms": [
+        "das Ganze"
+      ],
+      "example": {
+        "de": "Praktika sind ein fester Bestandteil der Ausbildung.",
+        "tr": "Stajlar mesleki eğitimin sabit bir parçasıdır.",
+        "en": "Internships are an integral part of the training.",
+        "uk": "Практика є невід'ємною частиною професійного навчання.",
+        "ar": "التدريب العملي جزء ثابت من التكوين المهني.",
+        "it": "I tirocini sono parte integrante della formazione."
+      },
+      "note": "ein fester Bestandteil von + Dat."
+    },
+    {
+      "id": "auffallen",
+      "source": "book",
+      "chapter": 2,
+      "word": "auffallen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "fällt auf",
+        "praeteritum": "fiel auf",
+        "perfekt": "ist aufgefallen"
+      },
+      "meaning": {
+        "de": "Bemerkt werden, weil etwas anders oder besonders ist",
+        "tr": "dikkat çekmek, göze çarpmak",
+        "en": "to stand out, to be noticed, to strike",
+        "uk": "впадати в око, привертати увагу",
+        "ar": "يلفت النظر، يُلاحَظ",
+        "it": "dare nell'occhio, saltare all'occhio"
+      },
+      "synonyms": [
+        "herausstechen",
+        "bemerkt werden"
+      ],
+      "antonyms": [
+        "untergehen"
+      ],
+      "example": {
+        "de": "Mir ist aufgefallen, dass viele Schüler müde sind.",
+        "tr": "Birçok öğrencinin yorgun olduğu dikkatimi çekti.",
+        "en": "I noticed that many students are tired.",
+        "uk": "Мені впало в око, що багато учнів утомлені.",
+        "ar": "لفت انتباهي أن كثيرًا من التلاميذ متعبون.",
+        "it": "Mi è saltato all'occhio che molti studenti sono stanchi."
+      },
+      "note": "jemandem (Dat.) auffallen"
+    },
+    {
+      "id": "steigen",
+      "source": "book",
+      "chapter": 2,
+      "word": "steigen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "steigt",
+        "praeteritum": "stieg",
+        "perfekt": "ist gestiegen"
+      },
+      "meaning": {
+        "de": "Nach oben gehen; größer oder mehr werden",
+        "tr": "yükselmek, artmak; tırmanmak, binmek",
+        "en": "to rise, to increase; to climb",
+        "uk": "зростати, підніматися",
+        "ar": "يرتفع، يزداد؛ يصعد",
+        "it": "salire, aumentare"
+      },
+      "synonyms": [
+        "zunehmen",
+        "klettern"
+      ],
+      "antonyms": [
+        "sinken",
+        "fallen"
+      ],
+      "example": {
+        "de": "Die Zahl der Studierenden ist in den letzten Jahren gestiegen.",
+        "tr": "Son yıllarda üniversite öğrencilerinin sayısı arttı.",
+        "en": "The number of students has risen in recent years.",
+        "uk": "Кількість студентів за останні роки зросла.",
+        "ar": "ارتفع عدد الطلاب في السنوات الأخيرة.",
+        "it": "Il numero degli studenti è aumentato negli ultimi anni."
+      },
+      "note": "intransitiv (ohne Objekt); auf/in etwas (Akk.) steigen; um/auf + Akk. (bei Zahlen)"
+    },
+    {
+      "id": "instandhaltung",
+      "source": "book",
+      "chapter": 2,
+      "word": "Instandhaltung",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Pflege und Reparatur, damit etwas gut funktioniert",
+        "tr": "bakım, onarım",
+        "en": "maintenance, upkeep",
+        "uk": "технічне обслуговування, утримання",
+        "ar": "صيانة",
+        "it": "manutenzione"
+      },
+      "synonyms": [
+        "die Wartung",
+        "die Pflege"
+      ],
+      "antonyms": [
+        "der Verfall"
+      ],
+      "example": {
+        "de": "Die Stadt zahlt für die Instandhaltung der Schulgebäude.",
+        "tr": "Şehir okul binalarının bakımı için ödeme yapıyor.",
+        "en": "The city pays for the maintenance of the school buildings.",
+        "uk": "Місто платить за утримання шкільних будівель.",
+        "ar": "تدفع المدينة تكاليف صيانة المباني المدرسية.",
+        "it": "Il comune paga la manutenzione degli edifici scolastici."
+      },
+      "note": null
+    },
+    {
+      "id": "zuverlaessigkeit",
+      "source": "book",
+      "chapter": 2,
+      "word": "Zuverlässigkeit",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Eigenschaft, dass man sich auf jemanden oder etwas verlassen kann",
+        "tr": "güvenilirlik",
+        "en": "reliability, dependability",
+        "uk": "надійність",
+        "ar": "الموثوقية، الاعتمادية",
+        "it": "affidabilità"
+      },
+      "synonyms": [
+        "die Verlässlichkeit"
+      ],
+      "antonyms": [
+        "die Unzuverlässigkeit"
+      ],
+      "example": {
+        "de": "Arbeitgeber erwarten vor allem Zuverlässigkeit und Pünktlichkeit.",
+        "tr": "İşverenler her şeyden önce güvenilirlik ve dakiklik bekler.",
+        "en": "Employers expect reliability and punctuality above all.",
+        "uk": "Роботодавці насамперед очікують надійності й пунктуальності.",
+        "ar": "يتوقع أصحاب العمل قبل كل شيء الموثوقية والالتزام بالمواعيد.",
+        "it": "I datori di lavoro si aspettano soprattutto affidabilità e puntualità."
+      },
+      "note": null
+    },
+    {
+      "id": "besonnenheit",
+      "source": "book",
+      "chapter": 2,
+      "word": "Besonnenheit",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Ruhiges und überlegtes Handeln, auch in schwierigen Situationen",
+        "tr": "sağduyu, soğukkanlılık, temkin",
+        "en": "level-headedness, prudence, calm",
+        "uk": "розсудливість, виваженість",
+        "ar": "التروّي، الرزانة",
+        "it": "ponderatezza, assennatezza, calma"
+      },
+      "synonyms": [
+        "die Ruhe",
+        "die Umsicht"
+      ],
+      "antonyms": [
+        "die Unbesonnenheit",
+        "die Hektik"
+      ],
+      "example": {
+        "de": "In Krisen braucht man vor allem Besonnenheit.",
+        "tr": "Krizlerde her şeyden önce sağduyu gerekir.",
+        "en": "In a crisis you need level-headedness above all.",
+        "uk": "У кризах насамперед потрібна розсудливість.",
+        "ar": "في الأزمات يحتاج المرء قبل كل شيء إلى التروّي.",
+        "it": "Nelle crisi serve soprattutto ponderatezza."
+      },
+      "note": null
     }
   ]
 }
