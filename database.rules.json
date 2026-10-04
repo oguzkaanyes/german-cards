@@ -1,0 +1,51 @@
+{
+  "rules": {
+    "users": {
+      "$nickname": {
+        ".read": "$nickname.matches(/^[a-z0-9_-]{3,20}$/)",
+        ".write": "$nickname.matches(/^[a-z0-9_-]{3,20}$/)",
+        ".validate": "newData.hasChild('profile')",
+
+        "profile": {
+          ".validate": "newData.hasChildren(['nickname', 'createdAt'])",
+          "nickname": { ".validate": "newData.isString() && newData.val().length <= 40" },
+          "createdAt": { ".validate": "newData.isNumber() && (!data.exists() || newData.val() == data.val())" },
+          "lastSeen": { ".validate": "newData.isNumber() && newData.val() <= now" },
+          "$other": { ".validate": false }
+        },
+
+        "prefs": {
+          "lang": { ".validate": "newData.isString() && newData.val().matches(/^(tr|en|uk|ar|it)$/)" },
+          "filters": {
+            "$tab": { ".validate": "newData.isString() && newData.val().length <= 40" }
+          },
+          "positions": {
+            "$tab": { ".validate": "newData.isString() && newData.val().length <= 80" }
+          },
+          "$other": { ".validate": false }
+        },
+
+        "progress": {
+          "saved":           { "$cardId": { ".validate": "newData.val() == true" } },
+          "learned":         { "$cardId": { ".validate": "newData.val() == true" } },
+          "quizScores":      { "$cardId": { ".validate": "newData.isNumber() && newData.val() >= 0" } },
+          "verbScores":      { "$verbId": { ".validate": "newData.isNumber() && newData.val() >= 0" } },
+          "verbWriteScores": { "$verbId": { ".validate": "newData.isNumber() && newData.val() >= 0" } },
+          "$other": { ".validate": false }
+        },
+
+        "session": {
+          "quizCardId":      { ".validate": "newData.isString()" },
+          "reviewQueue":     { "$i": { ".validate": "newData.isString()" } },
+          "verbQueue":       { "$i": { ".validate": "newData.isString()" } },
+          "verbLastId":      { ".validate": "newData.isString()" },
+          "verbWriteQueue":  { "$i": { ".validate": "newData.isString()" } },
+          "verbWriteLastId": { ".validate": "newData.isString()" },
+          "$other": { ".validate": false }
+        },
+
+        "$other": { ".validate": false }
+      }
+    }
+  }
+}

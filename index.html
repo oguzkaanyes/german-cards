@@ -214,8 +214,8 @@
       color: var(--text);
     }
 
-    /* ---------- First-run language picker ---------- */
-    #lang-modal {
+    /* ---------- First-run nickname and language pickers ---------- */
+    #lang-modal, #nick-modal {
       position: fixed;
       inset: 0;
       z-index: 30;
@@ -225,8 +225,8 @@
       padding: 24px;
       background: rgba(0, 0, 0, 0.35);
     }
-    #lang-modal[hidden] { display: none; }
-    #lang-modal .dialog {
+    #lang-modal[hidden], #nick-modal[hidden] { display: none; }
+    #lang-modal .dialog, #nick-modal .dialog {
       width: 100%;
       max-width: 360px;
       background: #fff;
@@ -234,16 +234,51 @@
       padding: 24px 20px 20px;
       box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
     }
-    #lang-modal h2 { margin: 0 0 6px; font-size: 1.3rem; }
-    #lang-modal p { margin: 0 0 18px; color: var(--muted); line-height: 1.4; }
-    #lang-modal .choices { display: grid; gap: 8px; }
-    #lang-modal .choices button {
+    #lang-modal h2, #nick-modal h2 { margin: 0 0 6px; font-size: 1.3rem; }
+    #lang-modal p, #nick-modal p { margin: 0 0 18px; color: var(--muted); line-height: 1.4; }
+    #lang-modal .choices, #nick-modal .choices { display: grid; gap: 8px; }
+    #lang-modal .choices button, #nick-modal .choices button {
       padding: 14px 16px;
       border: 1px solid rgba(0, 0, 0, 0.12);
       border-radius: 12px;
       background: var(--bg);
       font-size: 1.05rem;
       text-align: left;
+      cursor: pointer;
+    }
+
+    #nick-modal input {
+      width: 100%;
+      margin: 0 0 8px;
+      padding: 12px 14px;
+      font: inherit;
+      font-size: 16px;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      border-radius: 12px;
+      background: var(--bg);
+    }
+    #nick-modal .error { margin: 0 0 10px; color: #c0392b; font-size: 0.9rem; }
+    #nick-modal .error:empty { display: none; }
+    #nick-modal .choices button.primary { background: var(--text); color: #fff; text-align: center; }
+    #nick-modal .choices button:disabled { opacity: 0.5; }
+
+    .user-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin: 0 0 12px 2px;
+      font-size: 0.95rem;
+    }
+    .user-row[hidden] { display: none; }
+    .user-row button {
+      padding: 6px 10px;
+      font: inherit;
+      font-size: 0.85rem;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--muted);
       cursor: pointer;
     }
 
@@ -657,6 +692,10 @@
       <div class="submenu" id="filters"></div>
     </div>
     <div class="menu-footer">
+      <div class="user-row" id="user-row" hidden>
+        <span>👤 <strong id="user-name"></strong></span>
+        <button type="button" id="logout">Abmelden</button>
+      </div>
       <label for="lang">Sprache</label>
       <select id="lang">
         <option value="tr">Türkçe</option>
@@ -676,6 +715,16 @@
     </div>
   </div>
 
+  <div id="nick-modal" hidden role="dialog" aria-modal="true" aria-labelledby="nick-modal-title">
+    <form class="dialog" novalidate>
+      <h2 id="nick-modal-title">Wie heißt du? 👤</h2>
+      <p>Wähle einen Spitznamen. Damit wird dein Fortschritt gespeichert und auf anderen Geräten geladen.</p>
+      <input id="nick-input" type="text" autocomplete="nickname" autocapitalize="none" autocorrect="off" spellcheck="false" maxlength="20" placeholder="z. B. oguz">
+      <div class="error" id="nick-error"></div>
+      <div class="choices"></div>
+    </form>
+  </div>
+
   <div id="status" hidden></div>
   <div id="empty" hidden></div>
   <section id="quiz" hidden></section>
@@ -689,6 +738,8 @@
     <button type="button" id="last" class="jump" aria-label="Letzte Karte">»</button>
   </nav>
 
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-database-compat.js"></script>
   <script>
     const ARTICLES = ["der", "die", "das"];
     const TYPE_LABELS = {
@@ -721,7 +772,41 @@
       verbWriteQueue: "wortkarten:verbWriteQueue",
       verbWriteLast: "wortkarten:verbWriteLastId",
       position: (tab) => "wortkarten:lastCardId:" + tab,
+      nickname: "wortkarten:nickname",  // this device's user; also the user's key in Firebase
     };
+
+    const FIREBASE_CONFIG = {
+      apiKey: "AIzaSyBbPvM8x_M82KqoGSmVafYn3qBk7Y21RW0",
+      authDomain: "deutsch-wort-karten.firebaseapp.com",
+      databaseURL: "https://deutsch-wort-karten-default-rtdb.firebaseio.com",
+      projectId: "deutsch-wort-karten",
+      storageBucket: "deutsch-wort-karten.firebasestorage.app",
+      messagingSenderId: "542195204351",
+      appId: "1:542195204351:web:7b470e70a84fe568328cca",
+      measurementId: "G-1WBQX4Q1HB",
+    };
+    // Where each localStorage key lives under users/{nickname} in the Realtime Database, and how it is stored:
+    // "text" a plain string, "set" an id list stored as { id: true }, "map" an object, "list" an array.
+    // Keys missing here (old versions' keys, the nickname itself) stay on the device only.
+    const SYNCED = [
+      [KEYS.lang, "prefs/lang", "text"],
+      [KEYS.saved, "progress/saved", "set"],
+      [KEYS.learned, "progress/learned", "set"],
+      [KEYS.quiz, "progress/quizScores", "map"],
+      [KEYS.verbs, "progress/verbScores", "map"],
+      [KEYS.verbWrite, "progress/verbWriteScores", "map"],
+      [KEYS.quizCard, "session/quizCardId", "text"],
+      [KEYS.review, "session/reviewQueue", "list"],
+      [KEYS.verbQueue, "session/verbQueue", "list"],
+      [KEYS.verbLast, "session/verbLastId", "text"],
+      [KEYS.verbWriteQueue, "session/verbWriteQueue", "list"],
+      [KEYS.verbWriteLast, "session/verbWriteLastId", "text"],
+    ];
+    // Per-tab keys: "wortkarten:filter:book" <-> prefs/filters/book
+    const SYNCED_PREFIXES = [
+      [KEYS.filter(""), "prefs/filters/", "text"],
+      [KEYS.position(""), "prefs/positions/", "text"],
+    ];
 
     const track = document.getElementById("track");
     const statusBox = document.getElementById("status");
@@ -777,7 +862,238 @@
     }
     function writeStorage(key, value) {
       try { localStorage.setItem(key, value); } catch (e) {}
+      cloudWrite(key, value);
     }
+
+    // ---------- Firebase sync ----------
+    // localStorage stays the working copy (the app reads it synchronously); every synced write is
+    // mirrored to users/{nickname}. On start the database copy replaces the device copy, so progress
+    // follows the user to other devices. Without the SDK or network the app keeps working locally.
+    let userRef = null;
+
+    function firebaseDb() {
+      if (typeof firebase === "undefined") return null;
+      try {
+        if (!firebase.apps.length) firebase.initializeApp(FIREBASE_CONFIG);
+        return firebase.database();
+      } catch (e) {
+        return null;
+      }
+    }
+
+    // "Oğuz Kaan" -> "oguz-kaan": Firebase keys can't hold . # $ [ ] /, and the rules only accept [a-z0-9_-].
+    function nicknameKey(text) {
+      return String(text).trim().toLowerCase()
+        .replace(/ı/g, "i").replace(/ß/g, "ss")
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/\s+/g, "-");
+    }
+    function validNickname(key) {
+      return /^[a-z0-9_-]{3,20}$/.test(key);
+    }
+
+    function syncedEntry(key) {
+      const exact = SYNCED.find(([k]) => k === key);
+      if (exact) return { path: exact[1], kind: exact[2] };
+      for (const [prefix, path, kind] of SYNCED_PREFIXES) {
+        const rest = key.startsWith(prefix) ? key.slice(prefix.length) : "";
+        if (/^[A-Za-z0-9_-]+$/.test(rest)) return { path: path + rest, kind };
+      }
+      return null;
+    }
+
+    function toRemote(kind, raw) {
+      if (raw == null) return null;
+      if (kind === "text") return raw;
+      try {
+        const value = JSON.parse(raw);
+        if (kind === "set") return Array.isArray(value) && value.length ? Object.fromEntries(value.map((id) => [id, true])) : null;
+        return value;
+      } catch (e) {
+        return null;
+      }
+    }
+    // Firebase drops empty lists/objects and may hand a list back as an object, so both are normalised here.
+    function fromRemote(kind, value) {
+      if (value == null) return null;
+      if (kind === "text") return String(value);
+      if (kind === "set") return JSON.stringify(Object.keys(value));
+      if (kind === "list") return JSON.stringify(Array.isArray(value) ? value.filter((v) => v != null) : Object.values(value));
+      return JSON.stringify(value);
+    }
+
+    function cloudWrite(key, value) {
+      const entry = userRef && syncedEntry(key);
+      if (!entry) return;
+      userRef.child(entry.path).set(toRemote(entry.kind, value)).catch(() => {});
+    }
+
+    // Every synced key on this device, as the tree stored under users/{nickname}.
+    function localTree() {
+      const tree = {};
+      let keys = [];
+      try { keys = Object.keys(localStorage); } catch (e) {}
+      for (const key of keys) {
+        const entry = syncedEntry(key);
+        const value = entry && toRemote(entry.kind, readStorage(key));
+        if (value == null) continue;
+        const parts = entry.path.split("/");
+        let node = tree;
+        parts.slice(0, -1).forEach((part) => { node = node[part] = node[part] || {}; });
+        node[parts[parts.length - 1]] = value;
+      }
+      return tree;
+    }
+
+    // The database copy wins: synced keys it doesn't have are cleared on this device too.
+    function applyRemote(user) {
+      let keys = [];
+      try { keys = Object.keys(localStorage); } catch (e) {}
+      for (const key of keys) {
+        if (syncedEntry(key)) {
+          try { localStorage.removeItem(key); } catch (e) {}
+        }
+      }
+      const at = (path) => path.split("/").reduce((node, part) => (node == null ? null : node[part]), user);
+      for (const [key, path, kind] of SYNCED) {
+        const value = fromRemote(kind, at(path));
+        if (value != null) try { localStorage.setItem(key, value); } catch (e) {}
+      }
+      for (const [prefix, path, kind] of SYNCED_PREFIXES) {
+        const group = at(path.slice(0, -1)) || {};
+        for (const [name, raw] of Object.entries(group)) {
+          const value = fromRemote(kind, raw);
+          if (value != null) try { localStorage.setItem(prefix + name, value); } catch (e) {}
+        }
+      }
+    }
+
+    function withTimeout(promise, ms) {
+      return Promise.race([promise, new Promise((_, reject) => setTimeout(() => reject(new Error("timeout")), ms))]);
+    }
+    async function fetchUser(db, key) {
+      const snap = await withTimeout(db.ref("users/" + key).once("value"), 8000);
+      return snap.val();
+    }
+
+    // A new user gets this device's data, so progress made before Firebase isn't lost.
+    async function createUser(db, key, nickname) {
+      const now = firebase.database.ServerValue.TIMESTAMP;
+      const tree = localTree();
+      tree.profile = { nickname, createdAt: now, lastSeen: now };
+      await withTimeout(db.ref("users/" + key).set(tree), 8000);
+    }
+
+    // First visit on a device: ask for a nickname. A free one becomes a new user; a taken one
+    // means "that's me on another device" once confirmed, and its data replaces this device's.
+    function askNickname(db) {
+      const modal = document.getElementById("nick-modal");
+      const form = modal.querySelector("form");
+      const input = document.getElementById("nick-input");
+      const error = document.getElementById("nick-error");
+      const text = modal.querySelector("p");
+      const choices = modal.querySelector(".choices");
+      const intro = text.textContent;
+
+      function buttons(list) {
+        choices.replaceChildren(...list.map(([label, primary, onClick]) => {
+          const button = el("button", primary ? "primary" : null, label);
+          button.type = primary ? "submit" : "button";
+          if (!primary) button.addEventListener("click", onClick);
+          return button;
+        }));
+      }
+
+      return new Promise((resolve) => {
+        let pending = null;  // a taken nickname waiting for "yes, that's me"
+
+        function ask() {
+          pending = null;
+          text.textContent = intro;
+          input.hidden = false;
+          error.textContent = "";
+          buttons([["Weiter", true]]);
+          input.focus();
+        }
+
+        async function submit() {
+          const button = choices.querySelector("button.primary");
+          button.disabled = true;
+          error.textContent = "";
+          try {
+            if (pending) {
+              applyRemote(pending.user);
+              modal.hidden = true;
+              return resolve(pending.key);
+            }
+            const nickname = input.value.trim();
+            const key = nicknameKey(nickname);
+            if (!validNickname(key)) {
+              error.textContent = "3–20 Zeichen: Buchstaben, Zahlen, - oder _.";
+              return;
+            }
+            const user = await fetchUser(db, key);
+            if (user) {
+              pending = { key, user };
+              text.textContent = "„" + key + "“ gibt es schon. Bist du das? Dann wird dein gespeicherter Fortschritt auf dieses Gerät geladen.";
+              input.hidden = true;
+              buttons([["Ja, Fortschritt laden", true], ["Nein, anderer Name", false, ask]]);
+              return;
+            }
+            await createUser(db, key, nickname);
+            modal.hidden = true;
+            resolve(key);
+          } catch (e) {
+            error.textContent = "Datenbank nicht erreichbar. Bitte versuche es noch einmal.";
+          } finally {
+            if (button.isConnected) button.disabled = false;
+          }
+        }
+
+        form.addEventListener("submit", (event) => {
+          event.preventDefault();
+          submit();
+        });
+        modal.hidden = false;
+        ask();
+      });
+    }
+
+    // Returns once this device knows its user and holds the user's latest data (or runs offline).
+    async function connectUser() {
+      const db = firebaseDb();
+      if (!db) return;
+      let key = readStorage(KEYS.nickname);
+      if (!key) {
+        key = await askNickname(db);
+        try { localStorage.setItem(KEYS.nickname, key); } catch (e) {}
+      } else {
+        try {
+          const user = await fetchUser(db, key);
+          if (user) applyRemote(user);
+          else await createUser(db, key, key);  // removed from the database: start over from this device
+        } catch (e) {
+          // Offline: carry on with this device's copy; writes reach Firebase once it reconnects.
+        }
+      }
+      userRef = db.ref("users/" + key);
+      userRef.child("profile/lastSeen").set(firebase.database.ServerValue.TIMESTAMP).catch(() => {});
+      document.getElementById("user-name").textContent = key;
+      document.getElementById("user-row").hidden = false;
+    }
+
+    // Leaving clears this device's copy; it all stays in Firebase for the next login.
+    document.getElementById("logout").addEventListener("click", () => {
+      if (!confirm("Abmelden? Dein Fortschritt bleibt gespeichert und wird beim nächsten Anmelden wieder geladen.")) return;
+      let keys = [];
+      try { keys = Object.keys(localStorage); } catch (e) {}
+      for (const key of keys) {
+        if (key === KEYS.nickname || syncedEntry(key)) {
+          try { localStorage.removeItem(key); } catch (e) {}
+        }
+      }
+      location.reload();
+    });
 
     // Returns whether a language was already chosen on this device.
     function loadPrefs() {
@@ -1870,6 +2186,7 @@
         return;
       }
 
+      await connectUser();
       if (!loadPrefs()) {
         lang = await askLanguage();
         writeStorage(KEYS.lang, lang);
