@@ -1,0 +1,581 @@
+{
+  "version": 1,
+  "verbs": [
+    {
+      "id": "sein",
+      "infinitiv": "sein",
+      "praeteritum": "war",
+      "partizip2": "gewesen"
+    },
+    {
+      "id": "haben",
+      "infinitiv": "haben",
+      "praeteritum": "hatte",
+      "partizip2": "gehabt"
+    },
+    {
+      "id": "werden",
+      "infinitiv": "werden",
+      "praeteritum": "wurde",
+      "partizip2": "geworden"
+    },
+    {
+      "id": "gehen",
+      "infinitiv": "gehen",
+      "praeteritum": "ging",
+      "partizip2": "gegangen"
+    },
+    {
+      "id": "kommen",
+      "infinitiv": "kommen",
+      "praeteritum": "kam",
+      "partizip2": "gekommen"
+    },
+    {
+      "id": "sehen",
+      "infinitiv": "sehen",
+      "praeteritum": "sah",
+      "partizip2": "gesehen"
+    },
+    {
+      "id": "geben",
+      "infinitiv": "geben",
+      "praeteritum": "gab",
+      "partizip2": "gegeben"
+    },
+    {
+      "id": "nehmen",
+      "infinitiv": "nehmen",
+      "praeteritum": "nahm",
+      "partizip2": "genommen"
+    },
+    {
+      "id": "finden",
+      "infinitiv": "finden",
+      "praeteritum": "fand",
+      "partizip2": "gefunden"
+    },
+    {
+      "id": "bleiben",
+      "infinitiv": "bleiben",
+      "praeteritum": "blieb",
+      "partizip2": "geblieben"
+    },
+    {
+      "id": "bringen",
+      "infinitiv": "bringen",
+      "praeteritum": "brachte",
+      "partizip2": "gebracht"
+    },
+    {
+      "id": "denken",
+      "infinitiv": "denken",
+      "praeteritum": "dachte",
+      "partizip2": "gedacht"
+    },
+    {
+      "id": "wissen",
+      "infinitiv": "wissen",
+      "praeteritum": "wusste",
+      "partizip2": "gewusst"
+    },
+    {
+      "id": "fahren",
+      "infinitiv": "fahren",
+      "praeteritum": "fuhr",
+      "partizip2": "gefahren"
+    },
+    {
+      "id": "schlafen",
+      "infinitiv": "schlafen",
+      "praeteritum": "schlief",
+      "partizip2": "geschlafen"
+    },
+    {
+      "id": "sprechen",
+      "infinitiv": "sprechen",
+      "praeteritum": "sprach",
+      "partizip2": "gesprochen"
+    },
+    {
+      "id": "helfen",
+      "infinitiv": "helfen",
+      "praeteritum": "half",
+      "partizip2": "geholfen"
+    },
+    {
+      "id": "laufen",
+      "infinitiv": "laufen",
+      "praeteritum": "lief",
+      "partizip2": "gelaufen"
+    },
+    {
+      "id": "essen",
+      "infinitiv": "essen",
+      "praeteritum": "aß",
+      "partizip2": "gegessen"
+    },
+    {
+      "id": "trinken",
+      "infinitiv": "trinken",
+      "praeteritum": "trank",
+      "partizip2": "getrunken"
+    },
+    {
+      "id": "schreiben",
+      "infinitiv": "schreiben",
+      "praeteritum": "schrieb",
+      "partizip2": "geschrieben"
+    },
+    {
+      "id": "lesen",
+      "infinitiv": "lesen",
+      "praeteritum": "las",
+      "partizip2": "gelesen"
+    },
+    {
+      "id": "treffen",
+      "infinitiv": "treffen",
+      "praeteritum": "traf",
+      "partizip2": "getroffen"
+    },
+    {
+      "id": "beginnen",
+      "infinitiv": "beginnen",
+      "praeteritum": "begann",
+      "partizip2": "begonnen"
+    },
+    {
+      "id": "gewinnen",
+      "infinitiv": "gewinnen",
+      "praeteritum": "gewann",
+      "partizip2": "gewonnen"
+    },
+    {
+      "id": "verlieren",
+      "infinitiv": "verlieren",
+      "praeteritum": "verlor",
+      "partizip2": "verloren"
+    },
+    {
+      "id": "sitzen",
+      "infinitiv": "sitzen",
+      "praeteritum": "saß",
+      "partizip2": "gesessen"
+    },
+    {
+      "id": "stehen",
+      "infinitiv": "stehen",
+      "praeteritum": "stand",
+      "partizip2": "gestanden"
+    },
+    {
+      "id": "liegen",
+      "infinitiv": "liegen",
+      "praeteritum": "lag",
+      "partizip2": "gelegen"
+    },
+    {
+      "id": "halten",
+      "infinitiv": "halten",
+      "praeteritum": "hielt",
+      "partizip2": "gehalten"
+    },
+    {
+      "id": "fallen",
+      "infinitiv": "fallen",
+      "praeteritum": "fiel",
+      "partizip2": "gefallen"
+    },
+    {
+      "id": "lassen",
+      "infinitiv": "lassen",
+      "praeteritum": "ließ",
+      "partizip2": "gelassen"
+    },
+    {
+      "id": "behalten",
+      "infinitiv": "behalten",
+      "praeteritum": "behielt",
+      "partizip2": "behalten"
+    },
+    {
+      "id": "entscheiden",
+      "infinitiv": "entscheiden",
+      "praeteritum": "entschied",
+      "partizip2": "entschieden"
+    },
+    {
+      "id": "verstehen",
+      "infinitiv": "verstehen",
+      "praeteritum": "verstand",
+      "partizip2": "verstanden"
+    },
+    {
+      "id": "empfehlen",
+      "infinitiv": "empfehlen",
+      "praeteritum": "empfahl",
+      "partizip2": "empfohlen"
+    },
+    {
+      "id": "tragen",
+      "infinitiv": "tragen",
+      "praeteritum": "trug",
+      "partizip2": "getragen"
+    },
+    {
+      "id": "ziehen",
+      "infinitiv": "ziehen",
+      "praeteritum": "zog",
+      "partizip2": "gezogen"
+    },
+    {
+      "id": "fliegen",
+      "infinitiv": "fliegen",
+      "praeteritum": "flog",
+      "partizip2": "geflogen"
+    },
+    {
+      "id": "steigen",
+      "infinitiv": "steigen",
+      "praeteritum": "stieg",
+      "partizip2": "gestiegen"
+    },
+    {
+      "id": "beissen",
+      "infinitiv": "beißen",
+      "praeteritum": "biss",
+      "partizip2": "gebissen"
+    },
+    {
+      "id": "bieten",
+      "infinitiv": "bieten",
+      "praeteritum": "bot",
+      "partizip2": "geboten"
+    },
+    {
+      "id": "binden",
+      "infinitiv": "binden",
+      "praeteritum": "band",
+      "partizip2": "gebunden"
+    },
+    {
+      "id": "bitten",
+      "infinitiv": "bitten",
+      "praeteritum": "bat",
+      "partizip2": "gebeten"
+    },
+    {
+      "id": "brechen",
+      "infinitiv": "brechen",
+      "praeteritum": "brach",
+      "partizip2": "gebrochen"
+    },
+    {
+      "id": "brennen",
+      "infinitiv": "brennen",
+      "praeteritum": "brannte",
+      "partizip2": "gebrannt"
+    },
+    {
+      "id": "duerfen",
+      "infinitiv": "dürfen",
+      "praeteritum": "durfte",
+      "partizip2": "gedurft"
+    },
+    {
+      "id": "erschrecken",
+      "infinitiv": "erschrecken",
+      "praeteritum": "erschrak",
+      "partizip2": "erschrocken",
+      "auch": {
+        "praeteritum": "erschreckte",
+        "partizip2": "erschreckt"
+      }
+    },
+    {
+      "id": "fangen",
+      "infinitiv": "fangen",
+      "praeteritum": "fing",
+      "partizip2": "gefangen"
+    },
+    {
+      "id": "fliehen",
+      "infinitiv": "fliehen",
+      "praeteritum": "floh",
+      "partizip2": "geflohen"
+    },
+    {
+      "id": "fliessen",
+      "infinitiv": "fließen",
+      "praeteritum": "floss",
+      "partizip2": "geflossen"
+    },
+    {
+      "id": "frieren",
+      "infinitiv": "frieren",
+      "praeteritum": "fror",
+      "partizip2": "gefroren"
+    },
+    {
+      "id": "gelingen",
+      "infinitiv": "gelingen",
+      "praeteritum": "gelang",
+      "partizip2": "gelungen"
+    },
+    {
+      "id": "gelten",
+      "infinitiv": "gelten",
+      "praeteritum": "galt",
+      "partizip2": "gegolten"
+    },
+    {
+      "id": "geniessen",
+      "infinitiv": "genießen",
+      "praeteritum": "genoss",
+      "partizip2": "genossen"
+    },
+    {
+      "id": "greifen",
+      "infinitiv": "greifen",
+      "praeteritum": "griff",
+      "partizip2": "gegriffen"
+    },
+    {
+      "id": "haengen",
+      "infinitiv": "hängen",
+      "praeteritum": "hing",
+      "partizip2": "gehangen",
+      "auch": {
+        "praeteritum": "hängte",
+        "partizip2": "gehängt"
+      }
+    },
+    {
+      "id": "heben",
+      "infinitiv": "heben",
+      "praeteritum": "hob",
+      "partizip2": "gehoben"
+    },
+    {
+      "id": "heissen",
+      "infinitiv": "heißen",
+      "praeteritum": "hieß",
+      "partizip2": "geheißen"
+    },
+    {
+      "id": "kennen",
+      "infinitiv": "kennen",
+      "praeteritum": "kannte",
+      "partizip2": "gekannt"
+    },
+    {
+      "id": "klingen",
+      "infinitiv": "klingen",
+      "praeteritum": "klang",
+      "partizip2": "geklungen"
+    },
+    {
+      "id": "koennen",
+      "infinitiv": "können",
+      "praeteritum": "konnte",
+      "partizip2": "gekonnt"
+    },
+    {
+      "id": "laden",
+      "infinitiv": "laden",
+      "praeteritum": "lud",
+      "partizip2": "geladen"
+    },
+    {
+      "id": "leiden",
+      "infinitiv": "leiden",
+      "praeteritum": "litt",
+      "partizip2": "gelitten"
+    },
+    {
+      "id": "leihen",
+      "infinitiv": "leihen",
+      "praeteritum": "lieh",
+      "partizip2": "geliehen"
+    },
+    {
+      "id": "luegen",
+      "infinitiv": "lügen",
+      "praeteritum": "log",
+      "partizip2": "gelogen"
+    },
+    {
+      "id": "meiden",
+      "infinitiv": "meiden",
+      "praeteritum": "mied",
+      "partizip2": "gemieden"
+    },
+    {
+      "id": "messen",
+      "infinitiv": "messen",
+      "praeteritum": "maß",
+      "partizip2": "gemessen"
+    },
+    {
+      "id": "muessen",
+      "infinitiv": "müssen",
+      "praeteritum": "musste",
+      "partizip2": "gemusst"
+    },
+    {
+      "id": "nennen",
+      "infinitiv": "nennen",
+      "praeteritum": "nannte",
+      "partizip2": "genannt"
+    },
+    {
+      "id": "pfeifen",
+      "infinitiv": "pfeifen",
+      "praeteritum": "pfiff",
+      "partizip2": "gepfiffen"
+    },
+    {
+      "id": "raten",
+      "infinitiv": "raten",
+      "praeteritum": "riet",
+      "partizip2": "geraten"
+    },
+    {
+      "id": "reiben",
+      "infinitiv": "reiben",
+      "praeteritum": "rieb",
+      "partizip2": "gerieben"
+    },
+    {
+      "id": "reissen",
+      "infinitiv": "reißen",
+      "praeteritum": "riss",
+      "partizip2": "gerissen"
+    },
+    {
+      "id": "reiten",
+      "infinitiv": "reiten",
+      "praeteritum": "ritt",
+      "partizip2": "geritten"
+    },
+    {
+      "id": "rennen",
+      "infinitiv": "rennen",
+      "praeteritum": "rannte",
+      "partizip2": "gerannt"
+    },
+    {
+      "id": "rufen",
+      "infinitiv": "rufen",
+      "praeteritum": "rief",
+      "partizip2": "gerufen"
+    },
+    {
+      "id": "schlagen",
+      "infinitiv": "schlagen",
+      "praeteritum": "schlug",
+      "partizip2": "geschlagen"
+    },
+    {
+      "id": "schliessen",
+      "infinitiv": "schließen",
+      "praeteritum": "schloss",
+      "partizip2": "geschlossen"
+    },
+    {
+      "id": "schneiden",
+      "infinitiv": "schneiden",
+      "praeteritum": "schnitt",
+      "partizip2": "geschnitten"
+    },
+    {
+      "id": "schreien",
+      "infinitiv": "schreien",
+      "praeteritum": "schrie",
+      "partizip2": "geschrien"
+    },
+    {
+      "id": "schwimmen",
+      "infinitiv": "schwimmen",
+      "praeteritum": "schwamm",
+      "partizip2": "geschwommen"
+    },
+    {
+      "id": "senden",
+      "infinitiv": "senden",
+      "praeteritum": "sandte",
+      "partizip2": "gesandt",
+      "auch": {
+        "praeteritum": "sendete",
+        "partizip2": "gesendet"
+      }
+    },
+    {
+      "id": "singen",
+      "infinitiv": "singen",
+      "praeteritum": "sang",
+      "partizip2": "gesungen"
+    },
+    {
+      "id": "sinken",
+      "infinitiv": "sinken",
+      "praeteritum": "sank",
+      "partizip2": "gesunken"
+    },
+    {
+      "id": "springen",
+      "infinitiv": "springen",
+      "praeteritum": "sprang",
+      "partizip2": "gesprungen"
+    },
+    {
+      "id": "stehlen",
+      "infinitiv": "stehlen",
+      "praeteritum": "stahl",
+      "partizip2": "gestohlen"
+    },
+    {
+      "id": "sterben",
+      "infinitiv": "sterben",
+      "praeteritum": "starb",
+      "partizip2": "gestorben"
+    },
+    {
+      "id": "streiten",
+      "infinitiv": "streiten",
+      "praeteritum": "stritt",
+      "partizip2": "gestritten"
+    },
+    {
+      "id": "treiben",
+      "infinitiv": "treiben",
+      "praeteritum": "trieb",
+      "partizip2": "getrieben"
+    },
+    {
+      "id": "vergessen",
+      "infinitiv": "vergessen",
+      "praeteritum": "vergaß",
+      "partizip2": "vergessen"
+    },
+    {
+      "id": "wachsen",
+      "infinitiv": "wachsen",
+      "praeteritum": "wuchs",
+      "partizip2": "gewachsen"
+    },
+    {
+      "id": "werfen",
+      "infinitiv": "werfen",
+      "praeteritum": "warf",
+      "partizip2": "geworfen"
+    },
+    {
+      "id": "zwingen",
+      "infinitiv": "zwingen",
+      "praeteritum": "zwang",
+      "partizip2": "gezwungen"
+    }
+  ]
+}

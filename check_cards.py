@@ -2,7 +2,7 @@
 """Checks for cards.json (see rules.md).
 
   python3 check_cards.py WORD [WORD ...]   which words are already in cards.json
-  python3 check_cards.py --validate        validate every card against the rules
+  python3 check_cards.py --validate        validate every card (and verbs.json) against the rules
 """
 import json
 import re
@@ -10,6 +10,7 @@ import sys
 from pathlib import Path
 
 CARDS = Path(__file__).with_name("cards.json")
+VERBS = Path(__file__).with_name("verbs.json")
 LANGS = ["de", "tr", "en", "uk", "ar", "it"]
 TYPES = {"noun", "verb", "adjective", "adverb", "phrase"}
 SOURCES = {"notes", "book"}
@@ -122,9 +123,33 @@ def validate():
             errors.append(f"{c.get('id')}: aynı kelime zaten var ({seen[key]})")
         seen.setdefault(key, c.get("id"))
 
+    errors += validate_verbs()
     print(f"{len(cards)} kart kontrol edildi")
     print("\n".join(errors) or "Hata yok")
     return not errors
+
+
+def validate_verbs():
+    """verbs.json: the verb table for the Verben Formen test (rules.md, bölüm 7)."""
+    if not VERBS.exists():
+        return []
+    verbs = json.loads(VERBS.read_text(encoding="utf-8"))["verbs"]
+    errors, ids = [], set()
+    for v in verbs:
+        i = v.get("id")
+        if not i or not re.fullmatch(r"[a-z0-9-]+", i):
+            errors.append(f"verbs.json {i}: id geçersiz")
+        if i in ids:
+            errors.append(f"verbs.json {i}: id tekrar ediyor")
+        ids.add(i)
+        for k in ("infinitiv", "praeteritum", "partizip2"):
+            if not v.get(k):
+                errors.append(f"verbs.json {i}: {k} eksik")
+        auch = v.get("auch")
+        if auch is not None and not (auch.get("praeteritum") and auch.get("partizip2")):
+            errors.append(f"verbs.json {i}: auch eksik (praeteritum ve partizip2)")
+    print(f"{len(verbs)} fiil (verbs.json) kontrol edildi")
+    return errors
 
 
 if __name__ == "__main__":

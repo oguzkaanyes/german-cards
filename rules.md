@@ -16,6 +16,8 @@ Kartlar iki listeye ayrılır. Hangi listeye ait olduğu `source` alanında yaza
 - **Notizen** kartlarında `date` olur, `chapter` olmaz. **Buch** kartlarında `chapter` olur, `date` olmaz.
 - Tekrar kontrolü iki listeye birden bakar: kelime Notizen veya Buch listesinin herhangi birinde varsa tekrar eklenmez (bkz. adım 4).
 
+**İstisna — fiil tablosu:** Fotoğraf bir düzensiz fiil tablosuysa (Infinitiv · Präteritum · Partizip II sütunları, ör. kitabın "Unregelmäßige Verben" sayfası) ve kullanıcı bunların ezber/soru için değil **sadece test için** olduğunu söylüyorsa, fiiller `cards.json`'a değil `verbs.json`'a eklenir. Bkz. bölüm 7.
+
 Uygulama (`index.html`) bu dosyadaki alan adlarını okur. Alan adlarını değiştirmek veya yeni alan eklemek uygulamayı da değiştirmeyi gerektirir.
 
 ---
@@ -252,3 +254,33 @@ python3 check_cards.py --validate
 Betik şunları kontrol eder: geçerli JSON, benzersiz ve kurala uygun `id`, `source` değeri, Notizen kartlarında `date` biçimi, Buch kartlarında `chapter` (ve karşı alanın olmaması), `type` değeri, isimlerde `article`, 6 dilin hepsinde `meaning` ve `example`, fiillerde `forms` ve Rektion (`note`), `reflexive` ile `word` uyumu ve aynı kelimenin iki kez eklenmemesi.
 
 Ek olarak `git diff` ile yalnızca yeni kartların eklendiğini, mevcut kartların değişmediğini kontrol et.
+
+---
+
+## 7. Fiil tablosu: `verbs.json` (Verben Formen testi)
+
+Düzensiz fiil tabloları kart olmaz; sadece uygulamadaki **Verben Formen 📝** testinde kullanılır. Bu fiiller Notizen, Buch, Saved, Gelernt, Jetzt spielen ve Erinnerung'da görünmez.
+
+- **Ne zaman:** Kullanıcı Infinitiv / Präteritum / Partizip II tablosunun fotoğrafını verip "sadece test için" veya "Verben Formen'e ekle" dediğinde. Emin değilsen sor (kart mı, test mi).
+- **Nereye:** `verbs.json` içindeki `verbs` dizisinin **sonuna**, tablodaki sırayla (önce sol sütun yukarıdan aşağı, sonra sağ sütun; birden fazla sayfa varsa sayfa sırasıyla).
+- **Tekrar:** Bir fiil `verbs.json`'da zaten varsa (veya aynı istekte iki kez geçiyorsa) tekrar eklenmez; özette "tekrar etti" diye belirt. `cards.json`'da aynı fiilin kartı olması sorun değildir, iki dosya birbirinden bağımsızdır.
+- **Yazım:** Tablodaki biçim aynen alınır; sadece belirgin okuma/baskı hatası düzeltilir ve özette belirtilir. Yardımcı fiil (`hat`/`ist`) yazılmaz, `partizip2` tek kelimedir.
+
+```json
+{
+  "id": "geniessen",
+  "infinitiv": "genießen",
+  "praeteritum": "genoss",
+  "partizip2": "genossen"
+}
+```
+
+| Alan | Kural |
+|---|---|
+| `id` | Bölüm 4'teki kurallarla `infinitiv`'den (`genießen` → `geniessen`). `verbs.json` içinde benzersiz. Mevcut `id` değerleri değiştirilmez: testteki doğru sayıları bu değerle saklanır. |
+| `infinitiv` / `praeteritum` / `partizip2` | Zorunlu. Tablodaki gibi, 3. tekil şahıs Präteritum. |
+| `auch` | İsteğe bağlı. Tablodakinden başka bir biçim de doğruysa (ör. `senden` → `sendete` / `gesendet`, `hängen` → `hängte` / `gehängt`): `{"praeteritum": "…", "partizip2": "…"}`. Test bu biçimi yanlış şık olarak göstermez. |
+
+Testin işleyişi (`index.html`): Infinitiv gösterilir, 4 şıktan doğru "Präteritum · Partizip II" çifti seçilir. Yanlış şıklar fiilin düzenli gibi çekimlenmiş hâlinden üretilir (`genießte · gegenießt`). Cevaptan sonra Doğru/Yanlış gösterilir ve kendiliğinden sonraki fiile geçilir. Bir fiil **7 kez** doğru cevaplanınca test listesinden çıkar (sayaç cihazda saklanır, `verbs.json`'dan silinmez).
+
+Ekledikten sonra `python3 check_cards.py --validate` çalıştır; betik `verbs.json`'u da kontrol eder.
