@@ -259,7 +259,7 @@ Ek olarak `git diff` ile yalnızca yeni kartların eklendiğini, mevcut kartlar�
 
 ## 7. Fiil tablosu: `verbs.json` (Verben Formen testi)
 
-Düzensiz fiil tabloları kart olmaz; sadece uygulamadaki **Verben Formen 📝** testinde kullanılır. Bu fiiller Notizen, Buch, Saved, Gelernt, Jetzt spielen ve Erinnerung'da görünmez.
+Düzensiz fiil tabloları kart olmaz; sadece uygulamadaki **Verben Formen 📝** ve **Verben Schreiben ✍️** testlerinde kullanılır. Bu fiiller Notizen, Buch, Saved, Gelernt, Jetzt spielen ve Erinnerung'da görünmez.
 
 - **Ne zaman:** Kullanıcı Infinitiv / Präteritum / Partizip II tablosunun fotoğrafını verip "sadece test için" veya "Verben Formen'e ekle" dediğinde. Emin değilsen sor (kart mı, test mi).
 - **Nereye:** `verbs.json` içindeki `verbs` dizisinin **sonuna**, tablodaki sırayla (önce sol sütun yukarıdan aşağı, sonra sağ sütun; birden fazla sayfa varsa sayfa sırasıyla).
@@ -281,6 +281,11 @@ Düzensiz fiil tabloları kart olmaz; sadece uygulamadaki **Verben Formen 📝**
 | `infinitiv` / `praeteritum` / `partizip2` | Zorunlu. Tablodaki gibi, 3. tekil şahıs Präteritum. |
 | `auch` | İsteğe bağlı. Tablodakinden başka bir biçim de doğruysa (ör. `senden` → `sendete` / `gesendet`, `hängen` → `hängte` / `gehängt`): `{"praeteritum": "…", "partizip2": "…"}`. Test bu biçimi yanlış şık olarak göstermez. |
 
-Testin işleyişi (`index.html`): Infinitiv gösterilir, 4 şıktan doğru "Präteritum · Partizip II" çifti seçilir. Yanlış şıklar fiilin düzenli gibi çekimlenmiş hâlinden üretilir (`genießte · gegenießt`). Cevaptan sonra Doğru/Yanlış gösterilir ve kendiliğinden sonraki fiile geçilir. Bir fiil **7 kez** doğru cevaplanınca test listesinden çıkar (sayaç cihazda saklanır, `verbs.json`'dan silinmez).
+Testlerin işleyişi (`index.html`), iki aşamada:
+
+1. **Verben Formen 📝 (çoktan seçmeli):** Infinitiv gösterilir, 4 şıktan doğru "Präteritum · Partizip II" çifti seçilir. Yanlış şıklar fiilin düzenli gibi çekimlenmiş hâlinden üretilir (`genießte · gegenießt`). Cevaptan sonra Doğru/Yanlış gösterilir ve kendiliğinden sonraki fiile geçilir. Bir fiil **7 kez** doğru cevaplanınca buradan çıkar ve Verben Schreiben'e geçer.
+2. **Verben Schreiben ✍️ (yazarak):** Infinitiv gösterilir, Präteritum ve Partizip II yazılır. Büyük/küçük harf, fazla boşluk ve `ß` yerine `ss` yazmak doğru sayılır; umlaut eksikse (`hangen`) yanlış sayılır. Yanlış alanın altında doğru biçim gösterilir, sonra kendiliğinden sonraki fiile geçilir. İki biçim de doğruysa cevap doğru sayılır. Bir fiil **3 kez** doğru yazılınca testten tamamen çıkar.
+
+Her iki testte de kalan fiiller her turda karışık sırayla birer kez sorulur; yanlış cevaplanan fiil turun sonunda tekrar sorulur. Sayaçlar cihazda saklanır, fiiller `verbs.json`'dan silinmez.
 
 Ekledikten sonra `python3 check_cards.py --validate` çalıştır; betik `verbs.json`'u da kontrol eder.
