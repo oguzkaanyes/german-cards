@@ -10566,6 +10566,1315 @@
         "it": "Voglio provare la nuova ricetta nel fine settimana."
       },
       "note": "etwas (Akk.) ausprobieren"
+    },
+    {
+      "id": "abwechslungsreich",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "abwechslungsreich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Mit vielen verschiedenen Aufgaben oder Dingen, nicht langweilig",
+        "tr": "çeşitli, değişken, monoton olmayan",
+        "en": "varied, diverse",
+        "uk": "різноманітний",
+        "ar": "متنوّع",
+        "it": "vario, variegato"
+      },
+      "synonyms": [
+        "vielfältig",
+        "abwechslungsvoll"
+      ],
+      "antonyms": [
+        "eintönig",
+        "monoton"
+      ],
+      "example": {
+        "de": "Wir bieten Ihnen eine abwechslungsreiche Tätigkeit in einem jungen Team.",
+        "tr": "Size genç bir ekipte çeşitli görevler içeren bir iş sunuyoruz.",
+        "en": "We offer you a varied job in a young team.",
+        "uk": "Ми пропонуємо вам різноманітну роботу в молодій команді.",
+        "ar": "نقدّم لكم عملًا متنوعًا في فريق شاب.",
+        "it": "Le offriamo un'attività varia in un team giovane."
+      },
+      "note": null
+    },
+    {
+      "id": "vollstaendig",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "vollständig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Mit allen Teilen, ohne dass etwas fehlt",
+        "tr": "eksiksiz, tam, bütün",
+        "en": "complete, full",
+        "uk": "повний, комплектний",
+        "ar": "كامل، تامّ",
+        "it": "completo"
+      },
+      "synonyms": [
+        "komplett",
+        "ganz"
+      ],
+      "antonyms": [
+        "unvollständig",
+        "lückenhaft"
+      ],
+      "example": {
+        "de": "Bitte schicken Sie uns Ihre vollständigen Bewerbungsunterlagen.",
+        "tr": "Lütfen bize eksiksiz başvuru belgelerinizi gönderin.",
+        "en": "Please send us your complete application documents.",
+        "uk": "Будь ласка, надішліть нам повний пакет документів для подання заявки.",
+        "ar": "يرجى إرسال ملف طلبكم كاملًا إلينا.",
+        "it": "Ci invii per favore la documentazione completa della candidatura."
+      },
+      "note": null
+    },
+    {
+      "id": "gewerblich",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "gewerblich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Zu Handel, Handwerk oder Industrie gehörend; geschäftlich, nicht privat",
+        "tr": "ticari, sınai, mesleki",
+        "en": "commercial, industrial, trade",
+        "uk": "комерційний, промисловий",
+        "ar": "تجاري، صناعي",
+        "it": "commerciale, industriale"
+      },
+      "synonyms": [
+        "geschäftlich",
+        "kommerziell"
+      ],
+      "antonyms": [
+        "privat"
+      ],
+      "example": {
+        "de": "Die Firma sucht Mitarbeiter für den gewerblichen Bereich.",
+        "tr": "Şirket üretim/teknik alan için çalışan arıyor.",
+        "en": "The company is looking for staff in the industrial sector.",
+        "uk": "Фірма шукає працівників для виробничої сфери.",
+        "ar": "تبحث الشركة عن موظفين للقطاع الصناعي.",
+        "it": "L'azienda cerca personale per il settore industriale."
+      },
+      "note": "gewerbliche Ausbildung = Ausbildung in Handwerk/Industrie"
+    },
+    {
+      "id": "familienbetrieb",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Familienbetrieb",
+      "type": "noun",
+      "article": "der",
+      "plural": "Familienbetriebe",
+      "reflexive": false,
+      "meaning": {
+        "de": "Firma, die einer Familie gehört und von ihr geführt wird",
+        "tr": "aile işletmesi, aile şirketi",
+        "en": "family business",
+        "uk": "сімейне підприємство",
+        "ar": "شركة عائلية",
+        "it": "azienda familiare"
+      },
+      "synonyms": [
+        "das Familienunternehmen"
+      ],
+      "antonyms": [
+        "der Konzern"
+      ],
+      "example": {
+        "de": "Unsere Bäckerei ist seit drei Generationen ein Familienbetrieb.",
+        "tr": "Fırınımız üç kuşaktır bir aile işletmesi.",
+        "en": "Our bakery has been a family business for three generations.",
+        "uk": "Наша пекарня вже три покоління є сімейним підприємством.",
+        "ar": "مخبزنا شركة عائلية منذ ثلاثة أجيال.",
+        "it": "La nostra panetteria è un'azienda familiare da tre generazioni."
+      },
+      "note": null
+    },
+    {
+      "id": "einstieg",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Einstieg",
+      "type": "noun",
+      "article": "der",
+      "plural": "Einstiege",
+      "reflexive": false,
+      "meaning": {
+        "de": "Der Anfang in einem Beruf oder Thema; auch: das Einsteigen in ein Fahrzeug",
+        "tr": "başlangıç, giriş; (araca) biniş",
+        "en": "start, entry; boarding",
+        "uk": "початок, вхід; посадка",
+        "ar": "بداية، دخول؛ صعود (مركبة)",
+        "it": "ingresso, inizio; salita"
+      },
+      "synonyms": [
+        "der Anfang",
+        "der Beginn"
+      ],
+      "antonyms": [
+        "der Ausstieg"
+      ],
+      "example": {
+        "de": "Ein Praktikum ist ein guter Einstieg ins Berufsleben.",
+        "tr": "Staj, iş hayatına iyi bir başlangıçtır.",
+        "en": "An internship is a good way into working life.",
+        "uk": "Стажування — гарний початок професійного життя.",
+        "ar": "التدريب بداية جيدة للحياة المهنية.",
+        "it": "Un tirocinio è un buon ingresso nel mondo del lavoro."
+      },
+      "note": "der Einstieg in etwas (Akk.); Berufseinstieg"
+    },
+    {
+      "id": "spannend",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "spannend",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sehr interessant, sodass man wissen will, wie es weitergeht",
+        "tr": "heyecanlı, sürükleyici, ilginç",
+        "en": "exciting, thrilling",
+        "uk": "захопливий, цікавий",
+        "ar": "مشوّق، مثير",
+        "it": "avvincente, emozionante"
+      },
+      "synonyms": [
+        "interessant",
+        "aufregend"
+      ],
+      "antonyms": [
+        "langweilig"
+      ],
+      "example": {
+        "de": "Der Film war so spannend, dass ich nicht aufhören konnte.",
+        "tr": "Film o kadar sürükleyiciydi ki bırakamadım.",
+        "en": "The film was so exciting that I couldn't stop.",
+        "uk": "Фільм був такий захопливий, що я не міг відірватися.",
+        "ar": "كان الفيلم مشوقًا لدرجة أنني لم أستطع التوقف.",
+        "it": "Il film era così avvincente che non riuscivo a smettere."
+      },
+      "note": "Partizip I von „spannen“"
+    },
+    {
+      "id": "ansprechpartner",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Ansprechpartner",
+      "type": "noun",
+      "article": "der",
+      "plural": "Ansprechpartner",
+      "reflexive": false,
+      "meaning": {
+        "de": "Person, an die man sich mit Fragen wenden kann",
+        "tr": "muhatap, irtibat kişisi",
+        "en": "contact person",
+        "uk": "контактна особа",
+        "ar": "الشخص المسؤول عن التواصل",
+        "it": "referente, persona di contatto"
+      },
+      "synonyms": [
+        "die Kontaktperson"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Während der Einarbeitung haben Sie einen festen Ansprechpartner.",
+        "tr": "İşe alışma süresince sabit bir irtibat kişiniz olur.",
+        "en": "During your induction you have a permanent contact person.",
+        "uk": "Під час адаптації у вас є постійна контактна особа.",
+        "ar": "خلال فترة التأهيل يكون لديك شخص ثابت للتواصل.",
+        "it": "Durante l'inserimento ha un referente fisso."
+      },
+      "note": "ein fester Ansprechpartner; weiblich: die Ansprechpartnerin"
+    },
+    {
+      "id": "familiaer",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "familiär",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Familie betreffend; auch: freundlich und vertraut wie in einer Familie",
+        "tr": "ailevi; samimi, sıcak",
+        "en": "family; friendly, informal",
+        "uk": "сімейний; дружній, невимушений",
+        "ar": "عائلي؛ ودّي، حميم",
+        "it": "familiare; informale, accogliente"
+      },
+      "synonyms": [
+        "vertraut",
+        "persönlich"
+      ],
+      "antonyms": [
+        "förmlich",
+        "anonym"
+      ],
+      "example": {
+        "de": "In unserem kleinen Team herrscht eine familiäre Atmosphäre.",
+        "tr": "Küçük ekibimizde samimi bir ortam var.",
+        "en": "Our small team has a friendly, family atmosphere.",
+        "uk": "У нашій невеликій команді панує сімейна атмосфера.",
+        "ar": "يسود فريقنا الصغير جوّ عائلي.",
+        "it": "Nel nostro piccolo team c'è un'atmosfera familiare."
+      },
+      "note": "familiäre Gründe = Gründe in der Familie"
+    },
+    {
+      "id": "erneuerbar",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "erneuerbar",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "So, dass es sich immer wieder neu bildet und nicht verbraucht wird",
+        "tr": "yenilenebilir",
+        "en": "renewable",
+        "uk": "відновлюваний",
+        "ar": "متجدّد",
+        "it": "rinnovabile"
+      },
+      "synonyms": [
+        "regenerativ"
+      ],
+      "antonyms": [
+        "fossil",
+        "endlich"
+      ],
+      "example": {
+        "de": "Wind und Sonne sind erneuerbare Energien.",
+        "tr": "Rüzgâr ve güneş yenilenebilir enerjilerdir.",
+        "en": "Wind and sun are renewable energies.",
+        "uk": "Вітер і сонце — відновлювані джерела енергії.",
+        "ar": "الرياح والشمس طاقات متجددة.",
+        "it": "Il vento e il sole sono energie rinnovabili."
+      },
+      "note": "erneuerbare Energien"
+    },
+    {
+      "id": "arbeitsausstattung",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Arbeitsausstattung",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Alle Geräte, Kleidung und Mittel, die man für die Arbeit bekommt",
+        "tr": "iş ekipmanı, çalışma donanımı",
+        "en": "work equipment",
+        "uk": "робоче оснащення, спорядження",
+        "ar": "معدّات العمل",
+        "it": "attrezzatura di lavoro"
+      },
+      "synonyms": [
+        "die Ausrüstung",
+        "die Arbeitsmittel"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Zur Arbeitsausstattung gehören ein Laptop und ein Diensthandy.",
+        "tr": "İş ekipmanına bir dizüstü bilgisayar ve bir iş telefonu dahil.",
+        "en": "The work equipment includes a laptop and a work phone.",
+        "uk": "До робочого оснащення входять ноутбук і службовий телефон.",
+        "ar": "تشمل معدّات العمل حاسوبًا محمولًا وهاتفًا للعمل.",
+        "it": "L'attrezzatura di lavoro comprende un portatile e un telefono aziendale."
+      },
+      "note": null
+    },
+    {
+      "id": "schulung",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Schulung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Schulungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Kurs, in dem man etwas für den Beruf lernt",
+        "tr": "eğitim, kurs (mesleki)",
+        "en": "training, training course",
+        "uk": "навчання, тренінг",
+        "ar": "تدريب، دورة تدريبية",
+        "it": "formazione, corso"
+      },
+      "synonyms": [
+        "die Fortbildung",
+        "das Training"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Nächste Woche nehme ich an einer Schulung zum neuen Programm teil.",
+        "tr": "Gelecek hafta yeni program hakkında bir eğitime katılıyorum.",
+        "en": "Next week I'm taking part in a training course on the new software.",
+        "uk": "Наступного тижня я беру участь у тренінгу з нової програми.",
+        "ar": "الأسبوع القادم سأشارك في دورة تدريبية عن البرنامج الجديد.",
+        "it": "La prossima settimana partecipo a un corso sul nuovo programma."
+      },
+      "note": "an einer Schulung teilnehmen"
+    },
+    {
+      "id": "fair",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "fair",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Gerecht und ehrlich, für alle gleich",
+        "tr": "adil, dürüst",
+        "en": "fair",
+        "uk": "чесний, справедливий",
+        "ar": "عادل، منصف",
+        "it": "equo, corretto, leale"
+      },
+      "synonyms": [
+        "gerecht",
+        "anständig"
+      ],
+      "antonyms": [
+        "unfair",
+        "ungerecht"
+      ],
+      "example": {
+        "de": "Wir bieten eine faire Bezahlung und flexible Arbeitszeiten.",
+        "tr": "Adil bir ücret ve esnek çalışma saatleri sunuyoruz.",
+        "en": "We offer fair pay and flexible working hours.",
+        "uk": "Ми пропонуємо справедливу оплату та гнучкий графік.",
+        "ar": "نقدّم أجرًا عادلًا وساعات عمل مرنة.",
+        "it": "Offriamo una retribuzione equa e orari flessibili."
+      },
+      "note": null
+    },
+    {
+      "id": "verguetung",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Vergütung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Vergütungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Bezahlung für eine Arbeit oder Leistung",
+        "tr": "ücret, ödeme",
+        "en": "pay, remuneration",
+        "uk": "винагорода, оплата праці",
+        "ar": "أجر، مكافأة",
+        "it": "retribuzione, compenso"
+      },
+      "synonyms": [
+        "die Bezahlung",
+        "das Gehalt"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Stelle bietet eine geregelte Vergütung nach Tarif.",
+        "tr": "Pozisyon toplu sözleşmeye göre düzenli bir ücret sunuyor.",
+        "en": "The position offers regulated pay according to the collective agreement.",
+        "uk": "Посада передбачає врегульовану оплату за тарифом.",
+        "ar": "توفّر الوظيفة أجرًا منظّمًا وفق الاتفاق الجماعي.",
+        "it": "Il posto offre una retribuzione regolata secondo il contratto collettivo."
+      },
+      "note": "geregelte Vergütung = feste, klar geregelte Bezahlung; Verb: vergüten"
+    },
+    {
+      "id": "abschluss",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Abschluss",
+      "type": "noun",
+      "article": "der",
+      "plural": "Abschlüsse",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Ende einer Ausbildung mit Zeugnis; auch: Ende, Vertrag",
+        "tr": "mezuniyet, diploma; bitiş; (sözleşme) yapma",
+        "en": "degree, qualification; conclusion; signing (of a contract)",
+        "uk": "закінчення, диплом; завершення; укладення",
+        "ar": "شهادة، تخرّج؛ ختام؛ إبرام (عقد)",
+        "it": "diploma, titolo di studio; conclusione"
+      },
+      "synonyms": [
+        "das Ende",
+        "der Schulabschluss"
+      ],
+      "antonyms": [
+        "der Anfang"
+      ],
+      "example": {
+        "de": "Nach dem Abschluss möchte ich im Ausland arbeiten.",
+        "tr": "Mezun olduktan sonra yurt dışında çalışmak istiyorum.",
+        "en": "After graduating I'd like to work abroad.",
+        "uk": "Після закінчення навчання я хочу працювати за кордоном.",
+        "ar": "بعد التخرج أريد أن أعمل في الخارج.",
+        "it": "Dopo il diploma vorrei lavorare all'estero."
+      },
+      "note": "einen Abschluss machen; der Abschluss eines Vertrags"
+    },
+    {
+      "id": "arbeitsatmosphaere",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Arbeitsatmosphäre",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Stimmung und das Klima am Arbeitsplatz",
+        "tr": "çalışma ortamı, iş atmosferi",
+        "en": "working atmosphere",
+        "uk": "робоча атмосфера",
+        "ar": "جوّ العمل",
+        "it": "clima di lavoro, atmosfera lavorativa"
+      },
+      "synonyms": [
+        "das Betriebsklima",
+        "das Arbeitsklima"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In unserer Firma gibt es eine angenehme Arbeitsatmosphäre.",
+        "tr": "Şirketimizde hoş bir çalışma ortamı var.",
+        "en": "Our company has a pleasant working atmosphere.",
+        "uk": "У нашій фірмі приємна робоча атмосфера.",
+        "ar": "يسود شركتنا جوّ عمل مريح.",
+        "it": "Nella nostra azienda c'è un clima di lavoro piacevole."
+      },
+      "note": null
+    },
+    {
+      "id": "anschliessend",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "anschließend",
+      "type": "adverb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Danach, im Anschluss daran",
+        "tr": "ardından, sonra, akabinde",
+        "en": "afterwards, subsequently",
+        "uk": "після цього, згодом",
+        "ar": "بعد ذلك، لاحقًا",
+        "it": "successivamente, in seguito"
+      },
+      "synonyms": [
+        "danach",
+        "dann"
+      ],
+      "antonyms": [
+        "vorher",
+        "zuvor"
+      ],
+      "example": {
+        "de": "Wir essen zuerst, anschließend gehen wir ins Kino.",
+        "tr": "Önce yemek yiyoruz, ardından sinemaya gidiyoruz.",
+        "en": "We'll eat first and go to the cinema afterwards.",
+        "uk": "Спочатку ми поїмо, а потім підемо в кіно.",
+        "ar": "سنأكل أولًا ثم نذهب إلى السينما بعد ذلك.",
+        "it": "Prima mangiamo, poi andiamo al cinema."
+      },
+      "note": "auch Adjektiv: die anschließende Diskussion"
+    },
+    {
+      "id": "mathematik",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Mathematik",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Wissenschaft von Zahlen, Formen und Berechnungen; Schulfach",
+        "tr": "matematik",
+        "en": "mathematics, maths",
+        "uk": "математика",
+        "ar": "الرياضيات",
+        "it": "matematica"
+      },
+      "synonyms": [
+        "die Mathe"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In Mathematik hatte ich immer gute Noten.",
+        "tr": "Matematikte her zaman iyi notlarım vardı.",
+        "en": "I always had good grades in maths.",
+        "uk": "З математики в мене завжди були добрі оцінки.",
+        "ar": "كانت درجاتي في الرياضيات جيدة دائمًا.",
+        "it": "In matematica ho sempre avuto bei voti."
+      },
+      "note": "umgangssprachlich: Mathe"
+    },
+    {
+      "id": "lieblingsfach",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Lieblingsfach",
+      "type": "noun",
+      "article": "das",
+      "plural": "Lieblingsfächer",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Schulfach, das man am liebsten mag",
+        "tr": "en sevilen ders",
+        "en": "favourite subject",
+        "uk": "улюблений предмет",
+        "ar": "المادة المفضّلة",
+        "it": "materia preferita"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Mein Lieblingsfach war Informatik.",
+        "tr": "En sevdiğim ders bilgisayar bilimiydi.",
+        "en": "My favourite subject was computer science.",
+        "uk": "Моїм улюбленим предметом була інформатика.",
+        "ar": "كانت مادتي المفضّلة المعلوماتية.",
+        "it": "La mia materia preferita era informatica."
+      },
+      "note": null
+    },
+    {
+      "id": "grund",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Grund",
+      "type": "noun",
+      "article": "der",
+      "plural": "Gründe",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Ursache, warum etwas passiert; auch: Boden",
+        "tr": "sebep, neden; zemin, dip",
+        "en": "reason, cause; ground, bottom",
+        "uk": "причина; дно, ґрунт",
+        "ar": "سبب؛ قاع، أرض",
+        "it": "motivo, ragione; fondo"
+      },
+      "synonyms": [
+        "die Ursache",
+        "das Motiv"
+      ],
+      "antonyms": [
+        "die Folge"
+      ],
+      "example": {
+        "de": "Aus welchem Grund haben Sie sich bei uns beworben?",
+        "tr": "Hangi sebeple bize başvurdunuz?",
+        "en": "For what reason did you apply to us?",
+        "uk": "З якої причини ви подали заявку до нас?",
+        "ar": "لأي سبب تقدّمت إلينا؟",
+        "it": "Per quale motivo si è candidato da noi?"
+      },
+      "note": "der Grund für etwas (Akk.); aus diesem Grund"
+    },
+    {
+      "id": "bereich",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Bereich",
+      "type": "noun",
+      "article": "der",
+      "plural": "Bereiche",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Gebiet, Fach oder Teil von etwas",
+        "tr": "alan, bölüm, sektör",
+        "en": "area, field, sector",
+        "uk": "сфера, галузь, ділянка",
+        "ar": "مجال، قطاع",
+        "it": "settore, ambito, campo"
+      },
+      "synonyms": [
+        "das Gebiet",
+        "das Feld"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Sie arbeitet im Bereich Marketing.",
+        "tr": "Pazarlama alanında çalışıyor.",
+        "en": "She works in the field of marketing.",
+        "uk": "Вона працює у сфері маркетингу.",
+        "ar": "تعمل في مجال التسويق.",
+        "it": "Lavora nel settore marketing."
+      },
+      "note": "im Bereich (+ Nomen)"
+    },
+    {
+      "id": "informatik",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Informatik",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Wissenschaft von Computern und Datenverarbeitung",
+        "tr": "bilgisayar bilimi, enformatik",
+        "en": "computer science",
+        "uk": "інформатика",
+        "ar": "علوم الحاسوب، المعلوماتية",
+        "it": "informatica"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Mein Bruder studiert Informatik in München.",
+        "tr": "Erkek kardeşim Münih'te bilgisayar bilimi okuyor.",
+        "en": "My brother studies computer science in Munich.",
+        "uk": "Мій брат вивчає інформатику в Мюнхені.",
+        "ar": "يدرس أخي علوم الحاسوب في ميونخ.",
+        "it": "Mio fratello studia informatica a Monaco."
+      },
+      "note": null
+    },
+    {
+      "id": "studium",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Studium",
+      "type": "noun",
+      "article": "das",
+      "plural": "Studien",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ausbildung an einer Universität oder Hochschule",
+        "tr": "üniversite öğrenimi, yükseköğrenim",
+        "en": "university studies, degree",
+        "uk": "навчання в університеті",
+        "ar": "الدراسة الجامعية",
+        "it": "studi universitari"
+      },
+      "synonyms": [
+        "die Hochschulausbildung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Nach dem Studium hat sie sofort eine Stelle gefunden.",
+        "tr": "Öğrenimden sonra hemen bir iş buldu.",
+        "en": "After her studies she found a job straight away.",
+        "uk": "Після навчання в університеті вона одразу знайшла роботу.",
+        "ar": "بعد الدراسة الجامعية وجدت وظيفة فورًا.",
+        "it": "Dopo gli studi ha trovato subito un lavoro."
+      },
+      "note": "ein Studium beginnen/abschließen; Verb: studieren"
+    },
+    {
+      "id": "kaelte",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Kälte",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Niedrige Temperatur; das Kaltsein",
+        "tr": "soğuk, soğukluk",
+        "en": "cold, coldness",
+        "uk": "холод",
+        "ar": "البرد",
+        "it": "freddo"
+      },
+      "synonyms": [
+        "der Frost"
+      ],
+      "antonyms": [
+        "die Wärme",
+        "die Hitze"
+      ],
+      "example": {
+        "de": "An der Küste herrscht seit Tagen große Kälte.",
+        "tr": "Kıyıda günlerdir şiddetli bir soğuk hâkim.",
+        "en": "There has been severe cold on the coast for days.",
+        "uk": "На узбережжі вже кілька днів панує сильний холод.",
+        "ar": "يسود البرد الشديد على الساحل منذ أيام.",
+        "it": "Sulla costa da giorni c'è un gran freddo."
+      },
+      "note": null
+    },
+    {
+      "id": "herrschen",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "herrschen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "herrscht",
+        "praeteritum": "herrschte",
+        "perfekt": "hat geherrscht"
+      },
+      "meaning": {
+        "de": "Regieren, Macht haben; auch: als Zustand da sein (Wetter, Stimmung)",
+        "tr": "hüküm sürmek, egemen olmak; hâkim olmak (hava, ortam)",
+        "en": "to rule, to reign; to prevail",
+        "uk": "панувати, правити",
+        "ar": "يحكم، يسود",
+        "it": "regnare, dominare; esserci, regnare (atmosfera, clima)"
+      },
+      "synonyms": [
+        "regieren",
+        "vorherrschen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Im ganzen Land herrscht eisige Kälte.",
+        "tr": "Bütün ülkede dondurucu bir soğuk hâkim.",
+        "en": "Icy cold prevails across the whole country.",
+        "uk": "По всій країні панує крижаний холод.",
+        "ar": "يسود البرد القارس في جميع أنحاء البلاد.",
+        "it": "In tutto il paese regna un freddo glaciale."
+      },
+      "note": "über jemanden/etwas (Akk.) herrschen; es herrscht + Nomen (Kälte, Stille, Ordnung)"
+    },
+    {
+      "id": "kueste",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Küste",
+      "type": "noun",
+      "article": "die",
+      "plural": "Küsten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Land direkt am Meer",
+        "tr": "kıyı, sahil",
+        "en": "coast",
+        "uk": "узбережжя",
+        "ar": "الساحل",
+        "it": "costa"
+      },
+      "synonyms": [
+        "das Ufer",
+        "der Strand"
+      ],
+      "antonyms": [
+        "das Binnenland"
+      ],
+      "example": {
+        "de": "Im Sommer fahren viele Familien an die Küste.",
+        "tr": "Yazın birçok aile sahile gidiyor.",
+        "en": "In summer many families go to the coast.",
+        "uk": "Улітку багато сімей їдуть на узбережжя.",
+        "ar": "في الصيف تذهب عائلات كثيرة إلى الساحل.",
+        "it": "D'estate molte famiglie vanno sulla costa."
+      },
+      "note": "an der Küste; an die Küste fahren"
+    },
+    {
+      "id": "blasen",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "blasen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "bläst",
+        "praeteritum": "blies",
+        "perfekt": "hat geblasen"
+      },
+      "meaning": {
+        "de": "Luft stark aus dem Mund pressen; (Wind) sich stark bewegen, wehen",
+        "tr": "esmek; üflemek",
+        "en": "to blow",
+        "uk": "дути; віяти",
+        "ar": "يهبّ (الريح)؛ ينفخ",
+        "it": "soffiare"
+      },
+      "synonyms": [
+        "wehen",
+        "pusten"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "An der Küste bläst der Wind sehr stark.",
+        "tr": "Sahilde rüzgâr çok sert esiyor.",
+        "en": "The wind is blowing very hard on the coast.",
+        "uk": "На узбережжі дуже сильно дме вітер.",
+        "ar": "تهبّ الرياح بقوة شديدة على الساحل.",
+        "it": "Sulla costa il vento soffia molto forte."
+      },
+      "note": "intransitiv (der Wind bläst); etwas (Akk.) blasen (z. B. Trompete); in etwas (Akk.) blasen"
+    },
+    {
+      "id": "brauchen",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "brauchen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "braucht",
+        "praeteritum": "brauchte",
+        "perfekt": "hat gebraucht"
+      },
+      "meaning": {
+        "de": "Etwas nötig haben; auch: Zeit für etwas benötigen",
+        "tr": "ihtiyaç duymak, gerekmek; (zaman) sürmek",
+        "en": "to need; to take (time)",
+        "uk": "потребувати; витрачати (час)",
+        "ar": "يحتاج إلى؛ يستغرق (وقتًا)",
+        "it": "avere bisogno di; metterci (tempo)"
+      },
+      "synonyms": [
+        "benötigen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Du brauchst morgen nicht zu kommen.",
+        "tr": "Yarın gelmene gerek yok.",
+        "en": "You don't need to come tomorrow.",
+        "uk": "Тобі не треба приходити завтра.",
+        "ar": "لا داعي لأن تأتي غدًا.",
+        "it": "Non c'è bisogno che tu venga domani."
+      },
+      "note": "etwas/jemanden (Akk.) brauchen; nicht/nur brauchen + zu + Infinitiv"
+    },
+    {
+      "id": "regenfall",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Regenfall",
+      "type": "noun",
+      "article": "der",
+      "plural": "Regenfälle",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Fallen von Regen, meist im Plural: Regen über längere Zeit",
+        "tr": "yağış, yağmur",
+        "en": "rainfall",
+        "uk": "дощ, опади",
+        "ar": "هطول الأمطار",
+        "it": "pioggia, precipitazione"
+      },
+      "synonyms": [
+        "der Niederschlag",
+        "der Regen"
+      ],
+      "antonyms": [
+        "die Trockenheit"
+      ],
+      "example": {
+        "de": "Starke Regenfälle haben zu Überschwemmungen geführt.",
+        "tr": "Şiddetli yağışlar sellere yol açtı.",
+        "en": "Heavy rainfall has led to flooding.",
+        "uk": "Сильні дощі спричинили повені.",
+        "ar": "أدّت الأمطار الغزيرة إلى فيضانات.",
+        "it": "Forti piogge hanno causato inondazioni."
+      },
+      "note": "meist Plural: Regenfälle"
+    },
+    {
+      "id": "behindern",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "behindern",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "behindert",
+        "praeteritum": "behinderte",
+        "perfekt": "hat behindert"
+      },
+      "meaning": {
+        "de": "Etwas schwieriger machen, im Weg sein",
+        "tr": "engellemek, aksatmak",
+        "en": "to hinder, to obstruct, to impede",
+        "uk": "заважати, перешкоджати",
+        "ar": "يعيق، يعرقل",
+        "it": "ostacolare, intralciare"
+      },
+      "synonyms": [
+        "hindern",
+        "erschweren"
+      ],
+      "antonyms": [
+        "fördern",
+        "erleichtern"
+      ],
+      "example": {
+        "de": "Schnee und Glätte behindern den Verkehr.",
+        "tr": "Kar ve buzlanma trafiği aksatıyor.",
+        "en": "Snow and ice are obstructing the traffic.",
+        "uk": "Сніг і ожеледиця заважають руху транспорту.",
+        "ar": "يعرقل الثلج والجليد حركة المرور.",
+        "it": "Neve e ghiaccio ostacolano il traffico."
+      },
+      "note": "jemanden/etwas (Akk.) (bei etwas (Dat.)) behindern"
+    },
+    {
+      "id": "liegen",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "liegen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "liegt",
+        "praeteritum": "lag",
+        "perfekt": "hat gelegen"
+      },
+      "meaning": {
+        "de": "Waagerecht sein oder sich an einem Ort befinden; auch: einen Wert haben",
+        "tr": "yatmak, bulunmak; (değer) olmak",
+        "en": "to lie, to be situated; to be (at a level)",
+        "uk": "лежати, розташовуватися; становити",
+        "ar": "يرقد، يقع؛ يبلغ (قيمة)",
+        "it": "giacere, trovarsi, essere situato"
+      },
+      "synonyms": [
+        "sich befinden"
+      ],
+      "antonyms": [
+        "stehen"
+      ],
+      "example": {
+        "de": "Die Temperaturen liegen bei minus zehn Grad.",
+        "tr": "Sıcaklıklar eksi on derece civarında.",
+        "en": "Temperatures are around minus ten degrees.",
+        "uk": "Температура становить близько мінус десяти градусів.",
+        "ar": "تبلغ درجات الحرارة نحو عشر درجات تحت الصفر.",
+        "it": "Le temperature si aggirano sui meno dieci gradi."
+      },
+      "note": "intransitiv (ohne Objekt); an etwas (Dat.) liegen = der Grund sein; jemandem (Dat.) liegt etwas an etwas (Dat.)"
+    },
+    {
+      "id": "melden",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "melden",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "meldet",
+        "praeteritum": "meldete",
+        "perfekt": "hat gemeldet"
+      },
+      "meaning": {
+        "de": "Eine Nachricht oder Information offiziell mitteilen; sich melden = Kontakt aufnehmen",
+        "tr": "bildirmek, haber vermek; (sich melden) ulaşmak, iletişime geçmek",
+        "en": "to report, to announce; (sich melden) to get in touch",
+        "uk": "повідомляти; (sich melden) зв'язатися, озватися",
+        "ar": "يبلّغ، يُعلن؛ (sich melden) يتواصل",
+        "it": "segnalare, annunciare; (sich melden) farsi sentire"
+      },
+      "synonyms": [
+        "mitteilen",
+        "berichten"
+      ],
+      "antonyms": [
+        "verschweigen"
+      ],
+      "example": {
+        "de": "Der Wetterdienst meldet für morgen starken Schneefall.",
+        "tr": "Meteoroloji yarın için yoğun kar yağışı bildiriyor.",
+        "en": "The weather service is reporting heavy snowfall for tomorrow.",
+        "uk": "Метеослужба повідомляє про сильний снігопад завтра.",
+        "ar": "تُعلن خدمة الأرصاد عن تساقط كثيف للثلوج غدًا.",
+        "it": "Il servizio meteorologico annuncia forti nevicate per domani."
+      },
+      "note": "(jemandem (Dat.)) etwas (Akk.) melden; sich (Akk.) bei jemandem (Dat.) melden"
+    },
+    {
+      "id": "skigebiet",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Skigebiet",
+      "type": "noun",
+      "article": "das",
+      "plural": "Skigebiete",
+      "reflexive": false,
+      "meaning": {
+        "de": "Gebiet in den Bergen mit Pisten und Liften zum Skifahren",
+        "tr": "kayak merkezi, kayak bölgesi",
+        "en": "ski resort, ski area",
+        "uk": "гірськолижний курорт",
+        "ar": "منتجع تزلّج",
+        "it": "comprensorio sciistico"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Die Skigebiete in den Alpen melden viel Neuschnee.",
+        "tr": "Alplerdeki kayak merkezleri çok miktarda taze kar bildiriyor.",
+        "en": "The ski resorts in the Alps are reporting lots of fresh snow.",
+        "uk": "Гірськолижні курорти в Альпах повідомляють про багато свіжого снігу.",
+        "ar": "تُعلن منتجعات التزلّج في جبال الألب عن كثير من الثلج الجديد.",
+        "it": "I comprensori sciistici delle Alpi segnalano molta neve fresca."
+      },
+      "note": null
+    },
+    {
+      "id": "besucherzahl",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Besucherzahl",
+      "type": "noun",
+      "article": "die",
+      "plural": "Besucherzahlen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Wie viele Menschen einen Ort oder eine Veranstaltung besuchen",
+        "tr": "ziyaretçi sayısı",
+        "en": "number of visitors, attendance",
+        "uk": "кількість відвідувачів",
+        "ar": "عدد الزوار",
+        "it": "numero di visitatori"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Die Besucherzahlen im Museum sind dieses Jahr gestiegen.",
+        "tr": "Müzedeki ziyaretçi sayıları bu yıl arttı.",
+        "en": "The museum's visitor numbers have risen this year.",
+        "uk": "Кількість відвідувачів музею цього року зросла.",
+        "ar": "ارتفعت أعداد زوار المتحف هذا العام.",
+        "it": "Quest'anno il numero di visitatori del museo è aumentato."
+      },
+      "note": "meist Plural: Besucherzahlen"
+    },
+    {
+      "id": "durchschnitt",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Durchschnitt",
+      "type": "noun",
+      "article": "der",
+      "plural": "Durchschnitte",
+      "reflexive": false,
+      "meaning": {
+        "de": "Der mittlere Wert",
+        "tr": "ortalama",
+        "en": "average",
+        "uk": "середнє (значення)",
+        "ar": "المتوسّط، المعدّل",
+        "it": "media"
+      },
+      "synonyms": [
+        "der Mittelwert"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Im Durchschnitt regnet es hier 150 Tage im Jahr.",
+        "tr": "Burada ortalama yılda 150 gün yağmur yağıyor.",
+        "en": "On average it rains here 150 days a year.",
+        "uk": "У середньому тут іде дощ 150 днів на рік.",
+        "ar": "تمطر هنا في المتوسط 150 يومًا في السنة.",
+        "it": "In media qui piove 150 giorni all'anno."
+      },
+      "note": "im Durchschnitt; über/unter dem Durchschnitt; Adjektiv: durchschnittlich"
+    },
+    {
+      "id": "unterkunft",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Unterkunft",
+      "type": "noun",
+      "article": "die",
+      "plural": "Unterkünfte",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Ort, an dem man vorübergehend wohnt oder übernachtet",
+        "tr": "konaklama yeri, kalacak yer",
+        "en": "accommodation, lodging",
+        "uk": "житло, помешкання",
+        "ar": "مكان الإقامة، مسكن",
+        "it": "alloggio, sistemazione"
+      },
+      "synonyms": [
+        "die Übernachtungsmöglichkeit",
+        "die Bleibe"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Wir suchen noch eine günstige Unterkunft für den Urlaub.",
+        "tr": "Tatil için hâlâ uygun fiyatlı bir kalacak yer arıyoruz.",
+        "en": "We're still looking for cheap accommodation for the holiday.",
+        "uk": "Ми ще шукаємо недороге житло на відпустку.",
+        "ar": "ما زلنا نبحث عن مكان إقامة رخيص للعطلة.",
+        "it": "Cerchiamo ancora un alloggio economico per le vacanze."
+      },
+      "note": null
+    },
+    {
+      "id": "zahlreich",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "zahlreich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sehr viele, in großer Zahl",
+        "tr": "çok sayıda, sayısız",
+        "en": "numerous, many",
+        "uk": "численний",
+        "ar": "عديد، كثير",
+        "it": "numeroso"
+      },
+      "synonyms": [
+        "viele",
+        "unzählig"
+      ],
+      "antonyms": [
+        "wenige",
+        "vereinzelt"
+      ],
+      "example": {
+        "de": "Zahlreiche Touristen besuchen jedes Jahr die Stadt.",
+        "tr": "Her yıl çok sayıda turist şehri ziyaret ediyor.",
+        "en": "Numerous tourists visit the city every year.",
+        "uk": "Щороку місто відвідують численні туристи.",
+        "ar": "يزور المدينة سياح عديدون كل عام.",
+        "it": "Numerosi turisti visitano la città ogni anno."
+      },
+      "note": null
+    },
+    {
+      "id": "easyjetter",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "Easyjetter",
+      "type": "noun",
+      "article": "der",
+      "plural": "Easyjetter",
+      "reflexive": false,
+      "meaning": {
+        "de": "Person, die oft mit Billigfliegern für kurze Reisen in andere Städte fliegt",
+        "tr": "ucuz uçuşlarla sık kısa seyahat yapan kişi",
+        "en": "person who often takes budget flights for short trips",
+        "uk": "людина, що часто літає лоукостами в короткі подорожі",
+        "ar": "شخص يسافر كثيرًا برحلات طيران منخفضة التكلفة لرحلات قصيرة",
+        "it": "chi prende spesso voli low cost per brevi viaggi"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Viele junge Easyjetter fliegen für ein Wochenende nach Barcelona.",
+        "tr": "Birçok genç, bir hafta sonu için ucuz uçuşla Barselona'ya uçuyor.",
+        "en": "Many young budget travellers fly to Barcelona for a weekend.",
+        "uk": "Багато молодих людей літають лоукостами до Барселони на вихідні.",
+        "ar": "يسافر كثير من الشباب برحلات منخفضة التكلفة إلى برشلونة لعطلة نهاية الأسبوع.",
+        "it": "Molti giovani prendono voli low cost per un weekend a Barcellona."
+      },
+      "note": "von der Fluglinie „easyJet“; weiblich: die Easyjetterin"
+    },
+    {
+      "id": "zielen",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "zielen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "zielt",
+        "praeteritum": "zielte",
+        "perfekt": "hat gezielt"
+      },
+      "meaning": {
+        "de": "Auf ein Ziel richten, z. B. beim Schießen; auch: etwas erreichen wollen",
+        "tr": "nişan almak; hedeflemek, amaçlamak",
+        "en": "to aim at; to target",
+        "uk": "цілитися; бути спрямованим на",
+        "ar": "يصوّب نحو؛ يستهدف",
+        "it": "mirare a; puntare a"
+      },
+      "synonyms": [
+        "anvisieren",
+        "abzielen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Werbung zielt vor allem auf junge Leute.",
+        "tr": "Reklam özellikle gençleri hedefliyor.",
+        "en": "The advertising is aimed mainly at young people.",
+        "uk": "Реклама спрямована насамперед на молодь.",
+        "ar": "يستهدف الإعلان الشباب بشكل خاص.",
+        "it": "La pubblicità punta soprattutto ai giovani."
+      },
+      "note": "auf jemanden/etwas (Akk.) zielen"
+    },
+    {
+      "id": "anstaendig",
+      "source": "notes",
+      "date": "2026-10-18",
+      "word": "anständig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Höflich und korrekt im Verhalten; auch (ugs.): ordentlich, ziemlich gut oder viel",
+        "tr": "terbiyeli, düzgün; (konuşma dili) doğru dürüst, epey",
+        "en": "decent, proper, respectable",
+        "uk": "порядний, пристойний; (розм.) добрячий",
+        "ar": "مهذّب، لائق؛ محترم",
+        "it": "perbene, decente, come si deve"
+      },
+      "synonyms": [
+        "ordentlich",
+        "korrekt"
+      ],
+      "antonyms": [
+        "unanständig",
+        "frech"
+      ],
+      "example": {
+        "de": "Für die Arbeit bekommt er ein anständiges Gehalt.",
+        "tr": "Bu iş için doğru dürüst bir maaş alıyor.",
+        "en": "He gets a decent salary for the work.",
+        "uk": "За цю роботу він отримує пристойну зарплату.",
+        "ar": "يحصل على راتب لائق مقابل هذا العمل.",
+        "it": "Per questo lavoro riceve uno stipendio decente."
+      },
+      "note": null
     }
   ]
 }
