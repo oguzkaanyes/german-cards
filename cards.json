@@ -7603,6 +7603,2969 @@
         "it": "Nelle crisi serve soprattutto ponderatezza."
       },
       "note": null
+    },
+    {
+      "id": "verhalten",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "Verhalten",
+      "type": "noun",
+      "article": "das",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Art, wie sich jemand benimmt oder handelt",
+        "tr": "davranış, tutum",
+        "en": "behaviour, conduct",
+        "uk": "поведінка",
+        "ar": "سلوك، تصرّف",
+        "it": "comportamento"
+      },
+      "synonyms": [
+        "das Benehmen",
+        "die Haltung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Sein Verhalten im Unterricht war nicht in Ordnung.",
+        "tr": "Dersteki davranışı uygun değildi.",
+        "en": "His behaviour in class was not okay.",
+        "uk": "Його поведінка на уроці була неприйнятною.",
+        "ar": "لم يكن سلوكه في الدرس لائقًا.",
+        "it": "Il suo comportamento in classe non era corretto."
+      },
+      "note": "Nomen zu „sich verhalten“"
+    },
+    {
+      "id": "vortragen",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "vortragen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "trägt vor",
+        "praeteritum": "trug vor",
+        "perfekt": "hat vorgetragen"
+      },
+      "meaning": {
+        "de": "Etwas vor Publikum sprechen oder präsentieren",
+        "tr": "sunmak, okumak (dinleyicilere)",
+        "en": "to present, to recite",
+        "uk": "виголошувати, доповідати",
+        "ar": "يقدّم، يلقي (أمام جمهور)",
+        "it": "presentare, esporre, recitare"
+      },
+      "synonyms": [
+        "präsentieren",
+        "vorstellen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Morgen trage ich mein Referat vor der Klasse vor.",
+        "tr": "Yarın sunumumu sınıfın önünde sunacağım.",
+        "en": "Tomorrow I'll present my talk in front of the class.",
+        "uk": "Завтра я виголошу свою доповідь перед класом.",
+        "ar": "غدًا سأقدّم عرضي أمام الصف.",
+        "it": "Domani presento la mia relazione davanti alla classe."
+      },
+      "note": "etwas (Akk.) vortragen; jemandem (Dat.) etwas (Akk.) vortragen"
+    },
+    {
+      "id": "referat",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "Referat",
+      "type": "noun",
+      "article": "das",
+      "plural": "Referate",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Vortrag über ein Thema, z. B. in der Schule oder an der Uni",
+        "tr": "sunum, referans ödev, sözlü rapor",
+        "en": "presentation, oral report, paper",
+        "uk": "доповідь, реферат",
+        "ar": "عرض شفهي، بحث",
+        "it": "relazione, presentazione orale"
+      },
+      "synonyms": [
+        "der Vortrag",
+        "die Präsentation"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Wir müssen ein Referat über erneuerbare Energien halten.",
+        "tr": "Yenilenebilir enerjiler hakkında bir sunum yapmamız gerekiyor.",
+        "en": "We have to give a presentation on renewable energy.",
+        "uk": "Ми маємо зробити доповідь про відновлювану енергетику.",
+        "ar": "علينا أن نقدّم عرضًا عن الطاقات المتجددة.",
+        "it": "Dobbiamo fare una relazione sulle energie rinnovabili."
+      },
+      "note": "ein Referat halten; Genitiv: des Referat(e)s"
+    },
+    {
+      "id": "blaumann",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "Blaumann",
+      "type": "noun",
+      "article": "der",
+      "plural": "Blaumänner",
+      "reflexive": false,
+      "meaning": {
+        "de": "Blauer Arbeitsanzug, z. B. von Handwerkern (umgangssprachlich)",
+        "tr": "mavi iş tulumu",
+        "en": "blue overalls, boiler suit",
+        "uk": "синій робочий комбінезон",
+        "ar": "بدلة عمل زرقاء",
+        "it": "tuta da lavoro blu"
+      },
+      "synonyms": [
+        "der Arbeitsanzug",
+        "der Overall"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Mechaniker trägt bei der Arbeit einen Blaumann.",
+        "tr": "Tamirci işte mavi bir tulum giyiyor.",
+        "en": "The mechanic wears blue overalls at work.",
+        "uk": "Механік на роботі носить синій комбінезон.",
+        "ar": "يرتدي الميكانيكي بدلة عمل زرقاء أثناء العمل.",
+        "it": "Il meccanico al lavoro indossa una tuta blu."
+      },
+      "note": "umgangssprachlich"
+    },
+    {
+      "id": "dozent",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "Dozent",
+      "type": "noun",
+      "article": "der",
+      "plural": "Dozenten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Person, die an einer Hochschule oder in Kursen unterrichtet",
+        "tr": "öğretim görevlisi, eğitmen",
+        "en": "lecturer",
+        "uk": "викладач",
+        "ar": "محاضر",
+        "it": "docente"
+      },
+      "synonyms": [
+        "der Lehrende",
+        "der Lehrbeauftragte"
+      ],
+      "antonyms": [
+        "der Student"
+      ],
+      "example": {
+        "de": "Der Dozent erklärt das Thema sehr verständlich.",
+        "tr": "Öğretim görevlisi konuyu çok anlaşılır anlatıyor.",
+        "en": "The lecturer explains the topic very clearly.",
+        "uk": "Викладач пояснює тему дуже зрозуміло.",
+        "ar": "يشرح المحاضر الموضوع بشكل مفهوم جدًا.",
+        "it": "Il docente spiega l'argomento in modo molto chiaro."
+      },
+      "note": "n-Deklination: den/dem/des Dozenten; weiblich: die Dozentin"
+    },
+    {
+      "id": "kleiderordnung",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "Kleiderordnung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Kleiderordnungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Regeln dafür, welche Kleidung man an einem Ort tragen soll",
+        "tr": "kıyafet kuralları, giyim yönetmeliği",
+        "en": "dress code",
+        "uk": "дрес-код, правила одягу",
+        "ar": "قواعد اللباس",
+        "it": "codice di abbigliamento, dress code"
+      },
+      "synonyms": [
+        "der Dresscode"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In unserer Firma gibt es eine strenge Kleiderordnung.",
+        "tr": "Şirketimizde katı bir kıyafet kuralı var.",
+        "en": "There is a strict dress code in our company.",
+        "uk": "У нашій фірмі суворий дрес-код.",
+        "ar": "توجد في شركتنا قواعد لباس صارمة.",
+        "it": "Nella nostra azienda c'è un codice di abbigliamento rigido."
+      },
+      "note": null
+    },
+    {
+      "id": "schulleiter",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "Schulleiter",
+      "type": "noun",
+      "article": "der",
+      "plural": "Schulleiter",
+      "reflexive": false,
+      "meaning": {
+        "de": "Person, die eine Schule leitet",
+        "tr": "okul müdürü",
+        "en": "head teacher, principal",
+        "uk": "директор школи",
+        "ar": "مدير المدرسة",
+        "it": "preside, dirigente scolastico"
+      },
+      "synonyms": [
+        "der Direktor",
+        "der Rektor"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Schulleiter hat die Eltern zu einem Gespräch eingeladen.",
+        "tr": "Okul müdürü velileri bir görüşmeye davet etti.",
+        "en": "The head teacher invited the parents for a talk.",
+        "uk": "Директор школи запросив батьків на розмову.",
+        "ar": "دعا مدير المدرسة الأهالي إلى لقاء.",
+        "it": "Il preside ha invitato i genitori a un colloquio."
+      },
+      "note": "weiblich: die Schulleiterin"
+    },
+    {
+      "id": "schulpflicht",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "Schulpflicht",
+      "type": "noun",
+      "article": "die",
+      "plural": "Schulpflichten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die gesetzliche Pflicht, eine Schule zu besuchen",
+        "tr": "zorunlu eğitim, okula gitme zorunluluğu",
+        "en": "compulsory schooling",
+        "uk": "обов'язкове шкільне навчання",
+        "ar": "التعليم الإلزامي",
+        "it": "obbligo scolastico"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "In Deutschland gibt es eine allgemeine Schulpflicht.",
+        "tr": "Almanya'da genel bir okul zorunluluğu var.",
+        "en": "In Germany there is general compulsory schooling.",
+        "uk": "У Німеччині діє загальне обов'язкове шкільне навчання.",
+        "ar": "يوجد في ألمانيا تعليم إلزامي عام.",
+        "it": "In Germania c'è l'obbligo scolastico generale."
+      },
+      "note": null
+    },
+    {
+      "id": "numerus-clausus",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "Numerus clausus",
+      "type": "noun",
+      "article": "der",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Begrenzte Zahl von Studienplätzen; man braucht eine bestimmte Abiturnote",
+        "tr": "kontenjan sınırı, giriş için not barajı",
+        "en": "restricted admission, grade cut-off (numerus clausus)",
+        "uk": "обмеження прийому, прохідний бал (нумерус клаузус)",
+        "ar": "حدّ القبول، الحد الأدنى للمعدل",
+        "it": "numero chiuso"
+      },
+      "synonyms": [
+        "die Zugangsbeschränkung",
+        "der NC"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für Medizin gibt es einen sehr hohen Numerus clausus.",
+        "tr": "Tıp için çok yüksek bir not barajı var.",
+        "en": "Medicine has a very high grade cut-off.",
+        "uk": "На медицину дуже високий прохідний бал.",
+        "ar": "للطب حدّ قبول مرتفع جدًا.",
+        "it": "Per medicina c'è un numero chiuso molto selettivo."
+      },
+      "note": "Abkürzung: der NC"
+    },
+    {
+      "id": "zugangsbeschraenkung",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "Zugangsbeschränkung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Zugangsbeschränkungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Regel, die begrenzt, wer Zugang zu etwas bekommt",
+        "tr": "erişim kısıtlaması, giriş sınırlaması",
+        "en": "access restriction, admission restriction",
+        "uk": "обмеження доступу",
+        "ar": "تقييد الدخول، قيود القبول",
+        "it": "restrizione d'accesso"
+      },
+      "synonyms": [
+        "der Numerus clausus"
+      ],
+      "antonyms": [
+        "der freie Zugang"
+      ],
+      "example": {
+        "de": "Viele Studiengänge haben eine Zugangsbeschränkung.",
+        "tr": "Birçok bölümün giriş sınırlaması var.",
+        "en": "Many degree programmes have admission restrictions.",
+        "uk": "Багато спеціальностей мають обмеження доступу.",
+        "ar": "لكثير من التخصصات قيود على القبول.",
+        "it": "Molti corsi di laurea hanno una restrizione d'accesso."
+      },
+      "note": null
+    },
+    {
+      "id": "erwerben",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "erwerben",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "erwirbt",
+        "praeteritum": "erwarb",
+        "perfekt": "hat erworben"
+      },
+      "meaning": {
+        "de": "Etwas bekommen, durch Kauf oder durch Lernen und Arbeit",
+        "tr": "edinmek, kazanmak, satın almak",
+        "en": "to acquire, to obtain, to purchase",
+        "uk": "набувати, здобувати, купувати",
+        "ar": "يكتسب، يحصل على، يشتري",
+        "it": "acquisire, acquistare"
+      },
+      "synonyms": [
+        "erlangen",
+        "kaufen"
+      ],
+      "antonyms": [
+        "verlieren",
+        "verkaufen"
+      ],
+      "example": {
+        "de": "Im Kurs erwerben die Teilnehmer wichtige Sprachkenntnisse.",
+        "tr": "Kursta katılımcılar önemli dil bilgileri ediniyor.",
+        "en": "In the course the participants acquire important language skills.",
+        "uk": "На курсі учасники здобувають важливі мовні знання.",
+        "ar": "يكتسب المشاركون في الدورة معارف لغوية مهمة.",
+        "it": "Nel corso i partecipanti acquisiscono importanti competenze linguistiche."
+      },
+      "note": "etwas (Akk.) erwerben"
+    },
+    {
+      "id": "beglaubigen",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "beglaubigen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "beglaubigt",
+        "praeteritum": "beglaubigte",
+        "perfekt": "hat beglaubigt"
+      },
+      "meaning": {
+        "de": "Offiziell bestätigen, dass eine Kopie oder Unterschrift echt ist",
+        "tr": "onaylamak, tasdik etmek",
+        "en": "to certify, to authenticate",
+        "uk": "засвідчувати, завіряти",
+        "ar": "يصدّق، يوثّق",
+        "it": "autenticare, certificare"
+      },
+      "synonyms": [
+        "bestätigen",
+        "beurkunden"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ich muss meine Zeugnisse beglaubigen lassen.",
+        "tr": "Diplomalarımı onaylatmam gerekiyor.",
+        "en": "I have to get my certificates certified.",
+        "uk": "Мені треба завірити свої атестати.",
+        "ar": "يجب أن أصدّق شهاداتي.",
+        "it": "Devo far autenticare i miei diplomi."
+      },
+      "note": "etwas (Akk.) beglaubigen (lassen)"
+    },
+    {
+      "id": "beweisen",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "beweisen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "beweist",
+        "praeteritum": "bewies",
+        "perfekt": "hat bewiesen"
+      },
+      "meaning": {
+        "de": "Zeigen, dass etwas wahr ist",
+        "tr": "kanıtlamak, ispat etmek",
+        "en": "to prove",
+        "uk": "доводити",
+        "ar": "يثبت، يبرهن",
+        "it": "dimostrare, provare"
+      },
+      "synonyms": [
+        "nachweisen",
+        "belegen"
+      ],
+      "antonyms": [
+        "widerlegen"
+      ],
+      "example": {
+        "de": "Kannst du beweisen, dass du zu Hause warst?",
+        "tr": "Evde olduğunu kanıtlayabilir misin?",
+        "en": "Can you prove that you were at home?",
+        "uk": "Ти можеш довести, що був удома?",
+        "ar": "هل تستطيع أن تثبت أنك كنت في البيت؟",
+        "it": "Puoi dimostrare che eri a casa?"
+      },
+      "note": "(jemandem (Dat.)) etwas (Akk.) beweisen"
+    },
+    {
+      "id": "beweis",
+      "source": "notes",
+      "date": "2026-10-05",
+      "word": "Beweis",
+      "type": "noun",
+      "article": "der",
+      "plural": "Beweise",
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas, das zeigt, dass eine Aussage wahr ist",
+        "tr": "kanıt, delil",
+        "en": "proof, evidence",
+        "uk": "доказ",
+        "ar": "دليل، برهان",
+        "it": "prova"
+      },
+      "synonyms": [
+        "der Nachweis",
+        "der Beleg"
+      ],
+      "antonyms": [
+        "die Widerlegung"
+      ],
+      "example": {
+        "de": "Die Polizei hat keine Beweise gegen ihn.",
+        "tr": "Polisin ona karşı hiçbir kanıtı yok.",
+        "en": "The police have no evidence against him.",
+        "uk": "У поліції немає доказів проти нього.",
+        "ar": "ليس لدى الشرطة أي أدلة ضده.",
+        "it": "La polizia non ha prove contro di lui."
+      },
+      "note": "ein Beweis für etwas (Akk.)"
+    },
+    {
+      "id": "gehirnwaesche",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "Gehirnwäsche",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Starke Beeinflussung, durch die jemand seine Meinung ganz ändert",
+        "tr": "beyin yıkama",
+        "en": "brainwashing",
+        "uk": "промивання мізків",
+        "ar": "غسيل الدماغ",
+        "it": "lavaggio del cervello"
+      },
+      "synonyms": [
+        "die Manipulation",
+        "die Indoktrination"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Manche Werbung ist fast schon Gehirnwäsche.",
+        "tr": "Bazı reklamlar neredeyse beyin yıkama.",
+        "en": "Some advertising is almost brainwashing.",
+        "uk": "Деяка реклама — це майже промивання мізків.",
+        "ar": "بعض الإعلانات تكاد تكون غسيلًا للدماغ.",
+        "it": "Certa pubblicità è quasi un lavaggio del cervello."
+      },
+      "note": null
+    },
+    {
+      "id": "maerchen",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "Märchen",
+      "type": "noun",
+      "article": "das",
+      "plural": "Märchen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Erfundene Geschichte mit Zauber, oft für Kinder; auch: eine Lüge",
+        "tr": "masal; uydurma hikâye",
+        "en": "fairy tale; tall story",
+        "uk": "казка; вигадка",
+        "ar": "حكاية خرافية؛ قصة مختلقة",
+        "it": "fiaba; frottola"
+      },
+      "synonyms": [
+        "die Sage",
+        "die Fabel"
+      ],
+      "antonyms": [
+        "die Wahrheit"
+      ],
+      "example": {
+        "de": "Meine Oma hat mir jeden Abend ein Märchen vorgelesen.",
+        "tr": "Büyükannem bana her akşam bir masal okurdu.",
+        "en": "My grandma read me a fairy tale every evening.",
+        "uk": "Бабуся щовечора читала мені казку.",
+        "ar": "كانت جدتي تقرأ لي حكاية كل مساء.",
+        "it": "Mia nonna mi leggeva una fiaba ogni sera."
+      },
+      "note": null
+    },
+    {
+      "id": "besonnen",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "besonnen",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Ruhig und überlegt, auch in schwierigen Situationen",
+        "tr": "sağduyulu, soğukkanlı, temkinli",
+        "en": "level-headed, prudent, calm",
+        "uk": "розсудливий, виважений",
+        "ar": "رزين، متروٍّ",
+        "it": "assennato, ponderato, calmo"
+      },
+      "synonyms": [
+        "überlegt",
+        "umsichtig"
+      ],
+      "antonyms": [
+        "unbesonnen",
+        "hitzig"
+      ],
+      "example": {
+        "de": "Sie hat in der Notsituation sehr besonnen reagiert.",
+        "tr": "Acil durumda çok soğukkanlı tepki verdi.",
+        "en": "She reacted very calmly in the emergency.",
+        "uk": "У надзвичайній ситуації вона відреагувала дуже виважено.",
+        "ar": "تصرّفت برزانة كبيرة في حالة الطوارئ.",
+        "it": "Nell'emergenza ha reagito in modo molto ponderato."
+      },
+      "note": "Nomen: die Besonnenheit"
+    },
+    {
+      "id": "anlage",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "Anlage",
+      "type": "noun",
+      "article": "die",
+      "plural": "Anlagen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Technische Einrichtung oder Gelände; auch: Beilage zu einem Brief, Geldanlage",
+        "tr": "tesis; ek (mektup); yatırım",
+        "en": "facility, plant; enclosure, attachment; investment",
+        "uk": "установка, споруда; додаток; вкладення",
+        "ar": "منشأة؛ مرفق (رسالة)؛ استثمار",
+        "it": "impianto; allegato; investimento"
+      },
+      "synonyms": [
+        "die Einrichtung",
+        "der Anhang"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die neue Anlage produziert Strom aus Sonnenenergie.",
+        "tr": "Yeni tesis güneş enerjisinden elektrik üretiyor.",
+        "en": "The new plant produces electricity from solar energy.",
+        "uk": "Нова установка виробляє електроенергію із сонячної енергії.",
+        "ar": "تنتج المنشأة الجديدة الكهرباء من الطاقة الشمسية.",
+        "it": "Il nuovo impianto produce elettricità dall'energia solare."
+      },
+      "note": "in der Anlage = im Anhang (Brief/E-Mail)"
+    },
+    {
+      "id": "instand-halten",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "instand halten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "hält instand",
+        "praeteritum": "hielt instand",
+        "perfekt": "hat instand gehalten"
+      },
+      "meaning": {
+        "de": "Dafür sorgen, dass etwas in gutem Zustand bleibt und funktioniert",
+        "tr": "bakımını yapmak, iyi durumda tutmak",
+        "en": "to maintain, to keep in good repair",
+        "uk": "утримувати в належному стані, обслуговувати",
+        "ar": "يصون، يحافظ على حالة جيدة",
+        "it": "mantenere in buono stato, fare la manutenzione"
+      },
+      "synonyms": [
+        "warten",
+        "pflegen"
+      ],
+      "antonyms": [
+        "verfallen lassen"
+      ],
+      "example": {
+        "de": "Der Vermieter muss das Haus instand halten.",
+        "tr": "Ev sahibi evin bakımını yapmak zorunda.",
+        "en": "The landlord has to keep the house in good repair.",
+        "uk": "Орендодавець мусить утримувати будинок у належному стані.",
+        "ar": "يجب على المؤجّر أن يحافظ على المنزل في حالة جيدة.",
+        "it": "Il padrone di casa deve mantenere la casa in buono stato."
+      },
+      "note": "etwas (Akk.) instand halten; auch: in Stand halten"
+    },
+    {
+      "id": "faehigkeit",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "Fähigkeit",
+      "type": "noun",
+      "article": "die",
+      "plural": "Fähigkeiten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Können, etwas zu tun",
+        "tr": "yetenek, beceri",
+        "en": "ability, skill",
+        "uk": "здатність, уміння",
+        "ar": "قدرة، مهارة",
+        "it": "capacità, abilità"
+      },
+      "synonyms": [
+        "die Kompetenz",
+        "das Talent"
+      ],
+      "antonyms": [
+        "die Unfähigkeit"
+      ],
+      "example": {
+        "de": "Sie hat die Fähigkeit, andere zu motivieren.",
+        "tr": "Başkalarını motive etme yeteneği var.",
+        "en": "She has the ability to motivate others.",
+        "uk": "Вона має здатність мотивувати інших.",
+        "ar": "لديها القدرة على تحفيز الآخرين.",
+        "it": "Ha la capacità di motivare gli altri."
+      },
+      "note": "die Fähigkeit zu etwas (Dat.)"
+    },
+    {
+      "id": "faehig",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "fähig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas gut können, kompetent",
+        "tr": "yetenekli, muktedir",
+        "en": "capable, able",
+        "uk": "здатний, спроможний",
+        "ar": "قادر، كفء",
+        "it": "capace, in grado"
+      },
+      "synonyms": [
+        "kompetent",
+        "begabt"
+      ],
+      "antonyms": [
+        "unfähig"
+      ],
+      "example": {
+        "de": "Er ist fähig, das Projekt allein zu leiten.",
+        "tr": "Projeyi tek başına yönetebilecek yetenekte.",
+        "en": "He is capable of leading the project alone.",
+        "uk": "Він здатний сам керувати проєктом.",
+        "ar": "إنه قادر على إدارة المشروع وحده.",
+        "it": "È capace di dirigere il progetto da solo."
+      },
+      "note": "zu etwas (Dat.) fähig sein; fähig sein, etwas zu tun"
+    },
+    {
+      "id": "mittelstaendisch",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "mittelständisch",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Zum Mittelstand gehörend, also mittelgroß (Firmen)",
+        "tr": "orta ölçekli (işletme)",
+        "en": "medium-sized (company)",
+        "uk": "середній (про підприємство)",
+        "ar": "متوسط الحجم (شركة)",
+        "it": "di medie dimensioni (azienda)"
+      },
+      "synonyms": [
+        "mittelgroß"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ich arbeite in einem mittelständischen Unternehmen mit 200 Mitarbeitern.",
+        "tr": "200 çalışanı olan orta ölçekli bir şirkette çalışıyorum.",
+        "en": "I work at a medium-sized company with 200 employees.",
+        "uk": "Я працюю на середньому підприємстві з 200 працівниками.",
+        "ar": "أعمل في شركة متوسطة الحجم فيها 200 موظف.",
+        "it": "Lavoro in un'azienda di medie dimensioni con 200 dipendenti."
+      },
+      "note": "mittelständisches Unternehmen"
+    },
+    {
+      "id": "klopfen",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "klopfen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "klopft",
+        "praeteritum": "klopfte",
+        "perfekt": "hat geklopft"
+      },
+      "meaning": {
+        "de": "Mehrmals leicht auf etwas schlagen, z. B. an eine Tür",
+        "tr": "kapıyı çalmak, vurmak, tıklatmak",
+        "en": "to knock, to tap",
+        "uk": "стукати",
+        "ar": "يطرق، يدقّ",
+        "it": "bussare, battere"
+      },
+      "synonyms": [
+        "pochen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Bitte klopfen Sie, bevor Sie eintreten.",
+        "tr": "Lütfen girmeden önce kapıyı çalın.",
+        "en": "Please knock before you come in.",
+        "uk": "Будь ласка, постукайте, перш ніж увійти.",
+        "ar": "من فضلك اطرق الباب قبل أن تدخل.",
+        "it": "Per favore, bussi prima di entrare."
+      },
+      "note": "an etwas (Akk.) klopfen; jemandem (Dat.) auf die Schulter klopfen"
+    },
+    {
+      "id": "verschwinden",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "verschwinden",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "verschwindet",
+        "praeteritum": "verschwand",
+        "perfekt": "ist verschwunden"
+      },
+      "meaning": {
+        "de": "Nicht mehr zu sehen oder nicht mehr da sein",
+        "tr": "kaybolmak, ortadan kaybolmak",
+        "en": "to disappear, to vanish",
+        "uk": "зникати",
+        "ar": "يختفي",
+        "it": "sparire, scomparire"
+      },
+      "synonyms": [
+        "sich auflösen",
+        "weggehen"
+      ],
+      "antonyms": [
+        "erscheinen",
+        "auftauchen"
+      ],
+      "example": {
+        "de": "Mein Schlüssel ist spurlos verschwunden.",
+        "tr": "Anahtarım iz bırakmadan kayboldu.",
+        "en": "My key has vanished without a trace.",
+        "uk": "Мій ключ безслідно зник.",
+        "ar": "اختفى مفتاحي دون أثر.",
+        "it": "La mia chiave è sparita senza lasciare traccia."
+      },
+      "note": "intransitiv (ohne Objekt); Partizip II: verschwunden"
+    },
+    {
+      "id": "ueblich",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "üblich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "So, wie man es normalerweise macht; gewöhnlich",
+        "tr": "olağan, alışılmış, yaygın",
+        "en": "usual, customary, common",
+        "uk": "звичайний, звичний",
+        "ar": "معتاد، مألوف",
+        "it": "solito, usuale, consueto"
+      },
+      "synonyms": [
+        "gewöhnlich",
+        "normal"
+      ],
+      "antonyms": [
+        "unüblich",
+        "ungewöhnlich"
+      ],
+      "example": {
+        "de": "In Deutschland ist es üblich, pünktlich zu sein.",
+        "tr": "Almanya'da dakik olmak olağandır.",
+        "en": "In Germany it is customary to be punctual.",
+        "uk": "У Німеччині прийнято бути пунктуальним.",
+        "ar": "من المعتاد في ألمانيا أن يكون المرء دقيقًا في مواعيده.",
+        "it": "In Germania è consuetudine essere puntuali."
+      },
+      "note": null
+    },
+    {
+      "id": "ausueben",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "ausüben",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "übt aus",
+        "praeteritum": "übte aus",
+        "perfekt": "hat ausgeübt"
+      },
+      "meaning": {
+        "de": "Einen Beruf machen; Druck oder Einfluss auf jemanden haben",
+        "tr": "(meslek) icra etmek; (baskı, etki) uygulamak",
+        "en": "to practise (a profession); to exert (pressure, influence)",
+        "uk": "займатися (професією); чинити (тиск, вплив)",
+        "ar": "يمارس (مهنة)؛ يمارس (ضغطًا، تأثيرًا)",
+        "it": "esercitare"
+      },
+      "synonyms": [
+        "betreiben",
+        "nachgehen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Sie übt ihren Beruf als Ärztin seit 20 Jahren aus.",
+        "tr": "Doktorluk mesleğini 20 yıldır icra ediyor.",
+        "en": "She has practised as a doctor for 20 years.",
+        "uk": "Вона працює лікаркою вже 20 років.",
+        "ar": "تمارس مهنة الطب منذ 20 عامًا.",
+        "it": "Esercita la professione di medico da 20 anni."
+      },
+      "note": "etwas (Akk.) ausüben (einen Beruf, Druck, Einfluss auf jemanden)"
+    },
+    {
+      "id": "aufstieg",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "Aufstieg",
+      "type": "noun",
+      "article": "der",
+      "plural": "Aufstiege",
+      "reflexive": false,
+      "meaning": {
+        "de": "Der Weg nach oben, beruflich, sozial oder auf einen Berg",
+        "tr": "yükseliş, terfi; tırmanış",
+        "en": "rise, promotion; ascent",
+        "uk": "підйом, кар'єрне зростання",
+        "ar": "صعود، ترقٍّ",
+        "it": "ascesa, avanzamento; salita"
+      },
+      "synonyms": [
+        "die Beförderung",
+        "die Karriere"
+      ],
+      "antonyms": [
+        "der Abstieg"
+      ],
+      "example": {
+        "de": "Bildung ist für viele der Weg zum sozialen Aufstieg.",
+        "tr": "Eğitim birçok kişi için sosyal yükselişin yoludur.",
+        "en": "For many, education is the path to social advancement.",
+        "uk": "Для багатьох освіта — це шлях до соціального зростання.",
+        "ar": "التعليم بالنسبة إلى كثيرين هو طريق الصعود الاجتماعي.",
+        "it": "Per molti l'istruzione è la via per l'ascesa sociale."
+      },
+      "note": null
+    },
+    {
+      "id": "stipendium",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "Stipendium",
+      "type": "noun",
+      "article": "das",
+      "plural": "Stipendien",
+      "reflexive": false,
+      "meaning": {
+        "de": "Geld, das man für Studium oder Forschung bekommt und nicht zurückzahlen muss",
+        "tr": "burs",
+        "en": "scholarship, grant",
+        "uk": "стипендія",
+        "ar": "منحة دراسية",
+        "it": "borsa di studio"
+      },
+      "synonyms": [
+        "die Förderung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Sie hat ein Stipendium für ihr Studium in Berlin bekommen.",
+        "tr": "Berlin'deki öğrenimi için burs aldı.",
+        "en": "She got a scholarship for her studies in Berlin.",
+        "uk": "Вона отримала стипендію на навчання в Берліні.",
+        "ar": "حصلت على منحة دراسية لدراستها في برلين.",
+        "it": "Ha ottenuto una borsa di studio per studiare a Berlino."
+      },
+      "note": "ein Stipendium bekommen/erhalten"
+    },
+    {
+      "id": "in-betrieb-nehmen",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "in Betrieb nehmen",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Maschine oder Anlage zum ersten Mal benutzen und starten",
+        "tr": "faaliyete geçirmek, işletmeye almak",
+        "en": "to put into operation, to commission",
+        "uk": "вводити в експлуатацію",
+        "ar": "يشغّل، يضع قيد التشغيل",
+        "it": "mettere in funzione, mettere in esercizio"
+      },
+      "synonyms": [
+        "einschalten",
+        "starten"
+      ],
+      "antonyms": [
+        "außer Betrieb nehmen",
+        "stilllegen"
+      ],
+      "example": {
+        "de": "Das neue Kraftwerk wird nächstes Jahr in Betrieb genommen.",
+        "tr": "Yeni santral gelecek yıl faaliyete geçirilecek.",
+        "en": "The new power station will be put into operation next year.",
+        "uk": "Нову електростанцію введуть в експлуатацію наступного року.",
+        "ar": "ستُشغَّل محطة الكهرباء الجديدة في العام المقبل.",
+        "it": "La nuova centrale sarà messa in funzione l'anno prossimo."
+      },
+      "note": "etwas (Akk.) in Betrieb nehmen; Nomen: die Inbetriebnahme"
+    },
+    {
+      "id": "bergbau",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "Bergbau",
+      "type": "noun",
+      "article": "der",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Gewinnen von Kohle, Erz usw. aus der Erde",
+        "tr": "madencilik",
+        "en": "mining",
+        "uk": "гірництво, гірнича промисловість",
+        "ar": "التعدين",
+        "it": "industria mineraria, attività estrattiva"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Früher arbeiteten im Ruhrgebiet viele Menschen im Bergbau.",
+        "tr": "Eskiden Ruhr bölgesinde birçok insan madencilikte çalışırdı.",
+        "en": "In the past many people in the Ruhr area worked in mining.",
+        "uk": "Раніше в Рурській області багато людей працювали в гірництві.",
+        "ar": "في الماضي عمل كثير من الناس في منطقة الرور في التعدين.",
+        "it": "Un tempo nella Ruhr molte persone lavoravano nelle miniere."
+      },
+      "note": null
+    },
+    {
+      "id": "wiederverwertung",
+      "source": "notes",
+      "date": "2026-10-06",
+      "word": "Wiederverwertung",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Das erneute Benutzen von Abfällen oder Materialien",
+        "tr": "geri dönüşüm, yeniden değerlendirme",
+        "en": "recycling, reuse",
+        "uk": "повторна переробка, вторинне використання",
+        "ar": "إعادة التدوير",
+        "it": "riciclaggio, riutilizzo"
+      },
+      "synonyms": [
+        "das Recycling"
+      ],
+      "antonyms": [
+        "die Entsorgung"
+      ],
+      "example": {
+        "de": "Die Wiederverwertung von Glas spart viel Energie.",
+        "tr": "Camın geri dönüşümü çok enerji tasarrufu sağlar.",
+        "en": "Recycling glass saves a lot of energy.",
+        "uk": "Повторна переробка скла заощаджує багато енергії.",
+        "ar": "توفّر إعادة تدوير الزجاج كثيرًا من الطاقة.",
+        "it": "Il riciclaggio del vetro fa risparmiare molta energia."
+      },
+      "note": null
+    },
+    {
+      "id": "bildungslandschaft",
+      "source": "notes",
+      "date": "2026-10-07",
+      "word": "Bildungslandschaft",
+      "type": "noun",
+      "article": "die",
+      "plural": "Bildungslandschaften",
+      "reflexive": false,
+      "meaning": {
+        "de": "Alle Schulen, Hochschulen und Bildungsangebote in einer Region oder einem Land",
+        "tr": "eğitim ortamı, eğitim sistemi",
+        "en": "educational landscape",
+        "uk": "освітній простір, система освіти",
+        "ar": "المشهد التعليمي",
+        "it": "panorama dell'istruzione"
+      },
+      "synonyms": [
+        "das Bildungssystem"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Bildungslandschaft in Deutschland ist von Bundesland zu Bundesland verschieden.",
+        "tr": "Almanya'daki eğitim ortamı eyaletten eyalete farklıdır.",
+        "en": "The educational landscape in Germany differs from state to state.",
+        "uk": "Освітній простір у Німеччині відрізняється від землі до землі.",
+        "ar": "يختلف المشهد التعليمي في ألمانيا من ولاية إلى أخرى.",
+        "it": "Il panorama dell'istruzione in Germania varia da Land a Land."
+      },
+      "note": null
+    },
+    {
+      "id": "brieftraeger",
+      "source": "notes",
+      "date": "2026-10-07",
+      "word": "Briefträger",
+      "type": "noun",
+      "article": "der",
+      "plural": "Briefträger",
+      "reflexive": false,
+      "meaning": {
+        "de": "Person, die Briefe und Pakete zu den Häusern bringt",
+        "tr": "postacı",
+        "en": "postman, mail carrier",
+        "uk": "листоноша",
+        "ar": "ساعي البريد",
+        "it": "postino"
+      },
+      "synonyms": [
+        "der Postbote"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Briefträger kommt jeden Morgen um zehn.",
+        "tr": "Postacı her sabah saat onda geliyor.",
+        "en": "The postman comes every morning at ten.",
+        "uk": "Листоноша приходить щоранку о десятій.",
+        "ar": "يأتي ساعي البريد كل صباح في العاشرة.",
+        "it": "Il postino passa ogni mattina alle dieci."
+      },
+      "note": "weiblich: die Briefträgerin"
+    },
+    {
+      "id": "postbote",
+      "source": "notes",
+      "date": "2026-10-07",
+      "word": "Postbote",
+      "type": "noun",
+      "article": "der",
+      "plural": "Postboten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Person, die die Post austrägt",
+        "tr": "postacı",
+        "en": "postman, mail carrier",
+        "uk": "листоноша",
+        "ar": "ساعي البريد",
+        "it": "postino"
+      },
+      "synonyms": [
+        "der Briefträger"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Postbote hat ein Paket für dich abgegeben.",
+        "tr": "Postacı senin için bir paket bıraktı.",
+        "en": "The postman dropped off a parcel for you.",
+        "uk": "Листоноша залишив для тебе посилку.",
+        "ar": "ترك ساعي البريد طردًا لك.",
+        "it": "Il postino ha lasciato un pacco per te."
+      },
+      "note": "n-Deklination: den/dem/des Postboten; weiblich: die Postbotin"
+    },
+    {
+      "id": "steward",
+      "source": "notes",
+      "date": "2026-10-07",
+      "word": "Steward",
+      "type": "noun",
+      "article": "der",
+      "plural": "Stewards",
+      "reflexive": false,
+      "meaning": {
+        "de": "Mann, der im Flugzeug oder auf einem Schiff die Gäste betreut",
+        "tr": "kabin memuru (erkek), host",
+        "en": "steward, flight attendant",
+        "uk": "стюард",
+        "ar": "مضيف (طيران)",
+        "it": "steward, assistente di volo"
+      },
+      "synonyms": [
+        "der Flugbegleiter"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Steward hat uns Getränke gebracht.",
+        "tr": "Kabin memuru bize içecek getirdi.",
+        "en": "The steward brought us drinks.",
+        "uk": "Стюард приніс нам напої.",
+        "ar": "أحضر لنا المضيف المشروبات.",
+        "it": "Lo steward ci ha portato da bere."
+      },
+      "note": "weiblich: die Stewardess"
+    },
+    {
+      "id": "flugbegleiter",
+      "source": "notes",
+      "date": "2026-10-07",
+      "word": "Flugbegleiter",
+      "type": "noun",
+      "article": "der",
+      "plural": "Flugbegleiter",
+      "reflexive": false,
+      "meaning": {
+        "de": "Person, die im Flugzeug für Sicherheit und Service sorgt",
+        "tr": "kabin memuru, uçuş görevlisi",
+        "en": "flight attendant",
+        "uk": "бортпровідник",
+        "ar": "مضيف طيران",
+        "it": "assistente di volo"
+      },
+      "synonyms": [
+        "der Steward"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Flugbegleiter erklären vor dem Start die Sicherheitsregeln.",
+        "tr": "Kabin memurları kalkıştan önce güvenlik kurallarını açıklıyor.",
+        "en": "The flight attendants explain the safety rules before take-off.",
+        "uk": "Бортпровідники перед злетом пояснюють правила безпеки.",
+        "ar": "يشرح مضيفو الطيران قواعد السلامة قبل الإقلاع.",
+        "it": "Gli assistenti di volo spiegano le norme di sicurezza prima del decollo."
+      },
+      "note": "weiblich: die Flugbegleiterin"
+    },
+    {
+      "id": "vesper",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "Vesper",
+      "type": "noun",
+      "article": "die",
+      "plural": "Vespern",
+      "reflexive": false,
+      "meaning": {
+        "de": "Kleine Zwischenmahlzeit, Brotzeit (süddeutsch); auch: Abendgebet",
+        "tr": "ara öğün, atıştırmalık (Güney Almanya); akşam duası",
+        "en": "snack, light meal (southern German); vespers",
+        "uk": "перекус (півд.-нім.); вечірня (молитва)",
+        "ar": "وجبة خفيفة (جنوب ألمانيا)؛ صلاة المساء",
+        "it": "spuntino, merenda (Germania del sud); vespri"
+      },
+      "synonyms": [
+        "die Brotzeit",
+        "die Jause"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Um vier Uhr machen wir eine kurze Vesper.",
+        "tr": "Saat dörtte kısa bir ara öğün yapıyoruz.",
+        "en": "At four o'clock we have a short snack.",
+        "uk": "О четвертій ми робимо короткий перекус.",
+        "ar": "في الساعة الرابعة نتناول وجبة خفيفة.",
+        "it": "Alle quattro facciamo una breve merenda."
+      },
+      "note": "im Schwäbischen auch: das Vesper"
+    },
+    {
+      "id": "sich-trauen",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "sich trauen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "traut sich",
+        "praeteritum": "traute sich",
+        "perfekt": "hat sich getraut"
+      },
+      "meaning": {
+        "de": "1. Mut haben, etwas zu tun, eine Angst überwinden; 2. (sich trauen lassen) heiraten",
+        "tr": "cesaret etmek, cüret etmek; (sich trauen lassen) evlenmek",
+        "en": "to dare; (sich trauen lassen) to get married",
+        "uk": "наважуватися, зважитися; (sich trauen lassen) одружуватися",
+        "ar": "يجرؤ؛ (sich trauen lassen) يتزوّج",
+        "it": "osare, avere il coraggio; (sich trauen lassen) sposarsi"
+      },
+      "synonyms": [
+        "wagen",
+        "heiraten"
+      ],
+      "antonyms": [
+        "sich fürchten"
+      ],
+      "example": {
+        "de": "Er traut sich nicht, seinen Chef um mehr Geld zu bitten.",
+        "tr": "Patronundan daha fazla para istemeye cesaret edemiyor.",
+        "en": "He doesn't dare to ask his boss for more money.",
+        "uk": "Він не наважується попросити начальника про більшу зарплату.",
+        "ar": "لا يجرؤ على أن يطلب من مديره مزيدًا من المال.",
+        "it": "Non osa chiedere al suo capo più soldi."
+      },
+      "note": "sich (Akk.) trauen, etwas zu tun; jemanden (Akk.) trauen = verheiraten; sich trauen lassen = heiraten"
+    },
+    {
+      "id": "festnehmen",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "festnehmen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "nimmt fest",
+        "praeteritum": "nahm fest",
+        "perfekt": "hat festgenommen"
+      },
+      "meaning": {
+        "de": "Jemanden (als Polizei) mitnehmen und nicht gehen lassen",
+        "tr": "gözaltına almak, tutuklamak",
+        "en": "to arrest, to detain",
+        "uk": "затримувати, заарештовувати",
+        "ar": "يعتقل، يقبض على",
+        "it": "arrestare, fermare"
+      },
+      "synonyms": [
+        "verhaften"
+      ],
+      "antonyms": [
+        "freilassen"
+      ],
+      "example": {
+        "de": "Die Polizei hat den Dieb am Bahnhof festgenommen.",
+        "tr": "Polis hırsızı istasyonda gözaltına aldı.",
+        "en": "The police arrested the thief at the station.",
+        "uk": "Поліція затримала злодія на вокзалі.",
+        "ar": "قبضت الشرطة على اللص في المحطة.",
+        "it": "La polizia ha arrestato il ladro alla stazione."
+      },
+      "note": "jemanden (Akk.) festnehmen"
+    },
+    {
+      "id": "richter",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "Richter",
+      "type": "noun",
+      "article": "der",
+      "plural": "Richter",
+      "reflexive": false,
+      "meaning": {
+        "de": "Person, die vor Gericht ein Urteil spricht",
+        "tr": "hâkim, yargıç",
+        "en": "judge",
+        "uk": "суддя",
+        "ar": "قاضٍ",
+        "it": "giudice"
+      },
+      "synonyms": [],
+      "antonyms": [
+        "der Angeklagte"
+      ],
+      "example": {
+        "de": "Der Richter hat den Angeklagten freigesprochen.",
+        "tr": "Hâkim sanığı beraat ettirdi.",
+        "en": "The judge acquitted the defendant.",
+        "uk": "Суддя виправдав обвинуваченого.",
+        "ar": "برّأ القاضي المتهم.",
+        "it": "Il giudice ha assolto l'imputato."
+      },
+      "note": "weiblich: die Richterin"
+    },
+    {
+      "id": "taschengeld",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "Taschengeld",
+      "type": "noun",
+      "article": "das",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Geld, das Kinder regelmäßig von den Eltern für eigene Ausgaben bekommen",
+        "tr": "harçlık, cep harçlığı",
+        "en": "pocket money, allowance",
+        "uk": "кишенькові гроші",
+        "ar": "مصروف الجيب",
+        "it": "paghetta"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Mein Sohn bekommt 20 Euro Taschengeld im Monat.",
+        "tr": "Oğlum ayda 20 euro harçlık alıyor.",
+        "en": "My son gets 20 euros pocket money a month.",
+        "uk": "Мій син отримує 20 євро кишенькових грошей на місяць.",
+        "ar": "يحصل ابني على 20 يورو مصروفًا شهريًا.",
+        "it": "Mio figlio riceve 20 euro di paghetta al mese."
+      },
+      "note": null
+    },
+    {
+      "id": "unterhalt",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "Unterhalt",
+      "type": "noun",
+      "article": "der",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Geld für Essen, Wohnung usw.; Zahlung z. B. für Kinder nach einer Scheidung",
+        "tr": "nafaka; geçim",
+        "en": "maintenance, alimony, child support; living costs",
+        "uk": "аліменти; утримання, прожиток",
+        "ar": "نفقة؛ إعالة",
+        "it": "mantenimento, alimenti"
+      },
+      "synonyms": [
+        "die Alimente",
+        "der Lebensunterhalt"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Nach der Scheidung zahlt er Unterhalt für die Kinder.",
+        "tr": "Boşanmadan sonra çocuklar için nafaka ödüyor.",
+        "en": "After the divorce he pays child support.",
+        "uk": "Після розлучення він платить аліменти на дітей.",
+        "ar": "بعد الطلاق يدفع نفقة للأطفال.",
+        "it": "Dopo il divorzio paga il mantenimento per i figli."
+      },
+      "note": "Unterhalt zahlen; den Lebensunterhalt verdienen"
+    },
+    {
+      "id": "rationalisieren",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "rationalisieren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "rationalisiert",
+        "praeteritum": "rationalisierte",
+        "perfekt": "hat rationalisiert"
+      },
+      "meaning": {
+        "de": "Arbeit effizienter machen, oft mit weniger Personal und Kosten",
+        "tr": "rasyonelleştirmek, verimli hâle getirmek",
+        "en": "to rationalize, to streamline",
+        "uk": "раціоналізувати, оптимізувати",
+        "ar": "يرشّد، يجعل أكثر كفاءة",
+        "it": "razionalizzare"
+      },
+      "synonyms": [
+        "optimieren",
+        "effizienter machen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Firma hat die Produktion rationalisiert und Stellen abgebaut.",
+        "tr": "Şirket üretimi rasyonelleştirdi ve kadro azalttı.",
+        "en": "The company streamlined production and cut jobs.",
+        "uk": "Фірма раціоналізувала виробництво і скоротила робочі місця.",
+        "ar": "رشّدت الشركة الإنتاج وألغت وظائف.",
+        "it": "L'azienda ha razionalizzato la produzione e tagliato posti di lavoro."
+      },
+      "note": "etwas (Akk.) rationalisieren"
+    },
+    {
+      "id": "mental",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "mental",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Den Geist, das Denken oder die Psyche betreffend",
+        "tr": "zihinsel, ruhsal",
+        "en": "mental",
+        "uk": "психологічний, ментальний",
+        "ar": "ذهني، نفسي",
+        "it": "mentale"
+      },
+      "synonyms": [
+        "geistig",
+        "psychisch"
+      ],
+      "antonyms": [
+        "körperlich"
+      ],
+      "example": {
+        "de": "Nach der Operation braucht sie vor allem mentale Unterstützung.",
+        "tr": "Ameliyattan sonra her şeyden önce manevi desteğe ihtiyacı var.",
+        "en": "After the operation she needs mental support above all.",
+        "uk": "Після операції їй насамперед потрібна психологічна підтримка.",
+        "ar": "بعد العملية تحتاج قبل كل شيء إلى دعم نفسي.",
+        "it": "Dopo l'operazione ha bisogno soprattutto di sostegno mentale."
+      },
+      "note": "mentale Unterstützung"
+    },
+    {
+      "id": "schlaganfall",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "Schlaganfall",
+      "type": "noun",
+      "article": "der",
+      "plural": "Schlaganfälle",
+      "reflexive": false,
+      "meaning": {
+        "de": "Plötzliche Durchblutungsstörung im Gehirn",
+        "tr": "felç, inme",
+        "en": "stroke",
+        "uk": "інсульт",
+        "ar": "سكتة دماغية",
+        "it": "ictus"
+      },
+      "synonyms": [
+        "der Hirninfarkt"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Nach seinem Schlaganfall konnte er nicht mehr richtig sprechen.",
+        "tr": "Felç geçirdikten sonra artık düzgün konuşamıyordu.",
+        "en": "After his stroke he could no longer speak properly.",
+        "uk": "Після інсульту він більше не міг нормально говорити.",
+        "ar": "بعد إصابته بسكتة دماغية لم يعد يستطيع الكلام جيدًا.",
+        "it": "Dopo l'ictus non riusciva più a parlare bene."
+      },
+      "note": "einen Schlaganfall erleiden/bekommen"
+    },
+    {
+      "id": "hebamme",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "Hebamme",
+      "type": "noun",
+      "article": "die",
+      "plural": "Hebammen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Frau, die bei der Geburt hilft und Mütter betreut",
+        "tr": "ebe",
+        "en": "midwife",
+        "uk": "акушерка",
+        "ar": "قابلة",
+        "it": "ostetrica"
+      },
+      "synonyms": [
+        "die Geburtshelferin"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Hebamme besucht die Mutter nach der Geburt zu Hause.",
+        "tr": "Ebe doğumdan sonra anneyi evde ziyaret ediyor.",
+        "en": "The midwife visits the mother at home after the birth.",
+        "uk": "Акушерка відвідує матір удома після пологів.",
+        "ar": "تزور القابلة الأم في البيت بعد الولادة.",
+        "it": "L'ostetrica visita la madre a casa dopo il parto."
+      },
+      "note": null
+    },
+    {
+      "id": "herzdruckmassage",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "Herzdruckmassage",
+      "type": "noun",
+      "article": "die",
+      "plural": "Herzdruckmassagen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Erste Hilfe: rhythmisches Drücken auf den Brustkorb bei Herzstillstand",
+        "tr": "kalp masajı",
+        "en": "chest compressions, CPR",
+        "uk": "непрямий масаж серця",
+        "ar": "تدليك القلب، الإنعاش القلبي",
+        "it": "massaggio cardiaco"
+      },
+      "synonyms": [
+        "die Herzmassage",
+        "die Reanimation"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Bis der Notarzt kam, machte sie eine Herzdruckmassage.",
+        "tr": "Acil doktor gelene kadar kalp masajı yaptı.",
+        "en": "She did chest compressions until the emergency doctor arrived.",
+        "uk": "Доки не приїхав лікар швидкої, вона робила масаж серця.",
+        "ar": "أجرت تدليكًا للقلب حتى وصل طبيب الطوارئ.",
+        "it": "Ha fatto il massaggio cardiaco finché non è arrivato il medico d'urgenza."
+      },
+      "note": null
+    },
+    {
+      "id": "erlaeutern",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "erläutern",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "erläutert",
+        "praeteritum": "erläuterte",
+        "perfekt": "hat erläutert"
+      },
+      "meaning": {
+        "de": "Etwas genau und verständlich erklären",
+        "tr": "açıklamak, izah etmek",
+        "en": "to explain, to elucidate",
+        "uk": "пояснювати, роз'яснювати",
+        "ar": "يشرح، يوضّح",
+        "it": "spiegare, illustrare"
+      },
+      "synonyms": [
+        "erklären",
+        "darlegen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Chef erläuterte uns den neuen Plan.",
+        "tr": "Şef bize yeni planı açıkladı.",
+        "en": "The boss explained the new plan to us.",
+        "uk": "Начальник пояснив нам новий план.",
+        "ar": "شرح لنا المدير الخطة الجديدة.",
+        "it": "Il capo ci ha illustrato il nuovo piano."
+      },
+      "note": "jemandem (Dat.) etwas (Akk.) erläutern"
+    },
+    {
+      "id": "anekdote",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "Anekdote",
+      "type": "noun",
+      "article": "die",
+      "plural": "Anekdoten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Kurze, lustige oder interessante Geschichte über eine Person oder ein Ereignis",
+        "tr": "anekdot, fıkra",
+        "en": "anecdote",
+        "uk": "анекдот, кумедна історія",
+        "ar": "نادرة، حكاية طريفة",
+        "it": "aneddoto"
+      },
+      "synonyms": [
+        "die Geschichte"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Mein Opa erzählt gern Anekdoten aus seiner Jugend.",
+        "tr": "Dedem gençliğinden anekdotlar anlatmayı sever.",
+        "en": "My grandpa likes telling anecdotes from his youth.",
+        "uk": "Мій дідусь любить розповідати історії зі своєї молодості.",
+        "ar": "يحب جدي أن يروي نوادر من شبابه.",
+        "it": "Mio nonno ama raccontare aneddoti della sua giovinezza."
+      },
+      "note": null
+    },
+    {
+      "id": "ausschweifen",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "ausschweifen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schweift aus",
+        "praeteritum": "schweifte aus",
+        "perfekt": "ist ausgeschweift"
+      },
+      "meaning": {
+        "de": "Zu weit gehen, das normale Maß überschreiten; beim Erzählen vom Thema abkommen",
+        "tr": "aşırıya kaçmak, ölçüyü kaçırmak; konudan sapmak",
+        "en": "to go too far, to be excessive; to digress",
+        "uk": "виходити за межі, бути нестриманим; відхилятися від теми",
+        "ar": "يتجاوز الحد، يفرط؛ يستطرد",
+        "it": "eccedere, andare oltre; divagare"
+      },
+      "synonyms": [
+        "abschweifen",
+        "übertreiben"
+      ],
+      "antonyms": [
+        "sich kurz fassen"
+      ],
+      "example": {
+        "de": "Er erzählt immer so ausschweifend, dass alle das Thema vergessen.",
+        "tr": "Hep o kadar uzatarak anlatıyor ki herkes konuyu unutuyor.",
+        "en": "He always talks so long-windedly that everyone forgets the topic.",
+        "uk": "Він завжди розповідає так розлого, що всі забувають тему.",
+        "ar": "يستطرد دائمًا في حديثه حتى ينسى الجميع الموضوع.",
+        "it": "Racconta sempre in modo così prolisso che tutti dimenticano l'argomento."
+      },
+      "note": "intransitiv (ohne Objekt); oft als Adjektiv: ausschweifend erzählen; vgl. abschweifen (vom Thema)"
+    },
+    {
+      "id": "schweif",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "Schweif",
+      "type": "noun",
+      "article": "der",
+      "plural": "Schweife",
+      "reflexive": false,
+      "meaning": {
+        "de": "Langer Schwanz, z. B. bei einem Pferd oder einem Kometen",
+        "tr": "kuyruk (at, kuyruklu yıldız)",
+        "en": "tail (of a horse or comet)",
+        "uk": "хвіст (коня, комети)",
+        "ar": "ذيل (حصان، مذنّب)",
+        "it": "coda (di cavallo, cometa)"
+      },
+      "synonyms": [
+        "der Schwanz"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Komet hatte einen langen, hellen Schweif.",
+        "tr": "Kuyruklu yıldızın uzun, parlak bir kuyruğu vardı.",
+        "en": "The comet had a long, bright tail.",
+        "uk": "Комета мала довгий яскравий хвіст.",
+        "ar": "كان للمذنّب ذيل طويل ومضيء.",
+        "it": "La cometa aveva una lunga coda luminosa."
+      },
+      "note": "gehoben"
+    },
+    {
+      "id": "im-akkord-arbeiten",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "im Akkord arbeiten",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nach Stückzahl bezahlt werden; auch: sehr schnell und viel arbeiten",
+        "tr": "parça başı çalışmak; çok hızlı ve yoğun çalışmak",
+        "en": "to do piecework; to work flat out",
+        "uk": "працювати відрядно; працювати дуже інтенсивно",
+        "ar": "يعمل بالقطعة؛ يعمل بسرعة وكثافة",
+        "it": "lavorare a cottimo; lavorare a ritmo serrato"
+      },
+      "synonyms": [
+        "auf Hochtouren arbeiten"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In der Fabrik arbeiten viele Leute im Akkord.",
+        "tr": "Fabrikada birçok kişi parça başı çalışıyor.",
+        "en": "Many people in the factory do piecework.",
+        "uk": "На фабриці багато людей працюють відрядно.",
+        "ar": "يعمل كثير من الناس في المصنع بالقطعة.",
+        "it": "In fabbrica molte persone lavorano a cottimo."
+      },
+      "note": "der Akkordlohn = Stücklohn"
+    },
+    {
+      "id": "respektiert",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "respektiert",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Von anderen geachtet und geschätzt",
+        "tr": "saygı gören, itibarlı",
+        "en": "respected",
+        "uk": "шанований",
+        "ar": "محترم",
+        "it": "rispettato"
+      },
+      "synonyms": [
+        "angesehen",
+        "geachtet"
+      ],
+      "antonyms": [
+        "verachtet"
+      ],
+      "example": {
+        "de": "Sie ist eine respektierte Kollegin.",
+        "tr": "Saygı gören bir meslektaş.",
+        "en": "She is a respected colleague.",
+        "uk": "Вона шанована колега.",
+        "ar": "إنها زميلة محترمة.",
+        "it": "È una collega rispettata."
+      },
+      "note": "Partizip II von „respektieren“"
+    },
+    {
+      "id": "angesehen",
+      "source": "notes",
+      "date": "2026-10-12",
+      "word": "angesehen",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Mit gutem Ruf, von vielen geachtet",
+        "tr": "itibarlı, saygın",
+        "en": "respected, reputable, distinguished",
+        "uk": "шанований, авторитетний",
+        "ar": "ذو مكانة، مرموق",
+        "it": "stimato, rispettato, prestigioso"
+      },
+      "synonyms": [
+        "respektiert",
+        "geachtet"
+      ],
+      "antonyms": [
+        "verrufen"
+      ],
+      "example": {
+        "de": "Er ist ein angesehener Arzt in der Stadt.",
+        "tr": "Şehirde saygın bir doktordur.",
+        "en": "He is a respected doctor in the town.",
+        "uk": "Він шанований лікар у місті.",
+        "ar": "إنه طبيب مرموق في المدينة.",
+        "it": "È un medico stimato in città."
+      },
+      "note": "Partizip II von „ansehen“"
+    },
+    {
+      "id": "verantwortlichkeit",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Verantwortlichkeit",
+      "type": "noun",
+      "article": "die",
+      "plural": "Verantwortlichkeiten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Aufgabe oder Bereich, für den man verantwortlich ist",
+        "tr": "sorumluluk, yetki alanı",
+        "en": "responsibility",
+        "uk": "відповідальність, обов'язок",
+        "ar": "مسؤولية",
+        "it": "responsabilità"
+      },
+      "synonyms": [
+        "die Zuständigkeit",
+        "die Verantwortung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Im Team sind die Verantwortlichkeiten klar verteilt.",
+        "tr": "Ekipte sorumluluklar açıkça dağıtılmış.",
+        "en": "In the team, responsibilities are clearly divided.",
+        "uk": "У команді обов'язки чітко розподілені.",
+        "ar": "المسؤوليات موزّعة بوضوح في الفريق.",
+        "it": "Nel team le responsabilità sono chiaramente suddivise."
+      },
+      "note": null
+    },
+    {
+      "id": "sorgfaeltig",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "sorgfältig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sehr genau und mit viel Aufmerksamkeit",
+        "tr": "özenli, dikkatli, titiz",
+        "en": "careful, thorough",
+        "uk": "ретельний, старанний",
+        "ar": "دقيق، متأنٍّ",
+        "it": "accurato, scrupoloso"
+      },
+      "synonyms": [
+        "gründlich",
+        "genau"
+      ],
+      "antonyms": [
+        "nachlässig",
+        "schlampig"
+      ],
+      "example": {
+        "de": "Bitte lesen Sie den Vertrag sorgfältig durch.",
+        "tr": "Lütfen sözleşmeyi dikkatlice okuyun.",
+        "en": "Please read the contract carefully.",
+        "uk": "Будь ласка, уважно прочитайте договір.",
+        "ar": "يرجى قراءة العقد بعناية.",
+        "it": "Per favore, legga attentamente il contratto."
+      },
+      "note": "Nomen: die Sorgfalt"
+    },
+    {
+      "id": "sorgfalt",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Sorgfalt",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Große Genauigkeit und Aufmerksamkeit bei der Arbeit",
+        "tr": "özen, dikkat, titizlik",
+        "en": "care, diligence",
+        "uk": "ретельність, старанність",
+        "ar": "عناية، دقة",
+        "it": "cura, accuratezza"
+      },
+      "synonyms": [
+        "die Genauigkeit",
+        "die Gründlichkeit"
+      ],
+      "antonyms": [
+        "die Nachlässigkeit"
+      ],
+      "example": {
+        "de": "Diese Arbeit erfordert viel Sorgfalt.",
+        "tr": "Bu iş çok özen gerektiriyor.",
+        "en": "This work requires a lot of care.",
+        "uk": "Ця робота вимагає великої ретельності.",
+        "ar": "يتطلب هذا العمل عناية كبيرة.",
+        "it": "Questo lavoro richiede molta cura."
+      },
+      "note": "mit Sorgfalt arbeiten"
+    },
+    {
+      "id": "anpassungsfaehigkeit",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Anpassungsfähigkeit",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Fähigkeit, sich an neue Situationen anzupassen",
+        "tr": "uyum yeteneği, uyum sağlama becerisi",
+        "en": "adaptability",
+        "uk": "здатність адаптуватися, пристосовуваність",
+        "ar": "القدرة على التكيّف",
+        "it": "capacità di adattamento"
+      },
+      "synonyms": [
+        "die Flexibilität"
+      ],
+      "antonyms": [
+        "die Starrheit"
+      ],
+      "example": {
+        "de": "Im Ausland ist Anpassungsfähigkeit sehr wichtig.",
+        "tr": "Yurt dışında uyum yeteneği çok önemlidir.",
+        "en": "Abroad, adaptability is very important.",
+        "uk": "За кордоном дуже важлива здатність адаптуватися.",
+        "ar": "القدرة على التكيّف مهمة جدًا في الخارج.",
+        "it": "All'estero la capacità di adattamento è molto importante."
+      },
+      "note": null
+    },
+    {
+      "id": "kommunikationsfaehigkeit",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Kommunikationsfähigkeit",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Fähigkeit, gut mit anderen zu sprechen und sich verständlich zu machen",
+        "tr": "iletişim becerisi",
+        "en": "communication skills",
+        "uk": "комунікабельність, комунікативні навички",
+        "ar": "مهارة التواصل",
+        "it": "capacità comunicativa"
+      },
+      "synonyms": [
+        "die Kommunikationsstärke"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für diese Stelle ist Kommunikationsfähigkeit besonders wichtig.",
+        "tr": "Bu pozisyon için iletişim becerisi özellikle önemli.",
+        "en": "Communication skills are especially important for this position.",
+        "uk": "Для цієї посади особливо важлива комунікабельність.",
+        "ar": "مهارة التواصل مهمة بشكل خاص لهذه الوظيفة.",
+        "it": "Per questo posto la capacità comunicativa è particolarmente importante."
+      },
+      "note": null
+    },
+    {
+      "id": "engagement",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Engagement",
+      "type": "noun",
+      "article": "das",
+      "plural": "Engagements",
+      "reflexive": false,
+      "meaning": {
+        "de": "Großer persönlicher Einsatz für eine Sache",
+        "tr": "bağlılık, gönüllü katkı, angajman",
+        "en": "commitment, dedication",
+        "uk": "відданість справі, активна участь",
+        "ar": "التزام، تفانٍ",
+        "it": "impegno"
+      },
+      "synonyms": [
+        "der Einsatz",
+        "die Hingabe"
+      ],
+      "antonyms": [
+        "die Gleichgültigkeit"
+      ],
+      "example": {
+        "de": "Wir danken Ihnen für Ihr großes Engagement.",
+        "tr": "Büyük bağlılığınız için teşekkür ederiz.",
+        "en": "We thank you for your great commitment.",
+        "uk": "Дякуємо вам за вашу велику відданість справі.",
+        "ar": "نشكركم على التزامكم الكبير.",
+        "it": "La ringraziamo per il suo grande impegno."
+      },
+      "note": "Engagement für etwas (Akk.); Aussprache französisch [ãgaʒəˈmã]"
+    },
+    {
+      "id": "sich-engagieren",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "sich engagieren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "engagiert sich",
+        "praeteritum": "engagierte sich",
+        "perfekt": "hat sich engagiert"
+      },
+      "meaning": {
+        "de": "Sich aktiv und mit viel Einsatz für etwas einsetzen",
+        "tr": "kendini adamak, (bir amaç için) aktif olarak çalışmak",
+        "en": "to get involved, to be committed",
+        "uk": "активно долучатися, віддавати себе справі",
+        "ar": "يلتزم، ينخرط بنشاط",
+        "it": "impegnarsi"
+      },
+      "synonyms": [
+        "sich einsetzen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Sie engagiert sich ehrenamtlich für Flüchtlinge.",
+        "tr": "Gönüllü olarak mültecilere yardım için çalışıyor.",
+        "en": "She volunteers to help refugees.",
+        "uk": "Вона волонтерить, допомагаючи біженцям.",
+        "ar": "تنخرط تطوعيًا في مساعدة اللاجئين.",
+        "it": "Si impegna come volontaria per i rifugiati."
+      },
+      "note": "sich (Akk.) für etwas/jemanden (Akk.) engagieren"
+    },
+    {
+      "id": "ruecksicht-nehmen",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Rücksicht nehmen",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "An die Gefühle und Bedürfnisse anderer denken und sich danach richten",
+        "tr": "saygı göstermek, dikkate almak, hesaba katmak",
+        "en": "to show consideration, to be considerate",
+        "uk": "зважати, враховувати, бути уважним до інших",
+        "ar": "يراعي، يأخذ بعين الاعتبار",
+        "it": "avere riguardo, tenere conto"
+      },
+      "synonyms": [
+        "berücksichtigen",
+        "beachten"
+      ],
+      "antonyms": [
+        "rücksichtslos sein"
+      ],
+      "example": {
+        "de": "Bitte nehmen Sie Rücksicht auf die Nachbarn und seien Sie leise.",
+        "tr": "Lütfen komşuları dikkate alın ve sessiz olun.",
+        "en": "Please be considerate of the neighbours and keep quiet.",
+        "uk": "Будь ласка, зважайте на сусідів і поводьтеся тихо.",
+        "ar": "يرجى مراعاة الجيران والتزام الهدوء.",
+        "it": "Per favore abbiate riguardo per i vicini e fate silenzio."
+      },
+      "note": "auf jemanden/etwas (Akk.) Rücksicht nehmen"
+    },
+    {
+      "id": "lernbereitschaft",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Lernbereitschaft",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Der Wille, Neues zu lernen",
+        "tr": "öğrenme isteği, öğrenmeye açıklık",
+        "en": "willingness to learn",
+        "uk": "готовність навчатися",
+        "ar": "الاستعداد للتعلّم",
+        "it": "disponibilità ad apprendere"
+      },
+      "synonyms": [
+        "die Lernwilligkeit"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Wir suchen Bewerber mit hoher Lernbereitschaft.",
+        "tr": "Öğrenmeye çok istekli adaylar arıyoruz.",
+        "en": "We are looking for applicants with a strong willingness to learn.",
+        "uk": "Ми шукаємо кандидатів із високою готовністю навчатися.",
+        "ar": "نبحث عن متقدمين لديهم استعداد كبير للتعلّم.",
+        "it": "Cerchiamo candidati con una grande disponibilità ad apprendere."
+      },
+      "note": null
+    },
+    {
+      "id": "fuehrungsfaehigkeit",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Führungsfähigkeit",
+      "type": "noun",
+      "article": "die",
+      "plural": "Führungsfähigkeiten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Fähigkeit, ein Team oder Menschen zu leiten",
+        "tr": "liderlik yeteneği, yöneticilik becerisi",
+        "en": "leadership skills",
+        "uk": "лідерські якості, здатність керувати",
+        "ar": "القدرة القيادية",
+        "it": "capacità di leadership"
+      },
+      "synonyms": [
+        "die Führungsqualität",
+        "die Führungskompetenz"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Als Abteilungsleiterin braucht sie Führungsfähigkeit.",
+        "tr": "Bölüm müdürü olarak liderlik yeteneğine ihtiyacı var.",
+        "en": "As head of department she needs leadership skills.",
+        "uk": "Як керівниця відділу вона потребує лідерських якостей.",
+        "ar": "بصفتها رئيسة قسم تحتاج إلى قدرة قيادية.",
+        "it": "Come capo reparto ha bisogno di capacità di leadership."
+      },
+      "note": null
+    },
+    {
+      "id": "hochheben",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "hochheben",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "hebt hoch",
+        "praeteritum": "hob hoch",
+        "perfekt": "hat hochgehoben"
+      },
+      "meaning": {
+        "de": "Etwas nach oben heben",
+        "tr": "kaldırmak, yukarı kaldırmak",
+        "en": "to lift up, to raise",
+        "uk": "піднімати",
+        "ar": "يرفع",
+        "it": "sollevare, alzare"
+      },
+      "synonyms": [
+        "anheben",
+        "heben"
+      ],
+      "antonyms": [
+        "absetzen",
+        "senken"
+      ],
+      "example": {
+        "de": "Der Koffer ist so schwer, dass ich ihn kaum hochheben kann.",
+        "tr": "Bavul o kadar ağır ki zar zor kaldırabiliyorum.",
+        "en": "The suitcase is so heavy that I can hardly lift it.",
+        "uk": "Валіза така важка, що я ледве можу її підняти.",
+        "ar": "الحقيبة ثقيلة جدًا لدرجة أنني بالكاد أستطيع رفعها.",
+        "it": "La valigia è così pesante che riesco a malapena a sollevarla."
+      },
+      "note": "etwas/jemanden (Akk.) hochheben"
+    },
+    {
+      "id": "hilfsbereitschaft",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Hilfsbereitschaft",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Bereitschaft, anderen zu helfen",
+        "tr": "yardımseverlik",
+        "en": "helpfulness, willingness to help",
+        "uk": "готовність допомогти, послужливість",
+        "ar": "الاستعداد للمساعدة",
+        "it": "disponibilità ad aiutare"
+      },
+      "synonyms": [
+        "die Hilfe"
+      ],
+      "antonyms": [
+        "der Egoismus"
+      ],
+      "example": {
+        "de": "Ihre Hilfsbereitschaft wird von allen geschätzt.",
+        "tr": "Yardımseverliği herkes tarafından takdir ediliyor.",
+        "en": "Everyone appreciates her helpfulness.",
+        "uk": "Її готовність допомогти всі цінують.",
+        "ar": "يقدّر الجميع استعدادها للمساعدة.",
+        "it": "La sua disponibilità ad aiutare è apprezzata da tutti."
+      },
+      "note": "Adjektiv: hilfsbereit"
+    },
+    {
+      "id": "zielstrebigkeit",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Zielstrebigkeit",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Eigenschaft, ein Ziel konsequent zu verfolgen",
+        "tr": "hedef odaklılık, kararlılık",
+        "en": "determination, single-mindedness",
+        "uk": "цілеспрямованість",
+        "ar": "الإصرار على الهدف، العزيمة",
+        "it": "determinazione"
+      },
+      "synonyms": [
+        "die Entschlossenheit",
+        "die Ausdauer"
+      ],
+      "antonyms": [
+        "die Ziellosigkeit"
+      ],
+      "example": {
+        "de": "Mit Zielstrebigkeit hat er sein Studium in kurzer Zeit abgeschlossen.",
+        "tr": "Kararlılığıyla öğrenimini kısa sürede tamamladı.",
+        "en": "With determination he finished his degree in a short time.",
+        "uk": "Завдяки цілеспрямованості він закінчив навчання за короткий час.",
+        "ar": "بفضل عزيمته أنهى دراسته في وقت قصير.",
+        "it": "Con determinazione ha finito gli studi in poco tempo."
+      },
+      "note": null
+    },
+    {
+      "id": "zielstrebig",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "zielstrebig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Ziel konsequent und energisch verfolgend",
+        "tr": "hedef odaklı, kararlı",
+        "en": "determined, focused, single-minded",
+        "uk": "цілеспрямований",
+        "ar": "مصمّم، ساعٍ إلى هدفه",
+        "it": "determinato, risoluto"
+      },
+      "synonyms": [
+        "entschlossen",
+        "ehrgeizig"
+      ],
+      "antonyms": [
+        "ziellos"
+      ],
+      "example": {
+        "de": "Sie arbeitet zielstrebig auf ihre Prüfung hin.",
+        "tr": "Sınavına kararlılıkla çalışıyor.",
+        "en": "She is working with determination towards her exam.",
+        "uk": "Вона цілеспрямовано готується до іспиту.",
+        "ar": "تعمل بإصرار استعدادًا لامتحانها.",
+        "it": "Si prepara con determinazione per il suo esame."
+      },
+      "note": "Nomen: die Zielstrebigkeit"
+    },
+    {
+      "id": "ordnungsbewusstsein",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Ordnungsbewusstsein",
+      "type": "noun",
+      "article": "das",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sinn dafür, Dinge ordentlich und organisiert zu halten",
+        "tr": "düzen bilinci, düzenlilik",
+        "en": "sense of order, tidiness",
+        "uk": "почуття порядку, організованість",
+        "ar": "الحسّ بالنظام",
+        "it": "senso dell'ordine"
+      },
+      "synonyms": [
+        "die Ordnungsliebe"
+      ],
+      "antonyms": [
+        "die Unordnung"
+      ],
+      "example": {
+        "de": "Für die Arbeit im Lager braucht man Ordnungsbewusstsein.",
+        "tr": "Depoda çalışmak için düzen bilinci gerekir.",
+        "en": "Working in the warehouse requires a sense of order.",
+        "uk": "Для роботи на складі потрібне почуття порядку.",
+        "ar": "يحتاج العمل في المستودع إلى حسّ بالنظام.",
+        "it": "Per lavorare in magazzino ci vuole senso dell'ordine."
+      },
+      "note": null
+    },
+    {
+      "id": "ausnutzen",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "ausnutzen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "nutzt aus",
+        "praeteritum": "nutzte aus",
+        "perfekt": "hat ausgenutzt"
+      },
+      "meaning": {
+        "de": "Etwas gut verwenden; jemanden zum eigenen Vorteil missbrauchen",
+        "tr": "faydalanmak, değerlendirmek; istismar etmek, sömürmek",
+        "en": "to make use of; to take advantage of, to exploit",
+        "uk": "використовувати; зловживати, експлуатувати",
+        "ar": "يستغلّ، ينتفع بـ",
+        "it": "sfruttare, approfittare"
+      },
+      "synonyms": [
+        "nutzen",
+        "missbrauchen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Er nutzt die Gutmütigkeit seiner Kollegen aus.",
+        "tr": "İş arkadaşlarının iyi niyetini istismar ediyor.",
+        "en": "He takes advantage of his colleagues' good nature.",
+        "uk": "Він зловживає добротою своїх колег.",
+        "ar": "يستغلّ طيبة زملائه.",
+        "it": "Approfitta della bontà dei suoi colleghi."
+      },
+      "note": "jemanden/etwas (Akk.) ausnutzen"
+    },
+    {
+      "id": "schleimen",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "schleimen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schleimt",
+        "praeteritum": "schleimte",
+        "perfekt": "hat geschleimt"
+      },
+      "meaning": {
+        "de": "Jemandem übertrieben schmeicheln, um Vorteile zu bekommen",
+        "tr": "yağcılık yapmak, yalakalık etmek",
+        "en": "to suck up, to crawl",
+        "uk": "підлабузнюватися",
+        "ar": "يتملّق",
+        "it": "fare il leccapiedi, adulare"
+      },
+      "synonyms": [
+        "sich einschmeicheln"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Er schleimt ständig beim Chef, um befördert zu werden.",
+        "tr": "Terfi almak için sürekli patrona yağcılık yapıyor.",
+        "en": "He keeps sucking up to the boss to get promoted.",
+        "uk": "Він постійно підлабузнюється до начальника, щоб отримати підвищення.",
+        "ar": "يتملّق المدير باستمرار ليحصل على ترقية.",
+        "it": "Fa sempre il leccapiedi con il capo per essere promosso."
+      },
+      "note": "bei jemandem (Dat.) schleimen (ugs., abwertend)"
+    },
+    {
+      "id": "pessimist",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Pessimist",
+      "type": "noun",
+      "article": "der",
+      "plural": "Pessimisten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Person, die immer das Schlechteste erwartet",
+        "tr": "karamsar, kötümser kişi",
+        "en": "pessimist",
+        "uk": "песиміст",
+        "ar": "متشائم",
+        "it": "pessimista"
+      },
+      "synonyms": [
+        "der Schwarzseher"
+      ],
+      "antonyms": [
+        "der Optimist"
+      ],
+      "example": {
+        "de": "Als Pessimist glaubt er nicht, dass das Projekt klappt.",
+        "tr": "Karamsar biri olarak projenin işe yarayacağına inanmıyor.",
+        "en": "As a pessimist, he doesn't believe the project will work.",
+        "uk": "Як песиміст, він не вірить, що проєкт вдасться.",
+        "ar": "بصفته متشائمًا لا يعتقد أن المشروع سينجح.",
+        "it": "Da pessimista, non crede che il progetto funzionerà."
+      },
+      "note": "n-Deklination: den/dem/des Pessimisten; weiblich: die Pessimistin"
+    },
+    {
+      "id": "streitbar",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "streitbar",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Gern bereit zu streiten und die eigene Meinung zu verteidigen",
+        "tr": "kavgacı, tartışmacı, mücadeleci",
+        "en": "combative, argumentative",
+        "uk": "войовничий, схильний до суперечок",
+        "ar": "مُشاكس، محبّ للجدال",
+        "it": "combattivo, battagliero"
+      },
+      "synonyms": [
+        "streitlustig",
+        "kämpferisch"
+      ],
+      "antonyms": [
+        "friedlich",
+        "harmoniebedürftig"
+      ],
+      "example": {
+        "de": "Unser Kollege ist sehr streitbar und widerspricht oft.",
+        "tr": "İş arkadaşımız çok tartışmacı ve sık sık itiraz ediyor.",
+        "en": "Our colleague is very argumentative and often disagrees.",
+        "uk": "Наш колега дуже схильний до суперечок і часто заперечує.",
+        "ar": "زميلنا محبّ للجدال كثيرًا ويعترض غالبًا.",
+        "it": "Il nostro collega è molto battagliero e contraddice spesso."
+      },
+      "note": null
+    },
+    {
+      "id": "jammern",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "jammern",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "jammert",
+        "praeteritum": "jammerte",
+        "perfekt": "hat gejammert"
+      },
+      "meaning": {
+        "de": "Laut und oft klagen",
+        "tr": "sızlanmak, yakınmak",
+        "en": "to moan, to whine, to complain",
+        "uk": "скиглити, нарікати",
+        "ar": "يتذمّر، يشكو",
+        "it": "lamentarsi, piagnucolare"
+      },
+      "synonyms": [
+        "klagen",
+        "sich beschweren"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Hör auf zu jammern und fang einfach an!",
+        "tr": "Sızlanmayı bırak ve başla artık!",
+        "en": "Stop moaning and just get started!",
+        "uk": "Перестань скиглити й просто почни!",
+        "ar": "كفّ عن التذمّر وابدأ فحسب!",
+        "it": "Smettila di lamentarti e comincia!"
+      },
+      "note": "über etwas (Akk.) jammern"
+    },
+    {
+      "id": "meckern",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "meckern",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "meckert",
+        "praeteritum": "meckerte",
+        "perfekt": "hat gemeckert"
+      },
+      "meaning": {
+        "de": "Unzufrieden über kleine Dinge kritisieren und klagen",
+        "tr": "dırdır etmek, söylenmek",
+        "en": "to grumble, to moan",
+        "uk": "бурчати, нарікати",
+        "ar": "يتذمّر، يتأفّف",
+        "it": "brontolare, lamentarsi"
+      },
+      "synonyms": [
+        "schimpfen",
+        "nörgeln"
+      ],
+      "antonyms": [
+        "loben"
+      ],
+      "example": {
+        "de": "Mein Vater meckert immer über das Wetter.",
+        "tr": "Babam hep hava hakkında söyleniyor.",
+        "en": "My father always grumbles about the weather.",
+        "uk": "Мій тато завжди бурчить на погоду.",
+        "ar": "يتذمّر أبي دائمًا من الطقس.",
+        "it": "Mio padre brontola sempre per il tempo."
+      },
+      "note": "über etwas/jemanden (Akk.) meckern (ugs.)"
+    },
+    {
+      "id": "schimpfen",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "schimpfen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schimpft",
+        "praeteritum": "schimpfte",
+        "perfekt": "hat geschimpft"
+      },
+      "meaning": {
+        "de": "Laut und ärgerlich kritisieren",
+        "tr": "azarlamak, söylenmek, sövmek",
+        "en": "to scold, to grumble, to curse",
+        "uk": "лаяти, лаятися",
+        "ar": "يوبّخ، يشتم",
+        "it": "sgridare, imprecare"
+      },
+      "synonyms": [
+        "meckern",
+        "fluchen"
+      ],
+      "antonyms": [
+        "loben"
+      ],
+      "example": {
+        "de": "Die Mutter schimpft mit dem Kind, weil es nicht aufgeräumt hat.",
+        "tr": "Anne, odasını toplamadığı için çocuğu azarlıyor.",
+        "en": "The mother scolds the child because it hasn't tidied up.",
+        "uk": "Мама лає дитину, бо та не прибрала.",
+        "ar": "توبّخ الأم الطفل لأنه لم يرتّب.",
+        "it": "La mamma sgrida il bambino perché non ha messo in ordine."
+      },
+      "note": "über etwas/jemanden (Akk.) schimpfen; mit jemandem (Dat.) schimpfen"
+    },
+    {
+      "id": "absprache",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Absprache",
+      "type": "noun",
+      "article": "die",
+      "plural": "Absprachen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas, das man mit anderen vereinbart hat",
+        "tr": "mutabakat, anlaşma, uzlaşı",
+        "en": "agreement, arrangement",
+        "uk": "домовленість",
+        "ar": "اتفاق، تنسيق",
+        "it": "accordo, intesa"
+      },
+      "synonyms": [
+        "die Vereinbarung",
+        "die Abmachung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Nach Absprache mit dem Chef kann ich früher gehen.",
+        "tr": "Şefle anlaştıktan sonra daha erken çıkabilirim.",
+        "en": "By arrangement with the boss I can leave earlier.",
+        "uk": "За домовленістю з начальником я можу піти раніше.",
+        "ar": "بالاتفاق مع المدير يمكنني المغادرة مبكرًا.",
+        "it": "Previo accordo con il capo posso andare via prima."
+      },
+      "note": "nach Absprache mit jemandem (Dat.)"
+    },
+    {
+      "id": "sachlich",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "sachlich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Objektiv und ohne Gefühle, nur auf die Sache bezogen",
+        "tr": "nesnel, objektif, tarafsız",
+        "en": "objective, factual, matter-of-fact",
+        "uk": "об'єктивний, діловий",
+        "ar": "موضوعي",
+        "it": "obiettivo, oggettivo"
+      },
+      "synonyms": [
+        "objektiv",
+        "neutral"
+      ],
+      "antonyms": [
+        "unsachlich",
+        "emotional"
+      ],
+      "example": {
+        "de": "Bitte bleiben Sie in der Diskussion sachlich.",
+        "tr": "Lütfen tartışmada objektif kalın.",
+        "en": "Please stay objective in the discussion.",
+        "uk": "Будь ласка, залишайтеся об'єктивними в дискусії.",
+        "ar": "يرجى البقاء موضوعيين في النقاش.",
+        "it": "Per favore, rimanga obiettivo nella discussione."
+      },
+      "note": null
+    },
+    {
+      "id": "erledigen",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "erledigen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "erledigt",
+        "praeteritum": "erledigte",
+        "perfekt": "hat erledigt"
+      },
+      "meaning": {
+        "de": "Eine Aufgabe zu Ende machen",
+        "tr": "halletmek, bitirmek, yerine getirmek",
+        "en": "to take care of, to get done",
+        "uk": "виконувати, залагоджувати",
+        "ar": "يُنجز، يقضي (أمرًا)",
+        "it": "sbrigare, portare a termine"
+      },
+      "synonyms": [
+        "ausführen",
+        "abschließen"
+      ],
+      "antonyms": [
+        "liegen lassen"
+      ],
+      "example": {
+        "de": "Ich muss heute noch ein paar Einkäufe erledigen.",
+        "tr": "Bugün daha birkaç alışverişi halletmem lazım.",
+        "en": "I still have to do some shopping today.",
+        "uk": "Мені сьогодні ще треба зробити кілька покупок.",
+        "ar": "لا يزال عليّ اليوم أن أقضي بعض المشتريات.",
+        "it": "Oggi devo ancora sbrigare un po' di spesa."
+      },
+      "note": "etwas (Akk.) erledigen"
+    },
+    {
+      "id": "sich-einstellen",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "sich einstellen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "stellt sich ein",
+        "praeteritum": "stellte sich ein",
+        "perfekt": "hat sich eingestellt"
+      },
+      "meaning": {
+        "de": "Sich auf eine Situation vorbereiten oder anpassen; auch: eintreten, kommen (Erfolg, Schmerzen)",
+        "tr": "hazırlanmak, uyum sağlamak; (başarı vb.) ortaya çıkmak",
+        "en": "to adjust to, to prepare for; to set in",
+        "uk": "налаштовуватися, пристосовуватися; з'являтися",
+        "ar": "يستعدّ لـ، يتكيّف مع؛ يحدث، يظهر",
+        "it": "prepararsi a, adattarsi a; subentrare"
+      },
+      "synonyms": [
+        "sich anpassen",
+        "sich vorbereiten"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Wir müssen uns auf schwierige Zeiten einstellen.",
+        "tr": "Zor zamanlara hazırlanmalıyız.",
+        "en": "We have to prepare ourselves for difficult times.",
+        "uk": "Нам треба налаштуватися на важкі часи.",
+        "ar": "علينا أن نستعدّ لأوقات صعبة.",
+        "it": "Dobbiamo prepararci a tempi difficili."
+      },
+      "note": "sich (Akk.) auf etwas/jemanden (Akk.) einstellen"
+    },
+    {
+      "id": "produktschulung",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "Produktschulung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Produktschulungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Kurs, in dem Mitarbeiter oder Kunden ein Produkt kennenlernen",
+        "tr": "ürün eğitimi",
+        "en": "product training",
+        "uk": "навчання щодо продукту",
+        "ar": "تدريب على المنتج",
+        "it": "formazione sul prodotto"
+      },
+      "synonyms": [
+        "die Schulung",
+        "das Training"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Alle neuen Mitarbeiter nehmen an einer Produktschulung teil.",
+        "tr": "Tüm yeni çalışanlar bir ürün eğitimine katılıyor.",
+        "en": "All new employees take part in product training.",
+        "uk": "Усі нові працівники проходять навчання щодо продукту.",
+        "ar": "يشارك جميع الموظفين الجدد في تدريب على المنتج.",
+        "it": "Tutti i nuovi dipendenti partecipano a una formazione sul prodotto."
+      },
+      "note": null
+    },
+    {
+      "id": "absprechen",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "absprechen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "spricht ab",
+        "praeteritum": "sprach ab",
+        "perfekt": "hat abgesprochen"
+      },
+      "meaning": {
+        "de": "Etwas mit jemandem vereinbaren; auch: jemandem etwas nicht zugestehen",
+        "tr": "kararlaştırmak, anlaşmak; (birinin bir şeye sahip olduğunu) inkâr etmek",
+        "en": "to arrange, to agree on; to deny (someone something)",
+        "uk": "домовлятися, узгоджувати; заперечувати (у когось щось)",
+        "ar": "يتفق على، ينسّق؛ ينكر (على شخص شيئًا)",
+        "it": "concordare, accordarsi; negare (a qualcuno qualcosa)"
+      },
+      "synonyms": [
+        "vereinbaren",
+        "abmachen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ich spreche den Termin noch mit meiner Kollegin ab.",
+        "tr": "Randevuyu bir de meslektaşımla konuşup kararlaştıracağım.",
+        "en": "I'll still arrange the appointment with my colleague.",
+        "uk": "Я ще узгоджу дату зі своєю колегою.",
+        "ar": "سأنسّق الموعد مع زميلتي أولًا.",
+        "it": "Concordo ancora l'appuntamento con la mia collega."
+      },
+      "note": "etwas (Akk.) mit jemandem (Dat.) absprechen; jemandem (Dat.) etwas (Akk.) absprechen = abstreiten"
+    },
+    {
+      "id": "strebsam",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "strebsam",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Fleißig und bemüht, etwas zu erreichen",
+        "tr": "çalışkan, gayretli",
+        "en": "hard-working, ambitious, diligent",
+        "uk": "старанний, працьовитий",
+        "ar": "مجتهد، طموح",
+        "it": "diligente, volenteroso"
+      },
+      "synonyms": [
+        "fleißig",
+        "ehrgeizig"
+      ],
+      "antonyms": [
+        "faul"
+      ],
+      "example": {
+        "de": "Er ist ein strebsamer junger Mann.",
+        "tr": "Çalışkan, gayretli bir genç adam.",
+        "en": "He is a hard-working young man.",
+        "uk": "Він старанний молодий чоловік.",
+        "ar": "إنه شاب مجتهد.",
+        "it": "È un giovane diligente."
+      },
+      "note": null
+    },
+    {
+      "id": "verfuegen",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "verfügen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "verfügt über",
+        "praeteritum": "verfügte über",
+        "perfekt": "hat über … verfügt"
+      },
+      "meaning": {
+        "de": "Etwas haben, besitzen oder benutzen können",
+        "tr": "sahip olmak, elinde bulundurmak",
+        "en": "to have, to possess, to have at one's disposal",
+        "uk": "мати, володіти, мати в розпорядженні",
+        "ar": "يمتلك، يتوفّر على",
+        "it": "disporre di"
+      },
+      "synonyms": [
+        "besitzen",
+        "haben"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Bewerberin verfügt über gute Englischkenntnisse.",
+        "tr": "Aday iyi düzeyde İngilizce bilgisine sahip.",
+        "en": "The applicant has a good command of English.",
+        "uk": "Кандидатка має добрі знання англійської.",
+        "ar": "تمتلك المتقدّمة معرفة جيدة باللغة الإنجليزية.",
+        "it": "La candidata dispone di buone conoscenze d'inglese."
+      },
+      "note": "über etwas (Akk.) verfügen"
+    },
+    {
+      "id": "liebenswuerdig",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "liebenswürdig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Freundlich, nett und höflich",
+        "tr": "sevimli, nazik, hoş",
+        "en": "kind, amiable, charming",
+        "uk": "люб'язний, привітний",
+        "ar": "لطيف، ودود",
+        "it": "gentile, amabile"
+      },
+      "synonyms": [
+        "freundlich",
+        "nett"
+      ],
+      "antonyms": [
+        "unfreundlich",
+        "unhöflich"
+      ],
+      "example": {
+        "de": "Das ist sehr liebenswürdig von Ihnen, danke!",
+        "tr": "Çok naziksiniz, teşekkürler!",
+        "en": "That's very kind of you, thank you!",
+        "uk": "Це дуже люб'язно з вашого боку, дякую!",
+        "ar": "هذا لطف كبير منك، شكرًا!",
+        "it": "È molto gentile da parte sua, grazie!"
+      },
+      "note": null
+    },
+    {
+      "id": "zustaendig",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "zuständig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Für eine Aufgabe verantwortlich und berechtigt",
+        "tr": "sorumlu, yetkili",
+        "en": "responsible, in charge, competent",
+        "uk": "відповідальний, компетентний",
+        "ar": "مسؤول، مختص",
+        "it": "competente, responsabile"
+      },
+      "synonyms": [
+        "verantwortlich"
+      ],
+      "antonyms": [
+        "unzuständig"
+      ],
+      "example": {
+        "de": "Wer ist bei Ihnen für Reklamationen zuständig?",
+        "tr": "Sizde şikâyetlerden kim sorumlu?",
+        "en": "Who is responsible for complaints at your company?",
+        "uk": "Хто у вас відповідає за рекламації?",
+        "ar": "من المسؤول عن الشكاوى لديكم؟",
+        "it": "Chi è competente per i reclami da voi?"
+      },
+      "note": "für etwas/jemanden (Akk.) zuständig sein"
+    },
+    {
+      "id": "ausprobieren",
+      "source": "notes",
+      "date": "2026-10-13",
+      "word": "ausprobieren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "probiert aus",
+        "praeteritum": "probierte aus",
+        "perfekt": "hat ausprobiert"
+      },
+      "meaning": {
+        "de": "Etwas Neues testen, um zu sehen, ob es funktioniert oder gefällt",
+        "tr": "denemek, test etmek",
+        "en": "to try out, to test",
+        "uk": "випробовувати, пробувати",
+        "ar": "يجرّب",
+        "it": "provare, sperimentare"
+      },
+      "synonyms": [
+        "testen",
+        "versuchen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ich möchte das neue Rezept am Wochenende ausprobieren.",
+        "tr": "Yeni tarifi hafta sonu denemek istiyorum.",
+        "en": "I'd like to try out the new recipe at the weekend.",
+        "uk": "Я хочу випробувати новий рецепт на вихідних.",
+        "ar": "أريد أن أجرّب الوصفة الجديدة في عطلة نهاية الأسبوع.",
+        "it": "Voglio provare la nuova ricetta nel fine settimana."
+      },
+      "note": "etwas (Akk.) ausprobieren"
     }
   ]
 }
