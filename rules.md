@@ -259,7 +259,7 @@ Ek olarak `git diff` ile yalnızca yeni kartların eklendiğini, mevcut kartlar�
 
 ## 7. Fiil tablosu: `verbs.json` (Verben Formen testi)
 
-Düzensiz fiil tabloları kart olmaz; sadece uygulamadaki **Verben Formen 📝** ve **Verben Schreiben ✍️** testlerinde kullanılır. Bu fiiller Notizen, Buch, Saved, Gelernt, Jetzt spielen, Erinnerung ve Lückentext'te görünmez.
+Düzensiz fiil tabloları kart olmaz; sadece uygulamadaki **Verben Formen 📝** ve **Verben Schreiben ✍️** testlerinde kullanılır. Bu fiiller Notizen, Buch, Saved, Gelernt, Jetzt spielen, Erinnerung, Lückentext ve Der Die Das'ta görünmez.
 
 - **Ne zaman:** Kullanıcı Infinitiv / Präteritum / Partizip II tablosunun fotoğrafını verip "sadece test için" veya "Verben Formen'e ekle" dediğinde. Emin değilsen sor (kart mı, test mi).
 - **Nereye:** `verbs.json` içindeki `verbs` dizisinin **sonuna**, tablodaki sırayla (önce sol sütun yukarıdan aşağı, sonra sağ sütun; birden fazla sayfa varsa sayfa sırasıyla).

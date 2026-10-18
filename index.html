@@ -435,6 +435,30 @@
     .gap.missed { color: #b3261e; border-bottom-color: #d93025; font-weight: 700; }
     .gap-hint { margin-top: 12px; color: var(--muted); font-size: 0.95rem; line-height: 1.45; }
 
+    /* Der Die Das: three buttons in the article colors; the card takes its color after answering. */
+    #quiz .question.article-question { cursor: default; }
+    #quiz .question.article-question.open { cursor: pointer; }
+    .article-answers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 16px; }
+    .article-answer {
+      min-height: 64px;
+      border: 3px solid transparent;
+      border-radius: 14px;
+      background: var(--btn-bg);
+      color: var(--text);
+      font-size: 1.25rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .article-answer[data-article="der"] { --btn-bg: var(--der); }
+    .article-answer[data-article="die"] { --btn-bg: var(--die); }
+    .article-answer[data-article="das"] { --btn-bg: var(--das); }
+    .article-answer:disabled { cursor: default; }
+    .article-answer.correct { border-color: #2e9e4f; }
+    .article-answer.correct::after { content: " ✓"; }
+    .article-answer.wrong { border-color: #d93025; }
+    .article-answer.wrong::after { content: " ✗"; }
+    .article-answer.faded { opacity: 0.35; }
+
     /* Verben Formen: an infinitive from the verb table, no details to open. */
     #quiz .question.verb-question { cursor: default; }
     #quiz .question.verb-question .word { padding-right: 0; }
@@ -703,6 +727,7 @@
       <button type="button" class="menu-item" data-tab="play">Jetzt spielen 🎯</button>
       <button type="button" class="menu-item" data-tab="review">Erinnerung 🔔<span class="badge" id="review-count"></span></button>
       <button type="button" class="menu-item" data-tab="gap">Lückentext ✏️<span class="badge" id="gap-count"></span></button>
+      <button type="button" class="menu-item" data-tab="article">Der Die Das 🎨<span class="badge" id="article-count"></span></button>
       <button type="button" class="menu-item" data-tab="verbs">Verben Formen 📝<span class="badge" id="verbs-count"></span></button>
       <button type="button" class="menu-item" data-tab="verbsWrite">Verben Schreiben ✍️<span class="badge" id="verbs-write-count"></span></button>
       <div class="submenu" id="filters"></div>
@@ -766,11 +791,11 @@
       phrase: "Phrase",
     };
     const LANGUAGES = {
-      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi.", noMatch: "Aramana uyan kelime yok.", emptyLearned: "Henüz ezberlenmiş kelime yok. Kartlardaki ✓ ile işaretleyebilirsin.", emptyLevel: "Bu seviyede henüz kelime yok.", emptyPlay: "Önce birkaç kelimeyi ✓ ile ezberlendi olarak işaretle, sonra burada oynayabilirsin.", correct: "Doğru!", wrong: "Yanlış.", next: "Sonraki", timesCorrect: "doğru", allDone: "Bütün ezberlenmiş kelimeler en az 10 kez doğru cevaplandı. 🎉", reviewDone: "Bugünlük bu kadar! Bir sonraki girişte yeni hatırlatma soruları gelecek.", reviewEmpty: "Henüz 10 kez doğru cevaplanmış kelime yok. Jetzt spielen'de 10 doğruya ulaşan kelimeler burada tekrar sorulur.", verbsDone: "Bütün fiiller 7 kez doğru cevaplandı. Verben Schreiben'de yazarak devam et. ✍️", verbsEmpty: "verbs.json yüklenemedi.", verbsLeft: "fiil kaldı", check: "Kontrol et", writeEmpty: "Henüz Verben Formen'de 7 kez doğru cevaplanmış fiil yok. 7 doğruya ulaşan fiiller burada yazarak sorulur.", writeDone: "Bütün fiiller tamamlandı: her biri 3 kez doğru yazıldı. 🎉", gapDone: "Bugünlük bu kadar! Bir sonraki girişte yeni boşluk doldurma soruları gelecek.", gapEmpty: "Henüz 10 kez doğru cevaplanmış kelime yok. Jetzt spielen'de 10 doğruya ulaşan kelimeler burada örnek cümlelerinde boşluk doldurma olarak sorulur." },
-      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet.", noMatch: "No words match your search.", emptyLearned: "No learned words yet. Tap ✓ on a card to mark it as learned.", emptyLevel: "No words at this level yet.", emptyPlay: "Mark some words as learned with ✓ first, then you can play here.", correct: "Correct!", wrong: "Wrong.", next: "Next", timesCorrect: "correct", allDone: "Every learned word has been answered correctly at least 10 times. 🎉", reviewDone: "That's all for now! New review questions will come next time you open the app.", reviewEmpty: "No word has been answered correctly 10 times yet. Words that reach 10 in Jetzt spielen are reviewed here.", verbsDone: "Every verb has been answered correctly 7 times. Keep going in Verben Schreiben. ✍️", verbsEmpty: "verbs.json could not be loaded.", verbsLeft: "verbs left", check: "Check", writeEmpty: "No verb has reached 7 correct answers in Verben Formen yet. Verbs that do are asked here in writing.", writeDone: "All verbs done: each one was written correctly 3 times. 🎉", gapDone: "That's all for now! New gap-fill questions will come next time you open the app.", gapEmpty: "No word has been answered correctly 10 times yet. Words that reach 10 in Jetzt spielen are asked here as gaps in their example sentence." },
-      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника.", noMatch: "Немає слів, що відповідають пошуку.", emptyLearned: "Ще немає вивчених слів. Натисніть ✓ на картці, щоб позначити її.", emptyLevel: "На цьому рівні ще немає слів.", emptyPlay: "Спочатку позначте кілька слів як вивчені за допомогою ✓, тоді можна грати тут.", correct: "Правильно!", wrong: "Неправильно.", next: "Далі", timesCorrect: "правильно", allDone: "На всі вивчені слова вже щонайменше 10 разів відповіли правильно. 🎉", reviewDone: "На сьогодні все! Нові питання для повторення з'являться наступного разу, коли ви відкриєте застосунок.", reviewEmpty: "Ще немає слів із 10 правильними відповідями. Слова, що досягли 10 у Jetzt spielen, повторюються тут.", verbsDone: "На всі дієслова вже 7 разів відповіли правильно. Продовжуйте у Verben Schreiben. ✍️", verbsEmpty: "Не вдалося завантажити verbs.json.", verbsLeft: "дієслів залишилося", check: "Перевірити", writeEmpty: "Ще немає дієслів із 7 правильними відповідями у Verben Formen. Такі дієслова тут потрібно буде написати.", writeDone: "Усі дієслова завершено: кожне правильно написано 3 рази. 🎉", gapDone: "На сьогодні все! Нові завдання з пропусками з'являться наступного разу, коли ви відкриєте застосунок.", gapEmpty: "Ще немає слів із 10 правильними відповідями. Слова, що досягли 10 у Jetzt spielen, тут треба вставити в пропуск у прикладі речення." },
-      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", noMatch: "لا توجد كلمات مطابقة لبحثك.", emptyLearned: "لا توجد كلمات محفوظة عن ظهر قلب بعد. اضغط ✓ على البطاقة لتعليمها.", emptyLevel: "لا توجد كلمات في هذا المستوى بعد.", emptyPlay: "علّم بعض الكلمات بـ ✓ كمحفوظة أولًا، ثم يمكنك اللعب هنا.", correct: "صحيح!", wrong: "خطأ.", next: "التالي", timesCorrect: "صحيح", allDone: "تمت الإجابة عن كل الكلمات المحفوظة إجابة صحيحة 10 مرات على الأقل. 🎉", reviewDone: "انتهيت لهذا اليوم! ستظهر أسئلة مراجعة جديدة في المرة القادمة التي تفتح فيها التطبيق.", reviewEmpty: "لا توجد بعد كلمات أُجيب عنها إجابة صحيحة 10 مرات. الكلمات التي تصل إلى 10 في Jetzt spielen تُراجَع هنا.", verbsDone: "تمت الإجابة عن كل الأفعال إجابة صحيحة 7 مرات. تابع في Verben Schreiben. ✍️", verbsEmpty: "تعذّر تحميل verbs.json.", verbsLeft: "أفعال متبقية", check: "تحقّق", writeEmpty: "لا توجد بعد أفعال وصلت إلى 7 إجابات صحيحة في Verben Formen. الأفعال التي تصل إلى ذلك تُطلب هنا كتابةً.", writeDone: "اكتملت كل الأفعال: كُتب كل منها بشكل صحيح 3 مرات. 🎉", gapDone: "انتهيت لهذا اليوم! ستظهر أسئلة جديدة لملء الفراغ في المرة القادمة التي تفتح فيها التطبيق.", gapEmpty: "لا توجد بعد كلمات أُجيب عنها إجابة صحيحة 10 مرات. الكلمات التي تصل إلى 10 في Jetzt spielen تُطلب هنا لملء الفراغ في جملة المثال.", rtl: true },
-      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora.", noMatch: "Nessuna parola corrisponde alla ricerca.", emptyLearned: "Nessuna parola imparata. Tocca ✓ su una carta per segnarla.", emptyLevel: "Nessuna parola a questo livello.", emptyPlay: "Segna prima alcune parole come imparate con ✓, poi puoi giocare qui.", correct: "Giusto!", wrong: "Sbagliato.", next: "Avanti", timesCorrect: "giuste", allDone: "Ogni parola imparata ha già almeno 10 risposte giuste. 🎉", reviewDone: "Per ora è tutto! Nuove domande di ripasso arriveranno la prossima volta che apri l'app.", reviewEmpty: "Nessuna parola ha ancora 10 risposte giuste. Le parole che arrivano a 10 in Jetzt spielen si ripassano qui.", verbsDone: "Ogni verbo ha già 7 risposte giuste. Continua in Verben Schreiben. ✍️", verbsEmpty: "Impossibile caricare verbs.json.", verbsLeft: "verbi rimasti", check: "Verifica", writeEmpty: "Nessun verbo ha ancora 7 risposte giuste in Verben Formen. I verbi che ci arrivano vanno scritti qui.", writeDone: "Tutti i verbi completati: ognuno scritto correttamente 3 volte. 🎉", gapDone: "Per ora è tutto! Nuove frasi da completare arriveranno la prossima volta che apri l'app.", gapEmpty: "Nessuna parola ha ancora 10 risposte giuste. Le parole che arrivano a 10 in Jetzt spielen vanno inserite qui nello spazio vuoto della frase d'esempio." },
+      tr: { flip: "Türkçe için dokun 👆", back: "Almancaya dönmek için dokun", empty: "Henüz kaydedilmiş kelime yok. Kartlardaki ☆ ile kaydedebilirsin.", emptyBook: "Kitaptan henüz kelime eklenmedi.", noMatch: "Aramana uyan kelime yok.", emptyLearned: "Henüz ezberlenmiş kelime yok. Kartlardaki ✓ ile işaretleyebilirsin.", emptyLevel: "Bu seviyede henüz kelime yok.", emptyPlay: "Önce birkaç kelimeyi ✓ ile ezberlendi olarak işaretle, sonra burada oynayabilirsin.", correct: "Doğru!", wrong: "Yanlış.", next: "Sonraki", timesCorrect: "doğru", allDone: "Bütün ezberlenmiş kelimeler en az 10 kez doğru cevaplandı. 🎉", reviewDone: "Bugünlük bu kadar! Bir sonraki girişte yeni hatırlatma soruları gelecek.", reviewEmpty: "Henüz 10 kez doğru cevaplanmış kelime yok. Jetzt spielen'de 10 doğruya ulaşan kelimeler burada tekrar sorulur.", verbsDone: "Bütün fiiller 7 kez doğru cevaplandı. Verben Schreiben'de yazarak devam et. ✍️", verbsEmpty: "verbs.json yüklenemedi.", verbsLeft: "fiil kaldı", check: "Kontrol et", writeEmpty: "Henüz Verben Formen'de 7 kez doğru cevaplanmış fiil yok. 7 doğruya ulaşan fiiller burada yazarak sorulur.", writeDone: "Bütün fiiller tamamlandı: her biri 3 kez doğru yazıldı. 🎉", gapDone: "Bugünlük bu kadar! Bir sonraki girişte yeni boşluk doldurma soruları gelecek.", gapEmpty: "Henüz 10 kez doğru cevaplanmış kelime yok. Jetzt spielen'de 10 doğruya ulaşan kelimeler burada örnek cümlelerinde boşluk doldurma olarak sorulur.", articleDone: "Bugünlük bu kadar! Bir sonraki girişte yeni artikel soruları gelecek.", articleEmpty: "Henüz artikeli olan isim yok." },
+      en: { flip: "Tap for English 👆", back: "Tap to flip back", empty: "No saved words yet. Tap ☆ on a card to save it.", emptyBook: "No words from the book yet.", noMatch: "No words match your search.", emptyLearned: "No learned words yet. Tap ✓ on a card to mark it as learned.", emptyLevel: "No words at this level yet.", emptyPlay: "Mark some words as learned with ✓ first, then you can play here.", correct: "Correct!", wrong: "Wrong.", next: "Next", timesCorrect: "correct", allDone: "Every learned word has been answered correctly at least 10 times. 🎉", reviewDone: "That's all for now! New review questions will come next time you open the app.", reviewEmpty: "No word has been answered correctly 10 times yet. Words that reach 10 in Jetzt spielen are reviewed here.", verbsDone: "Every verb has been answered correctly 7 times. Keep going in Verben Schreiben. ✍️", verbsEmpty: "verbs.json could not be loaded.", verbsLeft: "verbs left", check: "Check", writeEmpty: "No verb has reached 7 correct answers in Verben Formen yet. Verbs that do are asked here in writing.", writeDone: "All verbs done: each one was written correctly 3 times. 🎉", gapDone: "That's all for now! New gap-fill questions will come next time you open the app.", gapEmpty: "No word has been answered correctly 10 times yet. Words that reach 10 in Jetzt spielen are asked here as gaps in their example sentence.", articleDone: "That's all for now! New article questions will come next time you open the app.", articleEmpty: "There are no nouns with an article yet." },
+      uk: { flip: "Торкніться для перекладу 👆", back: "Торкніться, щоб повернутися", empty: "Ще немає збережених слів. Натисніть ☆ на картці, щоб зберегти.", emptyBook: "Ще немає слів із підручника.", noMatch: "Немає слів, що відповідають пошуку.", emptyLearned: "Ще немає вивчених слів. Натисніть ✓ на картці, щоб позначити її.", emptyLevel: "На цьому рівні ще немає слів.", emptyPlay: "Спочатку позначте кілька слів як вивчені за допомогою ✓, тоді можна грати тут.", correct: "Правильно!", wrong: "Неправильно.", next: "Далі", timesCorrect: "правильно", allDone: "На всі вивчені слова вже щонайменше 10 разів відповіли правильно. 🎉", reviewDone: "На сьогодні все! Нові питання для повторення з'являться наступного разу, коли ви відкриєте застосунок.", reviewEmpty: "Ще немає слів із 10 правильними відповідями. Слова, що досягли 10 у Jetzt spielen, повторюються тут.", verbsDone: "На всі дієслова вже 7 разів відповіли правильно. Продовжуйте у Verben Schreiben. ✍️", verbsEmpty: "Не вдалося завантажити verbs.json.", verbsLeft: "дієслів залишилося", check: "Перевірити", writeEmpty: "Ще немає дієслів із 7 правильними відповідями у Verben Formen. Такі дієслова тут потрібно буде написати.", writeDone: "Усі дієслова завершено: кожне правильно написано 3 рази. 🎉", gapDone: "На сьогодні все! Нові завдання з пропусками з'являться наступного разу, коли ви відкриєте застосунок.", gapEmpty: "Ще немає слів із 10 правильними відповідями. Слова, що досягли 10 у Jetzt spielen, тут треба вставити в пропуск у прикладі речення.", articleDone: "На сьогодні все! Нові питання про артиклі з'являться наступного разу, коли ви відкриєте застосунок.", articleEmpty: "Ще немає іменників з артиклем." },
+      ar: { flip: "اضغط للترجمة 👆", back: "اضغط للعودة", empty: "لا توجد كلمات محفوظة بعد. اضغط ☆ على البطاقة لحفظها.", emptyBook: "لم تُضف كلمات من الكتاب بعد.", noMatch: "لا توجد كلمات مطابقة لبحثك.", emptyLearned: "لا توجد كلمات محفوظة عن ظهر قلب بعد. اضغط ✓ على البطاقة لتعليمها.", emptyLevel: "لا توجد كلمات في هذا المستوى بعد.", emptyPlay: "علّم بعض الكلمات بـ ✓ كمحفوظة أولًا، ثم يمكنك اللعب هنا.", correct: "صحيح!", wrong: "خطأ.", next: "التالي", timesCorrect: "صحيح", allDone: "تمت الإجابة عن كل الكلمات المحفوظة إجابة صحيحة 10 مرات على الأقل. 🎉", reviewDone: "انتهيت لهذا اليوم! ستظهر أسئلة مراجعة جديدة في المرة القادمة التي تفتح فيها التطبيق.", reviewEmpty: "لا توجد بعد كلمات أُجيب عنها إجابة صحيحة 10 مرات. الكلمات التي تصل إلى 10 في Jetzt spielen تُراجَع هنا.", verbsDone: "تمت الإجابة عن كل الأفعال إجابة صحيحة 7 مرات. تابع في Verben Schreiben. ✍️", verbsEmpty: "تعذّر تحميل verbs.json.", verbsLeft: "أفعال متبقية", check: "تحقّق", writeEmpty: "لا توجد بعد أفعال وصلت إلى 7 إجابات صحيحة في Verben Formen. الأفعال التي تصل إلى ذلك تُطلب هنا كتابةً.", writeDone: "اكتملت كل الأفعال: كُتب كل منها بشكل صحيح 3 مرات. 🎉", gapDone: "انتهيت لهذا اليوم! ستظهر أسئلة جديدة لملء الفراغ في المرة القادمة التي تفتح فيها التطبيق.", gapEmpty: "لا توجد بعد كلمات أُجيب عنها إجابة صحيحة 10 مرات. الكلمات التي تصل إلى 10 في Jetzt spielen تُطلب هنا لملء الفراغ في جملة المثال.", articleDone: "انتهيت لهذا اليوم! ستظهر أسئلة جديدة عن أدوات التعريف في المرة القادمة التي تفتح فيها التطبيق.", articleEmpty: "لا توجد بعد أسماء لها أداة تعريف.", rtl: true },
+      it: { flip: "Tocca per l'italiano 👆", back: "Tocca per tornare", empty: "Nessuna parola salvata. Tocca ☆ su una carta per salvarla.", emptyBook: "Nessuna parola dal libro ancora.", noMatch: "Nessuna parola corrisponde alla ricerca.", emptyLearned: "Nessuna parola imparata. Tocca ✓ su una carta per segnarla.", emptyLevel: "Nessuna parola a questo livello.", emptyPlay: "Segna prima alcune parole come imparate con ✓, poi puoi giocare qui.", correct: "Giusto!", wrong: "Sbagliato.", next: "Avanti", timesCorrect: "giuste", allDone: "Ogni parola imparata ha già almeno 10 risposte giuste. 🎉", reviewDone: "Per ora è tutto! Nuove domande di ripasso arriveranno la prossima volta che apri l'app.", reviewEmpty: "Nessuna parola ha ancora 10 risposte giuste. Le parole che arrivano a 10 in Jetzt spielen si ripassano qui.", verbsDone: "Ogni verbo ha già 7 risposte giuste. Continua in Verben Schreiben. ✍️", verbsEmpty: "Impossibile caricare verbs.json.", verbsLeft: "verbi rimasti", check: "Verifica", writeEmpty: "Nessun verbo ha ancora 7 risposte giuste in Verben Formen. I verbi che ci arrivano vanno scritti qui.", writeDone: "Tutti i verbi completati: ognuno scritto correttamente 3 volte. 🎉", gapDone: "Per ora è tutto! Nuove frasi da completare arriveranno la prossima volta che apri l'app.", gapEmpty: "Nessuna parola ha ancora 10 risposte giuste. Le parole che arrivano a 10 in Jetzt spielen vanno inserite qui nello spazio vuoto della frase d'esempio.", articleDone: "Per ora è tutto! Nuove domande sugli articoli arriveranno la prossima volta che apri l'app.", articleEmpty: "Non ci sono ancora sostantivi con articolo." },
     };
     const KEYS = {
       lang: "wortkarten:lang",
@@ -783,6 +808,8 @@
       review: "wortkarten:review",  // [cardId] Erinnerung questions still to answer
       gap: "wortkarten:gap",        // [cardId] Lückentext questions still to answer
       gapScores: "wortkarten:gapScores",  // { cardId: number of correct Lückentext answers }
+      article: "wortkarten:article",      // [cardId] Der Die Das questions still to answer
+      articleScores: "wortkarten:articleScores",  // { cardId: number of correct Der Die Das answers }
       verbs: "wortkarten:verbs",    // { verbId: number of correct Verben Formen answers }
       verbQueue: "wortkarten:verbQueue",  // [verbId] Verben Formen questions left in this round, in asking order
       verbLast: "wortkarten:verbLastId",  // the verb answered last, so a new round doesn't open with it
@@ -814,9 +841,11 @@
       [KEYS.verbs, "progress/verbScores", "map"],
       [KEYS.verbWrite, "progress/verbWriteScores", "map"],
       [KEYS.gapScores, "progress/gapScores", "map"],
+      [KEYS.articleScores, "progress/articleScores", "map"],
       [KEYS.quizCard, "session/quizCardId", "text"],
       [KEYS.review, "session/reviewQueue", "list"],
       [KEYS.gap, "session/gapQueue", "list"],
+      [KEYS.article, "session/articleQueue", "list"],
       [KEYS.verbQueue, "session/verbQueue", "list"],
       [KEYS.verbLast, "session/verbLastId", "text"],
       [KEYS.verbWriteQueue, "session/verbWriteQueue", "list"],
@@ -842,6 +871,7 @@
     const learnedCount = document.getElementById("learned-count");
     const reviewCount = document.getElementById("review-count");
     const gapCount = document.getElementById("gap-count");
+    const articleCount = document.getElementById("article-count");
     const verbsCount = document.getElementById("verbs-count");
     const verbsWriteCount = document.getElementById("verbs-write-count");
     const quizBox = document.getElementById("quiz");
@@ -863,6 +893,7 @@
     let tab = "notes";  // "notes" (handwritten lesson notes), "book" (underlined book words) "saved", "learned",
                         // "play" (quiz), "review" (Erinnerung: quiz over words already answered right 10 times)
                         // "gap" (Lückentext: the same words cut out of their example sentence)
+                        // "article" (Der Die Das: the article of every noun)
                         // "verbs" (Verben Formen: Präteritum and Partizip II of the verb table, multiple choice)
                         // or "verbsWrite" (Verben Schreiben: the same forms typed, after 7 right in Verben Formen)
     let lang = "tr";
@@ -872,6 +903,7 @@
     let quizScores = {};      // correct quiz answers per card id
     let quizCard = null;      // the card currently asked in the quiz
     let gapScores = {};       // correct Lückentext answers per card id
+    let articleScores = {};   // correct Der Die Das answers per card id
     let verbScores = {};      // correct Verben Formen answers per verb id
     let verbWriteScores = {}; // correct Verben Schreiben answers per verb id
     let verbTimer = null;     // pending move to the next verb question
@@ -1152,6 +1184,10 @@
         const scores = JSON.parse(readStorage(KEYS.gapScores) || "{}");
         if (scores && typeof scores === "object" && !Array.isArray(scores)) gapScores = scores;
       } catch (e) {}
+      try {
+        const scores = JSON.parse(readStorage(KEYS.articleScores) || "{}");
+        if (scores && typeof scores === "object" && !Array.isArray(scores)) articleScores = scores;
+      } catch (e) {}
       Object.values(VERB_ROUNDS).forEach((round) => {
         try {
           const ids = JSON.parse(readStorage(round.queueKey) || "[]");
@@ -1348,6 +1384,8 @@
       reviewCount.textContent = reviewLeft ? " " + reviewLeft : "";
       const gapLeft = SESSIONS.gap.ids.length;
       gapCount.textContent = gapLeft ? " " + gapLeft : "";
+      const articleLeft = SESSIONS.article.ids.length;
+      articleCount.textContent = articleLeft ? " " + articleLeft : "";
       const verbsLeft = verbPool().length;
       verbsCount.textContent = verbsLeft ? " " + verbsLeft : "";
       const writeLeft = verbWritePool().length;
@@ -1523,11 +1561,12 @@
     }
 
     function isQuizTab(name) {
-      return name === "play" || name === "review" || name === "gap" || name === "verbs" || name === "verbsWrite";
+      return name === "play" || name === "verbs" || name === "verbsWrite" || Boolean(SESSIONS[name]);
     }
 
     // Erinnerung and Lückentext: words that are done in the quiz (QUIZ_GOAL correct answers) come back for review,
     // SESSION_SIZE questions per visit. Erinnerung asks the meaning again, Lückentext the word in its example sentence.
+    // Der Die Das asks the article of every noun (learned or not) the same way.
     const SESSION_SIZE = 20;
     const REVIEW_AFTER = 60 * 60 * 1000;  // back in the app after this long counts as a new visit
 
@@ -1542,9 +1581,17 @@
       return reviewPool().filter((c) => gapSentence(c));
     }
 
+    function articleScore(id) {
+      return countOf(articleScores, id);
+    }
+    function articlePool() {
+      return allCards.filter((c) => c.type === "noun" && ARTICLES.includes(c.article));
+    }
+
     const SESSIONS = {
       review: { ids: [], key: KEYS.review, pool: () => reviewPool(), score: (id) => quizScore(id) },
       gap: { ids: [], key: KEYS.gap, pool: () => gapPool(), score: (id) => gapScore(id) },
+      article: { ids: [], key: KEYS.article, pool: () => articlePool(), score: (id) => articleScore(id) },
     };
 
     function saveSession(session) {
@@ -1804,6 +1851,94 @@
       const next = el("button", "quiz-next", texts.next);
       next.type = "button";
       next.addEventListener("click", renderGap);
+      inner.insertBefore(result, inner.querySelector(".quiz-score"));
+      inner.insertBefore(next, inner.querySelector(".quiz-score"));
+      next.focus({ preventScroll: true });
+      next.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+
+
+    // ---------- Der Die Das: the noun alone, the article is picked from three buttons in the article colors ----------
+    function renderArticle() {
+      clearTimeout(verbTimer);
+      const texts = LANGUAGES[lang];
+      const card = currentSessionCard(SESSIONS.article);
+      quizBox.textContent = "";
+      if (!card) {
+        quizBox.hidden = true;
+        emptyBox.hidden = false;
+        emptyBox.textContent = articlePool().length ? texts.articleDone : texts.articleEmpty;
+        emptyBox.dir = texts.rtl ? "rtl" : "";
+        return;
+      }
+      emptyBox.hidden = true;
+      quizBox.hidden = false;
+
+      const inner = el("div", "quiz-inner");
+      // Neutral until answered: the card color would give the article away.
+      const question = el("div", "question article-question");
+      question.appendChild(el("div", "tag", TYPE_LABELS.noun || "noun"));
+      question.appendChild(wordHeading(card, null));
+      const meaning = card.meaning && card.meaning[lang];
+      if (meaning) {
+        const hint = el("div", "gap-hint", meaning);
+        hint.lang = lang;
+        if (texts.rtl) hint.dir = "rtl";
+        question.appendChild(hint);
+      }
+      inner.appendChild(question);
+
+      const answers = el("div", "article-answers");
+      answers.lang = "de";
+      const buttons = ARTICLES.map((article) => {
+        const button = el("button", "article-answer", article);
+        button.type = "button";
+        button.dataset.article = article;
+        button.addEventListener("click", () => answerArticle(card, button, buttons, question, inner));
+        answers.appendChild(button);
+        return button;
+      });
+      inner.appendChild(answers);
+      inner.appendChild(el("div", "quiz-score", "✓ " + articleScore(card.id) + "× " + texts.timesCorrect));
+      quizBox.appendChild(inner);
+      quizBox.scrollTop = 0;
+    }
+
+    function answerArticle(card, chosen, buttons, question, inner) {
+      const texts = LANGUAGES[lang];
+      const isRight = chosen.dataset.article === card.article;
+      buttons.forEach((b) => {
+        b.disabled = true;
+        if (b.dataset.article === card.article) b.classList.add("correct");
+        else if (b !== chosen) b.classList.add("faded");
+      });
+      if (isRight) {
+        articleScores[card.id] = articleScore(card.id) + 1;
+        writeStorage(KEYS.articleScores, JSON.stringify(articleScores));
+      } else {
+        chosen.classList.add("wrong");
+      }
+      answerSession(SESSIONS.article, card, isRight);
+      inner.querySelector(".quiz-score").textContent = "✓ " + articleScore(card.id) + "× " + texts.timesCorrect;
+
+      // Now the card shows the word with its article and color, and opens the details.
+      question.dataset.article = card.article;
+      question.querySelector(".word").replaceWith(wordHeading(card, card.article));
+      question.appendChild(el("span", "info", "i"));
+      question.classList.add("open");
+      question.setAttribute("role", "button");
+      question.tabIndex = 0;
+      question.setAttribute("aria-label", (card.word || "") + " – Details");
+      question.addEventListener("click", () => openDetail(card));
+      question.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openDetail(card); }
+      });
+
+      const result = el("div", "quiz-result", isRight ? texts.correct : texts.wrong);
+      if (texts.rtl) result.dir = "rtl";
+      const next = el("button", "quiz-next", texts.next);
+      next.type = "button";
+      next.addEventListener("click", renderArticle);
       inner.insertBefore(result, inner.querySelector(".quiz-score"));
       inner.insertBefore(next, inner.querySelector(".quiz-score"));
       next.focus({ preventScroll: true });
@@ -2092,6 +2227,7 @@
       if (tab === "verbs") return renderVerbs();
       if (tab === "verbsWrite") return renderVerbWrite();
       if (tab === "gap") return renderGap();
+      if (tab === "article") return renderArticle();
       clearTimeout(verbTimer);
       const texts = LANGUAGES[lang];
       const reviewing = tab === "review";
@@ -2385,7 +2521,7 @@
       } else if (hiddenAt && Date.now() - hiddenAt >= REVIEW_AFTER && allCards.length) {
         hiddenAt = null;
         refillSessions();
-        if (tab === "review" || tab === "gap") renderQuiz();
+        if (SESSIONS[tab]) renderQuiz();
       }
     });
 
