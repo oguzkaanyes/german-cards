@@ -11875,6 +11875,2273 @@
         "it": "Per questo lavoro riceve uno stipendio decente."
       },
       "note": null
+    },
+    {
+      "id": "fass",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Fass",
+      "type": "noun",
+      "article": "das",
+      "plural": "Fässer",
+      "reflexive": false,
+      "meaning": {
+        "de": "Großer runder Behälter aus Holz oder Metall, z. B. für Wein, Bier oder Öl",
+        "tr": "fıçı, varil",
+        "en": "barrel, cask",
+        "uk": "бочка",
+        "ar": "برميل",
+        "it": "botte, barile"
+      },
+      "synonyms": [
+        "die Tonne"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Wein reift zwei Jahre in einem Fass aus Eichenholz.",
+        "tr": "Şarap meşe ağacından bir fıçıda iki yıl olgunlaşıyor.",
+        "en": "The wine matures for two years in an oak barrel.",
+        "uk": "Вино дозріває два роки в дубовій бочці.",
+        "ar": "ينضج النبيذ لمدة عامين في برميل من خشب البلوط.",
+        "it": "Il vino matura per due anni in una botte di rovere."
+      },
+      "note": null
+    },
+    {
+      "id": "schmelzen",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "schmelzen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schmilzt",
+        "praeteritum": "schmolz",
+        "perfekt": "ist geschmolzen"
+      },
+      "meaning": {
+        "de": "Durch Wärme flüssig werden oder etwas flüssig machen",
+        "tr": "erimek; eritmek",
+        "en": "to melt",
+        "uk": "танути; топити",
+        "ar": "يذوب؛ يُذيب",
+        "it": "sciogliersi, fondere; sciogliere"
+      },
+      "synonyms": [
+        "tauen",
+        "auftauen"
+      ],
+      "antonyms": [
+        "gefrieren",
+        "erstarren"
+      ],
+      "example": {
+        "de": "Im Frühling schmilzt der Schnee in den Bergen.",
+        "tr": "İlkbaharda dağlardaki kar erir.",
+        "en": "In spring the snow in the mountains melts.",
+        "uk": "Навесні в горах тане сніг.",
+        "ar": "في الربيع يذوب الثلج في الجبال.",
+        "it": "In primavera la neve sulle montagne si scioglie."
+      },
+      "note": "intransitiv (ohne Objekt), Perfekt mit „sein“; transitiv: etwas (Akk.) schmelzen – hat geschmolzen"
+    },
+    {
+      "id": "knusprig",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "knusprig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Außen hart und leicht zu brechen, sodass es beim Essen kracht (z. B. Brot, Pommes)",
+        "tr": "çıtır, kıtır",
+        "en": "crispy, crunchy",
+        "uk": "хрусткий",
+        "ar": "مقرمش",
+        "it": "croccante"
+      },
+      "synonyms": [
+        "kross",
+        "resch"
+      ],
+      "antonyms": [
+        "weich",
+        "matschig"
+      ],
+      "example": {
+        "de": "Die Brötchen sind frisch und schön knusprig.",
+        "tr": "Ekmekler taze ve güzelce çıtır.",
+        "en": "The rolls are fresh and nicely crispy.",
+        "uk": "Булочки свіжі й гарно хрусткі.",
+        "ar": "الخبز الصغير طازج ومقرمش جيدًا.",
+        "it": "I panini sono freschi e belli croccanti."
+      },
+      "note": null
+    },
+    {
+      "id": "hobeln",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "hobeln",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "hobelt",
+        "praeteritum": "hobelte",
+        "perfekt": "hat gehobelt"
+      },
+      "meaning": {
+        "de": "Mit einem Hobel Holz glatt machen; Gemüse mit einem Gerät in dünne Scheiben schneiden",
+        "tr": "rendelemek (tahta), ince dilimlemek (sebze)",
+        "en": "to plane (wood); to slice thinly (vegetables)",
+        "uk": "стругати; шаткувати (овочі)",
+        "ar": "يسحج (الخشب)؛ يقطّع شرائح رقيقة (الخضار)",
+        "it": "piallare; affettare sottilmente"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Für den Salat hobelt sie die Gurke in dünne Scheiben.",
+        "tr": "Salata için salatalığı ince dilimler halinde rendeliyor.",
+        "en": "For the salad she slices the cucumber into thin slices.",
+        "uk": "Для салату вона шаткує огірок тонкими скибочками.",
+        "ar": "من أجل السلطة تقطّع الخيار إلى شرائح رقيقة.",
+        "it": "Per l'insalata affetta il cetriolo a fette sottili."
+      },
+      "note": "etwas (Akk.) hobeln; Sprichwort: Wo gehobelt wird, da fallen Späne."
+    },
+    {
+      "id": "brei",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Brei",
+      "type": "noun",
+      "article": "der",
+      "plural": "Breie",
+      "reflexive": false,
+      "meaning": {
+        "de": "Weiche, dicke Speise aus gekochtem Getreide, Gemüse oder Obst",
+        "tr": "lapa, muhallebi kıvamında yemek, püre",
+        "en": "porridge, mush, pulp",
+        "uk": "каша, пюре",
+        "ar": "عصيدة، هريسة",
+        "it": "pappa, poltiglia"
+      },
+      "synonyms": [
+        "das Mus",
+        "das Püree"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Zum Frühstück gibt es für das Baby einen warmen Brei.",
+        "tr": "Kahvaltıda bebek için sıcak bir lapa var.",
+        "en": "For breakfast there is a warm porridge for the baby.",
+        "uk": "На сніданок для малюка є тепла каша.",
+        "ar": "على الفطور هناك عصيدة دافئة للطفل.",
+        "it": "A colazione c'è una pappa calda per il bambino."
+      },
+      "note": "um den heißen Brei herumreden = nicht direkt zum Thema kommen"
+    },
+    {
+      "id": "pueree",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Püree",
+      "type": "noun",
+      "article": "das",
+      "plural": "Pürees",
+      "reflexive": false,
+      "meaning": {
+        "de": "Weich gekochtes und fein zerdrücktes Gemüse oder Obst, besonders aus Kartoffeln",
+        "tr": "püre",
+        "en": "purée, mash",
+        "uk": "пюре",
+        "ar": "بوريه، هريس",
+        "it": "purè, purea"
+      },
+      "synonyms": [
+        "der Brei",
+        "das Mus"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Zum Fisch gibt es heute Püree aus Kartoffeln und Karotten.",
+        "tr": "Bugün balığın yanında patates ve havuç püresi var.",
+        "en": "Today there is potato and carrot purée with the fish.",
+        "uk": "Сьогодні до риби є пюре з картоплі та моркви.",
+        "ar": "اليوم يُقدَّم مع السمك بوريه من البطاطس والجزر.",
+        "it": "Oggi con il pesce c'è un purè di patate e carote."
+      },
+      "note": "auch: der Püree (selten)"
+    },
+    {
+      "id": "bezahlung",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Bezahlung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Bezahlungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Bezahlen; das Geld, das man für eine Arbeit bekommt",
+        "tr": "ödeme; ücret",
+        "en": "payment; pay",
+        "uk": "оплата; платня",
+        "ar": "الدفع؛ الأجر",
+        "it": "pagamento; retribuzione"
+      },
+      "synonyms": [
+        "die Vergütung",
+        "der Lohn"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Bezahlung in diesem Job ist leider sehr schlecht.",
+        "tr": "Bu işte ücret maalesef çok kötü.",
+        "en": "Unfortunately, the pay in this job is very poor.",
+        "uk": "На жаль, оплата на цій роботі дуже погана.",
+        "ar": "للأسف الأجر في هذه الوظيفة سيئ جدًا.",
+        "it": "Purtroppo la retribuzione in questo lavoro è molto bassa."
+      },
+      "note": null
+    },
+    {
+      "id": "gewerkschaft",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Gewerkschaft",
+      "type": "noun",
+      "article": "die",
+      "plural": "Gewerkschaften",
+      "reflexive": false,
+      "meaning": {
+        "de": "Organisation der Arbeitnehmer, die für bessere Löhne und Arbeitsbedingungen kämpft",
+        "tr": "sendika",
+        "en": "trade union, labor union",
+        "uk": "профспілка",
+        "ar": "نقابة عمّالية",
+        "it": "sindacato"
+      },
+      "synonyms": [
+        "die Arbeitnehmervertretung"
+      ],
+      "antonyms": [
+        "der Arbeitgeberverband"
+      ],
+      "example": {
+        "de": "Die Gewerkschaft fordert sechs Prozent mehr Lohn.",
+        "tr": "Sendika yüzde altı daha fazla ücret talep ediyor.",
+        "en": "The union is demanding six percent more pay.",
+        "uk": "Профспілка вимагає на шість відсотків більшої зарплати.",
+        "ar": "تطالب النقابة بزيادة الأجور بنسبة ستة بالمئة.",
+        "it": "Il sindacato chiede il sei per cento di stipendio in più."
+      },
+      "note": null
+    },
+    {
+      "id": "tarif",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Tarif",
+      "type": "noun",
+      "article": "der",
+      "plural": "Tarife",
+      "reflexive": false,
+      "meaning": {
+        "de": "Festgelegte Preise oder Löhne, z. B. zwischen Gewerkschaft und Arbeitgebern vereinbart; auch: Preisplan beim Handy oder Strom",
+        "tr": "tarife; toplu sözleşmeyle belirlenen ücret",
+        "en": "tariff; pay scale; rate (plan)",
+        "uk": "тариф; тарифна ставка",
+        "ar": "تعرفة؛ سلّم الأجور",
+        "it": "tariffa; contratto collettivo"
+      },
+      "synonyms": [
+        "der Tarifvertrag",
+        "die Gebühr"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Sie wird nach Tarif bezahlt und bekommt jedes Jahr Urlaubsgeld.",
+        "tr": "Toplu sözleşmeye göre ücret alıyor ve her yıl tatil parası alıyor.",
+        "en": "She is paid according to the collective agreement and gets holiday pay every year.",
+        "uk": "Їй платять за тарифом, і щороку вона отримує відпускні.",
+        "ar": "تتقاضى أجرها وفق التعرفة وتحصل كل عام على بدل إجازة.",
+        "it": "Viene pagata secondo il contratto collettivo e ogni anno riceve la tredicesima per le ferie."
+      },
+      "note": null
+    },
+    {
+      "id": "tariflich",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "tariflich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nach dem Tarif(vertrag) geregelt oder festgelegt",
+        "tr": "toplu sözleşmeye göre, tarifeye göre",
+        "en": "according to the collective agreement, contractual",
+        "uk": "тарифний, згідно з тарифом",
+        "ar": "وفق التعرفة، تعاقدي",
+        "it": "contrattuale, previsto dal contratto collettivo"
+      },
+      "synonyms": [
+        "tarifvertraglich"
+      ],
+      "antonyms": [
+        "außertariflich"
+      ],
+      "example": {
+        "de": "Die tarifliche Arbeitszeit beträgt 38 Stunden pro Woche.",
+        "tr": "Toplu sözleşmeye göre çalışma süresi haftada 38 saattir.",
+        "en": "The contractual working time is 38 hours per week.",
+        "uk": "Тарифний робочий час становить 38 годин на тиждень.",
+        "ar": "تبلغ ساعات العمل وفق التعرفة 38 ساعة في الأسبوع.",
+        "it": "L'orario di lavoro contrattuale è di 38 ore settimanali."
+      },
+      "note": null
+    },
+    {
+      "id": "tariflohn",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Tariflohn",
+      "type": "noun",
+      "article": "der",
+      "plural": "Tariflöhne",
+      "reflexive": false,
+      "meaning": {
+        "de": "Lohn, der im Tarifvertrag zwischen Gewerkschaft und Arbeitgebern festgelegt ist",
+        "tr": "toplu sözleşme ücreti",
+        "en": "collectively agreed wage, standard wage",
+        "uk": "тарифна заробітна плата",
+        "ar": "الأجر المحدد بالاتفاق الجماعي",
+        "it": "salario contrattuale"
+      },
+      "synonyms": [
+        "der Tarif"
+      ],
+      "antonyms": [
+        "der Mindestlohn"
+      ],
+      "example": {
+        "de": "Die Firma zahlt allen Mitarbeitern mindestens den Tariflohn.",
+        "tr": "Şirket tüm çalışanlarına en az toplu sözleşme ücretini ödüyor.",
+        "en": "The company pays all employees at least the standard wage.",
+        "uk": "Фірма платить усім працівникам щонайменше тарифну зарплату.",
+        "ar": "تدفع الشركة لجميع الموظفين على الأقل الأجر المحدد بالاتفاق الجماعي.",
+        "it": "L'azienda paga a tutti i dipendenti almeno il salario contrattuale."
+      },
+      "note": null
+    },
+    {
+      "id": "verhandlungsbasis",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Verhandlungsbasis",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Preis in einer Anzeige, über den man noch sprechen kann (Abkürzung: VB)",
+        "tr": "pazarlık payı var, pazarlığa açık fiyat (VB)",
+        "en": "or nearest offer, negotiable price (VB)",
+        "uk": "ціна для торгу, договірна ціна (VB)",
+        "ar": "سعر قابل للتفاوض (VB)",
+        "it": "prezzo trattabile (VB)"
+      },
+      "synonyms": [],
+      "antonyms": [
+        "der Festpreis"
+      ],
+      "example": {
+        "de": "Fahrrad zu verkaufen, 150 Euro Verhandlungsbasis.",
+        "tr": "Satılık bisiklet, 150 euro, pazarlık payı var.",
+        "en": "Bicycle for sale, 150 euros or nearest offer.",
+        "uk": "Продається велосипед, 150 євро, торг доречний.",
+        "ar": "دراجة للبيع، 150 يورو قابلة للتفاوض.",
+        "it": "Vendesi bicicletta, 150 euro trattabili."
+      },
+      "note": "Abkürzung: VB (in Kleinanzeigen)"
+    },
+    {
+      "id": "festpreis",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Festpreis",
+      "type": "noun",
+      "article": "der",
+      "plural": "Festpreise",
+      "reflexive": false,
+      "meaning": {
+        "de": "Preis, der nicht verhandelt werden kann (Abkürzung: FP)",
+        "tr": "sabit fiyat, pazarlık yok (FP)",
+        "en": "fixed price (FP)",
+        "uk": "фіксована ціна (FP)",
+        "ar": "سعر ثابت (FP)",
+        "it": "prezzo fisso (FP)"
+      },
+      "synonyms": [],
+      "antonyms": [
+        "die Verhandlungsbasis"
+      ],
+      "example": {
+        "de": "Das Sofa kostet 300 Euro, das ist ein Festpreis.",
+        "tr": "Kanepe 300 euro, bu sabit fiyat.",
+        "en": "The sofa costs 300 euros, that is a fixed price.",
+        "uk": "Диван коштує 300 євро, це фіксована ціна.",
+        "ar": "الأريكة بسعر 300 يورو، وهذا سعر ثابت.",
+        "it": "Il divano costa 300 euro, è un prezzo fisso."
+      },
+      "note": "Abkürzung: FP (in Kleinanzeigen)"
+    },
+    {
+      "id": "aufwandsentschaedigung",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Aufwandsentschädigung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Aufwandsentschädigungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Geld, das man z. B. für ein Ehrenamt bekommt, um Kosten und Zeit auszugleichen",
+        "tr": "masraf karşılığı ödeme, harcırah",
+        "en": "expense allowance, compensation for expenses",
+        "uk": "компенсація витрат",
+        "ar": "تعويض عن النفقات",
+        "it": "rimborso spese, indennità"
+      },
+      "synonyms": [
+        "die Entschädigung",
+        "die Pauschale"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für die Arbeit im Verein bekommt er eine kleine Aufwandsentschädigung.",
+        "tr": "Dernekteki çalışması için küçük bir masraf karşılığı alıyor.",
+        "en": "He receives a small expense allowance for his work in the club.",
+        "uk": "За роботу в об'єднанні він отримує невелику компенсацію витрат.",
+        "ar": "يحصل على تعويض صغير عن النفقات مقابل عمله في الجمعية.",
+        "it": "Per il lavoro nell'associazione riceve un piccolo rimborso spese."
+      },
+      "note": null
+    },
+    {
+      "id": "rasenmaehen",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Rasenmähen",
+      "type": "noun",
+      "article": "das",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Kurzschneiden des Grases im Garten",
+        "tr": "çim biçme",
+        "en": "mowing the lawn",
+        "uk": "косіння газону",
+        "ar": "جزّ العشب",
+        "it": "taglio dell'erba"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Am Samstag hilft mein Sohn beim Rasenmähen.",
+        "tr": "Cumartesi oğlum çim biçmeye yardım ediyor.",
+        "en": "On Saturday my son helps with mowing the lawn.",
+        "uk": "У суботу мій син допомагає косити газон.",
+        "ar": "يوم السبت يساعد ابني في جزّ العشب.",
+        "it": "Sabato mio figlio aiuta a tagliare l'erba."
+      },
+      "note": "Verb: den Rasen mähen"
+    },
+    {
+      "id": "unkrautentfernung",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Unkrautentfernung",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Entfernen von ungewollten Pflanzen aus dem Garten oder Beet",
+        "tr": "yabani ot temizleme, ot ayıklama",
+        "en": "weeding, weed removal",
+        "uk": "прополювання, видалення бур'янів",
+        "ar": "إزالة الأعشاب الضارة",
+        "it": "diserbo, rimozione delle erbacce"
+      },
+      "synonyms": [
+        "das Jäten"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für die Unkrautentfernung brauchen wir am Wochenende zwei Stunden.",
+        "tr": "Hafta sonu ot ayıklamak için iki saate ihtiyacımız var.",
+        "en": "We need two hours at the weekend for the weeding.",
+        "uk": "На прополювання на вихідних нам потрібно дві години.",
+        "ar": "نحتاج ساعتين في عطلة نهاية الأسبوع لإزالة الأعشاب الضارة.",
+        "it": "Per togliere le erbacce ci servono due ore nel fine settimana."
+      },
+      "note": null
+    },
+    {
+      "id": "unkraut",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Unkraut",
+      "type": "noun",
+      "article": "das",
+      "plural": "Unkräuter",
+      "reflexive": false,
+      "meaning": {
+        "de": "Pflanzen, die im Garten oder auf dem Feld wachsen, obwohl man sie nicht will",
+        "tr": "yabani ot",
+        "en": "weed(s)",
+        "uk": "бур'ян",
+        "ar": "أعشاب ضارة",
+        "it": "erbaccia, erbacce"
+      },
+      "synonyms": [],
+      "antonyms": [
+        "die Nutzpflanze"
+      ],
+      "example": {
+        "de": "Zwischen den Tomaten wächst schon wieder Unkraut.",
+        "tr": "Domateslerin arasında yine yabani ot çıkıyor.",
+        "en": "Weeds are growing between the tomatoes again.",
+        "uk": "Між помідорами знову росте бур'ян.",
+        "ar": "تنمو الأعشاب الضارة مجددًا بين الطماطم.",
+        "it": "Tra i pomodori cresce di nuovo l'erbaccia."
+      },
+      "note": "Unkraut vergeht nicht (Redewendung)"
+    },
+    {
+      "id": "einblick",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Einblick",
+      "type": "noun",
+      "article": "der",
+      "plural": "Einblicke",
+      "reflexive": false,
+      "meaning": {
+        "de": "Möglichkeit, etwas kennenzulernen oder zu verstehen; kurzer Blick hinein",
+        "tr": "fikir, içyüzünü görme imkânı",
+        "en": "insight, glimpse",
+        "uk": "уявлення, погляд зсередини",
+        "ar": "نظرة، اطّلاع",
+        "it": "visione, scorcio, idea"
+      },
+      "synonyms": [
+        "die Einsicht",
+        "der Überblick"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Das Praktikum gibt mir einen guten Einblick in den Beruf.",
+        "tr": "Staj bana meslek hakkında iyi bir fikir veriyor.",
+        "en": "The internship gives me a good insight into the profession.",
+        "uk": "Практика дає мені гарне уявлення про професію.",
+        "ar": "يمنحني التدريب نظرة جيدة على المهنة.",
+        "it": "Il tirocinio mi dà una buona visione della professione."
+      },
+      "note": "einen Einblick in etwas (Akk.) bekommen/geben"
+    },
+    {
+      "id": "tagung",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Tagung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Tagungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Größeres Treffen von Fachleuten, bei dem Vorträge gehalten und Themen besprochen werden",
+        "tr": "toplantı, konferans, kongre",
+        "en": "conference, convention",
+        "uk": "конференція, з'їзд",
+        "ar": "مؤتمر، اجتماع",
+        "it": "convegno, congresso"
+      },
+      "synonyms": [
+        "die Konferenz",
+        "der Kongress"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Nächste Woche fährt meine Chefin zu einer Tagung nach Berlin.",
+        "tr": "Gelecek hafta şefim bir konferans için Berlin'e gidiyor.",
+        "en": "Next week my boss is going to a conference in Berlin.",
+        "uk": "Наступного тижня моя начальниця їде на конференцію до Берліна.",
+        "ar": "الأسبوع القادم تسافر مديرتي إلى مؤتمر في برلين.",
+        "it": "La prossima settimana la mia capa va a un convegno a Berlino."
+      },
+      "note": null
+    },
+    {
+      "id": "absatz",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Absatz",
+      "type": "noun",
+      "article": "der",
+      "plural": "Absätze",
+      "reflexive": false,
+      "meaning": {
+        "de": "Abschnitt in einem Text, der mit einer neuen Zeile beginnt; auch: hinterer Teil des Schuhs; Verkauf von Waren",
+        "tr": "paragraf; topuk; satış (miktarı)",
+        "en": "paragraph; heel; sales",
+        "uk": "абзац; підбор; збут",
+        "ar": "فقرة؛ كعب الحذاء؛ مبيعات",
+        "it": "paragrafo, capoverso; tacco; vendite"
+      },
+      "synonyms": [
+        "der Abschnitt",
+        "der Verkauf"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Bitte lesen Sie den zweiten Absatz noch einmal.",
+        "tr": "Lütfen ikinci paragrafı bir kez daha okuyun.",
+        "en": "Please read the second paragraph again.",
+        "uk": "Будь ласка, прочитайте другий абзац ще раз.",
+        "ar": "من فضلك اقرأ الفقرة الثانية مرة أخرى.",
+        "it": "Per favore, rilegga il secondo paragrafo."
+      },
+      "note": null
+    },
+    {
+      "id": "einsatz",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Einsatz",
+      "type": "noun",
+      "article": "der",
+      "plural": "Einsätze",
+      "reflexive": false,
+      "meaning": {
+        "de": "Großes Engagement bei einer Aufgabe; auch: das Verwenden von etwas oder ein Auftrag (z. B. der Feuerwehr)",
+        "tr": "çaba, gayret; kullanım; görev, müdahale",
+        "en": "commitment, effort; use; deployment, operation",
+        "uk": "старанність, зусилля; застосування; виклик (операція)",
+        "ar": "جهد، التزام؛ استخدام؛ مهمة (تدخّل)",
+        "it": "impegno; impiego; intervento"
+      },
+      "synonyms": [
+        "das Engagement",
+        "die Verwendung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Danke für Ihren großen Einsatz in diesem Projekt!",
+        "tr": "Bu projedeki büyük çabanız için teşekkürler!",
+        "en": "Thank you for your great commitment to this project!",
+        "uk": "Дякуємо за вашу велику старанність у цьому проєкті!",
+        "ar": "شكرًا لجهدكم الكبير في هذا المشروع!",
+        "it": "Grazie per il suo grande impegno in questo progetto!"
+      },
+      "note": "der Einsatz von etwas (Dat.); im Einsatz sein"
+    },
+    {
+      "id": "gewohnheit",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Gewohnheit",
+      "type": "noun",
+      "article": "die",
+      "plural": "Gewohnheiten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas, das man regelmäßig und oft ohne nachzudenken tut",
+        "tr": "alışkanlık",
+        "en": "habit",
+        "uk": "звичка",
+        "ar": "عادة",
+        "it": "abitudine"
+      },
+      "synonyms": [
+        "die Angewohnheit",
+        "die Routine"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Es ist eine schlechte Gewohnheit, beim Essen aufs Handy zu schauen.",
+        "tr": "Yemek yerken telefona bakmak kötü bir alışkanlık.",
+        "en": "It is a bad habit to look at your phone while eating.",
+        "uk": "Дивитися в телефон під час їжі — погана звичка.",
+        "ar": "النظر إلى الهاتف أثناء الأكل عادة سيئة.",
+        "it": "Guardare il telefono mentre si mangia è una cattiva abitudine."
+      },
+      "note": "eine Gewohnheit ablegen = mit einer Gewohnheit aufhören"
+    },
+    {
+      "id": "ablegen",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "ablegen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "legt ab",
+        "praeteritum": "legte ab",
+        "perfekt": "hat abgelegt"
+      },
+      "meaning": {
+        "de": "Etwas hinlegen oder ausziehen; eine Gewohnheit aufgeben; eine Prüfung machen",
+        "tr": "bırakmak (alışkanlık); çıkarmak (palto); (sınav) vermek",
+        "en": "to put down, to take off; to give up (a habit); to take (an exam)",
+        "uk": "класти; знімати (одяг); позбутися (звички); складати (іспит)",
+        "ar": "يضع؛ يخلع؛ يتخلّص من (عادة)؛ يؤدّي (امتحانًا)",
+        "it": "posare, togliersi; abbandonare (un'abitudine); sostenere (un esame)"
+      },
+      "synonyms": [
+        "aufgeben",
+        "ausziehen"
+      ],
+      "antonyms": [
+        "annehmen",
+        "anziehen"
+      ],
+      "example": {
+        "de": "Er möchte die Gewohnheit ablegen, so spät ins Bett zu gehen.",
+        "tr": "Çok geç yatma alışkanlığını bırakmak istiyor.",
+        "en": "He wants to give up the habit of going to bed so late.",
+        "uk": "Він хоче позбутися звички так пізно лягати спати.",
+        "ar": "يريد أن يتخلّص من عادة النوم في وقت متأخر جدًا.",
+        "it": "Vuole abbandonare l'abitudine di andare a letto così tardi."
+      },
+      "note": "etwas (Akk.) ablegen; eine Prüfung ablegen, den Mantel ablegen, eine Gewohnheit ablegen"
+    },
+    {
+      "id": "rezeptionist",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Rezeptionist",
+      "type": "noun",
+      "article": "der",
+      "plural": "Rezeptionisten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Mitarbeiter am Empfang eines Hotels oder einer Firma",
+        "tr": "resepsiyonist",
+        "en": "receptionist",
+        "uk": "адміністратор на рецепції",
+        "ar": "موظف الاستقبال",
+        "it": "receptionist, addetto alla reception"
+      },
+      "synonyms": [
+        "der Empfangsmitarbeiter"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Rezeptionist gibt uns die Schlüssel für das Zimmer.",
+        "tr": "Resepsiyonist bize odanın anahtarlarını veriyor.",
+        "en": "The receptionist gives us the keys to the room.",
+        "uk": "Адміністратор на рецепції дає нам ключі від номера.",
+        "ar": "يعطينا موظف الاستقبال مفاتيح الغرفة.",
+        "it": "Il receptionist ci dà le chiavi della camera."
+      },
+      "note": "n-Deklination: den/dem/des Rezeptionisten; weiblich: die Rezeptionistin"
+    },
+    {
+      "id": "es-eilig-haben",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "es eilig haben",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Wenig Zeit haben und sich deshalb beeilen müssen",
+        "tr": "acelesi olmak",
+        "en": "to be in a hurry",
+        "uk": "поспішати, мати мало часу",
+        "ar": "يكون مستعجلًا",
+        "it": "avere fretta"
+      },
+      "synonyms": [
+        "in Eile sein"
+      ],
+      "antonyms": [
+        "Zeit haben"
+      ],
+      "example": {
+        "de": "Entschuldigung, ich habe es eilig, mein Zug fährt gleich.",
+        "tr": "Affedersiniz, acelem var, trenim birazdan kalkıyor.",
+        "en": "Sorry, I'm in a hurry, my train is leaving soon.",
+        "uk": "Вибачте, я поспішаю, мій потяг зараз відправляється.",
+        "ar": "عذرًا، أنا مستعجل، قطاري سيغادر بعد قليل.",
+        "it": "Scusi, ho fretta, il mio treno parte tra poco."
+      },
+      "note": "es eilig haben (mit etwas Dat.)"
+    },
+    {
+      "id": "befristet",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "befristet",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nur für eine bestimmte Zeit gültig",
+        "tr": "süreli, belirli süreli",
+        "en": "fixed-term, temporary",
+        "uk": "тимчасовий, строковий",
+        "ar": "محدد المدة، مؤقت",
+        "it": "a tempo determinato"
+      },
+      "synonyms": [
+        "zeitlich begrenzt",
+        "vorübergehend"
+      ],
+      "antonyms": [
+        "unbefristet"
+      ],
+      "example": {
+        "de": "Sie hat zuerst nur einen befristeten Arbeitsvertrag für ein Jahr.",
+        "tr": "İlk başta sadece bir yıllık süreli bir iş sözleşmesi var.",
+        "en": "At first she only has a fixed-term employment contract for one year.",
+        "uk": "Спочатку в неї лише строковий трудовий договір на рік.",
+        "ar": "لديها في البداية عقد عمل محدد المدة لسنة واحدة فقط.",
+        "it": "All'inizio ha solo un contratto di lavoro a tempo determinato di un anno."
+      },
+      "note": "Partizip II von „befristen“; auf etwas (Akk.) befristet sein"
+    },
+    {
+      "id": "in-eile-sein",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "in Eile sein",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Wenig Zeit haben und schnell handeln müssen",
+        "tr": "acele içinde olmak, acelesi olmak",
+        "en": "to be in a hurry",
+        "uk": "бути в поспіху",
+        "ar": "يكون على عجلة",
+        "it": "essere di fretta"
+      },
+      "synonyms": [
+        "es eilig haben"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ich kann jetzt nicht sprechen, ich bin in Eile.",
+        "tr": "Şimdi konuşamam, acelem var.",
+        "en": "I can't talk now, I'm in a hurry.",
+        "uk": "Я не можу зараз говорити, я поспішаю.",
+        "ar": "لا أستطيع التحدث الآن، أنا على عجلة.",
+        "it": "Non posso parlare adesso, sono di fretta."
+      },
+      "note": null
+    },
+    {
+      "id": "sich-beeilen",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "sich beeilen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "beeilt sich",
+        "praeteritum": "beeilte sich",
+        "perfekt": "hat sich beeilt"
+      },
+      "meaning": {
+        "de": "Etwas schnell machen, weil man wenig Zeit hat",
+        "tr": "acele etmek",
+        "en": "to hurry (up)",
+        "uk": "поспішати",
+        "ar": "يستعجل، يُسرع",
+        "it": "sbrigarsi, affrettarsi"
+      },
+      "synonyms": [
+        "sich eilen",
+        "sich sputen"
+      ],
+      "antonyms": [
+        "trödeln",
+        "sich Zeit lassen"
+      ],
+      "example": {
+        "de": "Wir müssen uns beeilen, sonst verpassen wir den Bus.",
+        "tr": "Acele etmeliyiz, yoksa otobüsü kaçıracağız.",
+        "en": "We have to hurry, otherwise we'll miss the bus.",
+        "uk": "Нам треба поспішати, інакше ми пропустимо автобус.",
+        "ar": "يجب أن نسرع وإلا سيفوتنا الحافلة.",
+        "it": "Dobbiamo sbrigarci, altrimenti perdiamo l'autobus."
+      },
+      "note": "sich (Akk.) beeilen; sich mit etwas (Dat.) beeilen"
+    },
+    {
+      "id": "eilen",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "eilen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "eilt",
+        "praeteritum": "eilte",
+        "perfekt": "ist geeilt"
+      },
+      "meaning": {
+        "de": "Schnell irgendwohin gehen; dringend sein (es eilt)",
+        "tr": "aceleyle gitmek; acil olmak (es eilt)",
+        "en": "to hurry, to rush; to be urgent (es eilt)",
+        "uk": "поспішати, квапитися; бути терміновим",
+        "ar": "يسرع؛ يكون مستعجلًا (أمر عاجل)",
+        "it": "affrettarsi, correre; essere urgente"
+      },
+      "synonyms": [
+        "hasten",
+        "rennen"
+      ],
+      "antonyms": [
+        "schlendern",
+        "trödeln"
+      ],
+      "example": {
+        "de": "Nach der Arbeit eilt sie schnell zum Kindergarten.",
+        "tr": "İşten sonra hızla anaokuluna koşuyor.",
+        "en": "After work she hurries to the kindergarten.",
+        "uk": "Після роботи вона поспішає до дитячого садка.",
+        "ar": "بعد العمل تسرع إلى روضة الأطفال.",
+        "it": "Dopo il lavoro corre in fretta all'asilo."
+      },
+      "note": "intransitiv (ohne Objekt), Perfekt mit „sein“; es eilt = es ist dringend; landschaftlich auch: sich eilen = sich beeilen"
+    },
+    {
+      "id": "sozialversicherung",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Sozialversicherung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Sozialversicherungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Staatliches Versicherungssystem gegen Risiken wie Krankheit, Alter, Pflege und Arbeitslosigkeit",
+        "tr": "sosyal sigorta",
+        "en": "social insurance, social security",
+        "uk": "соціальне страхування",
+        "ar": "التأمين الاجتماعي",
+        "it": "previdenza sociale, assicurazione sociale"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Vom Bruttolohn werden Beiträge zur Sozialversicherung abgezogen.",
+        "tr": "Brüt maaştan sosyal sigorta primleri kesiliyor.",
+        "en": "Social insurance contributions are deducted from the gross wage.",
+        "uk": "З брутто-зарплати утримують внески на соціальне страхування.",
+        "ar": "تُقتطع اشتراكات التأمين الاجتماعي من الأجر الإجمالي.",
+        "it": "Dallo stipendio lordo vengono detratti i contributi previdenziali."
+      },
+      "note": "Zweige: Renten-, Pflege-, Kranken-, Arbeitslosen- und Unfallversicherung"
+    },
+    {
+      "id": "rentenversicherung",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Rentenversicherung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Rentenversicherungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Versicherung, die im Alter eine Rente zahlt",
+        "tr": "emeklilik sigortası",
+        "en": "pension insurance",
+        "uk": "пенсійне страхування",
+        "ar": "تأمين التقاعد",
+        "it": "assicurazione pensionistica"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Jeden Monat zahlt sie in die Rentenversicherung ein.",
+        "tr": "Her ay emeklilik sigortasına prim ödüyor.",
+        "en": "Every month she pays into the pension insurance.",
+        "uk": "Щомісяця вона сплачує внески до пенсійного страхування.",
+        "ar": "كل شهر تدفع اشتراكات في تأمين التقاعد.",
+        "it": "Ogni mese versa i contributi all'assicurazione pensionistica."
+      },
+      "note": "Teil der Sozialversicherung"
+    },
+    {
+      "id": "pflegeversicherung",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Pflegeversicherung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Pflegeversicherungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Versicherung, die Kosten zahlt, wenn jemand dauerhaft Hilfe und Pflege braucht",
+        "tr": "bakım sigortası",
+        "en": "long-term care insurance",
+        "uk": "страхування на випадок потреби в догляді",
+        "ar": "تأمين الرعاية التمريضية",
+        "it": "assicurazione per la non autosufficienza"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Die Pflegeversicherung übernimmt einen Teil der Kosten für das Pflegeheim.",
+        "tr": "Bakım sigortası bakımevi masraflarının bir kısmını karşılıyor.",
+        "en": "The long-term care insurance covers part of the nursing home costs.",
+        "uk": "Страхування на випадок догляду покриває частину витрат на будинок для літніх.",
+        "ar": "يتحمّل تأمين الرعاية جزءًا من تكاليف دار الرعاية.",
+        "it": "L'assicurazione per la non autosufficienza copre una parte dei costi della casa di cura."
+      },
+      "note": "Teil der Sozialversicherung"
+    },
+    {
+      "id": "krankenversicherung",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Krankenversicherung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Krankenversicherungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Versicherung, die die Kosten für Arzt, Krankenhaus und Medikamente zahlt",
+        "tr": "sağlık sigortası",
+        "en": "health insurance",
+        "uk": "медичне страхування",
+        "ar": "التأمين الصحي",
+        "it": "assicurazione sanitaria"
+      },
+      "synonyms": [
+        "die Krankenkasse"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In Deutschland muss jeder eine Krankenversicherung haben.",
+        "tr": "Almanya'da herkesin sağlık sigortası olmak zorunda.",
+        "en": "In Germany everyone must have health insurance.",
+        "uk": "У Німеччині кожен повинен мати медичне страхування.",
+        "ar": "في ألمانيا يجب أن يكون لدى الجميع تأمين صحي.",
+        "it": "In Germania tutti devono avere un'assicurazione sanitaria."
+      },
+      "note": "Teil der Sozialversicherung; gesetzliche / private Krankenversicherung"
+    },
+    {
+      "id": "arbeitslosenversicherung",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Arbeitslosenversicherung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Arbeitslosenversicherungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Versicherung, die Geld zahlt, wenn man seine Arbeit verliert",
+        "tr": "işsizlik sigortası",
+        "en": "unemployment insurance",
+        "uk": "страхування на випадок безробіття",
+        "ar": "تأمين البطالة",
+        "it": "assicurazione contro la disoccupazione"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Nach der Kündigung bekommt er Geld aus der Arbeitslosenversicherung.",
+        "tr": "İşten çıkarıldıktan sonra işsizlik sigortasından para alıyor.",
+        "en": "After being dismissed he receives money from the unemployment insurance.",
+        "uk": "Після звільнення він отримує гроші зі страхування на випадок безробіття.",
+        "ar": "بعد فصله من العمل يحصل على مال من تأمين البطالة.",
+        "it": "Dopo il licenziamento riceve soldi dall'assicurazione contro la disoccupazione."
+      },
+      "note": "Teil der Sozialversicherung; Leistung: das Arbeitslosengeld"
+    },
+    {
+      "id": "lohnsteuer",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Lohnsteuer",
+      "type": "noun",
+      "article": "die",
+      "plural": "Lohnsteuern",
+      "reflexive": false,
+      "meaning": {
+        "de": "Steuer, die der Arbeitgeber direkt vom Lohn abzieht und an das Finanzamt zahlt",
+        "tr": "gelir vergisi (ücretten kesilen)",
+        "en": "wage tax, income tax (withheld from wages)",
+        "uk": "податок на заробітну плату",
+        "ar": "ضريبة الأجور",
+        "it": "imposta sul salario, ritenuta d'acconto"
+      },
+      "synonyms": [
+        "die Einkommensteuer"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Auf der Gehaltsabrechnung sieht man, wie viel Lohnsteuer abgezogen wurde.",
+        "tr": "Maaş bordrosunda ne kadar gelir vergisi kesildiği görülüyor.",
+        "en": "On the payslip you can see how much wage tax was deducted.",
+        "uk": "У розрахунковому листку видно, скільки податку на зарплату утримали.",
+        "ar": "يظهر في كشف الراتب مقدار ضريبة الأجور التي اقتُطعت.",
+        "it": "Nella busta paga si vede quanta imposta sul salario è stata trattenuta."
+      },
+      "note": null
+    },
+    {
+      "id": "im-stich-lassen",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "im Stich lassen",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Jemandem in einer schwierigen Situation nicht helfen, ihn allein lassen",
+        "tr": "(birini) yüzüstü bırakmak",
+        "en": "to let someone down, to leave someone in the lurch",
+        "uk": "залишити напризволяще, підвести",
+        "ar": "يخذل، يتخلّى عن",
+        "it": "piantare in asso, abbandonare"
+      },
+      "synonyms": [
+        "verlassen",
+        "allein lassen"
+      ],
+      "antonyms": [
+        "helfen",
+        "unterstützen"
+      ],
+      "example": {
+        "de": "Mein bester Freund hat mich noch nie im Stich gelassen.",
+        "tr": "En iyi arkadaşım beni hiç yüzüstü bırakmadı.",
+        "en": "My best friend has never let me down.",
+        "uk": "Мій найкращий друг ще ніколи мене не підводив.",
+        "ar": "لم يخذلني صديقي المفضل أبدًا.",
+        "it": "Il mio migliore amico non mi ha mai piantato in asso."
+      },
+      "note": "jemanden (Akk.) im Stich lassen"
+    },
+    {
+      "id": "hinkriegen",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "hinkriegen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "kriegt hin",
+        "praeteritum": "kriegte hin",
+        "perfekt": "hat hingekriegt"
+      },
+      "meaning": {
+        "de": "(ugs.) Etwas Schwieriges schaffen oder gut machen können",
+        "tr": "becermek, halletmek, yapabilmek",
+        "en": "to manage, to pull off (colloquial)",
+        "uk": "впоратися, примудритися зробити",
+        "ar": "يتمكّن من، ينجح في (عامية)",
+        "it": "riuscire a fare, cavarsela"
+      },
+      "synonyms": [
+        "hinbekommen",
+        "schaffen"
+      ],
+      "antonyms": [
+        "scheitern"
+      ],
+      "example": {
+        "de": "Keine Sorge, das kriegen wir zusammen schon hin!",
+        "tr": "Merak etme, bunu birlikte hallederiz!",
+        "en": "Don't worry, we'll manage that together!",
+        "uk": "Не хвилюйся, ми з цим разом упораємося!",
+        "ar": "لا تقلق، سننجح في ذلك معًا!",
+        "it": "Non preoccuparti, ce la faremo insieme!"
+      },
+      "note": "etwas (Akk.) hinkriegen; umgangssprachlich"
+    },
+    {
+      "id": "hinbekommen",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "hinbekommen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "bekommt hin",
+        "praeteritum": "bekam hin",
+        "perfekt": "hat hinbekommen"
+      },
+      "meaning": {
+        "de": "Etwas Schwieriges schaffen oder erfolgreich machen",
+        "tr": "becermek, başarmak, halletmek",
+        "en": "to manage, to get something done",
+        "uk": "впоратися, зуміти зробити",
+        "ar": "يتمكّن من، ينجح في",
+        "it": "riuscire a fare"
+      },
+      "synonyms": [
+        "hinkriegen",
+        "schaffen"
+      ],
+      "antonyms": [
+        "scheitern"
+      ],
+      "example": {
+        "de": "Hast du die Reparatur allein hinbekommen?",
+        "tr": "Tamiri tek başına halledebildin mi?",
+        "en": "Did you manage the repair on your own?",
+        "uk": "Ти сам упорався з ремонтом?",
+        "ar": "هل تمكّنت من التصليح بمفردك؟",
+        "it": "Sei riuscito a fare la riparazione da solo?"
+      },
+      "note": "etwas (Akk.) hinbekommen"
+    },
+    {
+      "id": "knapp",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "knapp",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nur gerade so viel wie nötig, fast zu wenig; auch: etwas weniger als (knapp zwei Stunden)",
+        "tr": "kıt, az; ancak, kıl payı; neredeyse",
+        "en": "scarce, tight; barely, just under",
+        "uk": "обмежений, обмаль; ледве, майже",
+        "ar": "شحيح، ضيق؛ بالكاد، نحو",
+        "it": "scarso, stretto; appena, quasi"
+      },
+      "synonyms": [
+        "gering",
+        "eng"
+      ],
+      "antonyms": [
+        "reichlich",
+        "ausreichend"
+      ],
+      "example": {
+        "de": "Das Geld ist am Monatsende oft knapp.",
+        "tr": "Ay sonunda para genellikle kıt oluyor.",
+        "en": "Money is often tight at the end of the month.",
+        "uk": "Наприкінці місяця грошей часто обмаль.",
+        "ar": "غالبًا ما يكون المال شحيحًا في نهاية الشهر.",
+        "it": "A fine mese i soldi sono spesso scarsi."
+      },
+      "note": "knapp bei Kasse sein = wenig Geld haben"
+    },
+    {
+      "id": "reduzieren",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "reduzieren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "reduziert",
+        "praeteritum": "reduzierte",
+        "perfekt": "hat reduziert"
+      },
+      "meaning": {
+        "de": "Kleiner oder weniger machen",
+        "tr": "azaltmak, düşürmek",
+        "en": "to reduce",
+        "uk": "зменшувати, скорочувати",
+        "ar": "يخفّض، يقلّل",
+        "it": "ridurre"
+      },
+      "synonyms": [
+        "verringern",
+        "senken"
+      ],
+      "antonyms": [
+        "erhöhen",
+        "steigern"
+      ],
+      "example": {
+        "de": "Die Firma will die Kosten um zehn Prozent reduzieren.",
+        "tr": "Şirket maliyetleri yüzde on azaltmak istiyor.",
+        "en": "The company wants to reduce costs by ten percent.",
+        "uk": "Фірма хоче скоротити витрати на десять відсотків.",
+        "ar": "تريد الشركة تخفيض التكاليف بنسبة عشرة بالمئة.",
+        "it": "L'azienda vuole ridurre i costi del dieci per cento."
+      },
+      "note": "etwas (Akk.) auf/um etwas (Akk.) reduzieren"
+    },
+    {
+      "id": "anspruch",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Anspruch",
+      "type": "noun",
+      "article": "der",
+      "plural": "Ansprüche",
+      "reflexive": false,
+      "meaning": {
+        "de": "Recht, etwas zu bekommen; auch: hohe Erwartung oder Forderung",
+        "tr": "hak (talep hakkı); beklenti",
+        "en": "entitlement, claim, right; standard, demand",
+        "uk": "право (на щось); вимога",
+        "ar": "حق، استحقاق؛ متطلبات",
+        "it": "diritto; pretesa, esigenza"
+      },
+      "synonyms": [
+        "das Recht",
+        "die Forderung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Jeder Arbeitnehmer hat Anspruch auf bezahlten Urlaub.",
+        "tr": "Her çalışanın ücretli izin hakkı vardır.",
+        "en": "Every employee is entitled to paid leave.",
+        "uk": "Кожен працівник має право на оплачувану відпустку.",
+        "ar": "لكل موظف الحق في إجازة مدفوعة الأجر.",
+        "it": "Ogni lavoratore ha diritto alle ferie retribuite."
+      },
+      "note": "Anspruch auf etwas (Akk.) haben; hohe Ansprüche haben/stellen"
+    },
+    {
+      "id": "lohnfortzahlung",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Lohnfortzahlung",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Der Arbeitgeber zahlt den Lohn weiter, z. B. wenn man krank ist",
+        "tr": "(hastalıkta) ücretin ödenmeye devam etmesi",
+        "en": "continued payment of wages (e.g. during illness)",
+        "uk": "збереження заробітної плати (під час хвороби)",
+        "ar": "استمرار دفع الأجر (أثناء المرض)",
+        "it": "continuazione del pagamento dello stipendio (in caso di malattia)"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Im Krankheitsfall gibt es sechs Wochen Lohnfortzahlung.",
+        "tr": "Hastalık durumunda altı hafta ücret ödenmeye devam ediyor.",
+        "en": "In case of illness wages continue to be paid for six weeks.",
+        "uk": "У разі хвороби зарплату зберігають протягом шести тижнів.",
+        "ar": "في حالة المرض يستمر دفع الأجر لمدة ستة أسابيع.",
+        "it": "In caso di malattia lo stipendio continua a essere pagato per sei settimane."
+      },
+      "note": "Lohnfortzahlung im Krankheitsfall"
+    },
+    {
+      "id": "geringfuegigkeitsgrenze",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Geringfügigkeitsgrenze",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Höchster Monatsverdienst bei einem Minijob, für den man kaum Abgaben zahlen muss",
+        "tr": "mini-iş (Minijob) gelir sınırı",
+        "en": "earnings limit for marginal employment (mini-job)",
+        "uk": "межа доходу для міні-роботи",
+        "ar": "حدّ الدخل للعمل البسيط (ميني جوب)",
+        "it": "soglia di reddito per il minijob"
+      },
+      "synonyms": [
+        "die Minijob-Grenze"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Wer über der Geringfügigkeitsgrenze verdient, hat keinen Minijob mehr.",
+        "tr": "Mini-iş gelir sınırının üzerinde kazanan artık mini-işte sayılmaz.",
+        "en": "Anyone earning above the limit for marginal employment no longer has a mini-job.",
+        "uk": "Хто заробляє більше за межу для міні-роботи, вже не має міні-роботи.",
+        "ar": "من يكسب أكثر من حدّ الدخل للعمل البسيط لم يعد لديه ميني جوب.",
+        "it": "Chi guadagna più della soglia del minijob non ha più un minijob."
+      },
+      "note": null
+    },
+    {
+      "id": "pauschalabgabe",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Pauschalabgabe",
+      "type": "noun",
+      "article": "die",
+      "plural": "Pauschalabgaben",
+      "reflexive": false,
+      "meaning": {
+        "de": "Feste Abgabe (Steuer und Beiträge), die z. B. der Arbeitgeber für einen Minijob pauschal zahlt",
+        "tr": "götürü vergi ve prim",
+        "en": "flat-rate levy, lump-sum contribution",
+        "uk": "фіксований (паушальний) внесок",
+        "ar": "رسوم مقطوعة",
+        "it": "contributo forfettario"
+      },
+      "synonyms": [
+        "die Pauschale"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für Minijobber zahlt der Arbeitgeber Pauschalabgaben an die Minijob-Zentrale.",
+        "tr": "Mini-iş çalışanları için işveren Minijob merkezine götürü vergi ve prim ödüyor.",
+        "en": "For mini-jobbers the employer pays flat-rate levies to the Minijob office.",
+        "uk": "За працівників на міні-роботі роботодавець сплачує фіксовані внески до центру міні-робіт.",
+        "ar": "عن العاملين في الميني جوب يدفع صاحب العمل رسومًا مقطوعة إلى مركز الميني جوب.",
+        "it": "Per i minijobber il datore di lavoro versa contributi forfettari alla Minijob-Zentrale."
+      },
+      "note": "meist im Plural: Pauschalabgaben"
+    },
+    {
+      "id": "uebergangsbereich",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Übergangsbereich",
+      "type": "noun",
+      "article": "der",
+      "plural": "Übergangsbereiche",
+      "reflexive": false,
+      "meaning": {
+        "de": "Verdienst knapp über dem Minijob, bei dem man nur reduzierte Sozialbeiträge zahlt (früher: Gleitzone)",
+        "tr": "geçiş bölgesi (Midijob gelir aralığı)",
+        "en": "transition zone (midi-job earnings range)",
+        "uk": "перехідна зона (дохід міді-роботи)",
+        "ar": "النطاق الانتقالي (دخل الميدي جوب)",
+        "it": "fascia di transizione (midijob)"
+      },
+      "synonyms": [
+        "die Gleitzone",
+        "der Midijob"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Mit 1.500 Euro im Monat liegt ihr Gehalt im Übergangsbereich.",
+        "tr": "Ayda 1.500 euroyla maaşı geçiş bölgesinde yer alıyor.",
+        "en": "At 1,500 euros a month her salary is in the transition zone.",
+        "uk": "З 1500 євро на місяць її зарплата перебуває в перехідній зоні.",
+        "ar": "براتب 1500 يورو شهريًا يقع دخلها في النطاق الانتقالي.",
+        "it": "Con 1.500 euro al mese il suo stipendio rientra nella fascia di transizione."
+      },
+      "note": null
+    },
+    {
+      "id": "arbeitsverhaeltnis",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "Arbeitsverhältnis",
+      "type": "noun",
+      "article": "das",
+      "plural": "Arbeitsverhältnisse",
+      "reflexive": false,
+      "meaning": {
+        "de": "Rechtliche Beziehung zwischen Arbeitgeber und Arbeitnehmer; die Anstellung",
+        "tr": "iş ilişkisi, istihdam",
+        "en": "employment relationship, employment",
+        "uk": "трудові відносини",
+        "ar": "علاقة العمل",
+        "it": "rapporto di lavoro"
+      },
+      "synonyms": [
+        "die Anstellung",
+        "die Beschäftigung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Das Arbeitsverhältnis endet nach drei Monaten Kündigungsfrist.",
+        "tr": "İş ilişkisi üç aylık ihbar süresinden sonra sona eriyor.",
+        "en": "The employment relationship ends after a three-month notice period.",
+        "uk": "Трудові відносини закінчуються після тримісячного строку попередження.",
+        "ar": "تنتهي علاقة العمل بعد مهلة إنذار مدتها ثلاثة أشهر.",
+        "it": "Il rapporto di lavoro termina dopo un preavviso di tre mesi."
+      },
+      "note": "ein befristetes / unbefristetes Arbeitsverhältnis"
+    },
+    {
+      "id": "gleiten",
+      "source": "notes",
+      "date": "2026-10-19",
+      "word": "gleiten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "gleitet",
+        "praeteritum": "glitt",
+        "perfekt": "ist geglitten"
+      },
+      "meaning": {
+        "de": "Sich leicht und ruhig über eine Fläche oder durch die Luft bewegen",
+        "tr": "kaymak, süzülmek",
+        "en": "to glide, to slide",
+        "uk": "ковзати, плавно сунутися",
+        "ar": "ينزلق، ينساب",
+        "it": "scivolare, planare"
+      },
+      "synonyms": [
+        "rutschen",
+        "schweben"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Das Boot gleitet langsam über den See.",
+        "tr": "Tekne yavaşça gölün üzerinde süzülüyor.",
+        "en": "The boat glides slowly across the lake.",
+        "uk": "Човен повільно ковзає озером.",
+        "ar": "ينساب القارب ببطء فوق البحيرة.",
+        "it": "La barca scivola lentamente sul lago."
+      },
+      "note": "intransitiv (ohne Objekt), Perfekt mit „sein“; Gleitzeit = flexible Arbeitszeit"
+    },
+    {
+      "id": "gewalt",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "Gewalt",
+      "type": "noun",
+      "article": "die",
+      "plural": "Gewalten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Körperliche Kraft, mit der man jemandem schadet; auch: Macht über etwas",
+        "tr": "şiddet; güç, iktidar",
+        "en": "violence; force, power",
+        "uk": "насильство; влада, сила",
+        "ar": "عنف؛ قوة، سلطة",
+        "it": "violenza; forza, potere"
+      },
+      "synonyms": [
+        "die Brutalität",
+        "die Macht"
+      ],
+      "antonyms": [
+        "die Gewaltlosigkeit"
+      ],
+      "example": {
+        "de": "Die Polizei warnt vor Gewalt bei der Demonstration.",
+        "tr": "Polis gösteride şiddete karşı uyarıyor.",
+        "en": "The police are warning of violence at the demonstration.",
+        "uk": "Поліція попереджає про насильство під час демонстрації.",
+        "ar": "تحذّر الشرطة من العنف خلال المظاهرة.",
+        "it": "La polizia mette in guardia dalla violenza durante la manifestazione."
+      },
+      "note": "Gewalt gegen jemanden (Akk.); Plural nur im Sinn von Macht (die drei Gewalten im Staat)"
+    },
+    {
+      "id": "heftig",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "heftig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sehr stark, intensiv oder mit viel Kraft",
+        "tr": "şiddetli, sert, yoğun",
+        "en": "violent, intense, fierce, heavy",
+        "uk": "сильний, бурхливий, різкий",
+        "ar": "عنيف، شديد",
+        "it": "forte, violento, intenso"
+      },
+      "synonyms": [
+        "stark",
+        "intensiv"
+      ],
+      "antonyms": [
+        "leicht",
+        "schwach"
+      ],
+      "example": {
+        "de": "Gestern Abend gab es ein heftiges Gewitter.",
+        "tr": "Dün akşam şiddetli bir fırtına vardı.",
+        "en": "Last night there was a heavy thunderstorm.",
+        "uk": "Учора ввечері була сильна гроза.",
+        "ar": "كانت هناك عاصفة رعدية شديدة مساء أمس.",
+        "it": "Ieri sera c'è stato un forte temporale."
+      },
+      "note": "heftig – heftiger – am heftigsten"
+    },
+    {
+      "id": "angreifen",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "angreifen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "greift an",
+        "praeteritum": "griff an",
+        "perfekt": "hat angegriffen"
+      },
+      "meaning": {
+        "de": "Jemanden mit Gewalt oder mit Worten attackieren; auch: schaden (z. B. der Gesundheit)",
+        "tr": "saldırmak; (sağlığa) zarar vermek",
+        "en": "to attack; to affect, to damage",
+        "uk": "нападати, атакувати; шкодити",
+        "ar": "يهاجم؛ يضرّ",
+        "it": "attaccare, aggredire; intaccare"
+      },
+      "synonyms": [
+        "attackieren",
+        "überfallen"
+      ],
+      "antonyms": [
+        "verteidigen",
+        "schützen"
+      ],
+      "example": {
+        "de": "Ein Hund hat den Postboten im Garten angegriffen.",
+        "tr": "Bir köpek bahçede postacıya saldırdı.",
+        "en": "A dog attacked the postman in the garden.",
+        "uk": "Собака напав на листоношу в саду.",
+        "ar": "هاجم كلب ساعي البريد في الحديقة.",
+        "it": "Un cane ha aggredito il postino in giardino."
+      },
+      "note": "jemanden/etwas (Akk.) angreifen"
+    },
+    {
+      "id": "sanktion",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "Sanktion",
+      "type": "noun",
+      "article": "die",
+      "plural": "Sanktionen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Strafmaßnahme, z. B. gegen einen Staat oder eine Person, die Regeln nicht einhält",
+        "tr": "yaptırım",
+        "en": "sanction",
+        "uk": "санкція",
+        "ar": "عقوبة",
+        "it": "sanzione"
+      },
+      "synonyms": [
+        "die Strafmaßnahme",
+        "die Strafe"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die EU hat neue Sanktionen gegen das Land beschlossen.",
+        "tr": "AB ülkeye karşı yeni yaptırımlar kararlaştırdı.",
+        "en": "The EU has decided on new sanctions against the country.",
+        "uk": "ЄС ухвалив нові санкції проти цієї країни.",
+        "ar": "قرّر الاتحاد الأوروبي عقوبات جديدة على البلد.",
+        "it": "L'UE ha deciso nuove sanzioni contro il paese."
+      },
+      "note": "Sanktionen gegen jemanden/etwas (Akk.) verhängen"
+    },
+    {
+      "id": "verhandeln",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "verhandeln",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "verhandelt",
+        "praeteritum": "verhandelte",
+        "perfekt": "hat verhandelt"
+      },
+      "meaning": {
+        "de": "Mit jemandem über etwas sprechen, um eine Einigung zu finden",
+        "tr": "müzakere etmek, pazarlık etmek",
+        "en": "to negotiate",
+        "uk": "вести переговори, домовлятися",
+        "ar": "يتفاوض",
+        "it": "negoziare, trattare"
+      },
+      "synonyms": [
+        "aushandeln",
+        "diskutieren"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Gewerkschaft verhandelt mit den Arbeitgebern über höhere Löhne.",
+        "tr": "Sendika işverenlerle daha yüksek ücretler için müzakere ediyor.",
+        "en": "The union is negotiating with the employers about higher wages.",
+        "uk": "Профспілка веде переговори з роботодавцями про вищі зарплати.",
+        "ar": "تتفاوض النقابة مع أصحاب العمل حول أجور أعلى.",
+        "it": "Il sindacato tratta con i datori di lavoro per salari più alti."
+      },
+      "note": "mit jemandem (Dat.) über etwas (Akk.) verhandeln"
+    },
+    {
+      "id": "vorwurf",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "Vorwurf",
+      "type": "noun",
+      "article": "der",
+      "plural": "Vorwürfe",
+      "reflexive": false,
+      "meaning": {
+        "de": "Aussage, mit der man jemandem sagt, dass er etwas falsch gemacht hat",
+        "tr": "suçlama, sitem",
+        "en": "accusation, reproach",
+        "uk": "докір, звинувачення",
+        "ar": "لوم، اتهام",
+        "it": "rimprovero, accusa"
+      },
+      "synonyms": [
+        "die Anschuldigung",
+        "der Tadel"
+      ],
+      "antonyms": [
+        "das Lob"
+      ],
+      "example": {
+        "de": "Er macht sich große Vorwürfe, weil er den Unfall verursacht hat.",
+        "tr": "Kazaya sebep olduğu için kendini çok suçluyor.",
+        "en": "He blames himself a lot because he caused the accident.",
+        "uk": "Він сильно себе картає, бо спричинив аварію.",
+        "ar": "يلوم نفسه كثيرًا لأنه تسبّب في الحادث.",
+        "it": "Si rimprovera molto perché ha causato l'incidente."
+      },
+      "note": "jemandem (Dat.) Vorwürfe machen; sich (Dat.) Vorwürfe machen"
+    },
+    {
+      "id": "wuetend",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "wütend",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sehr verärgert, voller Zorn",
+        "tr": "öfkeli, kızgın",
+        "en": "angry, furious",
+        "uk": "розлючений, сердитий",
+        "ar": "غاضب",
+        "it": "arrabbiato, furioso"
+      },
+      "synonyms": [
+        "zornig",
+        "sauer"
+      ],
+      "antonyms": [
+        "ruhig",
+        "gelassen"
+      ],
+      "example": {
+        "de": "Sie war wütend, weil er schon wieder zu spät kam.",
+        "tr": "Yine geç kaldığı için öfkeliydi.",
+        "en": "She was angry because he was late again.",
+        "uk": "Вона була розлючена, бо він знову запізнився.",
+        "ar": "كانت غاضبة لأنه تأخّر مرة أخرى.",
+        "it": "Era arrabbiata perché lui era di nuovo in ritardo."
+      },
+      "note": "wütend auf jemanden (Akk.) / über etwas (Akk.) sein"
+    },
+    {
+      "id": "nachweisen",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "nachweisen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "weist nach",
+        "praeteritum": "wies nach",
+        "perfekt": "hat nachgewiesen"
+      },
+      "meaning": {
+        "de": "Mit Beweisen oder Dokumenten zeigen, dass etwas wahr ist",
+        "tr": "kanıtlamak, ispat etmek; belgelemek",
+        "en": "to prove, to demonstrate; to provide evidence of",
+        "uk": "доводити, підтверджувати",
+        "ar": "يُثبت، يبرهن",
+        "it": "dimostrare, provare, comprovare"
+      },
+      "synonyms": [
+        "beweisen",
+        "belegen"
+      ],
+      "antonyms": [
+        "widerlegen"
+      ],
+      "example": {
+        "de": "Sie müssen Ihre Deutschkenntnisse mit einem Zertifikat nachweisen.",
+        "tr": "Almanca bilginizi bir sertifikayla belgelemeniz gerekiyor.",
+        "en": "You have to prove your knowledge of German with a certificate.",
+        "uk": "Ви повинні підтвердити знання німецької сертифікатом.",
+        "ar": "يجب أن تُثبت معرفتك باللغة الألمانية بشهادة.",
+        "it": "Deve dimostrare la sua conoscenza del tedesco con un certificato."
+      },
+      "note": "(jemandem Dat.) etwas (Akk.) nachweisen; der Nachweis"
+    },
+    {
+      "id": "erwaehnen",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "erwähnen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "erwähnt",
+        "praeteritum": "erwähnte",
+        "perfekt": "hat erwähnt"
+      },
+      "meaning": {
+        "de": "Etwas kurz sagen oder nennen, ohne lange darüber zu sprechen",
+        "tr": "bahsetmek, söz etmek",
+        "en": "to mention",
+        "uk": "згадувати",
+        "ar": "يذكر، يُشير إلى",
+        "it": "menzionare, accennare"
+      },
+      "synonyms": [
+        "nennen",
+        "ansprechen"
+      ],
+      "antonyms": [
+        "verschweigen"
+      ],
+      "example": {
+        "de": "Er hat mit keinem Wort erwähnt, dass er umziehen will.",
+        "tr": "Taşınmak istediğinden hiç bahsetmedi.",
+        "en": "He didn't mention with a single word that he wants to move.",
+        "uk": "Він жодним словом не згадав, що хоче переїхати.",
+        "ar": "لم يذكر بكلمة واحدة أنه يريد الانتقال.",
+        "it": "Non ha accennato con una sola parola che vuole trasferirsi."
+      },
+      "note": "etwas/jemanden (Akk.) erwähnen"
+    },
+    {
+      "id": "auftreten",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "auftreten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "tritt auf",
+        "praeteritum": "trat auf",
+        "perfekt": "ist aufgetreten"
+      },
+      "meaning": {
+        "de": "Auf einer Bühne spielen oder singen; auch: vorkommen, plötzlich da sein (Probleme); sich verhalten",
+        "tr": "sahneye çıkmak; ortaya çıkmak (sorun); davranmak",
+        "en": "to perform, to appear; to occur; to behave",
+        "uk": "виступати; виникати; поводитися",
+        "ar": "يظهر على المسرح؛ يحدث؛ يتصرّف",
+        "it": "esibirsi; presentarsi, verificarsi; comportarsi"
+      },
+      "synonyms": [
+        "vorkommen",
+        "erscheinen"
+      ],
+      "antonyms": [
+        "verschwinden"
+      ],
+      "example": {
+        "de": "Bei der Installation sind keine Probleme aufgetreten.",
+        "tr": "Kurulum sırasında hiçbir sorun ortaya çıkmadı.",
+        "en": "No problems occurred during the installation.",
+        "uk": "Під час встановлення не виникло жодних проблем.",
+        "ar": "لم تحدث أي مشاكل أثناء التثبيت.",
+        "it": "Durante l'installazione non si sono verificati problemi."
+      },
+      "note": "intransitiv (ohne Objekt), Perfekt mit „sein“; selbstbewusst auftreten = sich selbstbewusst verhalten"
+    },
+    {
+      "id": "ausstrahlung",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "Ausstrahlung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Ausstrahlungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Wirkung, die eine Person auf andere hat; auch: das Senden einer Sendung im Fernsehen oder Radio",
+        "tr": "karizma, etkileyicilik; yayın",
+        "en": "charisma, aura; broadcast",
+        "uk": "харизма, чарівність; трансляція",
+        "ar": "جاذبية، حضور؛ بثّ",
+        "it": "carisma, fascino; trasmissione"
+      },
+      "synonyms": [
+        "das Charisma",
+        "die Wirkung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die neue Kollegin hat eine sehr positive Ausstrahlung.",
+        "tr": "Yeni meslektaşın çok olumlu bir enerjisi var.",
+        "en": "The new colleague has a very positive aura.",
+        "uk": "Нова колега має дуже позитивну харизму.",
+        "ar": "تتمتع الزميلة الجديدة بحضور إيجابي جدًا.",
+        "it": "La nuova collega ha un carisma molto positivo."
+      },
+      "note": "Verb: ausstrahlen"
+    },
+    {
+      "id": "raeuber",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "Räuber",
+      "type": "noun",
+      "article": "der",
+      "plural": "Räuber",
+      "reflexive": false,
+      "meaning": {
+        "de": "Person, die anderen mit Gewalt oder Drohung etwas wegnimmt",
+        "tr": "soyguncu, haydut",
+        "en": "robber",
+        "uk": "грабіжник, розбійник",
+        "ar": "لص، سارق",
+        "it": "rapinatore, brigante"
+      },
+      "synonyms": [
+        "der Dieb",
+        "der Verbrecher"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Polizei hat den Räuber nach zwei Tagen gefasst.",
+        "tr": "Polis soyguncuyu iki gün sonra yakaladı.",
+        "en": "The police caught the robber after two days.",
+        "uk": "Поліція спіймала грабіжника через два дні.",
+        "ar": "قبضت الشرطة على اللص بعد يومين.",
+        "it": "La polizia ha arrestato il rapinatore dopo due giorni."
+      },
+      "note": "der Raub = die Tat; weiblich: die Räuberin"
+    },
+    {
+      "id": "raeuberteller",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "Räuberteller",
+      "type": "noun",
+      "article": "der",
+      "plural": "Räuberteller",
+      "reflexive": false,
+      "meaning": {
+        "de": "Leerer Teller im Restaurant für ein Kind, das vom Essen der Eltern etwas nimmt",
+        "tr": "(restoranda) çocuğun ebeveyninin tabağından yemesi için boş tabak",
+        "en": "empty plate for a child to eat from the parents' food (restaurant)",
+        "uk": "порожня тарілка для дитини, щоб їсти з батьківської страви",
+        "ar": "طبق فارغ للطفل ليأكل من طعام والديه (في المطعم)",
+        "it": "piatto vuoto per il bambino che mangia dal piatto dei genitori"
+      },
+      "synonyms": [
+        "der Piratenteller"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für unsere Tochter bestellen wir im Restaurant meistens einen Räuberteller.",
+        "tr": "Restoranda kızımız için genellikle boş bir tabak istiyoruz.",
+        "en": "In restaurants we usually order an empty plate for our daughter.",
+        "uk": "Для нашої доньки в ресторані ми зазвичай замовляємо порожню тарілку.",
+        "ar": "في المطعم نطلب عادةً طبقًا فارغًا لابنتنا.",
+        "it": "Al ristorante di solito ordiniamo un piatto vuoto per nostra figlia."
+      },
+      "note": "auf Speisekarten, oft kostenlos"
+    },
+    {
+      "id": "magersucht",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "Magersucht",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Krankheit, bei der jemand aus Angst vor dem Zunehmen fast nichts mehr isst",
+        "tr": "anoreksiya",
+        "en": "anorexia",
+        "uk": "анорексія",
+        "ar": "فقدان الشهية العصابي",
+        "it": "anoressia"
+      },
+      "synonyms": [
+        "die Anorexie"
+      ],
+      "antonyms": [
+        "die Fettsucht"
+      ],
+      "example": {
+        "de": "Viele junge Mädchen leiden an Magersucht.",
+        "tr": "Pek çok genç kız anoreksiyadan muzdarip.",
+        "en": "Many young girls suffer from anorexia.",
+        "uk": "Багато молодих дівчат страждають на анорексію.",
+        "ar": "تعاني كثير من الفتيات الصغيرات من فقدان الشهية العصابي.",
+        "it": "Molte ragazze giovani soffrono di anoressia."
+      },
+      "note": "an Magersucht (Dat.) leiden; Adjektiv: magersüchtig"
+    },
+    {
+      "id": "reglementiert",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "reglementiert",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Durch genaue Vorschriften geregelt; ein reglementierter Beruf braucht eine staatliche Anerkennung",
+        "tr": "düzenlenmiş, mevzuata bağlı (meslek)",
+        "en": "regulated",
+        "uk": "регламентований",
+        "ar": "منظَّم بقوانين",
+        "it": "regolamentato"
+      },
+      "synonyms": [
+        "geregelt",
+        "vorgeschrieben"
+      ],
+      "antonyms": [
+        "frei",
+        "nicht reglementiert"
+      ],
+      "example": {
+        "de": "Arzt und Lehrer sind in Deutschland reglementierte Berufe.",
+        "tr": "Doktorluk ve öğretmenlik Almanya'da düzenlenmiş mesleklerdir.",
+        "en": "Doctor and teacher are regulated professions in Germany.",
+        "uk": "Лікар і вчитель у Німеччині — регламентовані професії.",
+        "ar": "الطب والتدريس مهنتان منظَّمتان بقوانين في ألمانيا.",
+        "it": "Medico e insegnante sono professioni regolamentate in Germania."
+      },
+      "note": "Partizip II von „reglementieren“; reglementierter Beruf"
+    },
+    {
+      "id": "einreichen",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "einreichen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "reicht ein",
+        "praeteritum": "reichte ein",
+        "perfekt": "hat eingereicht"
+      },
+      "meaning": {
+        "de": "Ein Dokument offiziell bei einer Stelle abgeben",
+        "tr": "sunmak, teslim etmek (belge, başvuru)",
+        "en": "to submit, to hand in",
+        "uk": "подавати (документи)",
+        "ar": "يقدّم (طلبًا أو وثيقة)",
+        "it": "presentare, inoltrare"
+      },
+      "synonyms": [
+        "abgeben",
+        "vorlegen"
+      ],
+      "antonyms": [
+        "zurückziehen"
+      ],
+      "example": {
+        "de": "Bitte reichen Sie alle Unterlagen bis Ende des Monats ein.",
+        "tr": "Lütfen tüm belgeleri ay sonuna kadar teslim edin.",
+        "en": "Please submit all documents by the end of the month.",
+        "uk": "Будь ласка, подайте всі документи до кінця місяця.",
+        "ar": "من فضلك قدّم جميع الوثائق حتى نهاية الشهر.",
+        "it": "Per favore, presenti tutti i documenti entro la fine del mese."
+      },
+      "note": "etwas (Akk.) bei jemandem (Dat.) einreichen"
+    },
+    {
+      "id": "variieren",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "variieren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "variiert",
+        "praeteritum": "variierte",
+        "perfekt": "hat variiert"
+      },
+      "meaning": {
+        "de": "Unterschiedlich sein, sich ändern; auch: etwas leicht verändern",
+        "tr": "değişmek, farklılık göstermek; çeşitlendirmek",
+        "en": "to vary",
+        "uk": "варіюватися, відрізнятися; змінювати",
+        "ar": "يتفاوت، يختلف؛ ينوّع",
+        "it": "variare"
+      },
+      "synonyms": [
+        "sich unterscheiden",
+        "abwandeln"
+      ],
+      "antonyms": [
+        "gleich bleiben"
+      ],
+      "example": {
+        "de": "Die Preise variieren je nach Saison stark.",
+        "tr": "Fiyatlar mevsime göre çok değişiyor.",
+        "en": "Prices vary greatly depending on the season.",
+        "uk": "Ціни сильно варіюються залежно від сезону.",
+        "ar": "تتفاوت الأسعار كثيرًا حسب الموسم.",
+        "it": "I prezzi variano molto a seconda della stagione."
+      },
+      "note": "intransitiv (ohne Objekt): je nach etwas (Dat.) variieren; transitiv: etwas (Akk.) variieren"
+    },
+    {
+      "id": "anerkennungsverfahren",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "Anerkennungsverfahren",
+      "type": "noun",
+      "article": "das",
+      "plural": "Anerkennungsverfahren",
+      "reflexive": false,
+      "meaning": {
+        "de": "Offizielles Verfahren, in dem geprüft wird, ob ein ausländischer Abschluss gleichwertig ist",
+        "tr": "denklik süreci, tanınma prosedürü",
+        "en": "recognition procedure (of foreign qualifications)",
+        "uk": "процедура визнання (кваліфікації)",
+        "ar": "إجراءات معادلة الشهادات",
+        "it": "procedura di riconoscimento"
+      },
+      "synonyms": [
+        "die Anerkennung",
+        "die Gleichwertigkeitsprüfung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für den Beruf als Krankenpflegerin braucht sie ein Anerkennungsverfahren.",
+        "tr": "Hemşire olarak çalışabilmesi için bir denklik sürecine ihtiyacı var.",
+        "en": "She needs a recognition procedure to work as a nurse.",
+        "uk": "Щоб працювати медсестрою, їй потрібна процедура визнання.",
+        "ar": "لكي تعمل ممرضة تحتاج إلى إجراءات معادلة الشهادة.",
+        "it": "Per lavorare come infermiera ha bisogno di una procedura di riconoscimento."
+      },
+      "note": "besonders für reglementierte Berufe"
+    },
+    {
+      "id": "einfuehren",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "einführen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "führt ein",
+        "praeteritum": "führte ein",
+        "perfekt": "hat eingeführt"
+      },
+      "meaning": {
+        "de": "Etwas Neues zum ersten Mal benutzen oder gültig machen; Waren aus dem Ausland ins Land bringen",
+        "tr": "(yeni bir şey) getirmek, uygulamaya koymak; ithal etmek",
+        "en": "to introduce; to import",
+        "uk": "запроваджувати; імпортувати",
+        "ar": "يُدخل، يطبّق؛ يستورد",
+        "it": "introdurre; importare"
+      },
+      "synonyms": [
+        "etablieren",
+        "importieren"
+      ],
+      "antonyms": [
+        "abschaffen",
+        "ausführen"
+      ],
+      "example": {
+        "de": "Die Firma hat ein neues Computersystem eingeführt.",
+        "tr": "Şirket yeni bir bilgisayar sistemi uygulamaya koydu.",
+        "en": "The company has introduced a new computer system.",
+        "uk": "Фірма запровадила нову комп'ютерну систему.",
+        "ar": "أدخلت الشركة نظامًا حاسوبيًا جديدًا.",
+        "it": "L'azienda ha introdotto un nuovo sistema informatico."
+      },
+      "note": "etwas (Akk.) einführen; jemanden (Akk.) in etwas (Akk.) einführen = erklären"
+    },
+    {
+      "id": "rueberschmeissen",
+      "source": "notes",
+      "date": "2026-10-21",
+      "word": "rüberschmeißen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schmeißt rüber",
+        "praeteritum": "schmiss rüber",
+        "perfekt": "hat rübergeschmissen"
+      },
+      "meaning": {
+        "de": "(ugs.) Etwas zu jemandem hinüberwerfen",
+        "tr": "(birine) atmak, fırlatmak (konuşma dili)",
+        "en": "to toss over, to chuck over (colloquial)",
+        "uk": "перекинути, кинути (розм.)",
+        "ar": "يرمي إلى (عامية)",
+        "it": "lanciare, buttare di là (colloquiale)"
+      },
+      "synonyms": [
+        "rüberwerfen",
+        "zuwerfen"
+      ],
+      "antonyms": [
+        "fangen"
+      ],
+      "example": {
+        "de": "Kannst du mir mal kurz den Schlüssel rüberschmeißen?",
+        "tr": "Anahtarı bana bir atar mısın?",
+        "en": "Can you quickly toss me the key?",
+        "uk": "Можеш кинути мені ключ?",
+        "ar": "هل يمكنك أن ترمي لي المفتاح؟",
+        "it": "Mi puoi lanciare un attimo la chiave?"
+      },
+      "note": "jemandem (Dat.) etwas (Akk.) rüberschmeißen; umgangssprachlich (rüber = herüber/hinüber)"
     }
   ]
 }
