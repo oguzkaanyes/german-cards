@@ -31,12 +31,16 @@
           "quizScores":      { "$cardId": { ".validate": "newData.isNumber() && newData.val() >= 0" } },
           "verbScores":      { "$verbId": { ".validate": "newData.isNumber() && newData.val() >= 0" } },
           "verbWriteScores": { "$verbId": { ".validate": "newData.isNumber() && newData.val() >= 0" } },
+          "gapScores":       { "$cardId": { ".validate": "newData.isNumber() && newData.val() >= 0" } },
+          "articleScores":   { "$cardId": { ".validate": "newData.isNumber() && newData.val() >= 0" } },
           "$other": { ".validate": false }
         },
 
         "session": {
           "quizCardId":      { ".validate": "newData.isString()" },
           "reviewQueue":     { "$i": { ".validate": "newData.isString()" } },
+          "gapQueue":        { "$i": { ".validate": "newData.isString()" } },
+          "articleQueue":    { "$i": { ".validate": "newData.isString()" } },
           "verbQueue":       { "$i": { ".validate": "newData.isString()" } },
           "verbLastId":      { ".validate": "newData.isString()" },
           "verbWriteQueue":  { "$i": { ".validate": "newData.isString()" } },
