@@ -14142,6 +14142,1359 @@
         "it": "Mi puoi lanciare un attimo la chiave?"
       },
       "note": "jemandem (Dat.) etwas (Akk.) rüberschmeißen; umgangssprachlich (rüber = herüber/hinüber)"
+    },
+    {
+      "id": "weisen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "weisen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "weist",
+        "praeteritum": "wies",
+        "perfekt": "hat gewiesen"
+      },
+      "meaning": {
+        "de": "Mit der Hand oder einem Zeichen in eine Richtung zeigen; jemandem etwas zeigen",
+        "tr": "göstermek, işaret etmek",
+        "en": "to point, to show",
+        "uk": "вказувати, показувати",
+        "ar": "يشير، يدلّ",
+        "it": "indicare, mostrare"
+      },
+      "synonyms": [
+        "zeigen",
+        "hinweisen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Polizist wies uns den Weg zum Bahnhof.",
+        "tr": "Polis bize istasyonun yolunu gösterdi.",
+        "en": "The police officer showed us the way to the station.",
+        "uk": "Поліцейський показав нам дорогу до вокзалу.",
+        "ar": "دلّنا الشرطي على الطريق إلى المحطة.",
+        "it": "Il poliziotto ci ha indicato la strada per la stazione."
+      },
+      "note": "jemandem (Dat.) etwas (Akk.) weisen; auf etwas (Akk.) weisen; jemanden aus dem Land weisen"
+    },
+    {
+      "id": "weisheit",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Weisheit",
+      "type": "noun",
+      "article": "die",
+      "plural": "Weisheiten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Großes Wissen und gute Urteilskraft durch Lebenserfahrung; auch: ein kluger Spruch",
+        "tr": "bilgelik; hikmetli söz",
+        "en": "wisdom",
+        "uk": "мудрість",
+        "ar": "حكمة",
+        "it": "saggezza"
+      },
+      "synonyms": [
+        "die Klugheit",
+        "die Lebenserfahrung"
+      ],
+      "antonyms": [
+        "die Dummheit",
+        "die Torheit"
+      ],
+      "example": {
+        "de": "Mit dem Alter kommt oft auch die Weisheit.",
+        "tr": "Yaşla birlikte çoğu zaman bilgelik de gelir.",
+        "en": "Wisdom often comes with age.",
+        "uk": "З віком часто приходить і мудрість.",
+        "ar": "مع التقدم في العمر تأتي الحكمة غالبًا.",
+        "it": "Con l'età spesso arriva anche la saggezza."
+      },
+      "note": null
+    },
+    {
+      "id": "fordernd",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "fordernd",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "So, dass viel Leistung oder Einsatz verlangt wird; auch: bestimmt im Auftreten",
+        "tr": "zorlayıcı, talepkâr",
+        "en": "demanding",
+        "uk": "вимогливий",
+        "ar": "متطلِّب، شاقّ",
+        "it": "impegnativo, esigente"
+      },
+      "synonyms": [
+        "anspruchsvoll",
+        "herausfordernd"
+      ],
+      "antonyms": [
+        "leicht",
+        "anspruchslos"
+      ],
+      "example": {
+        "de": "Die neue Stelle ist fordernd, aber sie macht mir Spaß.",
+        "tr": "Yeni iş zorlayıcı ama hoşuma gidiyor.",
+        "en": "The new job is demanding, but I enjoy it.",
+        "uk": "Нова робота вимоглива, але вона мені подобається.",
+        "ar": "الوظيفة الجديدة متطلبة، لكنها تعجبني.",
+        "it": "Il nuovo lavoro è impegnativo, ma mi piace."
+      },
+      "note": "Partizip I von „fordern“"
+    },
+    {
+      "id": "ueberwiegen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "überwiegen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "überwiegt",
+        "praeteritum": "überwog",
+        "perfekt": "hat überwogen"
+      },
+      "meaning": {
+        "de": "Stärker, größer oder zahlreicher sein als etwas anderes",
+        "tr": "ağır basmak, baskın olmak",
+        "en": "to predominate, to outweigh",
+        "uk": "переважати",
+        "ar": "يغلب، يرجح",
+        "it": "prevalere, predominare"
+      },
+      "synonyms": [
+        "vorherrschen",
+        "überlegen sein"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Bei dieser Entscheidung überwiegen die Vorteile.",
+        "tr": "Bu kararda avantajlar ağır basıyor.",
+        "en": "In this decision the advantages outweigh the disadvantages.",
+        "uk": "У цьому рішенні переважають переваги.",
+        "ar": "في هذا القرار ترجح المزايا.",
+        "it": "In questa decisione prevalgono i vantaggi."
+      },
+      "note": "intransitiv (ohne Objekt); untrennbar: überwiegt, nicht „wiegt über“"
+    },
+    {
+      "id": "waage",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Waage",
+      "type": "noun",
+      "article": "die",
+      "plural": "Waagen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Gerät, mit dem man das Gewicht von etwas misst; auch: ein Sternzeichen",
+        "tr": "terazi, tartı",
+        "en": "scale(s), balance",
+        "uk": "ваги",
+        "ar": "ميزان",
+        "it": "bilancia"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Sie stellt sich jeden Morgen auf die Waage.",
+        "tr": "Her sabah teraziye çıkıyor.",
+        "en": "She steps on the scales every morning.",
+        "uk": "Щоранку вона стає на ваги.",
+        "ar": "تقف على الميزان كل صباح.",
+        "it": "Ogni mattina sale sulla bilancia."
+      },
+      "note": "sich die Waage halten = gleich stark sein"
+    },
+    {
+      "id": "solch",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "solch",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Weist auf die Art oder Qualität von etwas hin: so ein, derartig",
+        "tr": "böyle, bu tür, öyle",
+        "en": "such",
+        "uk": "такий",
+        "ar": "مثل هذا، كهذا",
+        "it": "tale, simile"
+      },
+      "synonyms": [
+        "derartig",
+        "so ein"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Solche Fehler dürfen nicht noch einmal passieren.",
+        "tr": "Böyle hatalar bir daha olmamalı.",
+        "en": "Such mistakes must not happen again.",
+        "uk": "Такі помилки не повинні повторитися.",
+        "ar": "يجب ألا تتكرر مثل هذه الأخطاء.",
+        "it": "Errori simili non devono ripetersi."
+      },
+      "note": "Artikelwort/Pronomen; dekliniert wie dieser: solcher, solche, solches; nach „ein“ wie ein Adjektiv: ein solcher Fehler"
+    },
+    {
+      "id": "haufen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Haufen",
+      "type": "noun",
+      "article": "der",
+      "plural": "Haufen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Viele Dinge, die ungeordnet übereinanderliegen; umgangssprachlich: eine große Menge",
+        "tr": "yığın, küme; bir sürü",
+        "en": "heap, pile; a lot of",
+        "uk": "купа; безліч",
+        "ar": "كومة؛ الكثير",
+        "it": "mucchio, cumulo; un sacco di"
+      },
+      "synonyms": [
+        "der Stapel",
+        "die Menge"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Auf seinem Schreibtisch liegt ein Haufen Papier.",
+        "tr": "Masasında bir yığın kâğıt duruyor.",
+        "en": "There is a pile of paper on his desk.",
+        "uk": "На його столі лежить купа паперу.",
+        "ar": "على مكتبه كومة من الأوراق.",
+        "it": "Sulla sua scrivania c'è un mucchio di carta."
+      },
+      "note": "ein Haufen + Nomen (ugs.): ein Haufen Arbeit = sehr viel Arbeit"
+    },
+    {
+      "id": "wurzeln",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "wurzeln",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "wurzelt",
+        "praeteritum": "wurzelte",
+        "perfekt": "hat gewurzelt"
+      },
+      "meaning": {
+        "de": "Mit Wurzeln im Boden festsitzen; seinen Ursprung in etwas haben",
+        "tr": "kök salmak; kökü bir şeye dayanmak",
+        "en": "to be rooted in",
+        "uk": "корінитися, мати коріння",
+        "ar": "يتجذّر؛ تعود جذوره إلى",
+        "it": "radicarsi, affondare le radici"
+      },
+      "synonyms": [
+        "verwurzelt sein",
+        "stammen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Diese Tradition wurzelt im Mittelalter.",
+        "tr": "Bu gelenek kökünü Orta Çağ'dan alıyor.",
+        "en": "This tradition is rooted in the Middle Ages.",
+        "uk": "Ця традиція бере свій початок у Середньовіччі.",
+        "ar": "تعود جذور هذا التقليد إلى العصور الوسطى.",
+        "it": "Questa tradizione affonda le radici nel Medioevo."
+      },
+      "note": "in etwas (Dat.) wurzeln"
+    },
+    {
+      "id": "gedicht",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Gedicht",
+      "type": "noun",
+      "article": "das",
+      "plural": "Gedichte",
+      "reflexive": false,
+      "meaning": {
+        "de": "Kurzer literarischer Text in Versen, oft mit Reim und Rhythmus",
+        "tr": "şiir",
+        "en": "poem",
+        "uk": "вірш",
+        "ar": "قصيدة",
+        "it": "poesia"
+      },
+      "synonyms": [
+        "die Lyrik",
+        "der Vers"
+      ],
+      "antonyms": [
+        "die Prosa"
+      ],
+      "example": {
+        "de": "Die Kinder lernen ein Gedicht von Goethe auswendig.",
+        "tr": "Çocuklar Goethe'nin bir şiirini ezberliyor.",
+        "en": "The children are learning a poem by Goethe by heart.",
+        "uk": "Діти вивчають напам'ять вірш Гете.",
+        "ar": "يحفظ الأطفال قصيدة لغوته عن ظهر قلب.",
+        "it": "I bambini imparano a memoria una poesia di Goethe."
+      },
+      "note": null
+    },
+    {
+      "id": "loslassen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "loslassen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "lässt los",
+        "praeteritum": "ließ los",
+        "perfekt": "hat losgelassen"
+      },
+      "meaning": {
+        "de": "Etwas nicht mehr festhalten; sich innerlich von etwas oder jemandem lösen",
+        "tr": "bırakmak, salıvermek; geride bırakmak",
+        "en": "to let go (of)",
+        "uk": "відпускати",
+        "ar": "يُفلت، يترك؛ يتخلّى عن",
+        "it": "lasciare andare, mollare"
+      },
+      "synonyms": [
+        "freilassen",
+        "aufgeben"
+      ],
+      "antonyms": [
+        "festhalten",
+        "packen"
+      ],
+      "example": {
+        "de": "Nach der Trennung fiel es ihm schwer, die Vergangenheit loszulassen.",
+        "tr": "Ayrılıktan sonra geçmişi geride bırakmak ona zor geldi.",
+        "en": "After the breakup he found it hard to let go of the past.",
+        "uk": "Після розлучення йому було важко відпустити минуле.",
+        "ar": "بعد الانفصال صعب عليه أن يتخلى عن الماضي.",
+        "it": "Dopo la separazione gli è stato difficile lasciar andare il passato."
+      },
+      "note": "etwas/jemanden (Akk.) loslassen"
+    },
+    {
+      "id": "skizzenbuch",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Skizzenbuch",
+      "type": "noun",
+      "article": "das",
+      "plural": "Skizzenbücher",
+      "reflexive": false,
+      "meaning": {
+        "de": "Heft oder Buch mit leeren Seiten zum Zeichnen von Skizzen",
+        "tr": "eskiz defteri",
+        "en": "sketchbook",
+        "uk": "скетчбук, альбом для ескізів",
+        "ar": "دفتر رسم، كرّاسة اسكتشات",
+        "it": "album da disegno, sketchbook"
+      },
+      "synonyms": [
+        "der Zeichenblock"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Auf Reisen hat sie immer ein Skizzenbuch dabei.",
+        "tr": "Seyahatlerde yanında hep bir eskiz defteri olur.",
+        "en": "She always has a sketchbook with her when travelling.",
+        "uk": "У подорожах вона завжди має з собою скетчбук.",
+        "ar": "تحمل معها دائمًا دفتر رسم في أسفارها.",
+        "it": "In viaggio ha sempre con sé un album da disegno."
+      },
+      "note": null
+    },
+    {
+      "id": "einfangen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "einfangen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "fängt ein",
+        "praeteritum": "fing ein",
+        "perfekt": "hat eingefangen"
+      },
+      "meaning": {
+        "de": "Ein Tier oder einen Menschen fangen; eine Stimmung oder Atmosphäre festhalten (z. B. im Bild)",
+        "tr": "yakalamak; (bir havayı, anı) yakalamak",
+        "en": "to catch, to capture",
+        "uk": "ловити, спіймати; передавати (настрій)",
+        "ar": "يمسك، يقبض على؛ يلتقط (الأجواء)",
+        "it": "catturare, acchiappare; cogliere"
+      },
+      "synonyms": [
+        "fangen",
+        "festhalten"
+      ],
+      "antonyms": [
+        "freilassen"
+      ],
+      "example": {
+        "de": "Der Fotograf hat die Stimmung des Abends perfekt eingefangen.",
+        "tr": "Fotoğrafçı akşamın havasını mükemmel yakalamış.",
+        "en": "The photographer captured the mood of the evening perfectly.",
+        "uk": "Фотограф ідеально передав настрій вечора.",
+        "ar": "التقط المصور أجواء المساء بشكل مثالي.",
+        "it": "Il fotografo ha colto perfettamente l'atmosfera della serata."
+      },
+      "note": "etwas/jemanden (Akk.) einfangen"
+    },
+    {
+      "id": "schlagen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "schlagen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schlägt",
+        "praeteritum": "schlug",
+        "perfekt": "hat geschlagen"
+      },
+      "meaning": {
+        "de": "Jemanden oder etwas kräftig mit der Hand oder einem Gegenstand treffen; im Spiel besiegen",
+        "tr": "vurmak, dövmek; yenmek",
+        "en": "to hit, to beat",
+        "uk": "бити, ударяти; перемагати",
+        "ar": "يضرب؛ يهزم",
+        "it": "colpire, battere; sconfiggere"
+      },
+      "synonyms": [
+        "hauen",
+        "besiegen"
+      ],
+      "antonyms": [
+        "streicheln",
+        "verlieren"
+      ],
+      "example": {
+        "de": "Unsere Mannschaft hat den Favoriten 2:1 geschlagen.",
+        "tr": "Takımımız favoriyi 2-1 yendi.",
+        "en": "Our team beat the favourite 2–1.",
+        "uk": "Наша команда перемогла фаворита з рахунком 2:1.",
+        "ar": "هزم فريقنا المرشح الأوفر حظًا بنتيجة 2:1.",
+        "it": "La nostra squadra ha battuto la favorita 2 a 1."
+      },
+      "note": "jemanden/etwas (Akk.) schlagen; das Herz schlägt (intransitiv)"
+    },
+    {
+      "id": "abbauen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "abbauen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "baut ab",
+        "praeteritum": "baute ab",
+        "perfekt": "hat abgebaut"
+      },
+      "meaning": {
+        "de": "Etwas auseinandernehmen; etwas verringern (z. B. Stress, Stellen); Rohstoffe aus der Erde holen",
+        "tr": "sökmek; azaltmak; (maden) çıkarmak",
+        "en": "to dismantle; to reduce; to mine",
+        "uk": "розбирати; скорочувати; видобувати",
+        "ar": "يفكّك؛ يخفّض؛ يستخرج",
+        "it": "smontare; ridurre; estrarre"
+      },
+      "synonyms": [
+        "verringern",
+        "zerlegen"
+      ],
+      "antonyms": [
+        "aufbauen",
+        "aufstocken"
+      ],
+      "example": {
+        "de": "Sport hilft mir, Stress abzubauen.",
+        "tr": "Spor stresimi azaltmama yardımcı oluyor.",
+        "en": "Sport helps me to reduce stress.",
+        "uk": "Спорт допомагає мені знімати стрес.",
+        "ar": "تساعدني الرياضة على تخفيف التوتر.",
+        "it": "Lo sport mi aiuta a ridurre lo stress."
+      },
+      "note": "etwas (Akk.) abbauen"
+    },
+    {
+      "id": "aus-der-puste-kommen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "aus der Puste kommen",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Bei körperlicher Anstrengung schnell und schwer atmen müssen (ugs.)",
+        "tr": "nefesi kesilmek, soluk soluğa kalmak",
+        "en": "to get out of breath",
+        "uk": "задихатися",
+        "ar": "ينقطع نفَسه، يلهث",
+        "it": "rimanere senza fiato"
+      },
+      "synonyms": [
+        "außer Atem kommen",
+        "keuchen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Schon nach zwei Stockwerken komme ich aus der Puste.",
+        "tr": "Daha iki kat çıkınca nefesim kesiliyor.",
+        "en": "I get out of breath after just two floors.",
+        "uk": "Уже після двох поверхів я задихаюся.",
+        "ar": "بعد طابقين فقط ينقطع نفَسي.",
+        "it": "Già dopo due piani rimango senza fiato."
+      },
+      "note": "aus der Puste kommen / sein (ugs.); die Puste = der Atem"
+    },
+    {
+      "id": "selbstbewusst",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "selbstbewusst",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Von sich und den eigenen Fähigkeiten überzeugt",
+        "tr": "kendine güvenen",
+        "en": "self-confident",
+        "uk": "впевнений у собі",
+        "ar": "واثق من نفسه",
+        "it": "sicuro di sé"
+      },
+      "synonyms": [
+        "selbstsicher",
+        "souverän"
+      ],
+      "antonyms": [
+        "unsicher",
+        "schüchtern"
+      ],
+      "example": {
+        "de": "Beim Vorstellungsgespräch ist sie sehr selbstbewusst aufgetreten.",
+        "tr": "İş görüşmesinde kendinden çok emin bir şekilde davrandı.",
+        "en": "She came across as very self-confident in the job interview.",
+        "uk": "На співбесіді вона поводилася дуже впевнено.",
+        "ar": "ظهرت واثقة جدًا من نفسها في مقابلة العمل.",
+        "it": "Al colloquio di lavoro si è presentata molto sicura di sé."
+      },
+      "note": null
+    },
+    {
+      "id": "genesung",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Genesung",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Gesundwerden nach einer Krankheit",
+        "tr": "iyileşme, şifa bulma",
+        "en": "recovery",
+        "uk": "одужання",
+        "ar": "شفاء، تعافٍ",
+        "it": "guarigione"
+      },
+      "synonyms": [
+        "die Heilung",
+        "die Erholung"
+      ],
+      "antonyms": [
+        "die Erkrankung"
+      ],
+      "example": {
+        "de": "Wir wünschen Ihnen eine schnelle Genesung!",
+        "tr": "Size acil şifalar dileriz!",
+        "en": "We wish you a speedy recovery!",
+        "uk": "Бажаємо вам швидкого одужання!",
+        "ar": "نتمنى لكم الشفاء العاجل!",
+        "it": "Le auguriamo una pronta guarigione!"
+      },
+      "note": "genesen = gesund werden"
+    },
+    {
+      "id": "uebergangsphase",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Übergangsphase",
+      "type": "noun",
+      "article": "die",
+      "plural": "Übergangsphasen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Zeitraum, in dem sich etwas von einem Zustand in einen anderen ändert",
+        "tr": "geçiş dönemi",
+        "en": "transition phase, transitional period",
+        "uk": "перехідний період",
+        "ar": "مرحلة انتقالية",
+        "it": "fase di transizione"
+      },
+      "synonyms": [
+        "die Übergangszeit",
+        "die Umstellungsphase"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In der Übergangsphase gelten noch die alten Regeln.",
+        "tr": "Geçiş döneminde eski kurallar hâlâ geçerli.",
+        "en": "The old rules still apply during the transition phase.",
+        "uk": "У перехідний період ще діють старі правила.",
+        "ar": "في المرحلة الانتقالية لا تزال القواعد القديمة سارية.",
+        "it": "Nella fase di transizione valgono ancora le vecchie regole."
+      },
+      "note": null
+    },
+    {
+      "id": "alleinerziehend",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "alleinerziehend",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Kind ohne Partner oder Partnerin großziehend",
+        "tr": "çocuğunu tek başına büyüten (bekâr ebeveyn)",
+        "en": "single (parent)",
+        "uk": "який сам виховує дитину",
+        "ar": "يربّي أطفاله بمفرده",
+        "it": "che cresce i figli da solo"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Als alleinerziehende Mutter muss sie Arbeit und Familie allein organisieren.",
+        "tr": "Çocuğunu tek başına büyüten bir anne olarak işi ve aileyi yalnız organize etmek zorunda.",
+        "en": "As a single mother she has to organise work and family on her own.",
+        "uk": "Як мати-одиначка вона мусить сама поєднувати роботу й сім'ю.",
+        "ar": "بصفتها أمًا تربي أطفالها وحدها، عليها تنظيم العمل والأسرة بمفردها.",
+        "it": "Come madre single deve organizzare da sola lavoro e famiglia."
+      },
+      "note": "auch: allein erziehend; der/die Alleinerziehende (Nomen)"
+    },
+    {
+      "id": "stammbaum",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Stammbaum",
+      "type": "noun",
+      "article": "der",
+      "plural": "Stammbäume",
+      "reflexive": false,
+      "meaning": {
+        "de": "Darstellung der Vorfahren und Verwandten einer Familie in Form eines Baumes",
+        "tr": "soy ağacı",
+        "en": "family tree",
+        "uk": "родовідне дерево",
+        "ar": "شجرة العائلة",
+        "it": "albero genealogico"
+      },
+      "synonyms": [
+        "die Ahnentafel"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Mein Opa hat unseren Stammbaum bis ins 18. Jahrhundert erforscht.",
+        "tr": "Dedem soy ağacımızı 18. yüzyıla kadar araştırdı.",
+        "en": "My grandpa researched our family tree back to the 18th century.",
+        "uk": "Мій дідусь дослідив наше родовідне дерево аж до XVIII століття.",
+        "ar": "بحث جدي في شجرة عائلتنا حتى القرن الثامن عشر.",
+        "it": "Mio nonno ha ricostruito il nostro albero genealogico fino al Settecento."
+      },
+      "note": null
+    },
+    {
+      "id": "abfindung",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Abfindung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Abfindungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Geld, das man als Ausgleich bekommt, z. B. wenn ein Arbeitsvertrag beendet wird",
+        "tr": "tazminat (kıdem tazminatı)",
+        "en": "severance pay, compensation",
+        "uk": "вихідна допомога, компенсація",
+        "ar": "تعويض (مكافأة نهاية الخدمة)",
+        "it": "liquidazione, buonuscita"
+      },
+      "synonyms": [
+        "die Entschädigung",
+        "die Ausgleichszahlung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Nach der Kündigung erhielt er eine Abfindung von drei Monatsgehältern.",
+        "tr": "İşten çıkarıldıktan sonra üç maaş tutarında tazminat aldı.",
+        "en": "After his dismissal he received severance pay of three months' salary.",
+        "uk": "Після звільнення він отримав компенсацію в розмірі трьох місячних зарплат.",
+        "ar": "بعد فصله حصل على تعويض يعادل رواتب ثلاثة أشهر.",
+        "it": "Dopo il licenziamento ha ricevuto una buonuscita di tre mensilità."
+      },
+      "note": null
+    },
+    {
+      "id": "auszeit",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Auszeit",
+      "type": "noun",
+      "article": "die",
+      "plural": "Auszeiten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Pause, in der man sich vom Alltag oder von der Arbeit erholt; im Sport: kurze Spielunterbrechung",
+        "tr": "mola, ara (kişisel izin)",
+        "en": "time out, break",
+        "uk": "перерва, тайм-аут",
+        "ar": "استراحة، فترة راحة",
+        "it": "pausa, time-out"
+      },
+      "synonyms": [
+        "die Pause",
+        "die Unterbrechung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Nach dem Projekt nehme ich mir eine persönliche Auszeit von zwei Wochen.",
+        "tr": "Projeden sonra kendime iki haftalık kişisel bir mola vereceğim.",
+        "en": "After the project I'm taking a two-week personal break.",
+        "uk": "Після проєкту я візьму двотижневу особисту перерву.",
+        "ar": "بعد المشروع سآخذ استراحة شخصية لمدة أسبوعين.",
+        "it": "Dopo il progetto mi prendo una pausa personale di due settimane."
+      },
+      "note": "sich (Dat.) eine (persönliche) Auszeit nehmen"
+    },
+    {
+      "id": "tatsache",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Tatsache",
+      "type": "noun",
+      "article": "die",
+      "plural": "Tatsachen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas, das wirklich so ist oder passiert ist",
+        "tr": "gerçek, olgu",
+        "en": "fact",
+        "uk": "факт",
+        "ar": "حقيقة، واقع",
+        "it": "fatto, realtà"
+      },
+      "synonyms": [
+        "der Fakt",
+        "die Realität"
+      ],
+      "antonyms": [
+        "die Vermutung",
+        "die Behauptung"
+      ],
+      "example": {
+        "de": "Es ist eine Tatsache, dass die Mieten jedes Jahr steigen.",
+        "tr": "Kiraların her yıl arttığı bir gerçek.",
+        "en": "It is a fact that rents rise every year.",
+        "uk": "Це факт, що оренда щороку зростає.",
+        "ar": "إنها حقيقة أن الإيجارات ترتفع كل عام.",
+        "it": "È un dato di fatto che gli affitti aumentano ogni anno."
+      },
+      "note": "jemanden vor vollendete Tatsachen stellen"
+    },
+    {
+      "id": "feststellen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "feststellen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "stellt fest",
+        "praeteritum": "stellte fest",
+        "perfekt": "hat festgestellt"
+      },
+      "meaning": {
+        "de": "Etwas bemerken oder herausfinden; etwas mit Bestimmtheit sagen",
+        "tr": "tespit etmek, fark etmek, saptamak",
+        "en": "to notice, to determine, to state",
+        "uk": "встановлювати, помічати, констатувати",
+        "ar": "يلاحظ، يكتشف، يقرّر",
+        "it": "constatare, accertare"
+      },
+      "synonyms": [
+        "bemerken",
+        "herausfinden"
+      ],
+      "antonyms": [
+        "übersehen"
+      ],
+      "example": {
+        "de": "Der Arzt stellte fest, dass das Bein gebrochen war.",
+        "tr": "Doktor bacağın kırık olduğunu tespit etti.",
+        "en": "The doctor found that the leg was broken.",
+        "uk": "Лікар встановив, що нога зламана.",
+        "ar": "قرّر الطبيب أن الساق مكسورة.",
+        "it": "Il medico ha constatato che la gamba era rotta."
+      },
+      "note": "etwas (Akk.) feststellen; feststellen, dass …"
+    },
+    {
+      "id": "konsumieren",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "konsumieren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "konsumiert",
+        "praeteritum": "konsumierte",
+        "perfekt": "hat konsumiert"
+      },
+      "meaning": {
+        "de": "Waren oder Dienstleistungen kaufen und verbrauchen; etwas essen, trinken oder nutzen",
+        "tr": "tüketmek",
+        "en": "to consume",
+        "uk": "споживати",
+        "ar": "يستهلك",
+        "it": "consumare"
+      },
+      "synonyms": [
+        "verbrauchen",
+        "verzehren"
+      ],
+      "antonyms": [
+        "produzieren",
+        "sparen"
+      ],
+      "example": {
+        "de": "Viele Menschen konsumieren mehr, als sie wirklich brauchen.",
+        "tr": "Birçok insan gerçekten ihtiyaç duyduğundan fazlasını tüketiyor.",
+        "en": "Many people consume more than they really need.",
+        "uk": "Багато людей споживають більше, ніж їм справді потрібно.",
+        "ar": "يستهلك كثير من الناس أكثر مما يحتاجون فعلًا.",
+        "it": "Molte persone consumano più di quanto abbiano davvero bisogno."
+      },
+      "note": "etwas (Akk.) konsumieren"
+    },
+    {
+      "id": "expansion",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Expansion",
+      "type": "noun",
+      "article": "die",
+      "plural": "Expansionen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ausdehnung oder Vergrößerung, z. B. eines Unternehmens in neue Märkte",
+        "tr": "genişleme, büyüme",
+        "en": "expansion",
+        "uk": "експансія, розширення",
+        "ar": "توسّع",
+        "it": "espansione"
+      },
+      "synonyms": [
+        "die Ausdehnung",
+        "die Erweiterung"
+      ],
+      "antonyms": [
+        "die Schrumpfung",
+        "der Rückzug"
+      ],
+      "example": {
+        "de": "Das Unternehmen plant die Expansion nach Asien.",
+        "tr": "Şirket Asya'ya doğru büyümeyi planlıyor.",
+        "en": "The company is planning its expansion into Asia.",
+        "uk": "Компанія планує експансію в Азію.",
+        "ar": "تخطط الشركة للتوسع في آسيا.",
+        "it": "L'azienda pianifica l'espansione in Asia."
+      },
+      "note": "die Expansion in/nach + Ort"
+    },
+    {
+      "id": "erschliessen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "erschließen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "erschließt",
+        "praeteritum": "erschloss",
+        "perfekt": "hat erschlossen"
+      },
+      "meaning": {
+        "de": "Etwas zugänglich oder nutzbar machen (z. B. neue Märkte, Bauland); aus Hinweisen ableiten",
+        "tr": "(yeni pazar vb.) açmak, kullanıma açmak; çıkarsamak",
+        "en": "to open up, to develop; to infer",
+        "uk": "освоювати, відкривати; виводити (зміст)",
+        "ar": "يفتح، يستغلّ (سوقًا)؛ يستنتج",
+        "it": "aprire, sviluppare; dedurre"
+      },
+      "synonyms": [
+        "zugänglich machen",
+        "ableiten"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Mit dem neuen Produkt will die Firma neue Märkte erschließen.",
+        "tr": "Firma yeni ürünle yeni pazarlar açmak istiyor.",
+        "en": "With the new product the company wants to open up new markets.",
+        "uk": "З новим продуктом фірма хоче освоїти нові ринки.",
+        "ar": "تريد الشركة بالمنتج الجديد فتح أسواق جديدة.",
+        "it": "Con il nuovo prodotto l'azienda vuole aprire nuovi mercati."
+      },
+      "note": "etwas (Akk.) erschließen; die Bedeutung aus dem Kontext erschließen"
+    },
+    {
+      "id": "fortsetzen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "fortsetzen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "setzt fort",
+        "praeteritum": "setzte fort",
+        "perfekt": "hat fortgesetzt"
+      },
+      "meaning": {
+        "de": "Mit etwas nach einer Pause weitermachen",
+        "tr": "devam etmek, sürdürmek",
+        "en": "to continue, to resume",
+        "uk": "продовжувати",
+        "ar": "يواصل، يستأنف",
+        "it": "continuare, proseguire"
+      },
+      "synonyms": [
+        "weitermachen",
+        "fortführen"
+      ],
+      "antonyms": [
+        "abbrechen",
+        "unterbrechen"
+      ],
+      "example": {
+        "de": "Nach der Mittagspause setzen wir die Besprechung fort.",
+        "tr": "Öğle arasından sonra toplantıya devam ediyoruz.",
+        "en": "We'll continue the meeting after the lunch break.",
+        "uk": "Після обідньої перерви ми продовжимо нараду.",
+        "ar": "بعد استراحة الغداء نواصل الاجتماع.",
+        "it": "Dopo la pausa pranzo proseguiamo la riunione."
+      },
+      "note": "etwas (Akk.) fortsetzen; sich fortsetzen = weitergehen"
+    },
+    {
+      "id": "konditorin",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Konditorin",
+      "type": "noun",
+      "article": "die",
+      "plural": "Konditorinnen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Frau, die beruflich Torten, Kuchen und feines Gebäck herstellt",
+        "tr": "pastacı (kadın)",
+        "en": "pastry chef, confectioner (female)",
+        "uk": "кондитерка",
+        "ar": "صانعة حلويات",
+        "it": "pasticciera"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Die Konditorin hat eine wunderschöne Hochzeitstorte gebacken.",
+        "tr": "Pastacı harika bir düğün pastası yaptı.",
+        "en": "The pastry chef baked a beautiful wedding cake.",
+        "uk": "Кондитерка спекла чудовий весільний торт.",
+        "ar": "خبزت صانعة الحلويات كعكة زفاف رائعة.",
+        "it": "La pasticciera ha preparato una bellissima torta nuziale."
+      },
+      "note": "männlich: der Konditor, -en; die Konditorei = Geschäft des Konditors"
+    },
+    {
+      "id": "schaffner",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Schaffner",
+      "type": "noun",
+      "article": "der",
+      "plural": "Schaffner",
+      "reflexive": false,
+      "meaning": {
+        "de": "Mann, der im Zug oder Bus die Fahrkarten kontrolliert",
+        "tr": "kondüktör, biletçi",
+        "en": "conductor (train/bus)",
+        "uk": "кондуктор, провідник",
+        "ar": "محصّل التذاكر",
+        "it": "controllore, bigliettaio"
+      },
+      "synonyms": [
+        "der Zugbegleiter",
+        "der Kontrolleur"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Schaffner kontrollierte unsere Fahrkarten kurz nach Köln.",
+        "tr": "Kondüktör biletlerimizi Köln'den hemen sonra kontrol etti.",
+        "en": "The conductor checked our tickets shortly after Cologne.",
+        "uk": "Кондуктор перевірив наші квитки невдовзі після Кельна.",
+        "ar": "فحص محصّل التذاكر تذاكرنا بعد كولونيا بقليل.",
+        "it": "Il controllore ha controllato i nostri biglietti poco dopo Colonia."
+      },
+      "note": "weiblich: die Schaffnerin, -nen"
+    },
+    {
+      "id": "stammen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "stammen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "stammt aus",
+        "praeteritum": "stammte aus",
+        "perfekt": "hat aus … gestammt"
+      },
+      "meaning": {
+        "de": "Seine Herkunft oder seinen Ursprung an einem Ort oder in einer Zeit haben",
+        "tr": "-den gelmek, kökeni -e dayanmak",
+        "en": "to come from, to originate from",
+        "uk": "походити (з)",
+        "ar": "ينحدر من، يعود أصله إلى",
+        "it": "provenire da, essere originario di"
+      },
+      "synonyms": [
+        "herkommen",
+        "kommen aus"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Meine Großeltern stammen aus einem kleinen Dorf in Anatolien.",
+        "tr": "Büyükannem ve büyükbabam Anadolu'da küçük bir köyden geliyor.",
+        "en": "My grandparents come from a small village in Anatolia.",
+        "uk": "Мої дідусь і бабуся походять з маленького села в Анатолії.",
+        "ar": "ينحدر جدّاي من قرية صغيرة في الأناضول.",
+        "it": "I miei nonni sono originari di un piccolo paese dell'Anatolia."
+      },
+      "note": "aus etwas (Dat.) stammen; von jemandem (Dat.) stammen; Perfekt selten"
+    },
+    {
+      "id": "sich-belaufen",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "sich belaufen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "beläuft sich auf",
+        "praeteritum": "belief sich auf",
+        "perfekt": "hat sich auf … belaufen"
+      },
+      "meaning": {
+        "de": "Einen bestimmten Betrag oder eine bestimmte Menge erreichen",
+        "tr": "(miktarı) -e ulaşmak, tutmak",
+        "en": "to amount to",
+        "uk": "становити, сягати (суми)",
+        "ar": "يبلغ (مقدارًا)",
+        "it": "ammontare a"
+      },
+      "synonyms": [
+        "betragen",
+        "ausmachen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Kosten belaufen sich auf rund 5.000 Euro.",
+        "tr": "Masraflar yaklaşık 5.000 Euro tutuyor.",
+        "en": "The costs amount to around 5,000 euros.",
+        "uk": "Витрати становлять приблизно 5000 євро.",
+        "ar": "تبلغ التكاليف نحو 5000 يورو.",
+        "it": "I costi ammontano a circa 5.000 euro."
+      },
+      "note": "sich (Akk.) auf etwas (Akk.) belaufen; meist mit Zahlen/Beträgen"
+    },
+    {
+      "id": "ermittlung",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Ermittlung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Ermittlungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Herausfinden von Tatsachen, besonders durch Polizei oder Staatsanwaltschaft",
+        "tr": "soruşturma; tespit",
+        "en": "investigation; determination",
+        "uk": "розслідування; встановлення",
+        "ar": "تحقيق؛ تحديد",
+        "it": "indagine; accertamento"
+      },
+      "synonyms": [
+        "die Untersuchung",
+        "die Nachforschung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Polizei hat die Ermittlungen zu dem Unfall aufgenommen.",
+        "tr": "Polis kazayla ilgili soruşturmayı başlattı.",
+        "en": "The police have opened investigations into the accident.",
+        "uk": "Поліція розпочала розслідування аварії.",
+        "ar": "بدأت الشرطة التحقيقات في الحادث.",
+        "it": "La polizia ha avviato le indagini sull'incidente."
+      },
+      "note": "meist Plural: die Ermittlungen gegen jemanden (Akk.) / zu etwas (Dat.)"
+    },
+    {
+      "id": "ermitteln",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "ermitteln",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "ermittelt",
+        "praeteritum": "ermittelte",
+        "perfekt": "hat ermittelt"
+      },
+      "meaning": {
+        "de": "Etwas durch Nachforschen herausfinden; als Polizei einen Fall untersuchen",
+        "tr": "tespit etmek, saptamak; soruşturmak",
+        "en": "to determine, to find out; to investigate",
+        "uk": "встановлювати, з'ясовувати; розслідувати",
+        "ar": "يحدّد، يكتشف؛ يحقّق",
+        "it": "accertare, determinare; indagare"
+      },
+      "synonyms": [
+        "herausfinden",
+        "untersuchen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Staatsanwaltschaft ermittelt gegen den Geschäftsführer.",
+        "tr": "Savcılık genel müdür hakkında soruşturma yürütüyor.",
+        "en": "The public prosecutor is investigating the managing director.",
+        "uk": "Прокуратура веде розслідування щодо директора.",
+        "ar": "تحقّق النيابة العامة مع المدير التنفيذي.",
+        "it": "La procura indaga sull'amministratore delegato."
+      },
+      "note": "etwas (Akk.) ermitteln; gegen jemanden (Akk.) ermitteln; in einem Fall ermitteln"
+    },
+    {
+      "id": "sachschaden",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Sachschaden",
+      "type": "noun",
+      "article": "der",
+      "plural": "Sachschäden",
+      "reflexive": false,
+      "meaning": {
+        "de": "Schaden an Gegenständen, nicht an Personen",
+        "tr": "maddi hasar",
+        "en": "property damage",
+        "uk": "матеріальна шкода, збитки майну",
+        "ar": "أضرار مادية",
+        "it": "danno materiale"
+      },
+      "synonyms": [],
+      "antonyms": [
+        "der Personenschaden"
+      ],
+      "example": {
+        "de": "Bei dem Unfall entstand nur Sachschaden, niemand wurde verletzt.",
+        "tr": "Kazada yalnızca maddi hasar oluştu, kimse yaralanmadı.",
+        "en": "The accident caused only property damage; nobody was injured.",
+        "uk": "Під час аварії була завдана лише матеріальна шкода, ніхто не постраждав.",
+        "ar": "لم تنتج عن الحادث سوى أضرار مادية، ولم يُصب أحد.",
+        "it": "Nell'incidente ci sono stati solo danni materiali, nessuno è rimasto ferito."
+      },
+      "note": null
+    },
+    {
+      "id": "schlangenlinie",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Schlangenlinie",
+      "type": "noun",
+      "article": "die",
+      "plural": "Schlangenlinien",
+      "reflexive": false,
+      "meaning": {
+        "de": "Linie, die wie eine Schlange hin und her geht",
+        "tr": "zikzak çizgi, yılankavi çizgi",
+        "en": "wavy line, zigzag",
+        "uk": "звивиста лінія, зигзаг",
+        "ar": "خط متعرّج",
+        "it": "linea a serpentina, zigzag"
+      },
+      "synonyms": [
+        "die Zickzacklinie",
+        "die Wellenlinie"
+      ],
+      "antonyms": [
+        "die Gerade"
+      ],
+      "example": {
+        "de": "Der betrunkene Fahrer fuhr in Schlangenlinien über die Autobahn.",
+        "tr": "Sarhoş sürücü otoyolda zikzak çizerek gidiyordu.",
+        "en": "The drunk driver was weaving all over the motorway.",
+        "uk": "П'яний водій їхав автобаном зигзагами.",
+        "ar": "كان السائق الثمل يقود بشكل متعرّج على الطريق السريع.",
+        "it": "L'autista ubriaco procedeva a zigzag sull'autostrada."
+      },
+      "note": "in Schlangenlinien fahren"
+    },
+    {
+      "id": "umleiten",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "umleiten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "leitet um",
+        "praeteritum": "leitete um",
+        "perfekt": "hat umgeleitet"
+      },
+      "meaning": {
+        "de": "Verkehr, Wasser oder Anrufe auf einen anderen Weg schicken",
+        "tr": "yönlendirmek, başka yola saptırmak",
+        "en": "to divert, to redirect",
+        "uk": "перенаправляти, об'їжджати",
+        "ar": "يحوّل (المسار)",
+        "it": "deviare, reindirizzare"
+      },
+      "synonyms": [
+        "umlenken",
+        "umdirigieren"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Wegen der Baustelle wird der Verkehr über die Nebenstraße umgeleitet.",
+        "tr": "Yol çalışması nedeniyle trafik ara yola yönlendiriliyor.",
+        "en": "Because of the roadworks, traffic is being diverted via the side street.",
+        "uk": "Через ремонт рух перенаправляють на бічну вулицю.",
+        "ar": "بسبب أعمال البناء يُحوَّل المرور إلى الشارع الجانبي.",
+        "it": "A causa del cantiere il traffico viene deviato sulla strada secondaria."
+      },
+      "note": "etwas (Akk.) umleiten; die Umleitung"
+    },
+    {
+      "id": "vorstand",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Vorstand",
+      "type": "noun",
+      "article": "der",
+      "plural": "Vorstände",
+      "reflexive": false,
+      "meaning": {
+        "de": "Gruppe von Personen, die ein Unternehmen oder einen Verein leitet; auch ein Mitglied davon",
+        "tr": "yönetim kurulu; yönetim kurulu üyesi",
+        "en": "board (of directors), executive board",
+        "uk": "правління",
+        "ar": "مجلس الإدارة",
+        "it": "consiglio di amministrazione, direzione"
+      },
+      "synonyms": [
+        "die Geschäftsleitung",
+        "die Führung"
+      ],
+      "antonyms": [
+        "die Belegschaft"
+      ],
+      "example": {
+        "de": "Der Vorstand hat beschlossen, 200 neue Mitarbeiter einzustellen.",
+        "tr": "Yönetim kurulu 200 yeni çalışan almaya karar verdi.",
+        "en": "The board has decided to hire 200 new employees.",
+        "uk": "Правління вирішило найняти 200 нових працівників.",
+        "ar": "قرّر مجلس الإدارة توظيف 200 موظف جديد.",
+        "it": "Il consiglio di amministrazione ha deciso di assumere 200 nuovi dipendenti."
+      },
+      "note": "im Vorstand sitzen; der/die Vorstandsvorsitzende"
+    },
+    {
+      "id": "anforderung",
+      "source": "notes",
+      "date": "2026-10-25",
+      "word": "Anforderung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Anforderungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas, das von jemandem oder etwas verlangt oder erwartet wird",
+        "tr": "gereklilik, talep, beklenti",
+        "en": "requirement, demand",
+        "uk": "вимога",
+        "ar": "متطلّب، شرط",
+        "it": "requisito, esigenza"
+      },
+      "synonyms": [
+        "der Anspruch",
+        "die Voraussetzung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Anforderungen an Bewerber sind in den letzten Jahren gestiegen.",
+        "tr": "Adaylardan beklenen gereklilikler son yıllarda arttı.",
+        "en": "The requirements for applicants have increased in recent years.",
+        "uk": "Вимоги до кандидатів за останні роки зросли.",
+        "ar": "ازدادت المتطلبات المفروضة على المتقدمين في السنوات الأخيرة.",
+        "it": "I requisiti per i candidati sono aumentati negli ultimi anni."
+      },
+      "note": "Anforderungen an jemanden/etwas (Akk.) stellen; den Anforderungen (Dat.) entsprechen"
     }
   ]
 }
