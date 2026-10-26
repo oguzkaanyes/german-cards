@@ -1565,9 +1565,8 @@
     }
 
     // Erinnerung and Lückentext: words that are done in the quiz (QUIZ_GOAL correct answers) come back for review,
-    // SESSION_SIZE questions per visit. Erinnerung asks the meaning again, Lückentext the word in its example sentence.
+    // session.size questions per visit. Erinnerung asks the meaning again, Lückentext the word in its example sentence.
     // Der Die Das asks the article of every noun (learned or not) the same way.
-    const SESSION_SIZE = 20;
     const REVIEW_AFTER = 60 * 60 * 1000;  // back in the app after this long counts as a new visit
 
     function reviewPool() {
@@ -1589,9 +1588,9 @@
     }
 
     const SESSIONS = {
-      review: { ids: [], key: KEYS.review, pool: () => reviewPool(), score: (id) => quizScore(id) },
-      gap: { ids: [], key: KEYS.gap, pool: () => gapPool(), score: (id) => gapScore(id) },
-      article: { ids: [], key: KEYS.article, pool: () => articlePool(), score: (id) => articleScore(id) },
+      review: { ids: [], size: 30, key: KEYS.review, pool: () => reviewPool(), score: (id) => quizScore(id) },
+      gap: { ids: [], size: 50, key: KEYS.gap, pool: () => gapPool(), score: (id) => gapScore(id) },
+      article: { ids: [], size: 50, key: KEYS.article, pool: () => articlePool(), score: (id) => articleScore(id) },
     };
 
     function saveSession(session) {
@@ -1607,7 +1606,7 @@
         saveSession(session);
       }
     }
-    // On every visit: top the open questions up to SESSION_SIZE with the words that have the fewest
+    // On every visit: top the open questions up to session.size with the words that have the fewest
     // correct answers (list order between equals), skipping the ones already waiting.
     function refillSession(session) {
       pruneSession(session);
@@ -1616,7 +1615,7 @@
         .filter((c) => !waiting.has(c.id))
         .map((c, i) => [c, i])
         .sort((a, b) => session.score(a[0].id) - session.score(b[0].id) || a[1] - b[1])
-        .slice(0, Math.max(0, SESSION_SIZE - session.ids.length))
+        .slice(0, Math.max(0, session.size - session.ids.length))
         .map(([c]) => c.id);
       session.ids = session.ids.concat(fresh);
       saveSession(session);
