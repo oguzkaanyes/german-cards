@@ -15495,6 +15495,1743 @@
         "it": "I requisiti per i candidati sono aumentati negli ultimi anni."
       },
       "note": "Anforderungen an jemanden/etwas (Akk.) stellen; den Anforderungen (Dat.) entsprechen"
+    },
+    {
+      "id": "sortiment",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Sortiment",
+      "type": "noun",
+      "article": "das",
+      "plural": "Sortimente",
+      "reflexive": false,
+      "meaning": {
+        "de": "Alle Waren, die ein Geschäft zum Verkauf anbietet",
+        "tr": "ürün yelpazesi, ürün çeşitliliği",
+        "en": "range of products, assortment",
+        "uk": "асортимент",
+        "ar": "تشكيلة البضائع",
+        "it": "assortimento, gamma di prodotti"
+      },
+      "synonyms": [
+        "das Angebot",
+        "die Auswahl",
+        "die Produktpalette"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Supermarkt hat sein Sortiment um Bio-Produkte erweitert.",
+        "tr": "Süpermarket ürün yelpazesini organik ürünlerle genişletti.",
+        "en": "The supermarket has expanded its range to include organic products.",
+        "uk": "Супермаркет розширив свій асортимент органічними продуктами.",
+        "ar": "وسّع السوبرماركت تشكيلته لتشمل المنتجات العضوية.",
+        "it": "Il supermercato ha ampliato il suo assortimento con prodotti biologici."
+      },
+      "note": null
+    },
+    {
+      "id": "warenpraesentation",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Warenpräsentation",
+      "type": "noun",
+      "article": "die",
+      "plural": "Warenpräsentationen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Art, wie Produkte im Geschäft ausgestellt und gezeigt werden",
+        "tr": "ürün sunumu, ürün teşhiri",
+        "en": "merchandise display, product presentation",
+        "uk": "викладка товару, презентація товару",
+        "ar": "عرض البضائع",
+        "it": "esposizione della merce"
+      },
+      "synonyms": [
+        "die Auslage",
+        "die Produktpräsentation"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Eine gute Warenpräsentation lockt mehr Kunden in den Laden.",
+        "tr": "İyi bir ürün sunumu mağazaya daha fazla müşteri çeker.",
+        "en": "A good product display attracts more customers into the shop.",
+        "uk": "Гарна викладка товару приваблює більше покупців до магазину.",
+        "ar": "العرض الجيد للبضائع يجذب المزيد من الزبائن إلى المتجر.",
+        "it": "Una buona esposizione della merce attira più clienti nel negozio."
+      },
+      "note": null
+    },
+    {
+      "id": "ware",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Ware",
+      "type": "noun",
+      "article": "die",
+      "plural": "Waren",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Produkt, das gekauft oder verkauft wird",
+        "tr": "mal, ürün, emtia",
+        "en": "goods, merchandise, product",
+        "uk": "товар",
+        "ar": "بضاعة، سلعة",
+        "it": "merce, prodotto"
+      },
+      "synonyms": [
+        "das Produkt",
+        "der Artikel",
+        "das Erzeugnis"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Ware wird morgen früh geliefert.",
+        "tr": "Mallar yarın sabah teslim edilecek.",
+        "en": "The goods will be delivered tomorrow morning.",
+        "uk": "Товар доставлять завтра вранці.",
+        "ar": "ستُسلَّم البضاعة صباح الغد.",
+        "it": "La merce verrà consegnata domani mattina."
+      },
+      "note": null
+    },
+    {
+      "id": "erscheinungsbild",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Erscheinungsbild",
+      "type": "noun",
+      "article": "das",
+      "plural": "Erscheinungsbilder",
+      "reflexive": false,
+      "meaning": {
+        "de": "Wie eine Person, eine Firma oder eine Sache nach außen aussieht und wirkt",
+        "tr": "dış görünüş, imaj",
+        "en": "appearance, image",
+        "uk": "зовнішній вигляд, імідж",
+        "ar": "المظهر، الصورة العامة",
+        "it": "aspetto, immagine"
+      },
+      "synonyms": [
+        "das Aussehen",
+        "das Auftreten",
+        "das Image"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Firma hat ihr Erscheinungsbild modernisiert und ein neues Logo bekommen.",
+        "tr": "Şirket imajını modernleştirdi ve yeni bir logo aldı.",
+        "en": "The company modernised its image and got a new logo.",
+        "uk": "Компанія оновила свій імідж і отримала новий логотип.",
+        "ar": "حدّثت الشركة صورتها العامة وحصلت على شعار جديد.",
+        "it": "L'azienda ha modernizzato la sua immagine e ha un nuovo logo."
+      },
+      "note": "das äußere Erscheinungsbild; das Corporate Design einer Firma"
+    },
+    {
+      "id": "ermaessigung",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Ermäßigung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Ermäßigungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein niedrigerer Preis für bestimmte Personen oder Gruppen",
+        "tr": "indirim",
+        "en": "discount, reduction",
+        "uk": "знижка",
+        "ar": "تخفيض، خصم",
+        "it": "riduzione, sconto"
+      },
+      "synonyms": [
+        "der Rabatt",
+        "die Preissenkung",
+        "der Nachlass"
+      ],
+      "antonyms": [
+        "der Aufschlag",
+        "die Preiserhöhung"
+      ],
+      "example": {
+        "de": "Studenten bekommen im Museum eine Ermäßigung von 50 Prozent.",
+        "tr": "Öğrenciler müzede yüzde 50 indirim alıyor.",
+        "en": "Students get a 50 percent discount at the museum.",
+        "uk": "Студенти отримують у музеї знижку 50 відсотків.",
+        "ar": "يحصل الطلاب على خصم بنسبة 50 بالمئة في المتحف.",
+        "it": "Gli studenti ricevono una riduzione del 50 percento al museo."
+      },
+      "note": "eine Ermäßigung auf etwas (Akk.) bekommen/gewähren"
+    },
+    {
+      "id": "wuerze",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Würze",
+      "type": "noun",
+      "article": "die",
+      "plural": "Würzen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas, das dem Essen mehr Geschmack gibt; im übertragenen Sinn: das Interessante an etwas",
+        "tr": "baharat, çeşni, lezzet",
+        "en": "seasoning, spice, flavour",
+        "uk": "приправа, пікантність",
+        "ar": "تتبيل، نكهة",
+        "it": "condimento, sapore"
+      },
+      "synonyms": [
+        "das Gewürz",
+        "der Geschmack",
+        "die Würzung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In der Kürze liegt die Würze.",
+        "tr": "Kısa ve öz olan en lezzetlisidir (az olsun, öz olsun).",
+        "en": "Brevity is the soul of wit.",
+        "uk": "Стислість — сестра таланту.",
+        "ar": "خير الكلام ما قلّ ودلّ.",
+        "it": "La brevità è il sale del discorso."
+      },
+      "note": "Sprichwort: In der Kürze liegt die Würze."
+    },
+    {
+      "id": "anrede",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Anrede",
+      "type": "noun",
+      "article": "die",
+      "plural": "Anreden",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Wörter, mit denen man jemanden anspricht, z. B. in einem Brief",
+        "tr": "hitap, hitap şekli",
+        "en": "form of address, salutation",
+        "uk": "звертання",
+        "ar": "صيغة المخاطبة، التحية",
+        "it": "forma di saluto, appellativo"
+      },
+      "synonyms": [
+        "die Begrüßung",
+        "die Ansprache"
+      ],
+      "antonyms": [
+        "die Grußformel"
+      ],
+      "example": {
+        "de": "In einem formellen Brief ist die Anrede „Sehr geehrte Damen und Herren“ üblich.",
+        "tr": "Resmi bir mektupta „Sayın Bayanlar ve Baylar“ hitabı yaygındır.",
+        "en": "In a formal letter, the salutation “Dear Sir or Madam” is common.",
+        "uk": "В офіційному листі прийнято звертання «Шановні пані та панове».",
+        "ar": "في الرسالة الرسمية تكون صيغة المخاطبة «السيدات والسادة المحترمون» شائعة.",
+        "it": "In una lettera formale è comune la formula di saluto «Gentili Signore e Signori»."
+      },
+      "note": "die Anrede mit „Sie“ / „du“; Verb: jemanden (Akk.) anreden"
+    },
+    {
+      "id": "steckbrief",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Steckbrief",
+      "type": "noun",
+      "article": "der",
+      "plural": "Steckbriefe",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine kurze Übersicht mit den wichtigsten Informationen über eine Person oder Sache; auch: Fahndungsplakat der Polizei",
+        "tr": "kısa tanıtım kartı, profil; aranan kişi ilanı",
+        "en": "profile, fact sheet; wanted poster",
+        "uk": "коротка характеристика, профіль; оголошення про розшук",
+        "ar": "بطاقة تعريفية، ملف مختصر؛ ملصق مطلوب للعدالة",
+        "it": "scheda personale, profilo; avviso di ricerca"
+      },
+      "synonyms": [
+        "das Profil",
+        "die Kurzbeschreibung",
+        "das Datenblatt"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Schreib einen kurzen Steckbrief über dich: Name, Alter, Hobbys.",
+        "tr": "Kendin hakkında kısa bir tanıtım kartı yaz: ad, yaş, hobiler.",
+        "en": "Write a short profile about yourself: name, age, hobbies.",
+        "uk": "Напиши коротку характеристику про себе: ім'я, вік, хобі.",
+        "ar": "اكتب بطاقة تعريفية قصيرة عن نفسك: الاسم، العمر، الهوايات.",
+        "it": "Scrivi una breve scheda su di te: nome, età, hobby."
+      },
+      "note": null
+    },
+    {
+      "id": "einstellung",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Einstellung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Einstellungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "1. Die Meinung oder Haltung zu etwas; 2. das Anstellen eines neuen Mitarbeiters; 3. die Konfiguration eines Geräts",
+        "tr": "tutum, bakış açısı; işe alım; ayar",
+        "en": "attitude; hiring; setting",
+        "uk": "ставлення; прийом на роботу; налаштування",
+        "ar": "موقف، توجّه؛ توظيف؛ إعداد",
+        "it": "atteggiamento; assunzione; impostazione"
+      },
+      "synonyms": [
+        "die Haltung",
+        "die Ansicht",
+        "die Anstellung"
+      ],
+      "antonyms": [
+        "die Kündigung",
+        "die Entlassung"
+      ],
+      "example": {
+        "de": "Mit einer positiven Einstellung zur Arbeit fällt vieles leichter.",
+        "tr": "İşe karşı olumlu bir tutumla birçok şey daha kolay olur.",
+        "en": "With a positive attitude towards work, many things become easier.",
+        "uk": "З позитивним ставленням до роботи багато що дається легше.",
+        "ar": "مع موقف إيجابي تجاه العمل تصبح أمور كثيرة أسهل.",
+        "it": "Con un atteggiamento positivo verso il lavoro, molte cose diventano più facili."
+      },
+      "note": "eine Einstellung zu etwas (Dat.) haben; die Einstellung neuer Mitarbeiter; die Einstellungen am Handy"
+    },
+    {
+      "id": "magen",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Magen",
+      "type": "noun",
+      "article": "der",
+      "plural": "Mägen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Organ im Bauch, in dem das Essen verdaut wird",
+        "tr": "mide",
+        "en": "stomach",
+        "uk": "шлунок",
+        "ar": "معدة",
+        "it": "stomaco"
+      },
+      "synonyms": [
+        "der Bauch"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Mir tut der Magen weh, ich habe zu viel gegessen.",
+        "tr": "Midem ağrıyor, çok fazla yedim.",
+        "en": "My stomach hurts, I ate too much.",
+        "uk": "У мене болить шлунок, я з'їв забагато.",
+        "ar": "معدتي تؤلمني، لقد أكلت كثيرًا.",
+        "it": "Mi fa male lo stomaco, ho mangiato troppo."
+      },
+      "note": "Plural auch: Magen; auf nüchternen Magen = ohne vorher gegessen zu haben"
+    },
+    {
+      "id": "kaffeekraenzchen",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Kaffeekränzchen",
+      "type": "noun",
+      "article": "das",
+      "plural": "Kaffeekränzchen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein gemütliches Treffen am Nachmittag mit Kaffee, Kuchen und Gesprächen, meist unter Freundinnen",
+        "tr": "kahve ve pasta eşliğinde öğleden sonra sohbet buluşması",
+        "en": "coffee party, afternoon coffee get-together",
+        "uk": "посиденьки за кавою",
+        "ar": "جلسة قهوة بعد الظهر",
+        "it": "incontro pomeridiano per caffè e dolci"
+      },
+      "synonyms": [
+        "der Kaffeeklatsch",
+        "das Kaffeetrinken"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Meine Oma trifft sich jeden Mittwoch mit ihren Freundinnen zum Kaffeekränzchen.",
+        "tr": "Büyükannem her çarşamba arkadaşlarıyla kahve sohbetine buluşuyor.",
+        "en": "My grandma meets her friends every Wednesday for a coffee get-together.",
+        "uk": "Моя бабуся щосереди зустрічається з подругами на посиденьки за кавою.",
+        "ar": "تلتقي جدتي بصديقاتها كل أربعاء في جلسة قهوة.",
+        "it": "Mia nonna si incontra ogni mercoledì con le amiche per un caffè con dolci."
+      },
+      "note": "umgangssprachlich auch: der Kaffeeklatsch; (der Kaffeekranz = ein ringförmiger Hefekuchen)"
+    },
+    {
+      "id": "nahverkehr",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Nahverkehr",
+      "type": "noun",
+      "article": "der",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Öffentlicher Verkehr über kurze Strecken, z. B. Bus, S-Bahn, U-Bahn und Straßenbahn in einer Stadt oder Region",
+        "tr": "şehir içi / bölgesel toplu taşıma",
+        "en": "local public transport",
+        "uk": "приміський / міський транспорт",
+        "ar": "النقل المحلي، المواصلات القريبة",
+        "it": "trasporto locale"
+      },
+      "synonyms": [
+        "der ÖPNV",
+        "der Regionalverkehr"
+      ],
+      "antonyms": [
+        "der Fernverkehr"
+      ],
+      "example": {
+        "de": "Mit dem Deutschlandticket kann man den ganzen Nahverkehr in Deutschland nutzen.",
+        "tr": "Deutschlandticket ile Almanya'daki tüm bölgesel toplu taşımayı kullanabilirsiniz.",
+        "en": "With the Deutschlandticket you can use all local public transport in Germany.",
+        "uk": "З Deutschlandticket можна користуватися всім місцевим транспортом у Німеччині.",
+        "ar": "بتذكرة دويتشلاند تيكت يمكن استخدام كل وسائل النقل المحلي في ألمانيا.",
+        "it": "Con il Deutschlandticket si può usare tutto il trasporto locale in Germania."
+      },
+      "note": "ÖPNV = öffentlicher Personennahverkehr"
+    },
+    {
+      "id": "fernverkehr",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Fernverkehr",
+      "type": "noun",
+      "article": "der",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Verkehr über lange Strecken zwischen Städten oder Ländern, z. B. ICE oder Fernbus",
+        "tr": "şehirlerarası ulaşım, uzun mesafe ulaşımı",
+        "en": "long-distance transport",
+        "uk": "далекі перевезення, міжміський транспорт",
+        "ar": "النقل لمسافات طويلة",
+        "it": "trasporto a lunga percorrenza"
+      },
+      "synonyms": [
+        "der Fernreiseverkehr"
+      ],
+      "antonyms": [
+        "der Nahverkehr"
+      ],
+      "example": {
+        "de": "Im Fernverkehr gilt das Deutschlandticket nicht, zum Beispiel im ICE.",
+        "tr": "Deutschlandticket şehirlerarası ulaşımda, örneğin ICE'de geçerli değildir.",
+        "en": "The Deutschlandticket is not valid for long-distance transport, for example on the ICE.",
+        "uk": "Deutschlandticket не діє в міжміському транспорті, наприклад в ICE.",
+        "ar": "تذكرة دويتشلاند تيكت غير صالحة في النقل لمسافات طويلة، مثل قطار ICE.",
+        "it": "Il Deutschlandticket non vale per il trasporto a lunga percorrenza, per esempio sull'ICE."
+      },
+      "note": null
+    },
+    {
+      "id": "geschick",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Geschick",
+      "type": "noun",
+      "article": "das",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Fähigkeit, etwas gut und geschickt zu machen",
+        "tr": "beceri, yetenek, ustalık",
+        "en": "skill, dexterity, knack",
+        "uk": "вправність, вміння",
+        "ar": "مهارة، براعة",
+        "it": "abilità, destrezza"
+      },
+      "synonyms": [
+        "die Geschicklichkeit",
+        "die Fähigkeit",
+        "das Talent"
+      ],
+      "antonyms": [
+        "die Ungeschicklichkeit"
+      ],
+      "example": {
+        "de": "Für diese Arbeit braucht man viel handwerkliches Geschick.",
+        "tr": "Bu iş için çok fazla el becerisi gerekir.",
+        "en": "This job requires a lot of manual skill.",
+        "uk": "Для цієї роботи потрібна велика вправність рук.",
+        "ar": "يحتاج هذا العمل إلى الكثير من المهارة اليدوية.",
+        "it": "Per questo lavoro serve molta abilità manuale."
+      },
+      "note": "Geschick für etwas (Akk.) / bei etwas (Dat.) haben; Adjektiv: geschickt"
+    },
+    {
+      "id": "ablauf",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Ablauf",
+      "type": "noun",
+      "article": "der",
+      "plural": "Abläufe",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Reihenfolge, in der etwas passiert oder gemacht wird",
+        "tr": "süreç, işleyiş, akış",
+        "en": "process, procedure, sequence",
+        "uk": "перебіг, процес, порядок дій",
+        "ar": "سير العمل، مجرى الأمور",
+        "it": "svolgimento, procedura"
+      },
+      "synonyms": [
+        "der Prozess",
+        "der Vorgang",
+        "die Routine"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In unserem Team gibt es feste Abläufe, damit nichts vergessen wird.",
+        "tr": "Ekibimizde hiçbir şey unutulmasın diye sabit iş süreçleri var.",
+        "en": "Our team has fixed procedures so that nothing is forgotten.",
+        "uk": "У нашій команді є чіткий порядок дій, щоб нічого не забути.",
+        "ar": "لدينا في الفريق إجراءات ثابتة حتى لا يُنسى شيء.",
+        "it": "Nel nostro team ci sono procedure fisse, così non si dimentica nulla."
+      },
+      "note": "feste Abläufe = feste Routinen; der Ablauf einer Frist = das Ende einer Frist"
+    },
+    {
+      "id": "handfest",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "handfest",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Stark und kräftig; auch: konkret und deutlich (z. B. ein handfester Beweis, ein handfester Streit)",
+        "tr": "sağlam, somut, elle tutulur; şiddetli",
+        "en": "solid, substantial, tangible; serious",
+        "uk": "міцний, вагомий, відчутний",
+        "ar": "متين، ملموس، قوي",
+        "it": "solido, concreto, sostanzioso"
+      },
+      "synonyms": [
+        "konkret",
+        "solide",
+        "deutlich"
+      ],
+      "antonyms": [
+        "vage",
+        "unklar"
+      ],
+      "example": {
+        "de": "Die Polizei hat keine handfesten Beweise gegen ihn.",
+        "tr": "Polisin ona karşı elle tutulur bir kanıtı yok.",
+        "en": "The police have no solid evidence against him.",
+        "uk": "Поліція не має проти нього вагомих доказів.",
+        "ar": "لا تملك الشرطة أدلة ملموسة ضده.",
+        "it": "La polizia non ha prove concrete contro di lui."
+      },
+      "note": "ein handfester Beweis / Skandal / Streit; ein handfestes Essen = ein deftiges Essen"
+    },
+    {
+      "id": "raupe",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Raupe",
+      "type": "noun",
+      "article": "die",
+      "plural": "Raupen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Larve eines Schmetterlings; auch: Kettenfahrzeug (Planierraupe)",
+        "tr": "tırtıl; paletli iş makinesi",
+        "en": "caterpillar",
+        "uk": "гусениця",
+        "ar": "يرقة، دودة الفراشة",
+        "it": "bruco"
+      },
+      "synonyms": [
+        "die Larve"
+      ],
+      "antonyms": [
+        "der Schmetterling"
+      ],
+      "example": {
+        "de": "Aus der kleinen Raupe wird bald ein schöner Schmetterling.",
+        "tr": "Küçük tırtıl yakında güzel bir kelebeğe dönüşecek.",
+        "en": "The little caterpillar will soon become a beautiful butterfly.",
+        "uk": "З маленької гусениці скоро стане гарний метелик.",
+        "ar": "ستتحول اليرقة الصغيرة قريبًا إلى فراشة جميلة.",
+        "it": "Il piccolo bruco diventerà presto una bella farfalla."
+      },
+      "note": "Kinderbuch: „Die kleine Raupe Nimmersatt“"
+    },
+    {
+      "id": "satt",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "satt",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nicht mehr hungrig, weil man genug gegessen hat",
+        "tr": "tok, doymuş; (bıkmış)",
+        "en": "full, satisfied (after eating); fed up",
+        "uk": "ситий; (який набрид)",
+        "ar": "شبعان؛ (سئم)",
+        "it": "sazio; (stufo)"
+      },
+      "synonyms": [
+        "gesättigt",
+        "voll"
+      ],
+      "antonyms": [
+        "hungrig"
+      ],
+      "example": {
+        "de": "Danke, ich bin satt, ich möchte keinen Nachtisch mehr.",
+        "tr": "Teşekkürler, doydum, artık tatlı istemiyorum.",
+        "en": "Thanks, I'm full, I don't want any more dessert.",
+        "uk": "Дякую, я ситий, десерту більше не хочу.",
+        "ar": "شكرًا، أنا شبعان، لا أريد حلوى بعد الآن.",
+        "it": "Grazie, sono sazio, non voglio più il dolce."
+      },
+      "note": "etwas (Akk.) satt haben = genug von etwas haben (umgangssprachlich): Ich habe es satt!"
+    },
+    {
+      "id": "spitzenfirma",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Spitzenfirma",
+      "type": "noun",
+      "article": "die",
+      "plural": "Spitzenfirmen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine der besten und führenden Firmen in einer Branche",
+        "tr": "lider firma, en iyi şirketlerden biri",
+        "en": "top company, leading firm",
+        "uk": "провідна фірма, топова компанія",
+        "ar": "شركة رائدة، شركة من الطراز الأول",
+        "it": "azienda leader, azienda di punta"
+      },
+      "synonyms": [
+        "das Spitzenunternehmen",
+        "der Marktführer"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Nach dem Studium hat sie eine Stelle bei einer Spitzenfirma in München bekommen.",
+        "tr": "Üniversiteden sonra Münih'te lider bir firmada iş buldu.",
+        "en": "After university she got a job at a top company in Munich.",
+        "uk": "Після навчання вона отримала посаду в провідній фірмі в Мюнхені.",
+        "ar": "بعد الدراسة حصلت على وظيفة في شركة رائدة في ميونخ.",
+        "it": "Dopo l'università ha trovato lavoro in un'azienda di punta a Monaco."
+      },
+      "note": "Spitzen- = sehr gut, an der Spitze: Spitzenleistung, Spitzenqualität"
+    },
+    {
+      "id": "stoppuhr",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Stoppuhr",
+      "type": "noun",
+      "article": "die",
+      "plural": "Stoppuhren",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Uhr, mit der man genau misst, wie lange etwas dauert",
+        "tr": "kronometre",
+        "en": "stopwatch",
+        "uk": "секундомір",
+        "ar": "ساعة توقيت",
+        "it": "cronometro"
+      },
+      "synonyms": [
+        "der Zeitmesser",
+        "der Timer"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Trainer misst die Zeit der Läufer mit einer Stoppuhr.",
+        "tr": "Antrenör koşucuların süresini kronometreyle ölçüyor.",
+        "en": "The coach times the runners with a stopwatch.",
+        "uk": "Тренер вимірює час бігунів секундоміром.",
+        "ar": "يقيس المدرب وقت العدّائين بساعة توقيت.",
+        "it": "L'allenatore misura il tempo dei corridori con un cronometro."
+      },
+      "note": null
+    },
+    {
+      "id": "verabschiedung",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Verabschiedung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Verabschiedungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "1. Das Sich-Verabschieden, Abschied von jemandem; 2. das Beschließen eines Gesetzes",
+        "tr": "veda, uğurlama; (yasanın) kabul edilmesi",
+        "en": "farewell, send-off; passing (of a law)",
+        "uk": "прощання, проводи; ухвалення (закону)",
+        "ar": "توديع، وداع؛ إقرار (قانون)",
+        "it": "congedo, saluto; approvazione (di una legge)"
+      },
+      "synonyms": [
+        "der Abschied"
+      ],
+      "antonyms": [
+        "die Begrüßung"
+      ],
+      "example": {
+        "de": "Zur Verabschiedung unseres Kollegen gab es Kuchen und ein kleines Geschenk.",
+        "tr": "Meslektaşımızın vedası için pasta ve küçük bir hediye vardı.",
+        "en": "There was cake and a small gift for our colleague's farewell.",
+        "uk": "На проводи нашого колеги були торт і невеликий подарунок.",
+        "ar": "في توديع زميلنا كانت هناك كعكة وهدية صغيرة.",
+        "it": "Per il congedo del nostro collega c'erano una torta e un piccolo regalo."
+      },
+      "note": "Verb: sich (Akk.) von jemandem (Dat.) verabschieden; die Verabschiedung eines Gesetzes"
+    },
+    {
+      "id": "voraus",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "voraus",
+      "type": "adverb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Vor den anderen, weiter vorne; zeitlich früher",
+        "tr": "önde, ileride; önceden",
+        "en": "ahead, in front; in advance",
+        "uk": "попереду; заздалегідь",
+        "ar": "في المقدمة، متقدّم؛ مسبقًا",
+        "it": "avanti, davanti; in anticipo"
+      },
+      "synonyms": [
+        "vorne",
+        "vorweg"
+      ],
+      "antonyms": [
+        "zurück",
+        "hinterher"
+      ],
+      "example": {
+        "de": "Sie ist ihren Mitschülern in Mathe weit voraus.",
+        "tr": "Matematikte sınıf arkadaşlarından çok ileride.",
+        "en": "She is far ahead of her classmates in maths.",
+        "uk": "Вона значно випереджає однокласників у математиці.",
+        "ar": "إنها متقدمة كثيرًا على زملائها في الرياضيات.",
+        "it": "In matematica è molto più avanti dei suoi compagni."
+      },
+      "note": "jemandem (Dat.) voraus sein; im Voraus = vorher (Vielen Dank im Voraus!)"
+    },
+    {
+      "id": "auftritt",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Auftritt",
+      "type": "noun",
+      "article": "der",
+      "plural": "Auftritte",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Erscheinen einer Person vor Publikum, z. B. auf einer Bühne; auch: wie jemand wirkt und sich zeigt",
+        "tr": "sahneye çıkış, gösteri; kendini sunuş, tavır",
+        "en": "performance, appearance; presence",
+        "uk": "виступ, поява; манера поведінки",
+        "ar": "ظهور، أداء على المسرح؛ حضور",
+        "it": "esibizione, apparizione; modo di presentarsi"
+      },
+      "synonyms": [
+        "die Vorstellung",
+        "die Darbietung",
+        "das Auftreten"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Band hatte gestern ihren ersten großen Auftritt im Stadion.",
+        "tr": "Grup dün stadyumda ilk büyük konserini verdi.",
+        "en": "The band had its first big performance in the stadium yesterday.",
+        "uk": "Гурт учора мав свій перший великий виступ на стадіоні.",
+        "ar": "قدّمت الفرقة أمس أول عرض كبير لها في الملعب.",
+        "it": "Ieri la band ha fatto la sua prima grande esibizione allo stadio."
+      },
+      "note": "Verb: auftreten (tritt auf, trat auf, ist aufgetreten); ein sicherer Auftritt im Vorstellungsgespräch"
+    },
+    {
+      "id": "beruecksichtigen",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "berücksichtigen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "berücksichtigt",
+        "praeteritum": "berücksichtigte",
+        "perfekt": "hat berücksichtigt"
+      },
+      "meaning": {
+        "de": "An etwas denken und es bei einer Entscheidung beachten",
+        "tr": "dikkate almak, göz önünde bulundurmak",
+        "en": "to take into account, to consider",
+        "uk": "враховувати, брати до уваги",
+        "ar": "يأخذ بعين الاعتبار، يراعي",
+        "it": "tenere conto di, considerare"
+      },
+      "synonyms": [
+        "beachten",
+        "bedenken",
+        "einbeziehen"
+      ],
+      "antonyms": [
+        "ignorieren",
+        "vernachlässigen",
+        "übersehen"
+      ],
+      "example": {
+        "de": "Bei der Planung müssen wir auch die Wünsche der Kunden berücksichtigen.",
+        "tr": "Planlamada müşterilerin isteklerini de dikkate almalıyız.",
+        "en": "In planning we also have to take the customers' wishes into account.",
+        "uk": "Під час планування ми повинні враховувати й побажання клієнтів.",
+        "ar": "عند التخطيط يجب أن نأخذ رغبات العملاء بعين الاعتبار أيضًا.",
+        "it": "Nella pianificazione dobbiamo tenere conto anche dei desideri dei clienti."
+      },
+      "note": "etwas/jemanden (Akk.) berücksichtigen; Nomen: die Berücksichtigung"
+    },
+    {
+      "id": "beliebt",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "beliebt",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Von vielen Menschen gemocht",
+        "tr": "sevilen, popüler",
+        "en": "popular, well-liked",
+        "uk": "популярний, улюблений",
+        "ar": "محبوب، شائع",
+        "it": "amato, popolare"
+      },
+      "synonyms": [
+        "populär",
+        "gefragt",
+        "geschätzt"
+      ],
+      "antonyms": [
+        "unbeliebt"
+      ],
+      "example": {
+        "de": "Dieses Café ist bei Studenten sehr beliebt.",
+        "tr": "Bu kafe öğrenciler arasında çok popüler.",
+        "en": "This café is very popular with students.",
+        "uk": "Це кафе дуже популярне серед студентів.",
+        "ar": "هذا المقهى محبوب جدًا لدى الطلاب.",
+        "it": "Questo caffè è molto amato dagli studenti."
+      },
+      "note": "bei jemandem (Dat.) beliebt sein; beliebt – beliebter – am beliebtesten"
+    },
+    {
+      "id": "begeistern",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "begeistern",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "begeistert",
+        "praeteritum": "begeisterte",
+        "perfekt": "hat begeistert"
+      },
+      "meaning": {
+        "de": "Bei jemandem große Freude und starkes Interesse wecken",
+        "tr": "heyecanlandırmak, coşturmak, büyülemek",
+        "en": "to inspire, to fill with enthusiasm, to thrill",
+        "uk": "захоплювати, надихати",
+        "ar": "يُبهر، يُثير الحماس",
+        "it": "entusiasmare, appassionare"
+      },
+      "synonyms": [
+        "faszinieren",
+        "mitreißen",
+        "beeindrucken"
+      ],
+      "antonyms": [
+        "langweilen",
+        "enttäuschen"
+      ],
+      "example": {
+        "de": "Der Film hat die Zuschauer begeistert.",
+        "tr": "Film izleyicileri büyüledi.",
+        "en": "The film thrilled the audience.",
+        "uk": "Фільм захопив глядачів.",
+        "ar": "أبهر الفيلم المشاهدين.",
+        "it": "Il film ha entusiasmato il pubblico."
+      },
+      "note": "jemanden (Akk.) für etwas (Akk.) begeistern; sich (Akk.) für etwas (Akk.) begeistern"
+    },
+    {
+      "id": "sich-beschweren",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "sich beschweren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "beschwert sich",
+        "praeteritum": "beschwerte sich",
+        "perfekt": "hat sich beschwert"
+      },
+      "meaning": {
+        "de": "Sagen, dass man mit etwas unzufrieden ist",
+        "tr": "şikâyet etmek",
+        "en": "to complain",
+        "uk": "скаржитися",
+        "ar": "يشتكي",
+        "it": "lamentarsi, reclamare"
+      },
+      "synonyms": [
+        "sich beklagen",
+        "reklamieren"
+      ],
+      "antonyms": [
+        "loben"
+      ],
+      "example": {
+        "de": "Die Nachbarn haben sich beim Vermieter über den Lärm beschwert.",
+        "tr": "Komşular gürültüden ev sahibine şikâyet etti.",
+        "en": "The neighbours complained to the landlord about the noise.",
+        "uk": "Сусіди поскаржилися орендодавцю на шум.",
+        "ar": "اشتكى الجيران إلى المالك من الضجيج.",
+        "it": "I vicini si sono lamentati con il padrone di casa per il rumore."
+      },
+      "note": "sich (Akk.) bei jemandem (Dat.) über etwas (Akk.) beschweren; Nomen: die Beschwerde"
+    },
+    {
+      "id": "begleiten",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "begleiten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "begleitet",
+        "praeteritum": "begleitete",
+        "perfekt": "hat begleitet"
+      },
+      "meaning": {
+        "de": "Mit jemandem zusammen irgendwohin gehen; auch: Musik zu einem Gesang spielen",
+        "tr": "eşlik etmek, refakat etmek",
+        "en": "to accompany",
+        "uk": "супроводжувати",
+        "ar": "يرافق، يصاحب",
+        "it": "accompagnare"
+      },
+      "synonyms": [
+        "mitgehen",
+        "mitkommen"
+      ],
+      "antonyms": [
+        "verlassen"
+      ],
+      "example": {
+        "de": "Ich begleite dich gern zum Arzt.",
+        "tr": "Seni doktora seve seve götürürüm (sana eşlik ederim).",
+        "en": "I'm happy to accompany you to the doctor.",
+        "uk": "Я охоче супроводжу тебе до лікаря.",
+        "ar": "سأرافقك إلى الطبيب بكل سرور.",
+        "it": "Ti accompagno volentieri dal medico."
+      },
+      "note": "jemanden (Akk.) irgendwohin begleiten; Nomen: die Begleitung"
+    },
+    {
+      "id": "verwaltung",
+      "source": "notes",
+      "date": "2026-10-29",
+      "word": "Verwaltung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Verwaltungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Abteilung oder Behörde, die organisiert und leitet; auch: das Verwalten",
+        "tr": "yönetim, idare",
+        "en": "administration, management",
+        "uk": "управління, адміністрація",
+        "ar": "إدارة",
+        "it": "amministrazione"
+      },
+      "synonyms": [
+        "die Administration",
+        "die Behörde",
+        "die Leitung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Für die Anmeldung müssen Sie zur Verwaltung im ersten Stock gehen.",
+        "tr": "Kayıt için birinci kattaki idareye gitmeniz gerekiyor.",
+        "en": "For registration you need to go to the administration on the first floor.",
+        "uk": "Для реєстрації вам потрібно пройти до адміністрації на другому поверсі.",
+        "ar": "للتسجيل يجب أن تذهب إلى الإدارة في الطابق الأول.",
+        "it": "Per l'iscrizione deve andare all'amministrazione al primo piano."
+      },
+      "note": "Verb: etwas (Akk.) verwalten; die öffentliche Verwaltung"
+    },
+    {
+      "id": "entlegen",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "entlegen",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Weit entfernt und schwer zu erreichen",
+        "tr": "uzak, ıssız, sapa",
+        "en": "remote, isolated",
+        "uk": "віддалений, глухий",
+        "ar": "نائٍ، بعيد",
+        "it": "remoto, isolato"
+      },
+      "synonyms": [
+        "weit entfernt",
+        "abgelegen",
+        "abgeschieden"
+      ],
+      "antonyms": [
+        "nah",
+        "zentral"
+      ],
+      "example": {
+        "de": "Sie wohnen in einem entlegenen Dorf in den Bergen.",
+        "tr": "Dağlarda uzak bir köyde yaşıyorlar.",
+        "en": "They live in a remote village in the mountains.",
+        "uk": "Вони живуть у віддаленому селі в горах.",
+        "ar": "يعيشون في قرية نائية في الجبال.",
+        "it": "Vivono in un paese remoto in montagna."
+      },
+      "note": null
+    },
+    {
+      "id": "originell",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "originell",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Neu, besonders und einzigartig; oft auch lustig und überraschend",
+        "tr": "orijinal, özgün, ilginç, esprili",
+        "en": "original, creative, unusual",
+        "uk": "оригінальний, своєрідний",
+        "ar": "مبتكر، أصيل، طريف",
+        "it": "originale, creativo"
+      },
+      "synonyms": [
+        "einzigartig",
+        "besonders",
+        "lustig"
+      ],
+      "antonyms": [
+        "gewöhnlich",
+        "langweilig",
+        "einfallslos"
+      ],
+      "example": {
+        "de": "Das war eine sehr originelle Idee für ein Geburtstagsgeschenk.",
+        "tr": "Doğum günü hediyesi için çok özgün bir fikirdi.",
+        "en": "That was a very original idea for a birthday present.",
+        "uk": "Це була дуже оригінальна ідея для подарунка на день народження.",
+        "ar": "كانت تلك فكرة مبتكرة جدًا لهدية عيد ميلاد.",
+        "it": "È stata un'idea molto originale per un regalo di compleanno."
+      },
+      "note": "nicht verwechseln mit „original“ (= echt, ursprünglich)"
+    },
+    {
+      "id": "begeistert",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "begeistert",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Voller Freude und Enthusiasmus für etwas",
+        "tr": "çok heyecanlı, hayran, coşkulu",
+        "en": "enthusiastic, thrilled",
+        "uk": "захоплений, у захваті",
+        "ar": "متحمّس، مبهور",
+        "it": "entusiasta, entusiasmato"
+      },
+      "synonyms": [
+        "enthusiastisch",
+        "fasziniert",
+        "hingerissen"
+      ],
+      "antonyms": [
+        "enttäuscht",
+        "gelangweilt"
+      ],
+      "example": {
+        "de": "Die Kinder waren von dem Zirkus total begeistert.",
+        "tr": "Çocuklar sirke bayıldılar.",
+        "en": "The children were absolutely thrilled with the circus.",
+        "uk": "Діти були в повному захваті від цирку.",
+        "ar": "كان الأطفال مبهورين تمامًا بالسيرك.",
+        "it": "I bambini erano entusiasti del circo."
+      },
+      "note": "von etwas (Dat.) begeistert sein; Partizip II von „begeistern“"
+    },
+    {
+      "id": "tutorium",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "Tutorium",
+      "type": "noun",
+      "article": "das",
+      "plural": "Tutorien",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Übung an der Universität in kleiner Gruppe, die von einem Studenten (Tutor) geleitet wird",
+        "tr": "üniversitede küçük grup çalışma dersi (asistan / öğrenci eşliğinde)",
+        "en": "tutorial (small study group)",
+        "uk": "семінар-практикум, тьюторіал",
+        "ar": "حصة تدريبية جامعية، مجموعة دراسية",
+        "it": "tutorato, esercitazione"
+      },
+      "synonyms": [
+        "die Übung",
+        "das Seminar"
+      ],
+      "antonyms": [
+        "die Vorlesung"
+      ],
+      "example": {
+        "de": "Im Tutorium wiederholen wir den Stoff aus der Vorlesung.",
+        "tr": "Tutoriumda dersteki konuları tekrar ediyoruz.",
+        "en": "In the tutorial we go over the material from the lecture.",
+        "uk": "На семінарі ми повторюємо матеріал лекції.",
+        "ar": "في الحصة التدريبية نراجع مادة المحاضرة.",
+        "it": "Al tutorato ripassiamo gli argomenti della lezione."
+      },
+      "note": "der Tutor / die Tutorin leitet das Tutorium"
+    },
+    {
+      "id": "wahrnehmen",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "wahrnehmen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "nimmt wahr",
+        "praeteritum": "nahm wahr",
+        "perfekt": "hat wahrgenommen"
+      },
+      "meaning": {
+        "de": "1. Mit den Sinnen bemerken, fühlen, realisieren; 2. einen Termin oder eine Möglichkeit nutzen",
+        "tr": "algılamak, fark etmek; (randevuya) gitmek, (fırsatı) değerlendirmek",
+        "en": "to perceive, to notice; to attend (an appointment), to take (an opportunity)",
+        "uk": "сприймати, помічати; скористатися (нагодою), прийти (на зустріч)",
+        "ar": "يدرك، يلاحظ؛ يحضر (موعدًا)، يغتنم (فرصة)",
+        "it": "percepire, notare; rispettare (un appuntamento), cogliere (un'occasione)"
+      },
+      "synonyms": [
+        "bemerken",
+        "realisieren",
+        "nutzen"
+      ],
+      "antonyms": [
+        "übersehen",
+        "versäumen"
+      ],
+      "example": {
+        "de": "Leider kann ich den Termin am Montag nicht wahrnehmen.",
+        "tr": "Maalesef pazartesi günkü randevuya gelemeyeceğim.",
+        "en": "Unfortunately I can't attend the appointment on Monday.",
+        "uk": "На жаль, я не зможу прийти на зустріч у понеділок.",
+        "ar": "للأسف لا أستطيع حضور الموعد يوم الاثنين.",
+        "it": "Purtroppo non posso rispettare l'appuntamento di lunedì."
+      },
+      "note": "etwas (Akk.) wahrnehmen; einen Termin / eine Chance wahrnehmen; Nomen: die Wahrnehmung"
+    },
+    {
+      "id": "gegebenenfalls",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "gegebenenfalls",
+      "type": "adverb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Wenn es nötig ist oder wenn der Fall eintritt",
+        "tr": "gerekirse, icabında",
+        "en": "if necessary, if applicable",
+        "uk": "у разі потреби",
+        "ar": "عند الاقتضاء، إذا لزم الأمر",
+        "it": "eventualmente, se necessario"
+      },
+      "synonyms": [
+        "eventuell",
+        "notfalls",
+        "falls nötig"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Bitte bringen Sie gegebenenfalls Ihre Zeugnisse mit.",
+        "tr": "Gerekirse lütfen diplomalarınızı / belgelerinizi yanınızda getirin.",
+        "en": "Please bring your certificates if applicable.",
+        "uk": "У разі потреби, будь ласка, візьміть із собою свої свідоцтва.",
+        "ar": "يُرجى إحضار شهاداتك عند الاقتضاء.",
+        "it": "Se necessario, porti con sé i suoi attestati."
+      },
+      "note": "Abkürzung: ggf."
+    },
+    {
+      "id": "arbeitsprobe",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "Arbeitsprobe",
+      "type": "noun",
+      "article": "die",
+      "plural": "Arbeitsproben",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Beispiel für die eigene Arbeit, das man z. B. einer Bewerbung beilegt",
+        "tr": "iş örneği, çalışma örneği",
+        "en": "work sample, portfolio piece",
+        "uk": "зразок роботи",
+        "ar": "نموذج من الأعمال",
+        "it": "campione di lavoro, esempio di lavoro"
+      },
+      "synonyms": [
+        "das Portfolio",
+        "das Muster"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Als Grafikdesignerin sollte sie der Bewerbung einige Arbeitsproben beilegen.",
+        "tr": "Grafik tasarımcı olarak başvurusuna birkaç iş örneği eklemeli.",
+        "en": "As a graphic designer she should include some work samples with her application.",
+        "uk": "Як графічна дизайнерка, вона має додати до заявки кілька зразків робіт.",
+        "ar": "بصفتها مصممة جرافيك يجب أن ترفق بعض نماذج أعمالها مع الطلب.",
+        "it": "Come grafica dovrebbe allegare alla candidatura alcuni esempi di lavoro."
+      },
+      "note": null
+    },
+    {
+      "id": "umgebung",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "Umgebung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Umgebungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Gebiet oder die Menschen um einen Ort oder eine Person herum",
+        "tr": "çevre, civar, etraf",
+        "en": "surroundings, area, environment",
+        "uk": "околиця, оточення",
+        "ar": "المحيط، الجوار",
+        "it": "dintorni, ambiente"
+      },
+      "synonyms": [
+        "die Gegend",
+        "das Umfeld",
+        "die Nähe"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In der Umgebung von unserem Hotel gibt es viele schöne Wanderwege.",
+        "tr": "Otelimizin çevresinde birçok güzel yürüyüş yolu var.",
+        "en": "There are many nice hiking trails in the area around our hotel.",
+        "uk": "Біля нашого готелю є багато гарних пішохідних маршрутів.",
+        "ar": "توجد مسارات مشي جميلة كثيرة في محيط فندقنا.",
+        "it": "Nei dintorni del nostro hotel ci sono molti bei sentieri."
+      },
+      "note": "in der näheren Umgebung; eine neue Arbeitsumgebung"
+    },
+    {
+      "id": "luegen",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "lügen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "lügt",
+        "praeteritum": "log",
+        "perfekt": "hat gelogen"
+      },
+      "meaning": {
+        "de": "Bewusst etwas sagen, das nicht wahr ist",
+        "tr": "yalan söylemek",
+        "en": "to lie, to tell a lie",
+        "uk": "брехати",
+        "ar": "يكذب",
+        "it": "mentire"
+      },
+      "synonyms": [
+        "schwindeln",
+        "flunkern"
+      ],
+      "antonyms": [
+        "die Wahrheit sagen"
+      ],
+      "example": {
+        "de": "Er hat über sein Alter gelogen.",
+        "tr": "Yaşı hakkında yalan söyledi.",
+        "en": "He lied about his age.",
+        "uk": "Він збрехав про свій вік.",
+        "ar": "كذب بشأن عمره.",
+        "it": "Ha mentito sulla sua età."
+      },
+      "note": "über etwas (Akk.) lügen; Nomen: die Lüge; nicht verwechseln mit „liegen“"
+    },
+    {
+      "id": "anluegen",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "anlügen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "lügt an",
+        "praeteritum": "log an",
+        "perfekt": "hat angelogen"
+      },
+      "meaning": {
+        "de": "Einer bestimmten Person direkt etwas Falsches sagen",
+        "tr": "birine yalan söylemek",
+        "en": "to lie to someone",
+        "uk": "брехати комусь",
+        "ar": "يكذب على شخص",
+        "it": "mentire a qualcuno"
+      },
+      "synonyms": [
+        "belügen",
+        "täuschen"
+      ],
+      "antonyms": [
+        "die Wahrheit sagen"
+      ],
+      "example": {
+        "de": "Warum hast du mich angelogen?",
+        "tr": "Bana neden yalan söyledin?",
+        "en": "Why did you lie to me?",
+        "uk": "Чому ти мені збрехав?",
+        "ar": "لماذا كذبت عليّ؟",
+        "it": "Perché mi hai mentito?"
+      },
+      "note": "jemanden (Akk.) anlügen (Akk., nicht Dat.!)"
+    },
+    {
+      "id": "firmierung",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "Firmierung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Firmierungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Der offizielle Name, unter dem eine Firma im Handelsregister eingetragen ist",
+        "tr": "ticari unvan, şirket unvanı",
+        "en": "company name, registered business name",
+        "uk": "фірмове найменування",
+        "ar": "الاسم التجاري المسجّل",
+        "it": "ragione sociale, denominazione"
+      },
+      "synonyms": [
+        "der Firmenname",
+        "die Firma"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Firmierung des Unternehmens lautet „Müller & Söhne GmbH“.",
+        "tr": "Şirketin ticari unvanı „Müller & Söhne GmbH“dır.",
+        "en": "The company's registered name is “Müller & Söhne GmbH”.",
+        "uk": "Фірмове найменування підприємства — «Müller & Söhne GmbH».",
+        "ar": "الاسم التجاري المسجّل للشركة هو «Müller & Söhne GmbH».",
+        "it": "La ragione sociale dell'azienda è «Müller & Söhne GmbH»."
+      },
+      "note": "Verb: firmieren (unter einem Namen firmieren)"
+    },
+    {
+      "id": "aktiengesellschaft",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "Aktiengesellschaft",
+      "type": "noun",
+      "article": "die",
+      "plural": "Aktiengesellschaften",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Firma, deren Kapital in Aktien aufgeteilt ist, die man kaufen kann",
+        "tr": "anonim şirket (A.Ş.)",
+        "en": "public limited company, stock corporation",
+        "uk": "акціонерне товариство",
+        "ar": "شركة مساهمة",
+        "it": "società per azioni"
+      },
+      "synonyms": [
+        "die AG",
+        "das Unternehmen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Siemens ist eine große deutsche Aktiengesellschaft.",
+        "tr": "Siemens büyük bir Alman anonim şirketidir.",
+        "en": "Siemens is a large German stock corporation.",
+        "uk": "Siemens — велике німецьке акціонерне товариство.",
+        "ar": "سيمنس شركة مساهمة ألمانية كبيرة.",
+        "it": "Siemens è una grande società per azioni tedesca."
+      },
+      "note": "Abkürzung: AG; vgl. GmbH (Gesellschaft mit beschränkter Haftung)"
+    },
+    {
+      "id": "aktie",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "Aktie",
+      "type": "noun",
+      "article": "die",
+      "plural": "Aktien",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Anteil am Kapital einer Firma, den man an der Börse kaufen und verkaufen kann",
+        "tr": "hisse senedi",
+        "en": "share, stock",
+        "uk": "акція",
+        "ar": "سهم",
+        "it": "azione"
+      },
+      "synonyms": [
+        "das Wertpapier",
+        "der Anteil"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Er hat Aktien von einer Autofirma gekauft.",
+        "tr": "Bir otomobil şirketinin hisselerini aldı.",
+        "en": "He bought shares in a car company.",
+        "uk": "Він купив акції автомобільної компанії.",
+        "ar": "اشترى أسهمًا في شركة سيارات.",
+        "it": "Ha comprato azioni di un'azienda automobilistica."
+      },
+      "note": "in Aktien investieren; die Aktie steigt / fällt; der Aktionär = Besitzer von Aktien"
+    },
+    {
+      "id": "sachbearbeiter",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "Sachbearbeiter",
+      "type": "noun",
+      "article": "der",
+      "plural": "Sachbearbeiter",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Person in einem Büro oder einer Behörde, die bestimmte Fälle und Anträge bearbeitet",
+        "tr": "memur, dosya sorumlusu, uzman (büro çalışanı)",
+        "en": "clerk, case worker, administrator",
+        "uk": "спеціаліст, відповідальний співробітник",
+        "ar": "موظف مختص، موظف معالجة الملفات",
+        "it": "impiegato, addetto pratiche"
+      },
+      "synonyms": [
+        "der Angestellte",
+        "der Bearbeiter"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ihr Antrag wird von einer Sachbearbeiterin im Bürgeramt bearbeitet.",
+        "tr": "Başvurunuz vatandaşlık bürosunda bir memur tarafından işleme alınacak.",
+        "en": "Your application will be processed by a clerk at the citizens' office.",
+        "uk": "Вашу заяву опрацює спеціалістка в міській службі.",
+        "ar": "ستعالج طلبك موظفة مختصة في مكتب المواطنين.",
+        "it": "La sua domanda sarà elaborata da un'impiegata dell'ufficio comunale."
+      },
+      "note": "weiblich: die Sachbearbeiterin (-nen); geschlechtergerecht: Sachbearbeiter:in"
+    },
+    {
+      "id": "griffbereit",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "griffbereit",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "So nah, dass man es sofort nehmen kann",
+        "tr": "el altında, hazırda",
+        "en": "within reach, handy, ready to hand",
+        "uk": "під рукою",
+        "ar": "في متناول اليد",
+        "it": "a portata di mano"
+      },
+      "synonyms": [
+        "parat",
+        "zur Hand",
+        "bereit"
+      ],
+      "antonyms": [
+        "unerreichbar"
+      ],
+      "example": {
+        "de": "Halten Sie bitte Ihren Ausweis griffbereit.",
+        "tr": "Lütfen kimliğinizi el altında bulundurun.",
+        "en": "Please keep your ID handy.",
+        "uk": "Будь ласка, тримайте посвідчення під рукою.",
+        "ar": "يُرجى إبقاء بطاقة هويتك في متناول اليد.",
+        "it": "Per favore, tenga il documento a portata di mano."
+      },
+      "note": "etwas (Akk.) griffbereit haben / halten"
+    },
+    {
+      "id": "verschlafen",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "verschlafen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "verschläft",
+        "praeteritum": "verschlief",
+        "perfekt": "hat verschlafen"
+      },
+      "meaning": {
+        "de": "Zu lange schlafen und deshalb zu spät aufwachen; auch: etwas durch Schlafen verpassen",
+        "tr": "uyuyakalmak, uyuyup kaçırmak",
+        "en": "to oversleep; to sleep through",
+        "uk": "проспати",
+        "ar": "يتأخر في النوم، يفوته شيء بسبب النوم",
+        "it": "non svegliarsi in tempo, dormire troppo"
+      },
+      "synonyms": [
+        "zu spät aufwachen"
+      ],
+      "antonyms": [
+        "rechtzeitig aufstehen"
+      ],
+      "example": {
+        "de": "Heute Morgen habe ich verschlafen und den Bus verpasst.",
+        "tr": "Bu sabah uyuyakaldım ve otobüsü kaçırdım.",
+        "en": "This morning I overslept and missed the bus.",
+        "uk": "Сьогодні вранці я проспав і запізнився на автобус.",
+        "ar": "صباح اليوم تأخرت في النوم وفاتتني الحافلة.",
+        "it": "Stamattina non mi sono svegliato in tempo e ho perso l'autobus."
+      },
+      "note": "intransitiv (ohne Objekt); auch: etwas (Akk.) verschlafen (= durch Schlafen verpassen); Adjektiv: verschlafen (= noch müde, schläfrig)"
+    },
+    {
+      "id": "schweiss",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "Schweiß",
+      "type": "noun",
+      "article": "der",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die salzige Flüssigkeit, die bei Hitze oder Anstrengung aus der Haut kommt",
+        "tr": "ter",
+        "en": "sweat",
+        "uk": "піт",
+        "ar": "عَرَق",
+        "it": "sudore"
+      },
+      "synonyms": [
+        "die Transpiration"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Nach dem Training lief ihm der Schweiß über das Gesicht.",
+        "tr": "Antrenmandan sonra yüzünden ter akıyordu.",
+        "en": "After training, sweat was running down his face.",
+        "uk": "Після тренування піт стікав йому по обличчю.",
+        "ar": "بعد التمرين كان العرق يسيل على وجهه.",
+        "it": "Dopo l'allenamento il sudore gli colava sul viso."
+      },
+      "note": "im Schweiße seines Angesichts = mit großer Anstrengung"
+    },
+    {
+      "id": "schwitzen",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "schwitzen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schwitzt",
+        "praeteritum": "schwitzte",
+        "perfekt": "hat geschwitzt"
+      },
+      "meaning": {
+        "de": "Schweiß bilden, weil es heiß ist oder weil man sich anstrengt",
+        "tr": "terlemek",
+        "en": "to sweat",
+        "uk": "потіти",
+        "ar": "يتعرّق",
+        "it": "sudare"
+      },
+      "synonyms": [
+        "transpirieren"
+      ],
+      "antonyms": [
+        "frieren"
+      ],
+      "example": {
+        "de": "Im Sommer schwitze ich schon beim Treppensteigen.",
+        "tr": "Yazın merdiven çıkarken bile terliyorum.",
+        "en": "In summer I sweat even when climbing stairs.",
+        "uk": "Улітку я потію навіть, коли піднімаюся сходами.",
+        "ar": "في الصيف أتعرّق حتى عند صعود الدرج.",
+        "it": "D'estate sudo anche solo salendo le scale."
+      },
+      "note": "intransitiv (ohne Objekt); Nomen: der Schweiß"
+    },
+    {
+      "id": "urspruenglich",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "ursprünglich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "So, wie es am Anfang war; zuerst geplant",
+        "tr": "aslında, başlangıçta, orijinal",
+        "en": "original, originally",
+        "uk": "початковий, спочатку",
+        "ar": "أصلي، في الأصل",
+        "it": "originario, originariamente"
+      },
+      "synonyms": [
+        "anfänglich",
+        "zuerst",
+        "eigentlich"
+      ],
+      "antonyms": [
+        "später",
+        "nachträglich"
+      ],
+      "example": {
+        "de": "Ursprünglich wollten wir nach Spanien fahren, aber dann sind wir zu Hause geblieben.",
+        "tr": "Aslında İspanya'ya gitmek istiyorduk ama sonra evde kaldık.",
+        "en": "Originally we wanted to go to Spain, but then we stayed at home.",
+        "uk": "Спочатку ми хотіли поїхати до Іспанії, але потім залишилися вдома.",
+        "ar": "في الأصل أردنا السفر إلى إسبانيا، لكننا بقينا في البيت بعد ذلك.",
+        "it": "Inizialmente volevamo andare in Spagna, ma poi siamo rimasti a casa."
+      },
+      "note": "auch als Adverb: Ursprünglich war das anders geplant."
+    },
+    {
+      "id": "verwaschen",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "verwaschen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "verwäscht",
+        "praeteritum": "verwusch",
+        "perfekt": "hat verwaschen"
+      },
+      "meaning": {
+        "de": "Durch häufiges Waschen Farbe oder Form verlieren lassen; als Adjektiv: blass, ausgebleicht, unklar",
+        "tr": "(yıkamaktan) soldurmak; (sıfat) solmuş, soluk, belirsiz",
+        "en": "to wash out; (adj.) faded, washed-out, vague",
+        "uk": "випрати до вицвітання; (прикм.) вицвілий, розмитий",
+        "ar": "يُبهت بالغسيل؛ (صفة) باهت، غير واضح",
+        "it": "stingere lavando; (agg.) sbiadito, slavato, vago"
+      },
+      "synonyms": [
+        "ausbleichen",
+        "verblassen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Das alte T-Shirt ist schon ganz verwaschen.",
+        "tr": "Eski tişört yıkanmaktan tamamen solmuş.",
+        "en": "The old T-shirt is already completely faded.",
+        "uk": "Стара футболка вже зовсім вицвіла.",
+        "ar": "القميص القديم صار باهتًا تمامًا.",
+        "it": "La vecchia maglietta è già tutta sbiadita."
+      },
+      "note": "etwas (Akk.) verwaschen; meist als Adjektiv: verwaschen (= ausgeblichen; unklar, z. B. eine verwaschene Formulierung)"
+    },
+    {
+      "id": "unbedingt",
+      "source": "notes",
+      "date": "2026-11-02",
+      "word": "unbedingt",
+      "type": "adverb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Auf jeden Fall, ganz sicher; ohne Bedingung",
+        "tr": "mutlaka, kesinlikle",
+        "en": "absolutely, definitely, by all means",
+        "uk": "обов'язково, неодмінно",
+        "ar": "حتمًا، بالتأكيد",
+        "it": "assolutamente, per forza"
+      },
+      "synonyms": [
+        "auf jeden Fall",
+        "bestimmt",
+        "sicher"
+      ],
+      "antonyms": [
+        "keinesfalls",
+        "vielleicht"
+      ],
+      "example": {
+        "de": "Diesen Film musst du unbedingt sehen!",
+        "tr": "Bu filmi mutlaka görmelisin!",
+        "en": "You absolutely have to see this film!",
+        "uk": "Цей фільм ти обов'язково маєш подивитися!",
+        "ar": "يجب أن تشاهد هذا الفيلم حتمًا!",
+        "it": "Devi assolutamente vedere questo film!"
+      },
+      "note": "nicht unbedingt = nicht notwendigerweise; auch Adjektiv: unbedingtes Vertrauen"
     }
   ]
 }
