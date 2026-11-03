@@ -17232,6 +17232,1145 @@
         "it": "Devi assolutamente vedere questo film!"
       },
       "note": "nicht unbedingt = nicht notwendigerweise; auch Adjektiv: unbedingtes Vertrauen"
+    },
+    {
+      "id": "zurueckhaltend",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "zurückhaltend",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Ruhig, bescheiden und eher still; zeigt Gefühle oder Meinungen nicht offen",
+        "tr": "çekingen, ölçülü, mesafeli",
+        "en": "reserved, restrained",
+        "uk": "стриманий, скромний",
+        "ar": "متحفّظ، خجول",
+        "it": "riservato, discreto"
+      },
+      "synonyms": [
+        "schüchtern",
+        "reserviert",
+        "bescheiden"
+      ],
+      "antonyms": [
+        "aufdringlich",
+        "offen"
+      ],
+      "example": {
+        "de": "Mein neuer Kollege ist am Anfang sehr zurückhaltend.",
+        "tr": "Yeni iş arkadaşım başlangıçta çok çekingen.",
+        "en": "My new colleague is very reserved at first.",
+        "uk": "Мій новий колега спочатку дуже стриманий.",
+        "ar": "زميلي الجديد متحفّظ جدًا في البداية.",
+        "it": "Il mio nuovo collega all'inizio è molto riservato."
+      },
+      "note": "Partizip I von „zurückhalten“; zurückhaltend mit etwas (Dat.) sein"
+    },
+    {
+      "id": "erfassen",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "erfassen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "erfasst",
+        "praeteritum": "erfasste",
+        "perfekt": "hat erfasst"
+      },
+      "meaning": {
+        "de": "1. etwas verstehen; 2. Informationen notieren, sammeln oder in den Computer eingeben",
+        "tr": "1. kavramak, anlamak; 2. kaydetmek, toplamak, (sisteme) girmek",
+        "en": "1. to grasp, to understand; 2. to record, to collect, to enter (data)",
+        "uk": "1. осягати, розуміти; 2. фіксувати, збирати, вводити (дані)",
+        "ar": "يستوعب، يفهم؛ يسجّل، يجمع، يُدخل (بيانات)",
+        "it": "1. comprendere, cogliere; 2. registrare, raccogliere, inserire (dati)"
+      },
+      "synonyms": [
+        "verstehen",
+        "notieren",
+        "eingeben"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Bitte erfassen Sie die Kundendaten im neuen System.",
+        "tr": "Lütfen müşteri verilerini yeni sisteme girin.",
+        "en": "Please enter the customer data in the new system.",
+        "uk": "Будь ласка, внесіть дані клієнтів у нову систему.",
+        "ar": "يرجى إدخال بيانات العملاء في النظام الجديد.",
+        "it": "Per favore, inserisca i dati dei clienti nel nuovo sistema."
+      },
+      "note": "etwas (Akk.) erfassen; Bedeutungen: verstehen / notieren, sammeln, eingeben"
+    },
+    {
+      "id": "datenerfassung",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "Datenerfassung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Datenerfassungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Sammeln und Eingeben von Informationen in ein System",
+        "tr": "veri girişi, veri toplama",
+        "en": "data entry, data collection",
+        "uk": "збір даних, введення даних",
+        "ar": "إدخال البيانات، جمع البيانات",
+        "it": "raccolta dati, inserimento dati"
+      },
+      "synonyms": [
+        "die Datensammlung",
+        "die Dateneingabe"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Datenerfassung dauert bei neuen Mitarbeitern etwa eine Woche.",
+        "tr": "Yeni çalışanlarda veri girişi yaklaşık bir hafta sürüyor.",
+        "en": "Data entry for new employees takes about a week.",
+        "uk": "Введення даних нових працівників триває приблизно тиждень.",
+        "ar": "يستغرق إدخال بيانات الموظفين الجدد نحو أسبوع.",
+        "it": "L'inserimento dei dati dei nuovi dipendenti richiede circa una settimana."
+      },
+      "note": null
+    },
+    {
+      "id": "ankuendigen",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "ankündigen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "kündigt an",
+        "praeteritum": "kündigte an",
+        "perfekt": "hat angekündigt"
+      },
+      "meaning": {
+        "de": "Vorher mitteilen, dass etwas passieren wird; informieren",
+        "tr": "duyurmak, önceden bildirmek",
+        "en": "to announce, to give notice of",
+        "uk": "оголошувати, повідомляти заздалегідь",
+        "ar": "يعلن، يُبلغ مسبقًا",
+        "it": "annunciare, preannunciare"
+      },
+      "synonyms": [
+        "informieren",
+        "mitteilen",
+        "bekannt geben"
+      ],
+      "antonyms": [
+        "verschweigen"
+      ],
+      "example": {
+        "de": "Die Firma hat eine Preiserhöhung für nächsten Monat angekündigt.",
+        "tr": "Şirket gelecek ay için bir fiyat artışı duyurdu.",
+        "en": "The company has announced a price increase for next month.",
+        "uk": "Компанія оголосила про підвищення цін наступного місяця.",
+        "ar": "أعلنت الشركة عن زيادة في الأسعار الشهر المقبل.",
+        "it": "L'azienda ha annunciato un aumento dei prezzi per il mese prossimo."
+      },
+      "note": "(jemandem Dat.) etwas (Akk.) ankündigen; ankündigen = informieren (nicht verwechseln mit „kündigen“)"
+    },
+    {
+      "id": "kuendigen",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "kündigen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "kündigt",
+        "praeteritum": "kündigte",
+        "perfekt": "hat gekündigt"
+      },
+      "meaning": {
+        "de": "Einen Vertrag beenden, z. B. die eigene Arbeitsstelle verlassen wollen",
+        "tr": "istifa etmek, (sözleşmeyi) feshetmek, işten çıkarmak",
+        "en": "to resign, to quit, to terminate (a contract), to give notice",
+        "uk": "звільнятися, розривати (договір), звільняти",
+        "ar": "يستقيل، يفسخ (عقدًا)، يفصل",
+        "it": "licenziarsi, disdire, licenziare"
+      },
+      "synonyms": [
+        "aufhören",
+        "beenden",
+        "verlassen"
+      ],
+      "antonyms": [
+        "einstellen",
+        "anstellen"
+      ],
+      "example": {
+        "de": "Er hat gekündigt, weil er eine bessere Stelle gefunden hat.",
+        "tr": "Daha iyi bir iş bulduğu için istifa etti.",
+        "en": "He resigned because he found a better job.",
+        "uk": "Він звільнився, бо знайшов кращу роботу.",
+        "ar": "استقال لأنه وجد وظيفة أفضل.",
+        "it": "Si è licenziato perché ha trovato un lavoro migliore."
+      },
+      "note": "etwas (Akk.) kündigen (den Vertrag, die Wohnung); jemandem (Dat.) kündigen; kündigen = meine Arbeit beenden wollen"
+    },
+    {
+      "id": "gekuendigt-werden",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "gekündigt werden",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Vom Arbeitgeber entlassen werden; man kündigt mir",
+        "tr": "işten çıkarılmak, kovulmak",
+        "en": "to be dismissed, to be given notice, to be fired",
+        "uk": "бути звільненим",
+        "ar": "يُفصل من العمل",
+        "it": "essere licenziato"
+      },
+      "synonyms": [
+        "entlassen werden",
+        "gefeuert werden"
+      ],
+      "antonyms": [
+        "eingestellt werden"
+      ],
+      "example": {
+        "de": "Nach zehn Jahren in der Firma wurde ihm plötzlich gekündigt.",
+        "tr": "Şirkette on yıl çalıştıktan sonra aniden işten çıkarıldı.",
+        "en": "After ten years at the company, he was suddenly dismissed.",
+        "uk": "Після десяти років у компанії його раптово звільнили.",
+        "ar": "بعد عشر سنوات في الشركة فُصل فجأة.",
+        "it": "Dopo dieci anni in azienda è stato improvvisamente licenziato."
+      },
+      "note": "Passiv von „kündigen“: Mir wurde gekündigt. / Ich wurde gekündigt (ugs.) = man kündigt mir"
+    },
+    {
+      "id": "eher",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "eher",
+      "type": "adverb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "1. früher; 2. lieber; 3. mehr, ziemlich",
+        "tr": "1. daha erken; 2. daha çok, tercihen; 3. oldukça, daha ziyade",
+        "en": "1. earlier, sooner; 2. rather; 3. more likely, somewhat",
+        "uk": "1. раніше; 2. радше, краще; 3. скоріше, досить",
+        "ar": "أبكر؛ بالأحرى، يُفضَّل؛ إلى حدّ ما",
+        "it": "1. prima; 2. piuttosto; 3. alquanto"
+      },
+      "synonyms": [
+        "früher",
+        "lieber",
+        "vielmehr"
+      ],
+      "antonyms": [
+        "später"
+      ],
+      "example": {
+        "de": "Ich bin eher ein ruhiger Typ und arbeite gern allein.",
+        "tr": "Ben daha çok sakin biriyim ve yalnız çalışmayı severim.",
+        "en": "I'm more of a quiet type and like working alone.",
+        "uk": "Я радше спокійна людина і люблю працювати сам.",
+        "ar": "أنا بالأحرى شخص هادئ وأحب العمل بمفردي.",
+        "it": "Sono piuttosto un tipo tranquillo e mi piace lavorare da solo."
+      },
+      "note": "je eher, desto besser; eher … als (= lieber … als)"
+    },
+    {
+      "id": "anderweitig",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "anderweitig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Auf eine andere Art, an einem anderen Ort oder für einen anderen Zweck",
+        "tr": "başka şekilde, başka bir yerde, farklı amaçla",
+        "en": "otherwise, elsewhere, other",
+        "uk": "інакше, в інший спосіб, інший",
+        "ar": "بطريقة أخرى، في مكان آخر، آخر",
+        "it": "altrimenti, in altro modo, altro"
+      },
+      "synonyms": [
+        "anders",
+        "woanders",
+        "sonstig"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Stelle wurde leider schon anderweitig vergeben.",
+        "tr": "Pozisyon maalesef başka birine verildi.",
+        "en": "Unfortunately, the position has already been filled otherwise.",
+        "uk": "На жаль, цю посаду вже віддали комусь іншому.",
+        "ar": "للأسف، شُغلت الوظيفة بالفعل من قِبل شخص آخر.",
+        "it": "Purtroppo il posto è già stato assegnato altrimenti."
+      },
+      "note": "auch Adverb: anderweitig beschäftigt sein, etwas anderweitig nutzen"
+    },
+    {
+      "id": "bezueglich",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "bezüglich",
+      "type": "adverb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "In Bezug auf etwas; was etwas betrifft",
+        "tr": "ile ilgili olarak, hakkında",
+        "en": "regarding, concerning, with regard to",
+        "uk": "щодо, стосовно",
+        "ar": "بخصوص، فيما يتعلق بـ",
+        "it": "riguardo a, relativamente a"
+      },
+      "synonyms": [
+        "hinsichtlich",
+        "betreffend",
+        "in Bezug auf"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Bezüglich Ihrer Anfrage melden wir uns bis Freitag.",
+        "tr": "Talebinizle ilgili olarak cuma gününe kadar size dönüş yapacağız.",
+        "en": "Regarding your inquiry, we will get back to you by Friday.",
+        "uk": "Щодо вашого запиту ми зв'яжемося з вами до п'ятниці.",
+        "ar": "بخصوص استفساركم، سنتواصل معكم حتى يوم الجمعة.",
+        "it": "Riguardo alla Sua richiesta, La ricontatteremo entro venerdì."
+      },
+      "note": "Präposition mit Genitiv: bezüglich des Vertrags / Ihrer Anfrage (Amtsdeutsch)"
+    },
+    {
+      "id": "betonen",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "betonen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "betont",
+        "praeteritum": "betonte",
+        "perfekt": "hat betont"
+      },
+      "meaning": {
+        "de": "Etwas besonders deutlich sagen, weil es wichtig ist; hervorheben",
+        "tr": "vurgulamak, altını çizmek",
+        "en": "to emphasize, to stress",
+        "uk": "наголошувати, підкреслювати",
+        "ar": "يؤكّد، يشدّد على",
+        "it": "sottolineare, enfatizzare"
+      },
+      "synonyms": [
+        "hervorheben",
+        "unterstreichen"
+      ],
+      "antonyms": [
+        "herunterspielen"
+      ],
+      "example": {
+        "de": "Der Chef betonte, dass Pünktlichkeit sehr wichtig ist.",
+        "tr": "Şef, dakikliğin çok önemli olduğunu vurguladı.",
+        "en": "The boss stressed that punctuality is very important.",
+        "uk": "Керівник наголосив, що пунктуальність дуже важлива.",
+        "ar": "أكّد المدير أن الالتزام بالمواعيد مهم جدًا.",
+        "it": "Il capo ha sottolineato che la puntualità è molto importante."
+      },
+      "note": "etwas (Akk.) betonen; betonen, dass …"
+    },
+    {
+      "id": "allerdings",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "allerdings",
+      "type": "adverb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "1. aber, jedoch (schränkt etwas ein); 2. ja, natürlich (Bestätigung)",
+        "tr": "1. ancak, yalnız, fakat; 2. elbette, tabii ki",
+        "en": "1. however, though; 2. certainly, indeed",
+        "uk": "1. однак, проте; 2. звичайно, авжеж",
+        "ar": "لكن، غير أنّ؛ بالتأكيد",
+        "it": "1. tuttavia, però; 2. certamente"
+      },
+      "synonyms": [
+        "jedoch",
+        "aber",
+        "freilich"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Wohnung ist schön, allerdings ist sie ziemlich teuer.",
+        "tr": "Daire güzel, ancak oldukça pahalı.",
+        "en": "The flat is nice, though it is quite expensive.",
+        "uk": "Квартира гарна, однак досить дорога.",
+        "ar": "الشقة جميلة، لكنها باهظة الثمن إلى حدّ ما.",
+        "it": "L'appartamento è bello, tuttavia è piuttosto caro."
+      },
+      "note": "steht oft auf Position 1 oder im Mittelfeld: Das ist allerdings teuer."
+    },
+    {
+      "id": "erhalten",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "erhalten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "erhält",
+        "praeteritum": "erhielt",
+        "perfekt": "hat erhalten"
+      },
+      "meaning": {
+        "de": "Etwas bekommen; auch: etwas in gutem Zustand bewahren",
+        "tr": "almak, elde etmek; korumak",
+        "en": "to receive, to get; to preserve",
+        "uk": "отримувати; зберігати",
+        "ar": "يتلقّى، يحصل على؛ يحافظ على",
+        "it": "ricevere, ottenere; conservare"
+      },
+      "synonyms": [
+        "bekommen",
+        "empfangen",
+        "bewahren"
+      ],
+      "antonyms": [
+        "verlieren",
+        "schicken"
+      ],
+      "example": {
+        "de": "Wir erhielten die Kündigung per Post.",
+        "tr": "Fesih bildirimini posta yoluyla aldık.",
+        "en": "We received the notice of termination by post.",
+        "uk": "Ми отримали повідомлення про звільнення поштою.",
+        "ar": "تلقّينا إشعار الفصل عبر البريد.",
+        "it": "Abbiamo ricevuto la lettera di licenziamento per posta."
+      },
+      "note": "etwas (Akk.) erhalten; „erhielten“ = Präteritum Plural"
+    },
+    {
+      "id": "hochschieben",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "hochschieben",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schiebt hoch",
+        "praeteritum": "schob hoch",
+        "perfekt": "hat hochgeschoben"
+      },
+      "meaning": {
+        "de": "Etwas nach oben schieben",
+        "tr": "yukarı itmek, yukarı sürmek",
+        "en": "to push up, to slide up",
+        "uk": "підсувати вгору, засувати вгору",
+        "ar": "يدفع إلى الأعلى",
+        "it": "spingere in su, tirare su"
+      },
+      "synonyms": [
+        "hochziehen",
+        "nach oben schieben"
+      ],
+      "antonyms": [
+        "herunterschieben",
+        "herunterziehen"
+      ],
+      "example": {
+        "de": "Er schob die Ärmel hoch und begann zu arbeiten.",
+        "tr": "Kollarını sıvadı ve çalışmaya başladı.",
+        "en": "He pushed up his sleeves and started working.",
+        "uk": "Він закасав рукави і почав працювати.",
+        "ar": "شمّر عن ساعديه وبدأ العمل.",
+        "it": "Si è tirato su le maniche e ha cominciato a lavorare."
+      },
+      "note": "etwas (Akk.) hochschieben"
+    },
+    {
+      "id": "entsorgen",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "entsorgen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "entsorgt",
+        "praeteritum": "entsorgte",
+        "perfekt": "hat entsorgt"
+      },
+      "meaning": {
+        "de": "Abfall oder alte Dinge richtig wegbringen und beseitigen",
+        "tr": "(atığı) bertaraf etmek, atmak",
+        "en": "to dispose of",
+        "uk": "утилізувати, вивозити (сміття)",
+        "ar": "يتخلّص من (النفايات)",
+        "it": "smaltire"
+      },
+      "synonyms": [
+        "wegwerfen",
+        "beseitigen"
+      ],
+      "antonyms": [
+        "aufbewahren"
+      ],
+      "example": {
+        "de": "Alte Batterien muss man getrennt entsorgen.",
+        "tr": "Eski piller ayrı olarak atılmalıdır.",
+        "en": "Old batteries must be disposed of separately.",
+        "uk": "Старі батарейки потрібно утилізувати окремо.",
+        "ar": "يجب التخلّص من البطاريات القديمة بشكل منفصل.",
+        "it": "Le batterie vecchie vanno smaltite separatamente."
+      },
+      "note": "etwas (Akk.) entsorgen; Nomen: die Entsorgung"
+    },
+    {
+      "id": "sicherstellen",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "sicherstellen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "stellt sicher",
+        "praeteritum": "stellte sicher",
+        "perfekt": "hat sichergestellt"
+      },
+      "meaning": {
+        "de": "Dafür sorgen, dass etwas bestimmt passiert oder funktioniert; auch: etwas beschlagnahmen",
+        "tr": "sağlamak, garanti altına almak; el koymak",
+        "en": "to ensure, to make sure; to seize",
+        "uk": "забезпечувати, гарантувати; вилучати",
+        "ar": "يضمن، يتأكّد من؛ يصادر",
+        "it": "garantire, assicurare; sequestrare"
+      },
+      "synonyms": [
+        "gewährleisten",
+        "sorgen für",
+        "garantieren"
+      ],
+      "antonyms": [
+        "gefährden"
+      ],
+      "example": {
+        "de": "Wir müssen sicherstellen, dass alle Daten gespeichert sind.",
+        "tr": "Tüm verilerin kaydedildiğinden emin olmalıyız.",
+        "en": "We have to make sure that all data is saved.",
+        "uk": "Ми маємо забезпечити, щоб усі дані були збережені.",
+        "ar": "يجب أن نتأكّد من حفظ جميع البيانات.",
+        "it": "Dobbiamo assicurarci che tutti i dati siano salvati."
+      },
+      "note": "etwas (Akk.) sicherstellen; sicherstellen, dass …"
+    },
+    {
+      "id": "wesentlich",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "wesentlich",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sehr wichtig, grundlegend; als Adverb vor dem Komparativ: viel",
+        "tr": "temel, esaslı, önemli; (karşılaştırmada) çok daha",
+        "en": "essential, substantial; (with comparative) considerably",
+        "uk": "суттєвий, істотний; значно",
+        "ar": "جوهري، أساسي؛ بكثير",
+        "it": "essenziale, sostanziale; notevolmente"
+      },
+      "synonyms": [
+        "wichtig",
+        "grundlegend",
+        "bedeutend"
+      ],
+      "antonyms": [
+        "unwesentlich",
+        "nebensächlich"
+      ],
+      "example": {
+        "de": "Das ist ein wesentlicher Unterschied zwischen den beiden Verträgen.",
+        "tr": "Bu, iki sözleşme arasındaki temel bir fark.",
+        "en": "That is an essential difference between the two contracts.",
+        "uk": "Це суттєва різниця між двома договорами.",
+        "ar": "هذا فرق جوهري بين العقدين.",
+        "it": "Questa è una differenza sostanziale tra i due contratti."
+      },
+      "note": "im Wesentlichen = im Großen und Ganzen; wesentlich besser = viel besser"
+    },
+    {
+      "id": "bedingung",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "Bedingung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Bedingungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Etwas, das erfüllt sein muss, damit etwas anderes möglich ist",
+        "tr": "şart, koşul",
+        "en": "condition, requirement",
+        "uk": "умова",
+        "ar": "شرط",
+        "it": "condizione"
+      },
+      "synonyms": [
+        "die Voraussetzung",
+        "die Auflage"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Unter dieser Bedingung bin ich bereit, den Vertrag zu unterschreiben.",
+        "tr": "Bu şartla sözleşmeyi imzalamaya hazırım.",
+        "en": "On this condition, I am prepared to sign the contract.",
+        "uk": "За цієї умови я готовий підписати договір.",
+        "ar": "بهذا الشرط أنا مستعد لتوقيع العقد.",
+        "it": "A questa condizione sono disposto a firmare il contratto."
+      },
+      "note": "unter der Bedingung, dass …; Arbeitsbedingungen (Pl.)"
+    },
+    {
+      "id": "verkuerzen",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "verkürzen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "verkürzt",
+        "praeteritum": "verkürzte",
+        "perfekt": "hat verkürzt"
+      },
+      "meaning": {
+        "de": "Etwas kürzer machen (Zeit oder Länge)",
+        "tr": "kısaltmak",
+        "en": "to shorten, to reduce",
+        "uk": "скорочувати, вкорочувати",
+        "ar": "يقصّر، يختصر",
+        "it": "accorciare, ridurre"
+      },
+      "synonyms": [
+        "kürzen",
+        "reduzieren"
+      ],
+      "antonyms": [
+        "verlängern"
+      ],
+      "example": {
+        "de": "Die Probezeit kann auf drei Monate verkürzt werden.",
+        "tr": "Deneme süresi üç aya kısaltılabilir.",
+        "en": "The probationary period can be shortened to three months.",
+        "uk": "Випробувальний термін можна скоротити до трьох місяців.",
+        "ar": "يمكن تقصير فترة التجربة إلى ثلاثة أشهر.",
+        "it": "Il periodo di prova può essere ridotto a tre mesi."
+      },
+      "note": "etwas (Akk.) (auf etwas Akk.) verkürzen"
+    },
+    {
+      "id": "verlaufen",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "verlaufen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "verläuft",
+        "praeteritum": "verlief",
+        "perfekt": "ist verlaufen"
+      },
+      "meaning": {
+        "de": "1. auf eine bestimmte Weise ablaufen oder geschehen; 2. sich in eine Richtung erstrecken",
+        "tr": "1. geçmek, cereyan etmek; 2. uzanmak",
+        "en": "1. to go, to proceed; 2. to run (in a direction)",
+        "uk": "1. проходити, перебігати; 2. пролягати",
+        "ar": "يجري، يسير؛ يمتدّ",
+        "it": "1. svolgersi, andare; 2. estendersi"
+      },
+      "synonyms": [
+        "ablaufen",
+        "vonstattengehen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Das Vorstellungsgespräch ist sehr gut verlaufen.",
+        "tr": "İş görüşmesi çok iyi geçti.",
+        "en": "The job interview went very well.",
+        "uk": "Співбесіда пройшла дуже добре.",
+        "ar": "جرت مقابلة العمل بشكل جيد جدًا.",
+        "it": "Il colloquio di lavoro è andato molto bene."
+      },
+      "note": "intransitiv (ohne Objekt); gut / schlecht verlaufen; reflexiv „sich verlaufen“ = sich verirren (hat sich verlaufen)"
+    },
+    {
+      "id": "sich-scheuen",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "sich scheuen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": true,
+      "forms": {
+        "praesens": "scheut sich",
+        "praeteritum": "scheute sich",
+        "perfekt": "hat sich gescheut"
+      },
+      "meaning": {
+        "de": "Etwas aus Angst oder Unsicherheit nicht tun wollen",
+        "tr": "çekinmek, kaçınmak",
+        "en": "to shy away from, to be afraid of",
+        "uk": "цуратися, боятися, соромитися",
+        "ar": "يتردّد في، يتهيّب",
+        "it": "rifuggire da, aver timore di"
+      },
+      "synonyms": [
+        "zurückschrecken",
+        "sich fürchten"
+      ],
+      "antonyms": [
+        "sich trauen",
+        "wagen"
+      ],
+      "example": {
+        "de": "Er scheut sich vor schwierigen Gesprächen mit dem Chef.",
+        "tr": "Şefle zor konuşmalardan çekiniyor.",
+        "en": "He shies away from difficult conversations with the boss.",
+        "uk": "Він уникає складних розмов із начальником.",
+        "ar": "يتهيّب المحادثات الصعبة مع المدير.",
+        "it": "Rifugge dalle conversazioni difficili con il capo."
+      },
+      "note": "sich (Akk.) vor etwas (Dat.) scheuen; sich nicht scheuen, etwas zu tun"
+    },
+    {
+      "id": "zusatzleistung",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "Zusatzleistung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Zusatzleistungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Leistung, die man zusätzlich zum Normalen bekommt, z. B. vom Arbeitgeber",
+        "tr": "ek hizmet, ek ödeme, yan hak",
+        "en": "additional benefit, extra service",
+        "uk": "додаткова послуга, додаткова пільга",
+        "ar": "خدمة إضافية، ميزة إضافية",
+        "it": "prestazione aggiuntiva, benefit"
+      },
+      "synonyms": [
+        "die Sonderleistung",
+        "der Bonus"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Als Zusatzleistung bietet die Firma ein kostenloses Jobticket an.",
+        "tr": "Şirket ek hak olarak ücretsiz bir toplu taşıma kartı sunuyor.",
+        "en": "As an additional benefit, the company offers a free public transport ticket.",
+        "uk": "Як додаткову пільгу компанія пропонує безкоштовний проїзний.",
+        "ar": "تقدّم الشركة تذكرة نقل مجانية كميزة إضافية.",
+        "it": "Come benefit aggiuntivo, l'azienda offre un abbonamento gratuito ai mezzi pubblici."
+      },
+      "note": null
+    },
+    {
+      "id": "betriebsrat",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "Betriebsrat",
+      "type": "noun",
+      "article": "der",
+      "plural": "Betriebsräte",
+      "reflexive": false,
+      "meaning": {
+        "de": "Gewählte Vertretung der Arbeitnehmer in einem Betrieb",
+        "tr": "işçi temsilciliği, işyeri konseyi",
+        "en": "works council",
+        "uk": "рада працівників, виробнича рада",
+        "ar": "مجلس العمّال (في المنشأة)",
+        "it": "consiglio di fabbrica, rappresentanza dei lavoratori"
+      },
+      "synonyms": [
+        "die Arbeitnehmervertretung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Bei Kündigungen muss der Betriebsrat angehört werden.",
+        "tr": "İşten çıkarmalarda işçi temsilciliğinin görüşü alınmalıdır.",
+        "en": "The works council must be consulted in the case of dismissals.",
+        "uk": "У разі звільнень необхідно заслухати раду працівників.",
+        "ar": "يجب استشارة مجلس العمّال في حالات الفصل.",
+        "it": "In caso di licenziamenti deve essere sentito il consiglio di fabbrica."
+      },
+      "note": "auch: das Mitglied des Betriebsrats (der Betriebsrat / die Betriebsrätin)"
+    },
+    {
+      "id": "kleingedruckt",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "kleingedruckt",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "In sehr kleiner Schrift gedruckt; das Kleingedruckte = wichtige Details im Vertrag",
+        "tr": "küçük harflerle basılmış; (sözleşmedeki) ince ayrıntılar",
+        "en": "printed in small type; the small print / fine print",
+        "uk": "надрукований дрібним шрифтом",
+        "ar": "مطبوع بخط صغير",
+        "it": "stampato in piccolo; clausole in piccolo"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Lies vor der Unterschrift unbedingt das Kleingedruckte!",
+        "tr": "İmzalamadan önce mutlaka küçük harfli kısımları oku!",
+        "en": "Be sure to read the small print before signing!",
+        "uk": "Обов'язково прочитай дрібний шрифт перед підписанням!",
+        "ar": "اقرأ ما هو مكتوب بالخط الصغير قبل التوقيع حتمًا!",
+        "it": "Leggi assolutamente le clausole in piccolo prima di firmare!"
+      },
+      "note": "Nomen: das Kleingedruckte (Pl. nicht üblich)"
+    },
+    {
+      "id": "wettbewerbsausschlussklausel",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "Wettbewerbsausschlussklausel",
+      "type": "noun",
+      "article": "die",
+      "plural": "Wettbewerbsausschlussklauseln",
+      "reflexive": false,
+      "meaning": {
+        "de": "Regel im Arbeitsvertrag, dass man nach dem Ende nicht für die Konkurrenz arbeiten darf",
+        "tr": "rekabet yasağı maddesi",
+        "en": "non-compete clause",
+        "uk": "пункт про заборону конкуренції",
+        "ar": "بند عدم المنافسة",
+        "it": "clausola di non concorrenza"
+      },
+      "synonyms": [
+        "die Wettbewerbsklausel",
+        "die Konkurrenzklausel",
+        "das Wettbewerbsverbot"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Laut der Wettbewerbsausschlussklausel darf er zwei Jahre nicht bei der Konkurrenz arbeiten.",
+        "tr": "Rekabet yasağı maddesine göre iki yıl rakip firmada çalışamaz.",
+        "en": "According to the non-compete clause, he may not work for a competitor for two years.",
+        "uk": "Згідно з пунктом про заборону конкуренції він два роки не може працювати в конкурентів.",
+        "ar": "وفقًا لبند عدم المنافسة لا يجوز له العمل لدى منافس لمدة عامين.",
+        "it": "Secondo la clausola di non concorrenza, non può lavorare per la concorrenza per due anni."
+      },
+      "note": null
+    },
+    {
+      "id": "verschwiegenheitsvereinbarung",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "Verschwiegenheitsvereinbarung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Verschwiegenheitsvereinbarungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Vertrag, in dem man verspricht, vertrauliche Informationen nicht weiterzugeben",
+        "tr": "gizlilik sözleşmesi",
+        "en": "non-disclosure agreement, confidentiality agreement",
+        "uk": "угода про нерозголошення",
+        "ar": "اتفاقية عدم الإفصاح، اتفاقية السرّية",
+        "it": "accordo di riservatezza"
+      },
+      "synonyms": [
+        "die Geheimhaltungsvereinbarung",
+        "die Vertraulichkeitsvereinbarung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Vor dem Projekt mussten alle eine Verschwiegenheitsvereinbarung unterschreiben.",
+        "tr": "Projeden önce herkes bir gizlilik sözleşmesi imzalamak zorundaydı.",
+        "en": "Before the project, everyone had to sign a non-disclosure agreement.",
+        "uk": "Перед проєктом усі мали підписати угоду про нерозголошення.",
+        "ar": "قبل المشروع كان على الجميع توقيع اتفاقية عدم إفصاح.",
+        "it": "Prima del progetto tutti hanno dovuto firmare un accordo di riservatezza."
+      },
+      "note": "die Verschwiegenheit = die Pflicht zu schweigen"
+    },
+    {
+      "id": "schweigen",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "schweigen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "schweigt",
+        "praeteritum": "schwieg",
+        "perfekt": "hat geschwiegen"
+      },
+      "meaning": {
+        "de": "Nichts sagen, still sein",
+        "tr": "susmak, sessiz kalmak",
+        "en": "to be silent, to keep quiet",
+        "uk": "мовчати",
+        "ar": "يصمت، يسكت",
+        "it": "tacere, stare zitto"
+      },
+      "synonyms": [
+        "still sein",
+        "verschweigen"
+      ],
+      "antonyms": [
+        "reden",
+        "sprechen"
+      ],
+      "example": {
+        "de": "Über interne Informationen muss er gegenüber Dritten schweigen.",
+        "tr": "Şirket içi bilgiler hakkında üçüncü kişilere karşı susmak zorunda.",
+        "en": "He must keep quiet about internal information towards third parties.",
+        "uk": "Про внутрішню інформацію він має мовчати перед третіми особами.",
+        "ar": "يجب أن يصمت بشأن المعلومات الداخلية أمام الغير.",
+        "it": "Deve tacere con terzi sulle informazioni interne."
+      },
+      "note": "intransitiv; über etwas (Akk.) / zu etwas (Dat.) schweigen"
+    },
+    {
+      "id": "betriebszugehoerigkeit",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "Betriebszugehörigkeit",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Die Zeit, die man schon bei derselben Firma arbeitet",
+        "tr": "kıdem, aynı işyerinde çalışma süresi",
+        "en": "length of service, seniority",
+        "uk": "стаж роботи на підприємстві",
+        "ar": "مدة الخدمة في المنشأة",
+        "it": "anzianità di servizio"
+      },
+      "synonyms": [
+        "die Dienstzeit",
+        "die Firmenzugehörigkeit"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Kündigungsfrist hängt von der Dauer der Betriebszugehörigkeit ab.",
+        "tr": "İhbar süresi kıdem süresine bağlıdır.",
+        "en": "The notice period depends on the length of service.",
+        "uk": "Строк попередження про звільнення залежить від стажу роботи на підприємстві.",
+        "ar": "تعتمد مهلة الإشعار على مدة الخدمة في المنشأة.",
+        "it": "Il periodo di preavviso dipende dall'anzianità di servizio."
+      },
+      "note": null
+    },
+    {
+      "id": "urheber",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "Urheber",
+      "type": "noun",
+      "article": "der",
+      "plural": "Urheber",
+      "reflexive": false,
+      "meaning": {
+        "de": "Person, die etwas geschaffen hat, z. B. ein Werk, einen Text oder eine Idee",
+        "tr": "yaratıcı, eser sahibi, fail",
+        "en": "author, creator, originator",
+        "uk": "автор, творець",
+        "ar": "المؤلّف، صاحب العمل، المُبدع",
+        "it": "autore, creatore"
+      },
+      "synonyms": [
+        "der Autor",
+        "der Schöpfer",
+        "der Verursacher"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Urheber des Fotos muss genannt werden.",
+        "tr": "Fotoğrafın sahibi belirtilmelidir.",
+        "en": "The creator of the photo must be credited.",
+        "uk": "Автора фотографії потрібно вказати.",
+        "ar": "يجب ذكر صاحب الصورة.",
+        "it": "L'autore della foto deve essere citato."
+      },
+      "note": "die Urheberin"
+    },
+    {
+      "id": "urheberrecht",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "Urheberrecht",
+      "type": "noun",
+      "article": "das",
+      "plural": "Urheberrechte",
+      "reflexive": false,
+      "meaning": {
+        "de": "Gesetzliches Recht des Urhebers an seinem Werk",
+        "tr": "telif hakkı",
+        "en": "copyright",
+        "uk": "авторське право",
+        "ar": "حقوق التأليف والنشر",
+        "it": "diritto d'autore"
+      },
+      "synonyms": [
+        "das Copyright"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Software ist durch das Urheberrecht geschützt.",
+        "tr": "Yazılım telif hakkı ile korunmaktadır.",
+        "en": "The software is protected by copyright.",
+        "uk": "Програмне забезпечення захищене авторським правом.",
+        "ar": "البرنامج محمي بحقوق التأليف والنشر.",
+        "it": "Il software è protetto dal diritto d'autore."
+      },
+      "note": "gegen das Urheberrecht verstoßen"
+    },
+    {
+      "id": "erfolgen",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "erfolgen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "erfolgt",
+        "praeteritum": "erfolgte",
+        "perfekt": "ist erfolgt"
+      },
+      "meaning": {
+        "de": "Geschehen, stattfinden (formell)",
+        "tr": "gerçekleşmek, yapılmak, olmak",
+        "en": "to take place, to occur, to be carried out",
+        "uk": "відбуватися, здійснюватися",
+        "ar": "يتمّ، يحدث",
+        "it": "avvenire, essere effettuato"
+      },
+      "synonyms": [
+        "geschehen",
+        "stattfinden",
+        "passieren"
+      ],
+      "antonyms": [
+        "ausbleiben"
+      ],
+      "example": {
+        "de": "Die Zahlung erfolgt innerhalb von 14 Tagen.",
+        "tr": "Ödeme 14 gün içinde yapılır.",
+        "en": "Payment will be made within 14 days.",
+        "uk": "Оплата здійснюється протягом 14 днів.",
+        "ar": "يتمّ الدفع خلال 14 يومًا.",
+        "it": "Il pagamento avviene entro 14 giorni."
+      },
+      "note": "intransitiv (ohne Objekt); Amtssprache: Die Kündigung erfolgt schriftlich."
+    },
+    {
+      "id": "aufhebungsvertrag",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "Aufhebungsvertrag",
+      "type": "noun",
+      "article": "der",
+      "plural": "Aufhebungsverträge",
+      "reflexive": false,
+      "meaning": {
+        "de": "Vertrag, mit dem Arbeitgeber und Arbeitnehmer das Arbeitsverhältnis gemeinsam beenden",
+        "tr": "karşılıklı fesih sözleşmesi, ikale sözleşmesi",
+        "en": "termination agreement, severance agreement",
+        "uk": "угода про розірвання трудового договору",
+        "ar": "اتفاقية إنهاء العقد بالتراضي",
+        "it": "accordo di risoluzione consensuale"
+      },
+      "synonyms": [
+        "der Auflösungsvertrag"
+      ],
+      "antonyms": [
+        "der Arbeitsvertrag"
+      ],
+      "example": {
+        "de": "Statt einer Kündigung schlug die Firma einen Aufhebungsvertrag vor.",
+        "tr": "Şirket işten çıkarma yerine karşılıklı fesih sözleşmesi önerdi.",
+        "en": "Instead of a dismissal, the company proposed a termination agreement.",
+        "uk": "Замість звільнення компанія запропонувала угоду про розірвання договору.",
+        "ar": "بدلًا من الفصل اقترحت الشركة اتفاقية إنهاء بالتراضي.",
+        "it": "Invece di un licenziamento, l'azienda ha proposto un accordo di risoluzione consensuale."
+      },
+      "note": "einen Aufhebungsvertrag schließen / unterschreiben"
+    },
+    {
+      "id": "weiterhin",
+      "source": "notes",
+      "date": "2026-11-03",
+      "word": "weiterhin",
+      "type": "adverb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Auch in Zukunft, immer noch; außerdem",
+        "tr": "bundan sonra da, hâlâ, ayrıca",
+        "en": "still, continue to; furthermore",
+        "uk": "і надалі, як і раніше; крім того",
+        "ar": "لا يزال، مستقبلًا أيضًا؛ علاوة على ذلك",
+        "it": "ancora, continuare a; inoltre"
+      },
+      "synonyms": [
+        "weiter",
+        "nach wie vor",
+        "außerdem"
+      ],
+      "antonyms": [
+        "nicht mehr"
+      ],
+      "example": {
+        "de": "Wir wünschen Ihnen weiterhin viel Erfolg.",
+        "tr": "Size bundan sonra da başarılar diliyoruz.",
+        "en": "We wish you continued success.",
+        "uk": "Бажаємо вам і надалі успіхів.",
+        "ar": "نتمنى لكم مزيدًا من النجاح مستقبلًا.",
+        "it": "Le auguriamo ancora molto successo."
+      },
+      "note": null
     }
   ]
 }
