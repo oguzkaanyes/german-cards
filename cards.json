@@ -18371,6 +18371,1069 @@
         "it": "Le auguriamo ancora molto successo."
       },
       "note": null
+    },
+    {
+      "id": "endgueltig",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "endgültig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "So, dass sich danach nichts mehr ändert; abschließend und fest entschieden",
+        "tr": "kesin, nihai",
+        "en": "final, definitive",
+        "uk": "остаточний",
+        "ar": "نهائي",
+        "it": "definitivo"
+      },
+      "synonyms": [
+        "definitiv",
+        "abschließend"
+      ],
+      "antonyms": [
+        "vorläufig"
+      ],
+      "example": {
+        "de": "Die endgültige Entscheidung fällt nächste Woche.",
+        "tr": "Nihai karar gelecek hafta verilecek.",
+        "en": "The final decision will be made next week.",
+        "uk": "Остаточне рішення буде ухвалено наступного тижня.",
+        "ar": "سيُتَّخذ القرار النهائي الأسبوع المقبل.",
+        "it": "La decisione definitiva verrà presa la prossima settimana."
+      },
+      "note": null
+    },
+    {
+      "id": "einzelheit",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "Einzelheit",
+      "type": "noun",
+      "article": "die",
+      "plural": "Einzelheiten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein kleiner, genauer Teil einer Sache oder Information",
+        "tr": "ayrıntı, detay",
+        "en": "detail",
+        "uk": "подробиця, деталь",
+        "ar": "تفصيل",
+        "it": "dettaglio, particolare"
+      },
+      "synonyms": [
+        "das Detail"
+      ],
+      "antonyms": [
+        "der Überblick"
+      ],
+      "example": {
+        "de": "Die Einzelheiten besprechen wir im Vorstellungsgespräch.",
+        "tr": "Ayrıntıları iş görüşmesinde konuşacağız.",
+        "en": "We will discuss the details in the job interview.",
+        "uk": "Подробиці ми обговоримо на співбесіді.",
+        "ar": "سنناقش التفاصيل في مقابلة العمل.",
+        "it": "Discuteremo i dettagli durante il colloquio di lavoro."
+      },
+      "note": "meist im Plural: die Einzelheiten; in allen Einzelheiten"
+    },
+    {
+      "id": "bisherig",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "bisherig",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Bis jetzt bestehend oder gültig",
+        "tr": "şimdiye kadarki, önceki",
+        "en": "previous, existing so far",
+        "uk": "дотеперішній, попередній",
+        "ar": "السابق، القائم حتى الآن",
+        "it": "precedente, finora vigente"
+      },
+      "synonyms": [
+        "vorherig",
+        "früher"
+      ],
+      "antonyms": [
+        "künftig"
+      ],
+      "example": {
+        "de": "Ihre bisherige Berufserfahrung passt gut zu dieser Stelle.",
+        "tr": "Şimdiye kadarki iş deneyiminiz bu pozisyona çok uyuyor.",
+        "en": "Your previous work experience is a good fit for this position.",
+        "uk": "Ваш дотеперішній професійний досвід добре відповідає цій посаді.",
+        "ar": "تتناسب خبرتك المهنية السابقة جيدًا مع هذه الوظيفة.",
+        "it": "La Sua esperienza professionale precedente è molto adatta a questa posizione."
+      },
+      "note": "nur vor Nomen: die bisherige Regelung; Adverb: bisher"
+    },
+    {
+      "id": "erfahren",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "erfahren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "erfährt",
+        "praeteritum": "erfuhr",
+        "perfekt": "hat erfahren"
+      },
+      "meaning": {
+        "de": "Eine neue Information bekommen; etwas durch andere oder durch Erleben kennenlernen",
+        "tr": "öğrenmek, haberdar olmak",
+        "en": "to find out, to learn",
+        "uk": "дізнаватися, довідуватися",
+        "ar": "يعرف، يعلم بـ",
+        "it": "venire a sapere, apprendere"
+      },
+      "synonyms": [
+        "hören",
+        "herausfinden"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Wann erfahre ich, ob ich die Stelle bekomme?",
+        "tr": "İşi alıp almadığımı ne zaman öğreneceğim?",
+        "en": "When will I find out whether I got the job?",
+        "uk": "Коли я дізнаюся, чи отримаю цю посаду?",
+        "ar": "متى سأعرف ما إذا كنت سأحصل على الوظيفة؟",
+        "it": "Quando saprò se ottengo il posto?"
+      },
+      "note": "etwas (Akk.) von jemandem (Dat.) erfahren; von etwas (Dat.) erfahren; als Adjektiv: erfahren = mit viel Erfahrung"
+    },
+    {
+      "id": "in-bezug-auf",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "in Bezug auf",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Wenn es um eine bestimmte Sache geht; was etwas betrifft",
+        "tr": "ile ilgili olarak, -e ilişkin",
+        "en": "with regard to, regarding",
+        "uk": "щодо, стосовно",
+        "ar": "فيما يتعلق بـ",
+        "it": "riguardo a, in merito a"
+      },
+      "synonyms": [
+        "bezüglich",
+        "hinsichtlich"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "In Bezug auf das Gehalt haben wir noch Fragen.",
+        "tr": "Maaşla ilgili olarak hâlâ sorularımız var.",
+        "en": "We still have questions with regard to the salary.",
+        "uk": "Щодо зарплати в нас ще є запитання.",
+        "ar": "لا تزال لدينا أسئلة فيما يتعلق بالراتب.",
+        "it": "Riguardo allo stipendio abbiamo ancora delle domande."
+      },
+      "note": "in Bezug auf + Akk."
+    },
+    {
+      "id": "regelung",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "Regelung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Regelungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine feste Vorschrift oder Vereinbarung, die bestimmt, wie etwas gemacht wird",
+        "tr": "düzenleme, kural",
+        "en": "regulation, rule, arrangement",
+        "uk": "положення, правило, врегулювання",
+        "ar": "تنظيم، لائحة",
+        "it": "regolamento, disposizione"
+      },
+      "synonyms": [
+        "die Vorschrift",
+        "die Vereinbarung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Diese Regelung gilt für alle Mitarbeitenden.",
+        "tr": "Bu düzenleme tüm çalışanlar için geçerlidir.",
+        "en": "This rule applies to all employees.",
+        "uk": "Це правило діє для всіх працівників.",
+        "ar": "تسري هذه اللائحة على جميع الموظفين.",
+        "it": "Questa disposizione vale per tutti i dipendenti."
+      },
+      "note": "eine Regelung für etwas (Akk.) treffen; Verb: regeln"
+    },
+    {
+      "id": "gemaess",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "gemäß",
+      "type": "adverb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "So, wie es eine Regel, ein Vertrag oder eine Vorgabe verlangt",
+        "tr": "-e göre, -e uygun olarak",
+        "en": "according to, in accordance with",
+        "uk": "згідно з, відповідно до",
+        "ar": "وفقًا لـ",
+        "it": "secondo, conformemente a"
+      },
+      "synonyms": [
+        "entsprechend",
+        "laut"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Gemäß dem Vertrag beträgt die Kündigungsfrist drei Monate.",
+        "tr": "Sözleşmeye göre fesih bildirim süresi üç aydır.",
+        "en": "According to the contract, the notice period is three months.",
+        "uk": "Згідно з договором, строк повідомлення про звільнення становить три місяці.",
+        "ar": "وفقًا للعقد، تبلغ مدة الإشعار بالفسخ ثلاثة أشهر.",
+        "it": "Secondo il contratto, il termine di preavviso è di tre mesi."
+      },
+      "note": "Präposition mit Dativ: gemäß dem Vertrag / dem Vertrag gemäß"
+    },
+    {
+      "id": "auswahlverfahren",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "Auswahlverfahren",
+      "type": "noun",
+      "article": "das",
+      "plural": "Auswahlverfahren",
+      "reflexive": false,
+      "meaning": {
+        "de": "Prozess, in dem aus mehreren Personen die passende für eine Stelle oder einen Platz bestimmt wird",
+        "tr": "seçme süreci, eleme süreci",
+        "en": "selection process",
+        "uk": "процедура відбору",
+        "ar": "عملية الاختيار",
+        "it": "procedura di selezione"
+      },
+      "synonyms": [
+        "das Bewerbungsverfahren"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Am Auswahlverfahren nehmen noch drei Personen teil.",
+        "tr": "Seçme sürecine hâlâ üç kişi katılıyor.",
+        "en": "Three people are still taking part in the selection process.",
+        "uk": "У процедурі відбору ще беруть участь три особи.",
+        "ar": "لا يزال ثلاثة أشخاص يشاركون في عملية الاختيار.",
+        "it": "Alla procedura di selezione partecipano ancora tre persone."
+      },
+      "note": "an einem Auswahlverfahren teilnehmen; die Auswahl + das Verfahren"
+    },
+    {
+      "id": "geschuetzt",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "geschützt",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Sicher vor Gefahr, Schaden oder fremdem Zugriff",
+        "tr": "korunan, korunmuş",
+        "en": "protected",
+        "uk": "захищений",
+        "ar": "محميّ",
+        "it": "protetto"
+      },
+      "synonyms": [
+        "gesichert",
+        "sicher"
+      ],
+      "antonyms": [
+        "ungeschützt"
+      ],
+      "example": {
+        "de": "Ihre persönlichen Daten sind bei uns geschützt.",
+        "tr": "Kişisel verileriniz bizde korunur.",
+        "en": "Your personal data is protected with us.",
+        "uk": "Ваші персональні дані у нас захищені.",
+        "ar": "بياناتك الشخصية محمية لدينا.",
+        "it": "I Suoi dati personali sono protetti da noi."
+      },
+      "note": "Partizip II von „schützen“; vor etwas (Dat.) geschützt sein"
+    },
+    {
+      "id": "anzahl",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "Anzahl",
+      "type": "noun",
+      "article": "die",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Wie viele Personen oder Dinge es gibt; die Menge in Zahlen",
+        "tr": "sayı, adet",
+        "en": "number, quantity",
+        "uk": "кількість",
+        "ar": "عدد",
+        "it": "numero, quantità"
+      },
+      "synonyms": [
+        "die Menge",
+        "die Zahl"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Anzahl der Bewerbungen ist dieses Jahr gestiegen.",
+        "tr": "Başvuru sayısı bu yıl arttı.",
+        "en": "The number of applications has increased this year.",
+        "uk": "Кількість заявок цього року зросла.",
+        "ar": "ارتفع عدد الطلبات هذا العام.",
+        "it": "Il numero delle candidature è aumentato quest'anno."
+      },
+      "note": "die Anzahl + Gen. oder an + Dat.: eine große Anzahl an Bewerbungen"
+    },
+    {
+      "id": "fragebogen",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "Fragebogen",
+      "type": "noun",
+      "article": "der",
+      "plural": "Fragebogen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Blatt oder Formular mit vielen Fragen, die man schriftlich beantwortet",
+        "tr": "anket, soru formu",
+        "en": "questionnaire",
+        "uk": "анкета, опитувальник",
+        "ar": "استبيان",
+        "it": "questionario"
+      },
+      "synonyms": [
+        "der Erhebungsbogen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Bitte füllen Sie den Fragebogen vor dem Gespräch aus.",
+        "tr": "Lütfen görüşmeden önce soru formunu doldurun.",
+        "en": "Please fill out the questionnaire before the interview.",
+        "uk": "Будь ласка, заповніть анкету перед співбесідою.",
+        "ar": "يرجى ملء الاستبيان قبل المقابلة.",
+        "it": "Per favore, compili il questionario prima del colloquio."
+      },
+      "note": "Plural auch: Fragebögen; einen Fragebogen ausfüllen"
+    },
+    {
+      "id": "vertragsverhandlung",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "Vertragsverhandlung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Vertragsverhandlungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Gespräch, in dem die Seiten über die Bedingungen einer schriftlichen Vereinbarung sprechen",
+        "tr": "sözleşme görüşmesi, sözleşme müzakeresi",
+        "en": "contract negotiation",
+        "uk": "переговори щодо договору",
+        "ar": "مفاوضات العقد",
+        "it": "trattativa contrattuale"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Die Vertragsverhandlungen werden nächste Woche fortgesetzt.",
+        "tr": "Sözleşme görüşmelerine gelecek hafta devam edilecek.",
+        "en": "The contract negotiations will continue next week.",
+        "uk": "Переговори щодо договору продовжаться наступного тижня.",
+        "ar": "ستستمر مفاوضات العقد الأسبوع المقبل.",
+        "it": "Le trattative contrattuali proseguiranno la prossima settimana."
+      },
+      "note": "meist im Plural: die Vertragsverhandlungen; der Vertrag + die Verhandlung"
+    },
+    {
+      "id": "bieten",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "bieten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "bietet",
+        "praeteritum": "bot",
+        "perfekt": "hat geboten"
+      },
+      "meaning": {
+        "de": "Jemandem etwas zur Verfügung stellen oder möglich machen",
+        "tr": "sunmak, teklif etmek",
+        "en": "to offer, to provide",
+        "uk": "пропонувати, надавати",
+        "ar": "يقدّم، يوفّر",
+        "it": "offrire"
+      },
+      "synonyms": [
+        "anbieten",
+        "geben"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Wir bieten Ihnen einen sicheren Arbeitsplatz und gute Weiterbildungen.",
+        "tr": "Size güvenli bir iş yeri ve iyi mesleki gelişim imkânları sunuyoruz.",
+        "en": "We offer you a secure job and good further training.",
+        "uk": "Ми пропонуємо вам надійне робоче місце й хороше підвищення кваліфікації.",
+        "ar": "نقدّم لكم وظيفة آمنة وتدريبًا مهنيًا جيدًا.",
+        "it": "Le offriamo un posto di lavoro sicuro e buone opportunità di formazione continua."
+      },
+      "note": "jemandem (Dat.) etwas (Akk.) bieten; sich bieten = sich ergeben (eine Chance bietet sich)"
+    },
+    {
+      "id": "einstimmen",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "einstimmen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "stimmt ein",
+        "praeteritum": "stimmte ein",
+        "perfekt": "hat eingestimmt"
+      },
+      "meaning": {
+        "de": "Jemanden oder sich selbst innerlich auf ein Ereignis vorbereiten",
+        "tr": "(bir şeye) hazırlamak, moduna sokmak",
+        "en": "to get someone in the mood, to prepare mentally",
+        "uk": "налаштовувати",
+        "ar": "يهيّئ نفسيًا",
+        "it": "preparare, mettere nello spirito giusto"
+      },
+      "synonyms": [
+        "vorbereiten",
+        "einstellen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Chef stimmte das Team auf die neue Aufgabe ein.",
+        "tr": "Şef, ekibi yeni göreve hazırladı.",
+        "en": "The boss got the team ready for the new task.",
+        "uk": "Керівник налаштував команду на нове завдання.",
+        "ar": "هيّأ المدير الفريق نفسيًا للمهمة الجديدة.",
+        "it": "Il capo ha preparato il team al nuovo compito."
+      },
+      "note": "jemanden (Akk.) auf etwas (Akk.) einstimmen; sich (Akk.) auf etwas (Akk.) einstimmen; auch: in etwas (Akk.) einstimmen = mitmachen, mitsingen"
+    },
+    {
+      "id": "anweisung",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "Anweisung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Anweisungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Ein Hinweis oder Befehl, der sagt, was man tun soll",
+        "tr": "talimat, yönerge",
+        "en": "instruction, directive",
+        "uk": "вказівка, інструкція",
+        "ar": "تعليمات، توجيه",
+        "it": "istruzione, direttiva"
+      },
+      "synonyms": [
+        "die Vorgabe",
+        "die Instruktion"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Bitte befolgen Sie die Anweisungen Ihres Vorgesetzten.",
+        "tr": "Lütfen amirinizin talimatlarına uyun.",
+        "en": "Please follow your supervisor's instructions.",
+        "uk": "Будь ласка, виконуйте вказівки свого керівника.",
+        "ar": "يرجى اتباع تعليمات مديرك.",
+        "it": "Per favore, segua le istruzioni del Suo superiore."
+      },
+      "note": "Anweisungen befolgen / geben; Verb: anweisen"
+    },
+    {
+      "id": "ausfuehren",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "ausführen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "führt aus",
+        "praeteritum": "führte aus",
+        "perfekt": "hat ausgeführt"
+      },
+      "meaning": {
+        "de": "Eine Aufgabe oder einen Auftrag machen und erledigen",
+        "tr": "yerine getirmek, uygulamak",
+        "en": "to carry out, to execute",
+        "uk": "виконувати",
+        "ar": "ينفّذ",
+        "it": "eseguire, svolgere"
+      },
+      "synonyms": [
+        "erledigen",
+        "durchführen"
+      ],
+      "antonyms": [
+        "unterlassen"
+      ],
+      "example": {
+        "de": "Er führt die Anweisungen seines Chefs genau aus.",
+        "tr": "Şefinin talimatlarını tam olarak yerine getiriyor.",
+        "en": "He carries out his boss's instructions exactly.",
+        "uk": "Він точно виконує вказівки свого керівника.",
+        "ar": "إنه ينفّذ تعليمات مديره بدقة.",
+        "it": "Esegue con precisione le istruzioni del suo capo."
+      },
+      "note": "etwas (Akk.) ausführen; auch: etwas genauer erklären; jemanden (Akk.) ausführen = mit jemandem ausgehen"
+    },
+    {
+      "id": "bewahren",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "bewahren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "bewahrt",
+        "praeteritum": "bewahrte",
+        "perfekt": "hat bewahrt"
+      },
+      "meaning": {
+        "de": "Etwas so erhalten, dass es nicht verloren geht oder bekannt wird",
+        "tr": "korumak, saklamak, muhafaza etmek",
+        "en": "to keep, to preserve",
+        "uk": "зберігати",
+        "ar": "يحافظ على، يحفظ",
+        "it": "conservare, mantenere"
+      },
+      "synonyms": [
+        "erhalten",
+        "behalten"
+      ],
+      "antonyms": [
+        "verlieren"
+      ],
+      "example": {
+        "de": "Bitte bewahren Sie in dieser Sache Stillschweigen.",
+        "tr": "Lütfen bu konuda gizliliği koruyun.",
+        "en": "Please maintain confidentiality in this matter.",
+        "uk": "Будь ласка, зберігайте мовчання в цій справі.",
+        "ar": "يرجى الحفاظ على السرية في هذا الأمر.",
+        "it": "La prego di mantenere il riserbo su questa faccenda."
+      },
+      "note": "etwas (Akk.) bewahren; jemanden (Akk.) vor etwas (Dat.) bewahren; Ruhe / Stillschweigen bewahren"
+    },
+    {
+      "id": "angelegenheit",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "Angelegenheit",
+      "type": "noun",
+      "article": "die",
+      "plural": "Angelegenheiten",
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Sache oder ein Thema, um das man sich kümmern muss",
+        "tr": "mesele, konu, iş",
+        "en": "matter, affair",
+        "uk": "справа, питання",
+        "ar": "شأن، مسألة",
+        "it": "questione, faccenda"
+      },
+      "synonyms": [
+        "die Sache",
+        "das Anliegen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ich möchte diese Angelegenheit persönlich mit Ihnen besprechen.",
+        "tr": "Bu konuyu sizinle şahsen görüşmek istiyorum.",
+        "en": "I would like to discuss this matter with you in person.",
+        "uk": "Я хотів би обговорити цю справу з вами особисто.",
+        "ar": "أود مناقشة هذه المسألة معك شخصيًا.",
+        "it": "Vorrei discutere questa questione con Lei di persona."
+      },
+      "note": "sich um eine Angelegenheit kümmern; persönliche / geschäftliche Angelegenheiten"
+    },
+    {
+      "id": "stillschweigen",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "Stillschweigen",
+      "type": "noun",
+      "article": "das",
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Das Nichtsprechen über eine Sache, die geheim bleiben soll",
+        "tr": "sessizlik, gizlilik, ketumiyet",
+        "en": "silence, confidentiality",
+        "uk": "мовчання, нерозголошення",
+        "ar": "الصمت، الكتمان",
+        "it": "silenzio, riserbo"
+      },
+      "synonyms": [
+        "die Verschwiegenheit",
+        "die Geheimhaltung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Über den Inhalt des Vertrags vereinbaren beide Seiten Stillschweigen.",
+        "tr": "Her iki taraf, sözleşmenin içeriği hakkında gizlilik konusunda anlaşır.",
+        "en": "Both parties agree to keep the content of the contract confidential.",
+        "uk": "Обидві сторони домовляються про нерозголошення змісту договору.",
+        "ar": "يتفق الطرفان على كتمان مضمون العقد.",
+        "it": "Entrambe le parti concordano il riserbo sul contenuto del contratto."
+      },
+      "note": "über etwas (Akk.) Stillschweigen bewahren / vereinbaren"
+    },
+    {
+      "id": "fuer-sich-behalten",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "für sich behalten",
+      "type": "phrase",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Eine Information niemandem weitersagen",
+        "tr": "kendine saklamak, kimseye söylememek",
+        "en": "to keep to oneself",
+        "uk": "тримати при собі, нікому не розповідати",
+        "ar": "يحتفظ بالأمر لنفسه",
+        "it": "tenere per sé"
+      },
+      "synonyms": [
+        "verschweigen",
+        "geheim halten"
+      ],
+      "antonyms": [
+        "weitererzählen"
+      ],
+      "example": {
+        "de": "Bitte behalte diese Information für dich.",
+        "tr": "Lütfen bu bilgiyi kendine sakla.",
+        "en": "Please keep this information to yourself.",
+        "uk": "Будь ласка, тримай цю інформацію при собі.",
+        "ar": "من فضلك احتفظ بهذه المعلومة لنفسك.",
+        "it": "Per favore, tieni questa informazione per te."
+      },
+      "note": "etwas (Akk.) für sich behalten; behält – behielt – hat behalten"
+    },
+    {
+      "id": "wirken",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "wirken",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "wirkt",
+        "praeteritum": "wirkte",
+        "perfekt": "hat gewirkt"
+      },
+      "meaning": {
+        "de": "Einen bestimmten Eindruck machen oder einen Effekt haben",
+        "tr": "etkili olmak, etkilemek, izlenim bırakmak",
+        "en": "to seem, to have an effect",
+        "uk": "діяти, справляти враження",
+        "ar": "يؤثّر، يبدو",
+        "it": "fare effetto, sembrare"
+      },
+      "synonyms": [
+        "scheinen",
+        "sich auswirken"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Der Bewerber hat im Gespräch sehr sicher gewirkt.",
+        "tr": "Aday görüşmede çok özgüvenli göründü.",
+        "en": "The applicant seemed very confident in the interview.",
+        "uk": "Кандидат на співбесіді справив враження дуже впевненого.",
+        "ar": "بدا المتقدّم واثقًا جدًا في المقابلة.",
+        "it": "Il candidato è sembrato molto sicuro durante il colloquio."
+      },
+      "note": "auf jemanden (Akk.) wirken; auch intransitiv (ohne Objekt): Das Medikament wirkt."
+    },
+    {
+      "id": "beruehren",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "berühren",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "berührt",
+        "praeteritum": "berührte",
+        "perfekt": "hat berührt"
+      },
+      "meaning": {
+        "de": "Mit der Hand oder dem Körper an etwas kommen; auch: jemanden innerlich bewegen",
+        "tr": "dokunmak, etkilemek",
+        "en": "to touch",
+        "uk": "торкатися, зворушувати",
+        "ar": "يلمس، يؤثّر في",
+        "it": "toccare, commuovere"
+      },
+      "synonyms": [
+        "anfassen",
+        "bewegen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Bitte berühren Sie die Maschine nicht, solange sie läuft.",
+        "tr": "Lütfen makine çalışırken ona dokunmayın.",
+        "en": "Please do not touch the machine while it is running.",
+        "uk": "Будь ласка, не торкайтеся машини, поки вона працює.",
+        "ar": "يرجى عدم لمس الآلة أثناء تشغيلها.",
+        "it": "Per favore, non tocchi la macchina mentre è in funzione."
+      },
+      "note": "etwas/jemanden (Akk.) berühren; auch: Das berührt mich = das bewegt mich innerlich"
+    },
+    {
+      "id": "begruendung",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "Begründung",
+      "type": "noun",
+      "article": "die",
+      "plural": "Begründungen",
+      "reflexive": false,
+      "meaning": {
+        "de": "Erklärung, warum etwas so ist oder warum man etwas tut",
+        "tr": "gerekçe",
+        "en": "reason, justification",
+        "uk": "обґрунтування",
+        "ar": "تبرير، تعليل",
+        "it": "motivazione, giustificazione"
+      },
+      "synonyms": [
+        "der Grund",
+        "die Erklärung"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Kündigung muss eine schriftliche Begründung enthalten.",
+        "tr": "İşten çıkarma yazısı yazılı bir gerekçe içermelidir.",
+        "en": "The notice of termination must contain a written justification.",
+        "uk": "Повідомлення про звільнення має містити письмове обґрунтування.",
+        "ar": "يجب أن يتضمن إشعار الفصل تبريرًا مكتوبًا.",
+        "it": "La lettera di licenziamento deve contenere una motivazione scritta."
+      },
+      "note": "eine Begründung für etwas (Akk.); Verb: begründen"
+    },
+    {
+      "id": "lehrabgaenger",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "Lehrabgänger",
+      "type": "noun",
+      "article": "der",
+      "plural": "Lehrabgänger",
+      "reflexive": false,
+      "meaning": {
+        "de": "Junger Mensch, der seine berufliche Ausbildung gerade abgeschlossen hat",
+        "tr": "çıraklık eğitimini yeni bitirmiş kişi",
+        "en": "person who has just completed an apprenticeship",
+        "uk": "випускник професійного навчання",
+        "ar": "خرّيج تدريب مهني",
+        "it": "neodiplomato dell'apprendistato"
+      },
+      "synonyms": [
+        "der Lehrabsolvent"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Unsere Firma stellt jedes Jahr mehrere Lehrabgänger ein.",
+        "tr": "Şirketimiz her yıl çıraklık eğitimini yeni bitirmiş birkaç kişiyi işe alıyor.",
+        "en": "Every year, our company hires several people who have just finished their apprenticeship.",
+        "uk": "Наша компанія щороку наймає кількох випускників професійного навчання.",
+        "ar": "تقوم شركتنا كل عام بتوظيف عدد من خرّيجي التدريب المهني.",
+        "it": "La nostra azienda assume ogni anno diversi neodiplomati dell'apprendistato."
+      },
+      "note": "vor allem in der Schweiz; weiblich: die Lehrabgängerin"
+    },
+    {
+      "id": "absichern",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "absichern",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "sichert ab",
+        "praeteritum": "sicherte ab",
+        "perfekt": "hat abgesichert"
+      },
+      "meaning": {
+        "de": "Etwas oder jemanden vor Risiken oder Gefahren schützen",
+        "tr": "güvence altına almak",
+        "en": "to secure, to safeguard",
+        "uk": "убезпечувати, захищати",
+        "ar": "يؤمّن، يحمي",
+        "it": "mettere al sicuro, tutelare"
+      },
+      "synonyms": [
+        "sichern",
+        "schützen"
+      ],
+      "antonyms": [
+        "gefährden"
+      ],
+      "example": {
+        "de": "Mit dieser Versicherung sichern Sie sich gegen Arbeitsunfähigkeit ab.",
+        "tr": "Bu sigortayla kendinizi çalışamama durumuna karşı güvenceye alırsınız.",
+        "en": "With this insurance, you protect yourself against being unable to work.",
+        "uk": "Цим страхуванням ви захищаєте себе на випадок непрацездатності.",
+        "ar": "بهذا التأمين تحمي نفسك من العجز عن العمل.",
+        "it": "Con questa assicurazione si tutela contro l'inabilità al lavoro."
+      },
+      "note": "jemanden/etwas (Akk.) gegen etwas (Akk.) absichern; sich (Akk.) absichern"
+    },
+    {
+      "id": "fiktiv",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "fiktiv",
+      "type": "adjective",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "meaning": {
+        "de": "Nicht wirklich, sondern nur ausgedacht",
+        "tr": "hayali, kurgusal",
+        "en": "fictitious, fictional",
+        "uk": "вигаданий, фіктивний",
+        "ar": "وهمي، خيالي",
+        "it": "fittizio, immaginario"
+      },
+      "synonyms": [
+        "erfunden",
+        "ausgedacht"
+      ],
+      "antonyms": [
+        "real",
+        "wirklich"
+      ],
+      "example": {
+        "de": "Für die Übung schreiben wir eine Bewerbung an eine fiktive Firma.",
+        "tr": "Alıştırma için hayali bir firmaya başvuru yazıyoruz.",
+        "en": "For the exercise, we are writing an application to a fictitious company.",
+        "uk": "Для вправи ми пишемо заявку до вигаданої фірми.",
+        "ar": "من أجل التمرين، نكتب طلب توظيف إلى شركة وهمية.",
+        "it": "Per l'esercizio scriviamo una candidatura a un'azienda fittizia."
+      },
+      "note": null
+    },
+    {
+      "id": "berufsfeld",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "Berufsfeld",
+      "type": "noun",
+      "article": "das",
+      "plural": "Berufsfelder",
+      "reflexive": false,
+      "meaning": {
+        "de": "Bereich von ähnlichen Tätigkeiten und Arbeitsstellen",
+        "tr": "meslek alanı",
+        "en": "occupational field",
+        "uk": "професійна сфера",
+        "ar": "مجال مهني",
+        "it": "settore professionale"
+      },
+      "synonyms": [
+        "die Branche",
+        "der Tätigkeitsbereich"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Pflege ist ein Berufsfeld mit guten Zukunftschancen.",
+        "tr": "Bakım hizmetleri, geleceği parlak bir meslek alanıdır.",
+        "en": "Nursing is an occupational field with good future prospects.",
+        "uk": "Догляд за хворими — це професійна сфера з хорошими перспективами.",
+        "ar": "التمريض مجال مهني ذو فرص مستقبلية جيدة.",
+        "it": "L'assistenza infermieristica è un settore professionale con buone prospettive."
+      },
+      "note": null
+    },
+    {
+      "id": "kauen",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "kauen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "kaut",
+        "praeteritum": "kaute",
+        "perfekt": "hat gekaut"
+      },
+      "meaning": {
+        "de": "Essen mit den Zähnen klein machen",
+        "tr": "çiğnemek",
+        "en": "to chew",
+        "uk": "жувати",
+        "ar": "يمضغ",
+        "it": "masticare"
+      },
+      "synonyms": [],
+      "antonyms": [],
+      "example": {
+        "de": "Kau das Essen gut, bevor du es schluckst.",
+        "tr": "Yemeği yutmadan önce iyice çiğne.",
+        "en": "Chew the food well before you swallow it.",
+        "uk": "Добре жуй їжу, перш ніж ковтати.",
+        "ar": "امضغ الطعام جيدًا قبل أن تبلعه.",
+        "it": "Mastica bene il cibo prima di inghiottirlo."
+      },
+      "note": "etwas (Akk.) kauen; auf etwas (Dat.) kauen"
+    },
+    {
+      "id": "ausarbeiten",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "ausarbeiten",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "arbeitet aus",
+        "praeteritum": "arbeitete aus",
+        "perfekt": "hat ausgearbeitet"
+      },
+      "meaning": {
+        "de": "Etwas genau planen und in eine fertige Form bringen",
+        "tr": "ayrıntılı şekilde hazırlamak, geliştirmek",
+        "en": "to work out, to draw up",
+        "uk": "розробляти, опрацьовувати",
+        "ar": "يُعِدّ بالتفصيل، يضع",
+        "it": "elaborare, redigere"
+      },
+      "synonyms": [
+        "entwickeln",
+        "erstellen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Die Anwältin arbeitet den neuen Vertrag aus.",
+        "tr": "Avukat yeni sözleşmeyi hazırlıyor.",
+        "en": "The lawyer is drawing up the new contract.",
+        "uk": "Адвокатка розробляє новий договір.",
+        "ar": "تُعِدّ المحامية العقد الجديد.",
+        "it": "L'avvocata sta redigendo il nuovo contratto."
+      },
+      "note": "etwas (Akk.) ausarbeiten: einen Plan / ein Konzept / einen Vertrag ausarbeiten"
+    },
+    {
+      "id": "nachvollziehen",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "nachvollziehen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "vollzieht nach",
+        "praeteritum": "vollzog nach",
+        "perfekt": "hat nachvollzogen"
+      },
+      "meaning": {
+        "de": "Die Gedanken oder Gründe von jemandem verstehen",
+        "tr": "(mantığını) anlayabilmek, kavrayabilmek",
+        "en": "to understand, to comprehend (someone's reasoning)",
+        "uk": "розуміти, усвідомлювати (чиїсь міркування)",
+        "ar": "يتفهّم، يستوعب",
+        "it": "comprendere, capire il ragionamento"
+      },
+      "synonyms": [
+        "verstehen",
+        "begreifen"
+      ],
+      "antonyms": [],
+      "example": {
+        "de": "Ich kann Ihre Entscheidung gut nachvollziehen.",
+        "tr": "Kararınızı gayet iyi anlayabiliyorum.",
+        "en": "I can understand your decision very well.",
+        "uk": "Я добре розумію ваше рішення.",
+        "ar": "أستطيع أن أتفهّم قرارك جيدًا.",
+        "it": "Posso comprendere bene la Sua decisione."
+      },
+      "note": "etwas (Akk.) nachvollziehen; meist mit „können“"
+    },
+    {
+      "id": "darlegen",
+      "source": "notes",
+      "date": "2026-11-04",
+      "word": "darlegen",
+      "type": "verb",
+      "article": null,
+      "plural": null,
+      "reflexive": false,
+      "forms": {
+        "praesens": "legt dar",
+        "praeteritum": "legte dar",
+        "perfekt": "hat dargelegt"
+      },
+      "meaning": {
+        "de": "Einen Sachverhalt genau erklären und zeigen",
+        "tr": "açıklamak, ortaya koymak",
+        "en": "to explain, to set out",
+        "uk": "викладати, пояснювати",
+        "ar": "يوضّح، يعرض",
+        "it": "esporre, illustrare"
+      },
+      "synonyms": [
+        "erläutern",
+        "erklären"
+      ],
+      "antonyms": [
+        "verschweigen"
+      ],
+      "example": {
+        "de": "Im Bewerbungsschreiben sollen Sie Ihre Motivation darlegen.",
+        "tr": "Başvuru yazısında motivasyonunuzu açıklamalısınız.",
+        "en": "In your cover letter, you should explain your motivation.",
+        "uk": "У супровідному листі ви маєте викласти свою мотивацію.",
+        "ar": "ينبغي أن توضّح دوافعك في رسالة التقديم.",
+        "it": "Nella lettera di candidatura dovrebbe esporre la Sua motivazione."
+      },
+      "note": "jemandem (Dat.) etwas (Akk.) darlegen; oft: Gründe / die Motivation darlegen"
     }
   ]
 }
